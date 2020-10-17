@@ -3,7 +3,8 @@ Short for : Jules ans Ben's Animated Assets for DnD 5e !
 
 ## Its purpose
 To regroup all our assets in one folder and easy to update for the users. That's about it.
-Unless has something changed or we decided to learn more about javascript, html, etc ... it is not in our current plan to do something else with it.
+
+Unless something has changed or we decided to learn more about javascript, html, etc ... it is not in our current plan to do something else with it.
 
 ## Its content
 Our main goal is to create animations for a specific type of spell that are available on the SRD and PHB of the system DnD5e. These spells have to have an area of effect that stays on the battleground for a duration of at least one round.
