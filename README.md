@@ -7,7 +7,7 @@ To regroup all our assets in one folder and easy to update for the users. That's
 Unless something has changed or we decided to learn more about javascript, html, etc ... it is not in our current plan to do something else with it.
 
 ## Its content
-Our main goal is to create animations for a specific type of spell that are available on the SRD and PHB of the system DnD5e. These spells have to have an area of effect that stays on the battleground for a duration of at least one round.
+Our main goal is to create animations for a specific type of spell available in the SRD and PHB of the system DnD5e. These spells have to have an area of effect that stays on the battleground for a duration of **at least** one round.
 
 - All of our assets will be at 24FPS and encoded to the webm format.
 - Our standard is 5 feet = 100px, for example the [Entangle spell](https://www.dndbeyond.com/spells/entangle) has a 20-foot square aera of effect, so the animation will be a 400px square. With a few execptions as follow :
