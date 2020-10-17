@@ -10,6 +10,7 @@ Our main goal is to create animations for a specific type of spell that are avai
 
 - All of our assets will be at 24FPS and encoded to the webm format.
 - Our standard is 5 feet = 100px, for example the [Entangle spell](https://www.dndbeyond.com/spells/entangle) has a 20-foot square aera of effect, so the animation will be a 400px square. With a few execptions as follow :
+
   - Spells that can be represented as **a token** will be a 200px square.
   - Spells with **a huge area** like, [Call lightning](https://www.dndbeyond.com/spells/call-lightning) or [Control Weather](https://www.dndbeyond.com/spells/control-weather) will obviously not fit in our standard and will be dealt differently.
 
