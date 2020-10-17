@@ -14,6 +14,8 @@ Our main goal is to create animations for a specific type of spell that are avai
 
   - Spells that can be represented as **a token** will be a 200px square.
   - Spells with **a huge area** like, [Call lightning](https://www.dndbeyond.com/spells/call-lightning) or [Control Weather](https://www.dndbeyond.com/spells/control-weather) will obviously not fit in our standard and will be dealt differently.
+  
+- Our assets can be found in your Foundry data directory : \\Data\modules\JB2A_DnD5e\Library
 
 ## How to use our content
 
