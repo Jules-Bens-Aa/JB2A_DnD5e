@@ -2,8 +2,13 @@
 	"name": "JB2A_DnD5e",
 	"title": "Jules&Ben's Animated Assets",
 	"description": "A Library of animated spell templates and tokens for DnD5e. The module is system agnostic but we have defined the spells names, styles and sizes from the DnD5e ruleset",
-	"authors": [{
-		"name": "Gazkhan and Wassily",
+	"authors": [
+    {
+		"name": "Gazkhan#8192",
+		"email": "julesandbensaa@gmail.com"
+	},
+    {
+		"name": "Wassily#8035",
 		"email": "julesandbensaa@gmail.com"
 	}],
 	"version": "0.0.1",
