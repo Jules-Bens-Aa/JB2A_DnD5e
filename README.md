@@ -18,7 +18,7 @@ Our main goal is to create animations for a specific type of spell that are avai
 ## How to use our content
 
 As a Tile :
-[![Howtotile](img/howtotile.jpg)](https://youtu.be/RByZB6PLMwI)
+[![Howtotile](img/howtotile.jpg)](https://youtu.be/c4RQjFl8C18)
 
 As a Token :
 [![Howtotoken](img/howtotoken.jpg)](https://youtu.be/Hi7yvUG4kk8)
