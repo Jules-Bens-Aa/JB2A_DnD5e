@@ -20,10 +20,10 @@ Our main goal is to create animations for a specific type of spell available in 
 ## How to use our content
 
 As a Tile :
-[![Howtotile](img/howtotile.jpg)](https://youtu.be/c4RQjFl8C18)
+[![Howtotile](https://imgur.com/i1z2O1S)](https://youtu.be/c4RQjFl8C18)
 
 As a Token :
-[![Howtotoken](img/howtotoken.jpg)](https://youtu.be/Hi7yvUG4kk8)
+[![Howtotoken](https://imgur.com/WBQ5NkA)](https://youtu.be/Hi7yvUG4kk8)
 
 ## Licensing
 Our assets are licensed under the [creative commons CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
