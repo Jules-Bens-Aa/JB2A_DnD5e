@@ -4,7 +4,7 @@
   "description": "A Library of animated spell templates and tokens for DnD5e.<br>The module is system agnostic but we have defined the spells names, styles and sizes[^1] from the DnD5e ruleset.<br>[^1] : Exceptions made for very large area of effect and token sized spell.",
   "author": "Gazkhan#8192 and Wassily#8035",
   "url": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "minimumCoreVersion": "0.5.0" ,
   "compatibleCoreVersion": "0.7.5",
   "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
