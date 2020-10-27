@@ -21,10 +21,13 @@ Our current goal is to create animations for a specific type of spell available 
 ## How to use our content
 
 As a Tile :
-[![Howtotile](https://i.imgur.com/i1z2O1S.jpg)](https://youtu.be/c4RQjFl8C18)
+
+<a href="https://youtu.be/c4RQjFl8C18"><img src="https://i.imgur.com/i1z2O1S.jpg" alt="Tile_how_to" width="600" border="30" /></a>
 
 As a Token :
-[![Howtotoken](https://i.imgur.com/WBQ5NkA.jpg)](https://youtu.be/Hi7yvUG4kk8)
+
+<a href="https://youtu.be/Hi7yvUG4kk8"><img src="https://i.imgur.com/WBQ5NkA.jpg" alt="Token_how_to" width="600" border="30" /></a>
+
 
 ## Licensing
 Our assets are licensed under the [creative commons CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
