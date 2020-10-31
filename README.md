@@ -20,14 +20,26 @@ Our current goal is to create animations for a specific type of spell available 
 
 ## How to use our content
 
-As a Tile :
+As a Template :<br>
+As I'm currently using Token Magic FX or Mess to place our assets quickly on my scenes I totally forgot to explain how to use them with templates. Sincere apologies for that !<br>
+<a href="https://youtu.be/ktVyp6sJUXw" target="_blank"><img src="https://i.imgur.com/DjBIBZr.jpg?1" alt="Template_how_to" width="600" border="20" /></a>
 
+As a Tile :<br>
+Our assets are made from spells but nothing stops you to use them as part of your scenes/battlemaps. For example, Web could be a great addition in a cavern full of spiders ! 
+Using them as a tile is the best way to do it.<br>
 <a href="https://youtu.be/c4RQjFl8C18" target="_blank"><img src="https://i.imgur.com/i1z2O1S.jpg" alt="Tile_how_to" width="600" border="20" /></a>
 
-As a Token :
-
+As a Token :<br>
+Animated spells like Spiritual Weapon and Dancing Lights can be used on a token instead of a tile or a template. That way, you (as a DM) or your players can move them during their turn without having to switch between tools.<br>
 <a href="https://youtu.be/Hi7yvUG4kk8" target="_blank"><img src="https://i.imgur.com/WBQ5NkA.jpg" alt="Token_how_to" width="600" border="20" /></a>
+
 
 
 ## Licensing
 Our assets are licensed under the [creative commons CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+## Useful Links
+
+Here are the links of these two amazing modules, without them our assets would not have been as cool as they actually are.<br>
+Token Magic FX : https://foundryvtt.com/packages/tokenmagic/<br>
+M.E.S.S. : https://foundryvtt.com/packages/mess/
