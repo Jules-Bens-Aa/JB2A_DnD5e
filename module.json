@@ -1,7 +1,7 @@
 {
   "name": "JB2A_DnD5e",
   "title": "JB2A - Jules&Ben's Animated Assets",
-  "description": "A Library of animated spell templates and tokens for DnD5e.<br>The module is system agnostic but we have defined the spells names, styles and sizes[^1] from the DnD5e ruleset.<br>[^1] : Exceptions made for very large area of effect and token sized spell.",
+  "description": "A Library of animated spell templates and tokens for DnD5e.<br>The module is system agnostic but we have defined the spells names, styles and sizes[^1] from the DnD5e ruleset.<br>[^1] : Exceptions made for very large area of effect and token sized spell.<br>Support us on [Patreon](https://www.patreon.com/JB2A)",
   "author": "Gazkhan#8192 and Wassily#8035",
   "url": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e",
   "version": "0.0.4",
