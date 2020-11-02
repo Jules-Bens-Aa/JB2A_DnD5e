@@ -4,8 +4,9 @@ Short for : Jules and Ben's Animated Assets for DnD 5e !
 
 **Note for Foundry users : This module can be used with any system available. It has DnD5e in its name only because the templates are based on the DnD5e ruleset.**
 
-Note for other VTT users : If you are using Roll20 or Astal Tabletop, you can use all of our assets. The zip file available for download from the lastest release contains WebM files compatible with these VTTs. If you encounter any problems with our assets feel free to open an issue right here.
+Note for other VTT users : If you are using Roll20 or Astal Tabletop, you can use all of our assets. The zip file available for download from the lastest release contains WebM files compatible with these VTTs. 
 
+If you encounter any problems with our assets feel free to open an issue right here.
 
 ## Its purpose
 To regroup all of our assets in one folder that is easy to update for the users. That's about it.
