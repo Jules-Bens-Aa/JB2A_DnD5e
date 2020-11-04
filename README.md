@@ -3,7 +3,8 @@
 Short for : Jules and Ben's Animated Assets for DnD 5e !
 
 If you like our assets, please consider supporting us through our [Patreon](https://www.patreon.com/JB2A)<br>
-You can also join our [Discord server](https://discord.gg/njHNzeEZrX)
+You can also join our [Discord server](https://discord.gg/njHNzeEZrX)<br>
+Previews of all the spells are available here on our [Youtube Channel](https://www.youtube.com/playlist?list=PLBWcObKE__UCNX5BnUFX-y5JR30axYHYv)
 
 **Note for Foundry users : This module can be used with any system available. It has DnD5e in its name only because the templates are based on the DnD5e ruleset.**
 
