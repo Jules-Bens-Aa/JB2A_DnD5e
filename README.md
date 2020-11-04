@@ -2,6 +2,9 @@
 # JB2A_DnD5e
 Short for : Jules and Ben's Animated Assets for DnD 5e !
 
+If you like our assets, please consider supporting us through our [Patreon](https://www.patreon.com/JB2A)<br>
+You can also join our [Discord server](https://discord.gg/njHNzeEZrX)
+
 **Note for Foundry users : This module can be used with any system available. It has DnD5e in its name only because the templates are based on the DnD5e ruleset.**
 
 Note for other VTT users : If you are using Roll20 or Astal Tabletop, you can use all of our assets. The zip file available for download from the lastest release contains WebM files compatible with these VTTs. 
@@ -43,5 +46,5 @@ Our assets are licensed under the [creative commons CC BY-NC-SA](https://creativ
 
 ## Useful Links
 Here are the links of these two amazing modules, without them our assets would not have been as cool as they actually are.<br>
-Token Magic FX : https://foundryvtt.com/packages/tokenmagic/<br>
-M.E.S.S. : https://foundryvtt.com/packages/mess/
+[Token Magic FX](https://foundryvtt.com/packages/tokenmagic/)<br>
+[M.E.S.S.](https://foundryvtt.com/packages/mess/)
