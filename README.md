@@ -10,7 +10,7 @@ Previews of all the spells are available here on our [Youtube Channel](https://w
 
 Note for other VTT users : If you are using Roll20 or Astal Tabletop, you can use all of our assets. The zip file available for download from the lastest release contains WebM files compatible with these VTTs. 
 
-If you encounter any problems with our assets feel free to open an issue right here.
+If you encounter any problems with our assets feel free to open an issue right here. Or you can join our discord and inform us about it.
 
 ## Its purpose
 To regroup all of our assets in one folder that is easy to update for the users. That's about it.
