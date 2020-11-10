@@ -2,6 +2,12 @@
 # JB2A_DnD5e
 Short for : Jules and Ben's Animated Assets for DnD 5e !
 
+ - [Its purpose](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#its-purpose)
+ - [Its content](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#its-content)
+ - [How to use our content](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#how-to-use-our-content)
+ - [Licensing](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#licensing)
+ - [Modules and Tips](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#modules-and-tips)
+
 If you like our assets, please consider supporting us through our [Patreon](https://www.patreon.com/JB2A)<br>
 You can also join our [Discord server](https://discord.gg/njHNzeEZrX)<br>
 Previews of all the spells are available here on our [Youtube Channel](https://www.youtube.com/playlist?list=PLBWcObKE__UCNX5BnUFX-y5JR30axYHYv)
@@ -45,7 +51,18 @@ Animated spells like Spiritual Weapon and Dancing Lights can be used on a token 
 ## Licensing
 Our assets are licensed under the [creative commons CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-## Useful Links
-Here are the links of these two amazing modules, without them our assets would not have been as cool as they actually are.<br>
+## Other Modules and Tips.
+- Modules :<br>
+Both of these modules gives you the ability to link our assets to a spell item. They are extremely useful and will save you a lot of time during your preparations and during your games. I strongly advise you to check them if you haven't already. With them our assets make a lot more sense, to be honest.<br>
 [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/)<br>
-[M.E.S.S.](https://foundryvtt.com/packages/mess/)
+[M.E.S.S.](https://foundryvtt.com/packages/mess/)<br>
+
+- Tips : (WIP)<br>
+ Our assets can be found in your Foundry data directory : \\Data\modules\JB2A_DnD5e\Library<br>
+ <br> 
+ Assets like Cloud of Daggers needs a little tweak from your side.<br>
+ In the "Details" of the spell item, you have to tweak the "Target" setting in the "Spell Casting" section as follow :<br>
+ <img src="https://i.imgur.com/IaT99c6.jpg" alt="COD_Tweak" width="300"/>
+ 
+ 
+ 
