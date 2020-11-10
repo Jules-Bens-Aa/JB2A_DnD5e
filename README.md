@@ -37,6 +37,8 @@ Our current goal is to create animations for a specific type of spell available 
 - Our assets can be found in your Foundry data directory : \\Data\modules\JB2A_DnD5e\Library
 
 ## How to use our content
+**WORTH MENTIONING**, I learned just recently that **must you have** either [M.E.S.S.](https://foundryvtt.com/packages/mess/) or [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/) installed and enabled to be able to use our assets **as templates**. *(Thanks to siliconsaint to point it out on our Discord)*<br> If not, you won't be able to choose webm files as shown in the video below.<br>
+
 **As a Template :**<br>
 <a href="https://youtu.be/ktVyp6sJUXw" target="_blank"><img src="https://i.imgur.com/DjBIBZr.jpg?1" alt="Template_how_to" width="600" border="20" /></a><br>
 As I'm currently using Token Magic FX or Mess to place our assets quickly on my scenes I totally forgot to explain how to use them with templates. Sincere apologies for that !<br>
