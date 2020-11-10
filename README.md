@@ -53,9 +53,10 @@ Our assets are licensed under the [creative commons CC BY-NC-SA](https://creativ
 
 ## Other Modules and Tips.
 - **Modules :**<br>
+  - [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/)<br>
+  - [M.E.S.S.](https://foundryvtt.com/packages/mess/)<br>
+
 Both of these modules gives you the ability to link our assets to a spell item. They are extremely useful and will save you a lot of time during your preparations and during your games. I strongly advise you to check them if you haven't already. With them our assets make a lot more sense, to be honest.<br>
-[Token Magic FX](https://foundryvtt.com/packages/tokenmagic/)<br>
-[M.E.S.S.](https://foundryvtt.com/packages/mess/)<br>
 
 - **Tips :** (WIP)<br>
   - Our assets can be found in your Foundry data directory : **\\Data\modules\JB2A_DnD5e\Library**<br>
