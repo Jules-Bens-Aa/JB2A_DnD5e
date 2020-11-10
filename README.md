@@ -65,7 +65,8 @@ Both of these modules gives you the ability to link our assets to a spell item. 
 - **Tips :** (WIP)<br>
   - Our assets can be found in your Foundry data directory : **\\Data\modules\JB2A_DnD5e\Library**<br>
   - Assets like **Cloud of Daggers** needs a little tweak from your side. In the *"Details"* of the spell item, you have to tweak the *"Target"* setting in the *"Spell Casting"* section as follow :<br>
- <img src="https://i.imgur.com/IaT99c6.jpg" alt="COD_Tweak" width="300"/>
+ <img src="https://i.imgur.com/IaT99c6.jpg" alt="COD_Tweak" width="300"/><br>
+  - Some of our assets have **`_75OPA`** in their name. It means that their opacity is reduced from 100% to 75%. Useful if you don't want our assets to hide details of your scene. 
  
  
  
