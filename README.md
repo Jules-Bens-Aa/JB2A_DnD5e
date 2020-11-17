@@ -56,9 +56,11 @@ Animated spells like Spiritual Weapon and Dancing Lights can be used on a token 
 Our assets are licensed under the [creative commons CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Other Modules and Tips.
-- **Modules :**<br>
+- **Recommended Modules :**<br>
+These modules are not from us ! But they provide great features allowing you to use our assets more effectively.
   - [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/)<br>
   - [M.E.S.S.](https://foundryvtt.com/packages/mess/)<br>
+  - [Fxmaster](https://foundryvtt.com/packages/fxmaster/)<br>
 
 Both of these modules gives you the ability to link our assets to a spell item. They are extremely useful and will save you a lot of time during your preparations and during your games. I strongly advise you to check them if you haven't already. With them our assets make a lot more sense, to be honest.<br>
 
