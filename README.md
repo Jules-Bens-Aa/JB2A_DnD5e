@@ -49,6 +49,7 @@ Finally, for most of these assets, it is recommended to use them with macros and
   - [The Furnace](https://foundryvtt.com/packages/furnace/) for advanced macros.<br>
   - [Midi-QOL.](https://foundryvtt.com/packages/midi-qol/)<br>
   - [Fx Master.](https://foundryvtt.com/packages/fxmaster/)<br>
+  <br>
 More info on our [Discord server](https://discord.gg/njHNzeEZrX) where everybody can share their code and help each other.
 
 ## How to use our content
