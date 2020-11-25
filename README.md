@@ -24,6 +24,7 @@ If you encounter any problems with our assets feel free to open an issue right h
 To regroup all of our assets in one folder that is easy to update for the users. That's about it.
 
 Unless something changes or we decide to learn more about javascript, html, etc ... we don't plan to expand it's functionalities yet.
+**UPDATE :** We are thinking about adding compendiums with premade macros, but we will need more time to do it properly. **"Soon™"**
 
 ## Its content
 Our current goal is to create animations for a specific type of spell available in the SRD and PHB of the DnD5e system. These spells have to have an area of effect that stays on the battleground for a duration of **at least** one round.
@@ -35,6 +36,20 @@ Our current goal is to create animations for a specific type of spell available 
   - Spells with **a huge area** like [Call lightning](https://www.dndbeyond.com/spells/call-lightning) or [Control Weather](https://www.dndbeyond.com/spells/control-weather) will obviously not fit in our standard and will be dealt with differently.
   
 - Our assets can be found in your Foundry data directory : \\Data\modules\JB2A_DnD5e\Library
+
+#### Instantaneous Spells (Version 0.0.8 only, not released yet)
+Due to a regular demand, we are adding spells and abilitied we call **"Instantaneous"**. These spells are meant to have a duration of 1 turn.<br>
+Our standard had to change **for them**, the "5 feet = 100 px" rule don't apply here and they will be animated at **30fps** due to their "explosive" nature. Frames per second must be added to maintain an acceptable fluidity during the animation.<br>
+Futhermore, for range attacks for example, we had to create multiple versions of the same asset to deal with its deformation when being scaled.<br>
+<br>
+Example : An arrow attack has a 30ft, 60ft and 90ft version. We will add more lenght variations depending on the demand.<br>
+<br>
+Finally, for most of these assets, it is recommended to use them with macros and modules. They are really automation dependant.<br>
+ - Modules to look at :
+  - [The Furnace](https://foundryvtt.com/packages/furnace/) for advanced macros.<br>
+  - [Midi-QOL.](https://foundryvtt.com/packages/midi-qol/)<br>
+  - [Fx Master.](https://foundryvtt.com/packages/fxmaster/)<br>
+  More info on our [Discord server](https://discord.gg/njHNzeEZrX) where everybody can share their code and help each other.
 
 ## How to use our content
 **WORTH MENTIONING**, I learned just recently that **you must either have** [M.E.S.S.](https://foundryvtt.com/packages/mess/) or [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/) installed and enabled to be able to use our assets **as templates**. *(Thanks to siliconsaint to point it out on our Discord)*<br> If not, you won't be able to choose webm files as shown in the video below.<br>
@@ -60,7 +75,9 @@ Our assets are licensed under the [creative commons CC BY-NC-SA](https://creativ
 These modules are not from us ! But they provide great features allowing you to use our assets more effectively.
   - [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/)<br>
   - [M.E.S.S.](https://foundryvtt.com/packages/mess/)<br>
-  - [Fxmaster](https://foundryvtt.com/packages/fxmaster/)<br>
+  - [Fx Master](https://foundryvtt.com/packages/fxmaster/)<br>
+  - [Midi-QOL](https://foundryvtt.com/packages/midi-qol/)<br>
+  - [The Furnace](https://foundryvtt.com/packages/furnace/)<br>
 
 The first two modules give you the ability to link our assets to a spell item. They are extremely useful and will save you a lot of time during your preparations and during your games. I strongly advise you to check them if you haven't already. With them our assets make a lot more sense, to be honest.<br>
 The third module gives you the ability to display an animation with a single click. Very handy for instantaneous effects. Our library doesn't have a lot of of assets of that type, for now, but still this module is awesome.
