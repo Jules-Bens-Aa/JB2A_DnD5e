@@ -46,11 +46,11 @@ Example : An arrow attack has a 30ft, 60ft and 90ft version. We will add more le
 <br>
 Finally, for most of these assets, it is recommended to use them with macros and modules. They are really automation dependant.<br>
  - Modules to look at :
-  - [The Furnace](https://foundryvtt.com/packages/furnace/) for advanced macros.<br>
-  - [Midi-QOL.](https://foundryvtt.com/packages/midi-qol/)<br>
-  - [Fx Master.](https://foundryvtt.com/packages/fxmaster/)<br>
+   - [The Furnace](https://foundryvtt.com/packages/furnace/) for advanced macros.<br>
+   - [Midi-QOL.](https://foundryvtt.com/packages/midi-qol/)<br>
+   - [Fx Master.](https://foundryvtt.com/packages/fxmaster/)<br>
   <br>
-More info on our [Discord server](https://discord.gg/njHNzeEZrX) where everybody can share their code and help each other.
+More info on our Discord where everybody can share their code and help each other.
 
 ## How to use our content
 **WORTH MENTIONING**, I learned just recently that **you must either have** [M.E.S.S.](https://foundryvtt.com/packages/mess/) or [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/) installed and enabled to be able to use our assets **as templates**. *(Thanks to siliconsaint to point it out on our Discord)*<br> If not, you won't be able to choose webm files as shown in the video below.<br>
