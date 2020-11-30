@@ -11,8 +11,11 @@ Short for : Jules and Ben's Animated Assets for DnD 5e !
  - [Modules and Tips](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#modules-and-tips)
 
 If you like our assets, please consider supporting us through our [Patreon](https://www.patreon.com/JB2A)<br>
+**Here is a [Google Sheet](https://docs.google.com/spreadsheets/d/1MwrC0HHuKQcMRXCbJ75-jtWVZDmnOzMvi6WEWGQ-c2s/edit?usp=sharing) with a list all the available assets on Patreon.**<br>
+Youtube playlist of all our [free assets](https://www.youtube.com/playlist?list=PLBWcObKE__UCNX5BnUFX-y5JR30axYHYv)<br>
+Youtube playlist of all our [Patreon assets](https://www.youtube.com/playlist?list=PLBWcObKE__UCVVyMBlQPn6GKNes4Fj-U1)<br>
 You can also join our [Discord server](https://discord.gg/njHNzeEZrX)<br>
-Previews of all the spells are available here on our [Youtube Channel](https://www.youtube.com/playlist?list=PLBWcObKE__UCNX5BnUFX-y5JR30axYHYv)
+
 
 **Note for Foundry users : This module can be used with any system available. It has DnD5e in its name only because the templates are based on the DnD5e ruleset.**
 
@@ -38,7 +41,7 @@ Our current goal is to create animations for a specific type of spell available 
 - Our assets can be found in your Foundry data directory : \\Data\modules\JB2A_DnD5e\Library
 
 #### Instantaneous Spells (Version 0.0.8 only, not released yet)
-Due to a regular demand, we are adding spells and abilitied we call **"Instantaneous"**. These spells are meant to have a duration of 1 turn.<br>
+Due to a regular demand, we are adding spells and abilities we call **"Instantaneous"**. These spells are meant to have a duration of 1 turn.<br>
 Our standard had to change **for them**, the "5 feet = 100 px" rule don't apply here and they will be animated at **30fps** due to their "explosive" nature. Frames per second must be added to maintain an acceptable fluidity during the animation.<br>
 Futhermore, for range attacks for example, we had to create multiple versions of the same asset to deal with its deformation when being scaled.<br>
 <br>
@@ -57,7 +60,6 @@ More info on our Discord where everybody can share their code and help each othe
 
 **As a Template :**<br>
 <a href="https://youtu.be/ktVyp6sJUXw" target="_blank"><img src="https://i.imgur.com/DjBIBZr.jpg?1" alt="Template_how_to" width="600" border="20" /></a><br>
-As I'm currently using Token Magic FX or Mess to place our assets quickly on my scenes I totally forgot to explain how to use them with templates. Sincere apologies for that !<br>
 
 **As a Tile :**<br>
 <a href="https://youtu.be/c4RQjFl8C18" target="_blank"><img src="https://i.imgur.com/i1z2O1S.jpg" alt="Tile_how_to" width="600" border="20" /></a><br>
