@@ -40,7 +40,7 @@ Our current goal is to create animations for a specific type of spell available 
   
 - Our assets can be found in your Foundry data directory : \\Data\modules\JB2A_DnD5e\Library
 
-#### Instantaneous Spells (Version 0.0.8 only, not released yet)
+#### Instantaneous Spells
 Due to a regular demand, we are adding spells and abilities we call **"Instantaneous"**. These spells are meant to have a duration of 1 turn.<br>
 Our standard had to change **for them**, the "5 feet = 100 px" rule don't apply here and they will be animated at **30fps** due to their "explosive" nature. Frames per second must be added to maintain an acceptable fluidity during the animation.<br>
 Futhermore, for range attacks for example, we had to create multiple versions of the same asset to deal with its deformation when being scaled.<br>
