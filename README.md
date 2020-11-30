@@ -26,7 +26,7 @@ If you encounter any problems with our assets feel free to open an issue right h
 ## Its purpose
 To regroup all of our assets in one folder that is easy to update for the users. That's about it.
 
-Unless something changes or we decide to learn more about javascript, html, etc ... we don't plan to expand it's functionalities yet.
+Unless something changes or we decide to learn more about javascript, html, etc ... we don't plan to expand it's functionalities yet.<br>
 **UPDATE :** We are thinking about adding compendiums with premade macros, but we will need more time to do it properly. **"Soon™"**
 
 ## Its content
