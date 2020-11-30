@@ -11,7 +11,7 @@ Short for : Jules and Ben's Animated Assets for DnD 5e !
  - [Modules and Tips](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#modules-and-tips)
 
 If you like our assets, please consider supporting us through our [Patreon](https://www.patreon.com/JB2A)<br>
-**Here is a [Google Sheet](https://docs.google.com/spreadsheets/d/1MwrC0HHuKQcMRXCbJ75-jtWVZDmnOzMvi6WEWGQ-c2s/edit?usp=sharing) with a list all the available assets on Patreon.**<br>
+**Here is a [Google Sheet](https://docs.google.com/spreadsheets/d/1MwrC0HHuKQcMRXCbJ75-jtWVZDmnOzMvi6WEWGQ-c2s/edit?usp=sharing) with a list of all available assets on Patreon.**<br>
 Youtube playlist of all our [free assets](https://www.youtube.com/playlist?list=PLBWcObKE__UCNX5BnUFX-y5JR30axYHYv)<br>
 Youtube playlist of all our [Patreon assets](https://www.youtube.com/playlist?list=PLBWcObKE__UCVVyMBlQPn6GKNes4Fj-U1)<br>
 You can also join our [Discord server](https://discord.gg/njHNzeEZrX)<br>
