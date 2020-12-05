@@ -9,10 +9,10 @@ Short for : Jules and Ben's Animated Assets for DnD 5e !
  - [Licensing](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#licensing)
  - [Modules and Tips](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#modules-and-tips)
 
-If you like our assets, please consider supporting us through our [Patreon](https://www.patreon.com/JB2A)<br>
-**Here is a [Google Sheet](https://docs.google.com/spreadsheets/d/1MwrC0HHuKQcMRXCbJ75-jtWVZDmnOzMvi6WEWGQ-c2s/edit?usp=sharing) with a list of all available assets on Patreon.**<br>
-Youtube playlist of all our [free assets](https://www.youtube.com/playlist?list=PLBWcObKE__UCNX5BnUFX-y5JR30axYHYv)<br>
-Youtube playlist of all our [Patreon assets](https://www.youtube.com/playlist?list=PLBWcObKE__UCVVyMBlQPn6GKNes4Fj-U1)<br>
+If you like our assets, please consider supporting us through our [Patreon](https://bit.ly/3qyORaP)<br>
+**Here is our [Google Drive](https://bit.ly/39K8PcF) with webp previews of our assets available through Patreon.**<br>
+Youtube playlist of all our [free assets](https://bit.ly/33Nek6D)<br>
+Youtube playlist of all our [Patreon assets](https://bit.ly/36OXDKh)<br>
 You can also join our [Discord server](https://discord.gg/njHNzeEZrX)<br>
 
 
