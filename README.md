@@ -1,5 +1,4 @@
-<img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"><img alt="GitHubTotalDownload Counter" src="https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/total?color=FAA300"><img alt="GitHubDownload Counter" src="https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/latest/total?color=2589BD"><br>
-[![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)[![PayPal](https://img.shields.io/badge/Donate-Paypal-ff69b4)](https://paypal.me/DonationJB2A?locale.x=fr_FR)<br>
+<img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800">[![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)[![PayPal](https://img.shields.io/badge/Donate-Paypal-ff69b4)](https://paypal.me/DonationJB2A?locale.x=fr_FR)<br>
 
 # JB2A_DnD5e
 Short for : Jules and Ben's Animated Assets for DnD 5e !
@@ -10,9 +9,12 @@ Short for : Jules and Ben's Animated Assets for DnD 5e !
  - [Licensing](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#licensing)
  - [Modules and Tips](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#modules-and-tips)
 
-If you like our assets, please consider supporting us through our [Patreon](https://www.patreon.com/JB2A)<br>
+If you like our assets, please consider supporting us through our [Patreon](https://bit.ly/3qyORaP)<br>
+**Here is our [Google Drive](https://bit.ly/39K8PcF) with webp previews of our assets available through Patreon.**<br>
+Youtube playlist of all our [free assets](https://bit.ly/33Nek6D)<br>
+Youtube playlist of all our [Patreon assets](https://bit.ly/36OXDKh)<br>
 You can also join our [Discord server](https://discord.gg/njHNzeEZrX)<br>
-Previews of all the spells are available here on our [Youtube Channel](https://www.youtube.com/playlist?list=PLBWcObKE__UCNX5BnUFX-y5JR30axYHYv)
+
 
 **Note for Foundry users : This module can be used with any system available. It has DnD5e in its name only because the templates are based on the DnD5e ruleset.**
 
@@ -23,7 +25,7 @@ If you encounter any problems with our assets feel free to open an issue right h
 ## Its purpose
 To regroup all of our assets in one folder that is easy to update for the users. That's about it.
 
-Unless something changes or we decide to learn more about javascript, html, etc ... we don't plan to expand it's functionalities yet.
+Unless something changes or we decide to learn more about javascript, html, etc ... we don't plan to expand it's functionalities yet.<br>
 **UPDATE :** We are thinking about adding compendiums with premade macros, but we will need more time to do it properly. **"Soon™"**
 
 ## Its content
@@ -37,8 +39,8 @@ Our current goal is to create animations for a specific type of spell available 
   
 - Our assets can be found in your Foundry data directory : \\Data\modules\JB2A_DnD5e\Library
 
-#### Instantaneous Spells (Version 0.0.8 only, not released yet)
-Due to a regular demand, we are adding spells and abilitied we call **"Instantaneous"**. These spells are meant to have a duration of 1 turn.<br>
+#### Instantaneous Spells
+Due to a regular demand, we are adding spells and abilities we call **"Instantaneous"**. These spells are meant to have a duration of 1 turn.<br>
 Our standard had to change **for them**, the "5 feet = 100 px" rule don't apply here and they will be animated at **30fps** due to their "explosive" nature. Frames per second must be added to maintain an acceptable fluidity during the animation.<br>
 Futhermore, for range attacks for example, we had to create multiple versions of the same asset to deal with its deformation when being scaled.<br>
 <br>
@@ -57,7 +59,6 @@ More info on our Discord where everybody can share their code and help each othe
 
 **As a Template :**<br>
 <a href="https://youtu.be/ktVyp6sJUXw" target="_blank"><img src="https://i.imgur.com/DjBIBZr.jpg?1" alt="Template_how_to" width="600" border="20" /></a><br>
-As I'm currently using Token Magic FX or Mess to place our assets quickly on my scenes I totally forgot to explain how to use them with templates. Sincere apologies for that !<br>
 
 **As a Tile :**<br>
 <a href="https://youtu.be/c4RQjFl8C18" target="_blank"><img src="https://i.imgur.com/i1z2O1S.jpg" alt="Tile_how_to" width="600" border="20" /></a><br>
