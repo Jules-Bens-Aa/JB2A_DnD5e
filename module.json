@@ -14,6 +14,13 @@
             "name": "jb2a",
             "path": "packs/jb2a.db",
             "module": "JB2A_DnD5e"
+        },
+        {
+            "entity": "Actor",            
+            "label": "JB2A Tokens",
+            "name": "jb2a-tokens",
+            "path": "packs/jb2a-tokens.db",
+            "module": "JB2A_DnD5e"
         }
     ],
   "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
