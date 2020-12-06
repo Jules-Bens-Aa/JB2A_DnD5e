@@ -4,7 +4,7 @@
 Short for : Jules and Ben's Animated Assets for DnD 5e !
 
 ### **WARNING** This update will break all paths of our assets from previous versions !
-We have completely reworked our naming convention. It will break all the paths you already set for assets from the previous versions ! Update your module **ONLY** if you know you'll have time to fix the paths before your next sessions.<br>
+We have completely reworked our naming convention. It will break all the paths you already set for assets from the previous versions !<br> Update your module **ONLY** if you know you'll have time to fix the paths before your next sessions.<br>
 We sincerely apologize. We realise how much of a pain it is. Now that our naming convention is robust, it won't happen anytime soon, hopefully.
 Thank you for your understanding !!<br>
 
