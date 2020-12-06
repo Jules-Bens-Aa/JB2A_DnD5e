@@ -1,12 +1,12 @@
 <img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800">[![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)[![PayPal](https://img.shields.io/badge/Donate-Paypal-ff69b4)](https://paypal.me/DonationJB2A?locale.x=fr_FR)<br>
 
 # JB2A_DnD5e
-Short for : Jules and Ben's Animated Assets for DnD 5e !
-
 ### **WARNING** This update will break all paths of our assets from previous versions !
 We have completely reworked our naming convention. It will break all the paths you already set for assets from the previous versions !<br> Update your module **ONLY** if you know you'll have time to fix the paths before your next sessions.<br>
 We sincerely apologize. We realise how much of a pain it is. Now that our naming convention is robust, it won't happen anytime soon, hopefully.
 Thank you for your understanding !!<br>
+
+#### Short for : Jules and Ben's Animated Assets for DnD 5e !
 
  - [Its purpose](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#its-purpose)
  - [Its content](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#its-content)
