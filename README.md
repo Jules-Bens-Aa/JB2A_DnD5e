@@ -62,7 +62,7 @@ Besides the fact that we are trying to optimize our assets as much as we can, ou
    - Their resolution will vary, but we will try to keep a certain consistency and follow our 5ft=100px rule as much as we can.<br>
 
 In some cases, we have to experiment and see how the community reacts. For example :<br>
-   - An arrow attack has a 30ft, 60ft and 90ft version. To use them efficiently you will need to install a couple of modules. Sadly it can limit these assets to a smaller range of systems. More info [here]()
+   - An arrow attack has a 30ft, 60ft and 90ft version. To use them efficiently you will need to install a couple of modules. Sadly it can limit these assets to a smaller range of systems. More info [here](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#in-depth-tutorial)
    - Spells with **a huge area** like [Call lightning](https://www.dndbeyond.com/spells/call-lightning) or [Control Weather](https://www.dndbeyond.com/spells/control-weather) will obviously not fit in our standard and will be dealt with differently.
 
 
@@ -82,7 +82,7 @@ Clicking on cards below will redirect you to a youtube video.<br>
 <a href="https://www.youtube.com/watch?v=264xZJjPHD8" target="_blank"><img src="https://i.imgur.com/GsAecj3.png" alt="Tile_how_to" width="350" border="5" /></a>
 
 Because we added compendiums of premade actors and macros, we created a more in depth tutorial video. Sadly for the moment these options are **only available for the DnD5e system.**<br>
-**Note :** In the video we forgot to mention that you also need to install the module [The Furnace]().
+**Note :** In the video we forgot to mention that you also need to install the module [The Furnace](https://foundryvtt.com/packages/furnace/).
 
 List of the modules you need in order to follow along the tutorial above :
  - [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/)
