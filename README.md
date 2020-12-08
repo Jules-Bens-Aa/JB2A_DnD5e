@@ -70,7 +70,7 @@ In some cases, we have to experiment and see how the community reacts. For examp
 There are various ways to do it. From the easiest to a more advanced way to use them.<br>
 Clicking on cards below will redirect you to a youtube video.<br>
 
-<a href="https://youtu.be/c4RQjFl8C18" target="_blank"><img src="https://i.imgur.com/kataZqy.png" alt="Tile_how_to" width="300" border="10" /></a>  <a href="https://youtu.be/Hi7yvUG4kk8" target="_blank"><img src="https://i.imgur.com/kvqbaMn.png" alt="Token_how_to" width="300" border="10" /></a>  <a href="https://youtu.be/ktVyp6sJUXw" target="_blank"><img src="https://i.imgur.com/mw583WO.png" alt="Template_how_to" width="300" border="10" /></a><br>
+<a href="https://youtu.be/c4RQjFl8C18" target="_blank"><img src="https://i.imgur.com/kataZqy.png" alt="Tile_how_to" width="275" border="10" /></a>  <a href="https://youtu.be/Hi7yvUG4kk8" target="_blank"><img src="https://i.imgur.com/kvqbaMn.png" alt="Token_how_to" width="275" border="10" /></a>  <a href="https://youtu.be/ktVyp6sJUXw" target="_blank"><img src="https://i.imgur.com/mw583WO.png" alt="Template_how_to" width="275" border="10" /></a><br>
 
  - **Tiles :** Our assets are made with particular spells in mind but nothing prevents you from using them as part of your scenes/battlemaps. For example, Web could be a great addition to a cavern full of spiders ! Using them as a tile would be the best way to do it.<br>
  - **Tokens :** Animated spells like Spiritual Weapon and Dancing Lights can be used on a token instead of a tile or a template. That way, you (as a DM) or your players can move them during their turn without having to switch between tools.<br>
