@@ -1,99 +1,122 @@
 <img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800">[![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)[![PayPal](https://img.shields.io/badge/Donate-Paypal-ff69b4)](https://paypal.me/DonationJB2A?locale.x=fr_FR)<br>
 
-# JB2A_DnD5e
-### **WARNING** This update will break all paths of our assets from previous versions !
-We have completely reworked our naming convention. It will break all the paths you already set for assets from the previous versions !<br> Update your module **ONLY** if you know you'll have time to fix the paths before your next sessions.<br>
-We sincerely apologize. We realise how much of a pain it is. Now that our naming convention is robust, it won't happen anytime soon, hopefully.
-Thank you for your understanding !!<br>
+<p style='text-align: justify;'>
 
-#### Short for : Jules and Ben's Animated Assets for DnD 5e !
 
- - [Its purpose](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#its-purpose)
+#### Short for : Jules&Ben's Animated Assets for DnD 5e !
+
+# Announcements Section.
+
+#### Warning ! If you to update our module from the version 0.0.8.3 or lower, be advised. For the version 0.0.9 and 0.0.9.1 we have completely remorked our naming convention.<br>
+It will break all the paths you already set for assets from the previous versions !<br> 
+Update your module **ONLY** if you know you'll have time to fix the paths before your next sessions.<br>
+We sincerely apologize. We realise how much of a pain it is. Now that our naming convention is robust, it won't happen anytime soon, hopefully. Thank you for your understanding !!<br>
+
+# Table of Contents
+
+ - [Our Goal and about the module](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#our-goal-and-about-the-module)
  - [Its content](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#its-content)
  - [How to use our content](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#how-to-use-our-content)
+ - [About our Patreon](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#about-our-patreon)
+ - [Useful links](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#useful-links)
  - [Licensing](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#licensing)
- - [Modules and Tips](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#modules-and-tips)
+ 
+## Our Goal and about the module
 
-If you like our assets, please consider supporting us through our [Patreon](https://bit.ly/3qyORaP)<br>
-**Here is our [Google Drive](https://bit.ly/39K8PcF) with webp previews of our assets available through Patreon.**<br>
-Youtube playlist of all our [free assets](https://bit.ly/33Nek6D)<br>
-Youtube playlist of all our [Patreon assets](https://bit.ly/36OXDKh)<br>
-You can also join our [Discord server](https://discord.gg/njHNzeEZrX)<br>
-
-
-**Note for Foundry users : This module can be used with any system available. It has DnD5e in its name only because the templates are based on the DnD5e ruleset.**
-
-Note for other VTT users : If you are using Roll20 or Astal Tabletop, you can use all of our assets. The zip file available for download from the lastest release contains WebM files compatible with these VTTs. 
-
-If you encounter any problems with our assets feel free to open an issue right here. Or you can join our discord and inform us about it.
-
-## Its purpose
-To regroup all of our assets in one folder that is easy to update for the users. That's about it.
-
-Unless something changes or we decide to learn more about javascript, html, etc ... we don't plan to expand it's functionalities yet.<br>
-**UPDATE :** We are thinking about adding compendiums with premade macros, but we will need more time to do it properly. **"Soon™"**
-
-## Its content
-Our current goal is to create animations for a specific type of spell available in the SRD and PHB of the DnD5e system. These spells have to have an area of effect that stays on the battleground for a duration of **at least** one round.
-
-- All of our assets will seamlessly loop, be animated at 24 FPS and encoded to the WebM format. 
-- Our standard is 5 feet = 100px, for example the [Entangle spell](https://www.dndbeyond.com/spells/entangle) has a 20-foot square area of effect, so the animation will be a 400px square. With a few exceptions as follow :
-
-  - Spells that can be represented as **a token** will be a 200px square.
-  - Spells with **a huge area** like [Call lightning](https://www.dndbeyond.com/spells/call-lightning) or [Control Weather](https://www.dndbeyond.com/spells/control-weather) will obviously not fit in our standard and will be dealt with differently.
-  
-- Our assets can be found in your Foundry data directory : \\Data\modules\JB2A_DnD5e\Library
-
-#### Instantaneous Spells
-Due to a regular demand, we are adding spells and abilities we call **"Instantaneous"**. These spells are meant to have a duration of 1 turn.<br>
-Our standard had to change **for them**, the "5 feet = 100 px" rule don't apply here and they will be animated at **30fps** due to their "explosive" nature. Frames per second must be added to maintain an acceptable fluidity during the animation.<br>
-Futhermore, for range attacks for example, we had to create multiple versions of the same asset to deal with its deformation when being scaled.<br>
+#### Our Goal
+Our current goal is to create animation **templates** for spells/abilities available in the **SRD of the DnD5e system** . The idea behind it is to offer to DnD5e users a library of assets with animations for all SRD spells/abilities for free.<br>
+Keep in mind, even if our goal is to create SRD spells/abilities, we won't limit ourselves to it. Our module will have PHB spells as well.<br>
 <br>
-Example : An arrow attack has a 30ft, 60ft and 90ft version. We will add more lenght variations depending on the demand.<br>
-<br>
-Finally, for most of these assets, it is recommended to use them with macros and modules. They are really automation dependant.<br>
- - Modules to look at :
-   - [The Furnace](https://foundryvtt.com/packages/furnace/) for advanced macros.<br>
-   - [Midi-QOL.](https://foundryvtt.com/packages/midi-qol/)<br>
-   - [Fx Master.](https://foundryvtt.com/packages/fxmaster/)<br>
-  <br>
-More info on our Discord where everybody can share their code and help each other.
+Since the launch of our Patreon, last november, our goal has already evolved. Due to a high demand from the Foundry VTT community, we will also provide compendiums of actors and macros to allow our users to setup/run their sessions more efficiently.<br>
+ 
+#### About the module
+Its primary purpose was to bundle all of our free assets into one folder. Easy to maintain, easy to update. But things evolved in time and we are eager to improve the user's experience.<br>
+We are artists first and foremost. Special features in our module will need more time to implement properly. Thankfully, the community has been amazing and we already have had a lot of help.<br>
+
+If you encounter any issues, have any questions regarding our content, or suggestions, feedback, feel free to join our [Discord](https://discord.gg/njHNzeEZrX)
+
+To be able to continue and reach our goal, we created a Patreon where you can access more variations of our assets.<br>
+More info [below](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#about-our-patreon).
+
+#### Additionnal info
+**If you are using Roll20 or Astal Tabletop**, you can use all of our assets. The zip file available for download from the lastest release contains WebM files compatible with these VTTs. However, macros and compendiums won't be of any use for you unfortunately.
+
+**If you are a Foundry user**, this module can work with **any system available**. It has DnD5e in its name only because the templates are based on the DnD5e ruleset. For the moment, only macros are limited to the DnD5e system. This limitation is due to the modules used to create the macros. We are looking for solutions to bypass these limitations.
+
+## Its Content
+
+You can preview all our free assets on our [Youtube channel](https://bit.ly/33Nek6D).<br>
+
+Besides the fact that we are trying to optimize our assets as much as we can, our standard is as follow :
+
+ - **For templates.**
+   - They will seamlessly loop, be animated at 24 FPS and encoded to the WebM format.<br>
+   - 5 feet = 100px, for example the [Entangle spell](https://www.dndbeyond.com/spells/entangle) has a 20-foot square area of effect, so the animation will be a 400px square.<br>
+   
+ - **For Tokens.**
+   - They will seamlessly loop, be animated at 24 FPS and encoded to the WebM format.<br>
+   - 5 feet = 200px, less than that, the asset is too pixelated.<br>
+   
+ - **For instantaneous spells/abilties** (a duration of 1 turn)
+   - They won't be looped and will be animated at 30 FPS due to their "explosive" nature. Frames per second must be added to maintain an acceptable fluidity during the animation.<br>
+   - Their resolution will vary, but we will try to keep a certain consistency and follow our 5ft=100px rule as much as we can.<br>
+
+In some cases, we have to experiment and see how the community reacts. For example :<br>
+   - An arrow attack has a 30ft, 60ft and 90ft version. To use them efficiently you will need to install a couple of modules. Sadly it can limit these assets to a smaller range of systems. More info [here]()
+   - Spells with **a huge area** like [Call lightning](https://www.dndbeyond.com/spells/call-lightning) or [Control Weather](https://www.dndbeyond.com/spells/control-weather) will obviously not fit in our standard and will be dealt with differently.
+
 
 ## How to use our content
-**WORTH MENTIONING**, I learned just recently that **you must either have** [M.E.S.S.](https://foundryvtt.com/packages/mess/) or [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/) installed and enabled to be able to use our assets **as templates**. *(Thanks to siliconsaint to point it out on our Discord)*<br> If not, you won't be able to choose webm files as shown in the video below.<br>
+There are various ways to do it. From the easiest to a more advanced way to use them.<br>
+Clicking on cards below will redirect you to a youtube video.<br>
 
-**As a Template :**<br>
-<a href="https://youtu.be/ktVyp6sJUXw" target="_blank"><img src="https://i.imgur.com/DjBIBZr.jpg?1" alt="Template_how_to" width="600" border="20" /></a><br>
+<a href="https://youtu.be/c4RQjFl8C18" target="_blank"><img src="https://i.imgur.com/kataZqy.png" alt="Tile_how_to" width="300" border="10" /></a>  <a href="https://youtu.be/Hi7yvUG4kk8" target="_blank"><img src="https://i.imgur.com/kvqbaMn.png" alt="Token_how_to" width="300" border="10" /></a>  <a href="https://youtu.be/ktVyp6sJUXw" target="_blank"><img src="https://i.imgur.com/mw583WO.png" alt="Template_how_to" width="300" border="10" /></a><br>
 
-**As a Tile :**<br>
-<a href="https://youtu.be/c4RQjFl8C18" target="_blank"><img src="https://i.imgur.com/i1z2O1S.jpg" alt="Tile_how_to" width="600" border="20" /></a><br>
-Our assets are made from spells but nothing stops you to use them as part of your scenes/battlemaps. For example, Web could be a great addition in a cavern full of spiders ! 
-Using them as a tile is the best way to do it.<br>
+ - **Tiles :** Our assets are made with particular spells in mind but nothing prevents you from using them as part of your scenes/battlemaps. For example, Web could be a great addition to a cavern full of spiders ! Using them as a tile would be the best way to do it.<br>
+ - **Tokens :** Animated spells like Spiritual Weapon and Dancing Lights can be used on a token instead of a tile or a template. That way, you (as a DM) or your players can move them during their turn without having to switch between tools.<br>
+ - **Templates :** This one is a little bit tricky. Natively, on FoundryVTT, the template file picker won't allow you to choose a webm file. Fortunatly, there are a few options at your disposal, but it requires you to install at least one additionnal module. For the template tutorial video I used one of the module listed below. If you just want to be able to use animated templates, you only have to install one of them, and you are good to go. There are no further actions required.
+    - [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/)
+    - [Mess](https://foundryvtt.com/packages/mess/)
 
-**As a Token :**<br>
-<a href="https://youtu.be/Hi7yvUG4kk8" target="_blank"><img src="https://i.imgur.com/WBQ5NkA.jpg" alt="Token_how_to" width="600" border="20" /></a><br>
-Animated spells like Spiritual Weapon and Dancing Lights can be used on a token instead of a tile or a template. That way, you (as a DM) or your players can move them during their turn without having to switch between tools.<br>
+#### In-depth Tutorial    
+<a href="https://www.youtube.com/watch?v=264xZJjPHD8" target="_blank"><img src="https://i.imgur.com/GsAecj3.png" alt="Tile_how_to" width="350" border="5" /></a>
+
+Because we added compendiums of premade actors and macros, we created a more in depth tutorial video. Sadly for the moment these options are **only available for the DnD5e system.**<br>
+**Note :** In the video we forgot to mention that you also need to install the module [The Furnace]().
+
+List of the modules you need in order to follow along the tutorial above :
+ - [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/)
+ - [Midi-QOL](https://foundryvtt.com/packages/midi-qol/)
+ - [FxMaster](https://foundryvtt.com/packages/fxmaster/)
+ - [The Furnace](https://foundryvtt.com/packages/furnace/)
+ 
+Macros can be intimidating at first, we opened a channel on our [Discord](https://discord.gg/njHNzeEZrX) for people to exchange ideas and to troubleshoot problems you may encounter.   
+
+## About our Patreon
+If you like our assets, please consider supporting us through our [Patreon](https://bit.ly/3qyORaP)<br>
+Two ways to preview our assets :
+ - We created a library on [Google Drive](https://bit.ly/39K8PcF) with a preview of all our Patreon content throught Webp files.
+ - And a [Youtube Playlist](https://bit.ly/36OXDKh) where you can see them animated.
+ 
+As a Patreon member, for €1/$1.50 minimum, you can unlock all of our assets.
+
+If you still have questions, feel free to join our [Discord](https://discord.gg/njHNzeEZrX) and contact us directly.
+
+**WORTH MENTIONNING : Github and Patreon are the only way to obtain our assets. If you found them elsewhere and moreover you are asked to pay for them, it does not come from us. Please notify us directly if you are confronted to this situation.**
+
+## Useful links
+
+[Jeff Weaver Youtube Channel](https://www.youtube.com/channel/UCyNB45t5jpIq6vk23y6HypA/featured)<br>
+[Otigon Foundry Macros](https://github.com/otigon/Foundry-Macros)<br>
+
+We are testing our assets on maps made by :<br>
+[Forgotten Adventures](https://www.forgotten-adventures.net/)<br>
+[Cze&Peku](https://www.patreon.com/czepeku)<br>
 
 ## Licensing
 Our assets are licensed under the [creative commons CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-## Other Modules and Tips.
-- **Recommended Modules :**<br>
-These modules are not from us ! But they provide great features allowing you to use our assets more effectively.
-  - [Token Magic FX](https://foundryvtt.com/packages/tokenmagic/)<br>
-  - [M.E.S.S.](https://foundryvtt.com/packages/mess/)<br>
-  - [Fx Master](https://foundryvtt.com/packages/fxmaster/)<br>
-  - [Midi-QOL](https://foundryvtt.com/packages/midi-qol/)<br>
-  - [The Furnace](https://foundryvtt.com/packages/furnace/)<br>
-
-The first two modules give you the ability to link our assets to a spell item. They are extremely useful and will save you a lot of time during your preparations and during your games. I strongly advise you to check them if you haven't already. With them our assets make a lot more sense, to be honest.<br>
-The third module gives you the ability to display an animation with a single click. Very handy for instantaneous effects. Our library doesn't have a lot of of assets of that type, for now, but still this module is awesome.
-
-- **Tips :** (WIP)<br>
-  - Our assets can be found in your Foundry data directory : **\\Data\modules\JB2A_DnD5e\Library**<br>
-  - Assets like **Cloud of Daggers** needs a little tweak from your side. In the *"Details"* of the spell item, you have to tweak the *"Target"* setting in the *"Spell Casting"* section as follow :<br>
- <img src="https://i.imgur.com/IaT99c6.jpg" alt="COD_Tweak" width="300"/><br>
-  - Some of our assets have **`_75OPA`** in their name. It means that their opacity is reduced from 100% to 75%. Useful if you don't want our assets to hide details of your scene. 
  
- 
- 
+</p>
+
+
+
