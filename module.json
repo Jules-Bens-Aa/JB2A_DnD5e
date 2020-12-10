@@ -10,16 +10,16 @@
   "packs": [
         {
             "entity": "Macro",            
-            "label": "JB2A",
-            "name": "jb2a",
-            "path": "packs/jb2a.db",
+            "label": "JB2A Macros",
+            "name": "jb2a-macros",
+            "path": "packs/jb2a-macros.db",
             "module": "JB2A_DnD5e"
         },
         {
             "entity": "Actor",            
-            "label": "JB2A Tokens",
-            "name": "jb2a-tokens",
-            "path": "packs/jb2a-tokens.db",
+            "label": "JB2A Actors",
+            "name": "jb2a-actors",
+            "path": "packs/jb2a-actors.db",
             "module": "JB2A_DnD5e"
         }
     ],
