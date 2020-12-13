@@ -57,7 +57,7 @@ Besides the fact that we are trying to optimize our assets as much as we can, ou
    - They will seamlessly loop, be animated at 24 FPS and encoded to the WebM format.<br>
    - 5 feet = 200px, less than that, the asset is too pixelated.<br>
    
- - **For instantaneous spells/abilties** (a duration of 1 turn)
+ - **For instantaneous spells/abilities** (a duration of 1 turn)
    - They won't be looped and will be animated at 30 FPS due to their "explosive" nature. Frames per second must be added to maintain an acceptable fluidity during the animation.<br>
    - Their resolution will vary, but we will try to keep a certain consistency and follow our 5ft=100px rule as much as we can.<br>
 
