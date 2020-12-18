@@ -60,11 +60,13 @@ Besides the fact that we are trying to optimize our assets as much as we can, ou
  - **For instantaneous spells/abilities** (a duration of 1 turn)
    - They won't be looped and will be animated at 30 FPS due to their "explosive" nature. Frames per second must be added to maintain an acceptable fluidity during the animation.<br>
    - Their resolution will vary, but we will try to keep a certain consistency and follow our 5ft=100px rule as much as we can.<br>
+   - **For Macro creators** : We established templates for ranged attacks that gives us the possibility to use the space around the controlled token and its target for the animation. The template could be a good way to test macros and having a good idea of its behavior. Templates are available on our [GDrive](http://bit.ly/2K641UR) (see example below).<br> 
+   
+<a><img src="https://i.imgur.com/vNHtavo.png" alt="RangedAttacks_Template" width="300" border="10" /></a>   
 
 In some cases, we have to experiment and see how the community reacts. For example :<br>
    - An arrow attack has a 30ft, 60ft and 90ft version. To use them efficiently you will need to install a couple of modules. Sadly it can limit these assets to a smaller range of systems. More info [here](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#in-depth-tutorial)
    - Spells with **a huge area** like [Call lightning](https://www.dndbeyond.com/spells/call-lightning) or [Control Weather](https://www.dndbeyond.com/spells/control-weather) will obviously not fit in our standard and will be dealt with differently.
-
 
 ## How to use our content
 There are various ways to do it. From the easiest to a more advanced way to use them.<br>
