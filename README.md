@@ -57,20 +57,22 @@ Besides the fact that we are trying to optimize our assets as much as we can, ou
    - They will seamlessly loop, be animated at 24 FPS and encoded to the WebM format.<br>
    - 5 feet = 200px, less than that, the asset is too pixelated.<br>
    
- - **For instantaneous spells/abilties** (a duration of 1 turn)
+ - **For instantaneous spells/abilities** (a duration of 1 turn)
    - They won't be looped and will be animated at 30 FPS due to their "explosive" nature. Frames per second must be added to maintain an acceptable fluidity during the animation.<br>
    - Their resolution will vary, but we will try to keep a certain consistency and follow our 5ft=100px rule as much as we can.<br>
+   - **For Macro creators** : We established templates for ranged attacks that gives us the possibility to use the space around the controlled token and its target for the animation. The template could be a good way to test macros and having a good idea of its behavior. Templates are available on our [GDrive](http://bit.ly/2K641UR) (see example below).<br> 
+   
+<a><img src="https://i.imgur.com/vNHtavo.png" alt="RangedAttacks_Template" width="300" border="10" /></a>   
 
 In some cases, we have to experiment and see how the community reacts. For example :<br>
    - An arrow attack has a 30ft, 60ft and 90ft version. To use them efficiently you will need to install a couple of modules. Sadly it can limit these assets to a smaller range of systems. More info [here](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#in-depth-tutorial)
    - Spells with **a huge area** like [Call lightning](https://www.dndbeyond.com/spells/call-lightning) or [Control Weather](https://www.dndbeyond.com/spells/control-weather) will obviously not fit in our standard and will be dealt with differently.
 
-
 ## How to use our content
 There are various ways to do it. From the easiest to a more advanced way to use them.<br>
 Clicking on cards below will redirect you to a youtube video.<br>
 
-<a href="https://youtu.be/c4RQjFl8C18" target="_blank"><img src="https://i.imgur.com/kataZqy.png" alt="Tile_how_to" width="275" border="10" /></a>  <a href="https://youtu.be/Hi7yvUG4kk8" target="_blank"><img src="https://i.imgur.com/kvqbaMn.png" alt="Token_how_to" width="275" border="10" /></a>  <a href="https://youtu.be/ktVyp6sJUXw" target="_blank"><img src="https://i.imgur.com/mw583WO.png" alt="Template_how_to" width="275" border="10" /></a><br>
+<a href="https://youtu.be/c4RQjFl8C18" target="_blank"><img src="https://i.imgur.com/YCTrUwM.png" alt="Tile_how_to" width="275" border="10" /></a>  <a href="https://youtu.be/Hi7yvUG4kk8" target="_blank"><img src="https://i.imgur.com/JTb6nNR.png" alt="Token_how_to" width="275" border="10" /></a>  <a href="https://youtu.be/ktVyp6sJUXw" target="_blank"><img src="https://i.imgur.com/rkJFI1j.png" alt="Template_how_to" width="275" border="10" /></a><br>
 
  - **Tiles :** Our assets are made with particular spells in mind but nothing prevents you from using them as part of your scenes/battlemaps. For example, Web could be a great addition to a cavern full of spiders ! Using them as a tile would be the best way to do it.<br>
  - **Tokens :** Animated spells like Spiritual Weapon and Dancing Lights can be used on a token instead of a tile or a template. That way, you (as a DM) or your players can move them during their turn without having to switch between tools.<br>
@@ -79,7 +81,7 @@ Clicking on cards below will redirect you to a youtube video.<br>
     - [Mess](https://foundryvtt.com/packages/mess/)
 
 #### In-depth Tutorial    
-<a href="https://www.youtube.com/watch?v=264xZJjPHD8" target="_blank"><img src="https://i.imgur.com/GsAecj3.png" alt="Tile_how_to" width="350" border="5" /></a>
+<a href="https://www.youtube.com/watch?v=264xZJjPHD8" target="_blank"><img src="https://i.imgur.com/u1Ef4FC.png" alt="Tile_how_to" width="350" border="5" /></a>
 
 Because we added compendiums of premade actors and macros, we created a more in depth tutorial video. Sadly for the moment these options are **only available for the DnD5e system.**<br>
 **Note :** In the video we forgot to mention that you also need to install the module [The Furnace](https://foundryvtt.com/packages/furnace/).
