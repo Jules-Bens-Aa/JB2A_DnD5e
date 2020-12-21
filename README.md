@@ -3,14 +3,16 @@
 <p style='text-align: justify;'>
 
 
-#### Short for : Jules&Ben's Animated Assets for DnD 5e !
+#### JB2A, short for : Jules&Ben's Animated Assets !
 
 # Announcements Section.
 
-#### Warning ! If you to update our module from the version 0.0.8.3 or lower, be advised. For the version 0.0.9 and 0.0.9.1 we have completely remorked our naming convention.<br>
+#### Warning ! If you to update our module from the version 0.0.8.3 or lower, be advised. For the version 0.0.9 and above we have completely remorked our naming convention.<br>
 It will break all the paths you already set for assets from the previous versions !<br> 
 Update your module **ONLY** if you know you'll have time to fix the paths before your next sessions.<br>
 We sincerely apologize. We realise how much of a pain it is. Now that our naming convention is robust, it won't happen anytime soon, hopefully. Thank you for your understanding !!<br>
+
+**For the release 0.1.0** we reworked all our ranged attacks to make it easier to code macros, more info [Here](https://github.com/Jules-Bens-Aa/JB2A_DnD5e#its-content).<br>
 
 # Table of Contents
 
