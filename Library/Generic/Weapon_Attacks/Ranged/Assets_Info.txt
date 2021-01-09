@@ -1,7 +1,0 @@
-For all the assets 
-
-Consider the starting point at 0px for the lenght and half the width.
-So for example, Throwing_Dagger_15ft_600x300 the dagger starts at 0x150px.
-
-The point of impact is on the opposite side so Max lenght and half the width.
-For example, Throwing_Dagger_15ft_600x300 the dagger strikes at 600x150px.
