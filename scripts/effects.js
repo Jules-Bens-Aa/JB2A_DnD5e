@@ -1,72 +1,9 @@
 export const Effects = {
-    folder1: {
-    label: "JB2A - Cantrip",
-    effects: [
-      {
-        "label": "Thunderwave_01_Bright_Blue_BLeft_600x600",
-        "file": "modules/JB2A_DnD5e/Library/Cantrip/Thunderwave/Thunderwave_01_Bright_Blue_BLeft_600x600.webm",
-        "scale": {
-          "x": 0.5,
-          "y": 0.5
-        },
-        "angle": 315,
-        "anchor": {
-          "x": 0.2,
-          "y": 0.8
-        },
-        "speed": 0,
-        "animationDelay": {
-          "start": 0,
-          "end": 0
-        },
-        "ease": "Linear",
-        "preset": false,
-        "author": "JB2A"
-      },
-      {
-        "label": "Thunderwave_01_Bright_Blue_BMid_600x600",
-        "file": "modules/JB2A_DnD5e/Library/Cantrip/Thunderwave/Thunderwave_01_Bright_Blue_BMid_600x600.webm",
-        "scale": {
-          "x": 0.5,
-          "y": 0.5
-        },
-        "angle": 270,
-        "anchor": {
-          "x": 0.5,
-          "y": 0.8
-        },
-        "speed": 0,
-        "animationDelay": {
-          "start": 0,
-          "end": 0
-        },
-        "ease": "Linear",
-        "preset": false,
-        "author": "JB2A"
-      },
-      {
-        "label": "Thunderwave_01_Bright_Blue_Center_600x600",
-        "file": "modules/JB2A_DnD5e/Library/Cantrip/Thunderwave/Thunderwave_01_Bright_Blue_Center_600x600.webm",
-        "scale": {
-          "x": 0.5,
-          "y": 0.5
-        },
-        "angle": 0,
-        "anchor": {
-          "x": 0.5,
-          "y": 0.5
-        },
-        "speed": 0,
-        "animationDelay": {
-          "start": 0,
-          "end": 0
-        },
-        "ease": "Linear",
-        "preset": false,
-        "author": "JB2A"
-      }
-    ]
-  },
+//    folder1: {
+//    label: "JB2A - Cantrip",
+//    effects: [      
+//    ]
+//  },
     folder2: {
     label: "JB2A - 1st Level",
     effects: [
@@ -99,6 +36,69 @@ export const Effects = {
           "y": 0.5
         },
         "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Thunderwave_01_Bright_Blue_BLeft_600x600",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Thunderwave/Thunderwave_01_Bright_Blue_BLeft_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 315,
+        "anchor": {
+          "x": 0.2,
+          "y": 0.8
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Thunderwave_01_Bright_Blue_BMid_600x600",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Thunderwave/Thunderwave_01_Bright_Blue_BMid_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 270,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.8
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Thunderwave_01_Bright_Blue_Center_600x600",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Thunderwave/Thunderwave_01_Bright_Blue_Center_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
         "preset": false,
         "author": "JB2A"
       }

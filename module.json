@@ -4,7 +4,7 @@
   "description": "A Library of animated tiles, templates and tokens for DnD5e.<br> The assets are system agnostic but we have defined the spells names, styles and sizes[^1] from the DnD5e ruleset.<br> <a href='https://bit.ly/39K8PcF'>Previews</a> of our assets available on Patreon.<br>To help us do more, consider supporting us on https://www.patreon.com/JB2A<br>",
   "author": "Gazkhan#8192 and Wassily#8035",
   "url": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e",
-  "version": "0.1.1",
+  "version": "0.1.1.1",
   "minimumCoreVersion": "0.7.0" ,
   "compatibleCoreVersion": "0.7.9",
   "esmodules": [
@@ -28,5 +28,5 @@
     ],
   "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "manifest": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/latest/download/module.json",
-  "download": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/download/0.1.1/JB2A_DnD5e-0.1.1.zip"  
+  "download": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/download/0.1.1/JB2A_DnD5e-0.1.1.1.zip"  
 }
