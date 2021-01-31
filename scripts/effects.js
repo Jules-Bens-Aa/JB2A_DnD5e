@@ -4,7 +4,7 @@ export const Effects = {
 //    effects: [      
 //    ]
 //  },
-    folder2: {
+    folder1: {
     label: "JB2A - 1st Level",
     effects: [
     {
@@ -104,7 +104,7 @@ export const Effects = {
       }
     ]
   },
-    folder3: {
+    folder2: {
     label: "JB2A - 2nd Level",
     effects: [
     {
@@ -130,7 +130,7 @@ export const Effects = {
       }
     ]
   },
-    folder4: {
+    folder3: {
     label: "JB2A - 5th Level",
     effects: [
     {
@@ -151,7 +151,7 @@ export const Effects = {
       }
     ]
   },
-    folder5: {
+    folder4: {
     label: "JB2A - Generic - Creature",
     effects: [
       {
@@ -195,10 +195,52 @@ export const Effects = {
         "ease": "Linear",
         "preset": false,
         "author": "JB2A"
-      }  
+      },
+      {
+        "label": "Claws_01_Regular_Red_200x200",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Creature/Claws_01_Regular_Red_200x200.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Claws_01_Regular_Red_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Creature/Claws_01_Regular_Red_400x400.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      }   
     ]
   },
-    folder6: {
+    folder5: {
     label: "JB2A - Generic - Explosion",
     effects: [
       {
@@ -235,7 +277,7 @@ export const Effects = {
       }
     ]
   },
-    folder7: {
+    folder6: {
     label: "JB2A - Generic - Fire",
     effects: [
       {
@@ -282,7 +324,7 @@ export const Effects = {
       }
     ]
   },
-    folder8: {
+    folder7: {
     label: "JB2A - Generic - Healing",
     effects: [
     {
@@ -414,8 +456,8 @@ export const Effects = {
         "author": "JB2A"
       }
     ]
-  },   
-    folder9: {
+  },
+    folder8: {
     label: "JB2A - Generic - Lightning",
     effects: [
     {
@@ -442,6 +484,123 @@ export const Effects = {
           "y": 1
         },
         "angle": 45,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      }
+    ]
+  },     
+    folder9: {
+    label: "JB2A - Generic - Melee Attacks",
+    effects: [
+    {
+        "label": "Dagger02_Simple_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Dagger02_Simple_800x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GreatClub01_Simple_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Simple_800x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GreatSword01_Simple_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Simple_800x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Mace01_Simple_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Mace01_Simple_800x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Maul01_Simple_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Maul01_Simple_800x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Spear01_Simple_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_Simple_800x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Sword01_Simple_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Sword01_Simple_800x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
         "anchor": {
           "x": 0.5,
           "y": 0.5
