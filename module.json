@@ -1,15 +1,12 @@
 {
   "name": "JB2A_DnD5e",
   "title": "JB2A - Jules&Ben's Animated Assets - Free Content",
-  "description": "A Library of animated tiles, templates and tokens for DnD5e.<br> The assets are system agnostic but we have defined the spells names, styles and sizes[^1] from the DnD5e ruleset.<br> <a href='https://bit.ly/39K8PcF'>Previews</a> of our assets available on Patreon.<br>To help us do more, consider supporting us on https://www.patreon.com/JB2A<br>",
+  "description": "<p> This library of carefully crafted animated assets such as spell templates, tokens and tiles will bring life to your sessions. They are based on the DnD5e ruleset but can be used with other systems as you see fit.</p><p>Compendiums of actors and macros are also provided. Go to our <a href='http://jb2a.com/templates/FAQ.html'>FAQ and Troubleshooting section</a> if you have a question or an issue. Join our <a href='https://discord.gg/gmd8MAPX4m'>Discord server</a> for any further question or if you want to exchange with the community.</p><br> <a href='https://bit.ly/39K8PcF'>Previews</a> of our assets available on Patreon.<br>Consider supporting us and unlocking more assets (color variations and more) by pledging as little as 1€ (per creation but you can set a maximum if you don't want to spend more than once your pledge amount per month) at https://www.patreon.com/JB2A ",
   "author": "Gazkhan#8192 and Wassily#8035",
-  "url": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e",
-  "version": "0.1.2",
-  "minimumCoreVersion": "0.7.0" ,
+  "url": "https://www.patreon.com/JB2A",
+  "version": "0.1.3",
+  "minimumCoreVersion": "0.7.0",
   "compatibleCoreVersion": "0.7.9",
-  "esmodules": [
-        "./scripts/loadEffects.js"
-   ],
   "packs": [
         {
             "entity": "Macro",            
@@ -25,9 +22,23 @@
             "path": "packs/jb2a-actors.db",
             "module": "JB2A_DnD5e"
         }
-    ],
+  ],
+  "media": [
+    {
+      "type": "cover",
+      "url": "jb2acover02.jpg"
+    }
+  ],
+  "scripts": [
+      "./scripts/settings.js",   
+      "./scripts/window_popup.js"   
+  ],  
+  "type": "module",
+  "esmodules": [
+      "./scripts/loadEffects.js"
+  ],
   "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "manifest": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/latest/download/module.json",
-  "download": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/download/0.1.2/JB2A_DnD5e-0.1.2.zip"  
+  "download": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/download/0.1.3/JB2A_DnD5e-0.1.3.zip"  
 }
 

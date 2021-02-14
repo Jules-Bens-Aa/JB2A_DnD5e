@@ -155,8 +155,8 @@ export const Effects = {
     label: "JB2A - Generic - Creature",
     effects: [
       {
-        "label": "Bite_01_Red_200x200",
-        "file": "modules/JB2A_DnD5e/Library/Generic/Creature/Bite_01_Red_200x200.webm",
+        "label": "Bite_01_Regular_Red_200x200",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Creature/Bite_01_Regular_Red_200x200.webm",
         "scale": {
           "x": 1,
           "y": 1
@@ -176,8 +176,8 @@ export const Effects = {
         "author": "JB2A"
       },
       {
-        "label": "Bite_01_Red_400x400",
-        "file": "modules/JB2A_DnD5e/Library/Generic/Creature/Bite_01_Red_400x400.webm",
+        "label": "Bite_01_Regular_Red_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Creature/Bite_01_Regular_Red_400x400.webm",
         "scale": {
           "x": 1,
           "y": 1
@@ -498,8 +498,8 @@ export const Effects = {
     label: "JB2A - Generic - Melee Attacks",
     effects: [
     {
-        "label": "Dagger02_Simple_800x600",
-        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Dagger02_Simple_800x600.webm",
+        "label": "Dagger02_01_Regular_White_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Dagger02_01_Regular_White_800x600.webm",
         "scale": {
           "x": .5,
           "y": .5
@@ -514,8 +514,8 @@ export const Effects = {
         "author": "JB2A"
       },
       {
-        "label": "GreatClub01_Simple_800x600",
-        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Simple_800x600.webm",
+        "label": "GreatAxe01_01_Regular_White_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_01_Regular_White_800x600.webm",
         "scale": {
           "x": .5,
           "y": .5
@@ -530,8 +530,8 @@ export const Effects = {
         "author": "JB2A"
       },
       {
-        "label": "GreatSword01_Simple_800x600",
-        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Simple_800x600.webm",
+        "label": "GreatClub01_01_Regular_White_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatClub01_01_Regular_White_800x600.webm",
         "scale": {
           "x": .5,
           "y": .5
@@ -546,8 +546,8 @@ export const Effects = {
         "author": "JB2A"
       },
       {
-        "label": "Mace01_Simple_800x600",
-        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Mace01_Simple_800x600.webm",
+        "label": "GreatSword01_01_Regular_White_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatSword01_01_Regular_White_800x600.webm",
         "scale": {
           "x": .5,
           "y": .5
@@ -562,8 +562,8 @@ export const Effects = {
         "author": "JB2A"
       },
       {
-        "label": "Maul01_Simple_800x600",
-        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Maul01_Simple_800x600.webm",
+        "label": "HandAxe02_01_Regular_White_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/HandAxe02_01_Regular_White_800x600.webm",
         "scale": {
           "x": .5,
           "y": .5
@@ -578,8 +578,8 @@ export const Effects = {
         "author": "JB2A"
       },
       {
-        "label": "Spear01_Simple_800x600",
-        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_Simple_800x600.webm",
+        "label": "Mace01_01_Regular_White_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Mace01_01_Regular_White_800x600.webm",
         "scale": {
           "x": .5,
           "y": .5
@@ -594,8 +594,40 @@ export const Effects = {
         "author": "JB2A"
       },
       {
-        "label": "Sword01_Simple_800x600",
-        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Sword01_Simple_800x600.webm",
+        "label": "Maul01_01_Regular_White_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Maul01_01_Regular_White_800x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Spear01_01_Regular_White_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_White_800x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Sword01_01_Regular_White_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Sword01_01_Regular_White_800x600.webm",
         "scale": {
           "x": .5,
           "y": .5
