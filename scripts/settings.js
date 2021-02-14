@@ -1,3 +1,5 @@
+Hooks.on("init", () => {
+
 // Register a client setting
 game.settings.register("JB2A_DnD5e", "runonlyonce", { // game.setting.register("NameOfTheModule", "VariableName",
   name: "JB2A - Free pack settings",                  // Register a module setting with checkbox
@@ -9,7 +11,7 @@ game.settings.register("JB2A_DnD5e", "runonlyonce", { // game.setting.register("
 });
 
 // Register a world setting
-game.settings.register("jb2a_test", "runonlyonce", {  // game.setting.register("NameOfTheModule", "VariableName",
+game.settings.register("JB2A_DnD5e", "runonlyonce", {  // game.setting.register("NameOfTheModule", "VariableName",
   name: "JB2A - Free pack settings",                  // Register a module setting with checkbox
   hint: "Disable startup window popup",               // Description of the settings
   scope: "world",                                     // This specifies a world-level setting
@@ -17,7 +19,7 @@ game.settings.register("jb2a_test", "runonlyonce", {  // game.setting.register("
   type: Boolean,
   default: false,                                     // The default value for the setting
 });
-
+});
 
 
 
