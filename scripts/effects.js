@@ -610,6 +610,22 @@ export const Effects = {
         "author": "JB2A"
       },
       {
+        "label": "Rapier01_01_Regular_White_800x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_White_800x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
         "label": "Spear01_01_Regular_White_800x600",
         "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_White_800x600.webm",
         "scale": {
