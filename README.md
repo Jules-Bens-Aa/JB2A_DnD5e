@@ -7,7 +7,7 @@
 
 # Announcements Section.
 
-An [**Open Survey**](https://forms.gle/UuWRGgjuHgzt4NJT6) is waiting for you ! You can vote for your favorite spells and write suggestions if something you would like to see is missing. More info are available inside. Happy entries !
+An [**Open Survey**](https://forms.gle/MMMLqjATbrXELYsC6) is waiting for you ! You can vote for your favorite spells and write suggestions if something you would like to see is missing. More info are available inside. Happy entries !
 
 # Table of Contents
 
