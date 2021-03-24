@@ -100,7 +100,7 @@ As a Patreon member, for €1/$1.50 minimum, you can unlock all of our assets.
 
 If you still have questions, feel free to join our [Discord](https://discord.gg/gmd8MAPX4m) and contact us directly.
 
-**WORTH MENTIONNING : Github and Patreon are the only way to obtain our assets. If you found them elsewhere and moreover you are asked to pay for them, it does not come from us. Please notify us directly if you are confronted to this situation.**
+**WORTH MENTIONNING : Github and Patreon (via Itch.Io) are the only way to obtain our assets. If you found them elsewhere and moreover you are asked to pay for them, it does not come from us. Please notify us directly if you are confronted to this situation.**
 
 ## Useful links
 
