@@ -7,7 +7,10 @@
 
 # Announcements Section.
 
-An [**Open Survey**](https://forms.gle/MMMLqjATbrXELYsC6) is waiting for you ! You can vote for your favorite spells and write suggestions if something you would like to see is missing. More info are available inside. Happy entries !
+[**April Open Survey**](https://forms.gle/iezLyW8X56m9zdqP6) is waiting for you ! You can vote for your favorite spells and write suggestions if something you would like to see is missing. More info are available inside. Happy entries !
+
+If you aren't aware of it, please check out this awesome module : [Otigon's Automated Animations](https://foundryvtt.com/packages/automated-jb2a-animations).
+Otigon is one of our brillant patron developping this module as a hobby. Impressive Work.
 
 # Table of Contents
 
@@ -104,9 +107,8 @@ If you still have questions, feel free to join our [Discord](https://discord.gg/
 
 ## Useful links
 
-[Jeff Weaver Youtube Channel](https://www.youtube.com/channel/UCyNB45t5jpIq6vk23y6HypA/featured)<br>
-[Otigon Foundry Macros](https://github.com/otigon/Foundry-Macros)<br>
-[Otigon's module of macros for our patreon assets](https://github.com/otigon/otigons-animation-macros)
+[Jeff Weaver Youtube Channel](https://www.youtube.com/channel/UCyNB45t5jpIq6vk23y6HypA/featured) Very useful resource for tutorials and setup for Foundry<br>
+[Otigon's Automated Animations](https://foundryvtt.com/packages/automated-jb2a-animations) An awesome patron developping an impressive module to use our assets with a few clicks. Check it out !<br>
 
 We are testing our assets on maps made by :<br>
 [Forgotten Adventures](https://www.forgotten-adventures.net/)<br>
