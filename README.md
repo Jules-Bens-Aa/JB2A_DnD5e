@@ -24,7 +24,7 @@ Otigon is one of our brillant patron developping this module as a hobby. Impress
 ## Our Goal and about the module
 
 #### Our Goal
-Our current goal has been to create animation **templates** for spells/abilities available in the **SRD of the DnD5e system** . The idea behind it is to offer to DnD5e users a library of assets with animations for all SRD spells/abilities for free.<br>
+Our current goal has been to create animation **templates** for spells/abilities available in the **SRD of the DnD5e system**. The idea behind it is to offer to DnD5e users a library of assets with animations for all SRD spells/abilities for free.<br>
 Keep in mind, even if our goal is still to create SRD spells/abilities, we don't limit ourselves to it. Our module will have spells from other rule books, from different RPG systems and we're making animated environmental tiles to spruce up our maps as well.<br>
 <br>
 Since the launch of our Patreon, last november, our goal has already evolved. Due to a high demand from the Foundry VTT community, we provide assets for instantaneous spells and visual effects to allow our users to setup/run their sessions using macros. We have a compendium for actors and macros but they're only blueprints as our javascript knowledge is very limited. Other people from our community are working on many different types of macros. You can learn more in our [Discord server](https://discord.gg/gmd8MAPX4m)<br> 
