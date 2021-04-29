@@ -279,8 +279,8 @@ export const Effects = {
         "label": "Explosion_03_Regular_BlueYellow_400x400",
         "file": "modules/JB2A_DnD5e/Library/Generic/Explosion/Explosion_03_Regular_BlueYellow_400x400.webm",
         "scale": {
-          "x": .5,
-          "y": .5
+          "x": 1,
+          "y": 1
         },
         "angle": 0,
         "anchor": {
