@@ -1,13 +1,13 @@
 export const Effects = {
-//    folder1: {
-//    label: "JB2A - Cantrip",
-//    effects: [      
-//    ]
-//  },
-    folder1: {
+  //    folder1: {
+  //    label: "JB2A - Cantrip",
+  //    effects: [      
+  //    ]
+  //  },
+  folder1: {
     label: "JB2A - 1st Level",
     effects: [
-    {
+      {
         "label": "CureWounds_01_Blue_200x200",
         "file": "modules/JB2A_DnD5e/Library/1st_Level/Cure_Wounds/CureWounds_01_Blue_200x200.webm",
         "scale": {
@@ -104,10 +104,10 @@ export const Effects = {
       }
     ]
   },
-    folder2: {
+  folder2: {
     label: "JB2A - 2nd Level",
     effects: [
-    {
+      {
         "label": "Shatter_01_Blue_400x400",
         "file": "modules/JB2A_DnD5e/Library/2nd_Level/Shatter/Shatter_01_Blue_400x400.webm",
         "scale": {
@@ -130,10 +130,10 @@ export const Effects = {
       }
     ]
   },
-    folder3: {
+  folder3: {
     label: "JB2A - 5th Level",
     effects: [
-    {
+      {
         "label": "AntilifeShell_01_Blue_NoCircle_400x400",
         "file": "modules/JB2A_DnD5e/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_NoCircle_400x400.webm",
         "scale": {
@@ -151,7 +151,7 @@ export const Effects = {
       }
     ]
   },
-    folder4: {
+  folder4: {
     label: "JB2A - Generic - Creature",
     effects: [
       {
@@ -237,10 +237,10 @@ export const Effects = {
         "ease": "Linear",
         "preset": false,
         "author": "JB2A"
-      }   
+      }
     ]
   },
-    folder5: {
+  folder5: {
     label: "JB2A - Generic - Explosion",
     effects: [
       {
@@ -274,10 +274,26 @@ export const Effects = {
         "speed": 0,
         "preset": false,
         "author": "JB2A"
-      }
+      },
+      {
+        "label": "Explosion_03_Regular_BlueYellow_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Explosion/Explosion_03_Regular_BlueYellow_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
     ]
   },
-    folder6: {
+  folder6: {
     label: "JB2A - Generic - Fire",
     effects: [
       {
@@ -324,10 +340,47 @@ export const Effects = {
       }
     ]
   },
-    folder7: {
+  folder7: {
+    label: "JB2A - Generic - Impact",
+    effects: [
+      {
+        "label": "Impact_01_Regular_Blue_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_01_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Impact_02_Regular_Blue_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_02_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+    ]
+  },
+  folder8: {
     label: "JB2A - Generic - Healing",
     effects: [
-    {
+      {
         "label": "HealingAbility_01_Blue_200x200",
         "file": "modules/JB2A_DnD5e/Library/Generic/Healing/HealingAbility_01_Blue_200x200.webm",
         "scale": {
@@ -457,10 +510,10 @@ export const Effects = {
       }
     ]
   },
-    folder8: {
+  folder9: {
     label: "JB2A - Generic - Lightning",
     effects: [
-    {
+      {
         "label": "LightningStrike_01a_800x800",
         "file": "modules/JB2A_DnD5e/Library/Generic/Lightning/LightningStrike_01a_800x800.webm",
         "scale": {
@@ -493,11 +546,11 @@ export const Effects = {
         "author": "JB2A"
       }
     ]
-  },     
-    folder9: {
+  },
+  folder10: {
     label: "JB2A - Generic - Melee Attacks",
     effects: [
-    {
+      {
         "label": "Dagger02_01_Regular_White_800x600",
         "file": "modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Dagger02_01_Regular_White_800x600.webm",
         "scale": {
@@ -659,4 +712,4 @@ export const Effects = {
       }
     ]
   }
-};  
+};
