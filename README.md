@@ -7,7 +7,7 @@
 
 # Announcements Section.
 
-[**April Open Survey**](https://forms.gle/iezLyW8X56m9zdqP6) is waiting for you ! You can vote for your favorite spells and write suggestions if something you would like to see is missing. More info are available inside. Happy entries !
+[**May Open Survey**](https://forms.gle/eNh6Gqu8j5oaKHYF9) is waiting for you ! You can vote for your favorite spells and write suggestions if something you would like to see is missing. More info are available inside. Happy entries !
 
 If you aren't aware of it, please check out this awesome module : [Otigon's Automated Animations](https://foundryvtt.com/packages/automated-jb2a-animations).
 Otigon is one of our brillant patron developping this module as a hobby. Impressive Work.
