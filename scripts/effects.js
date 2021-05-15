@@ -291,6 +291,102 @@ export const Effects = {
         "preset": false,
         "author": "JB2A"
       },
+      {
+        "label": "Explosion_04_Regular_Blue_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Explosion/Explosion_04_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "IceSpikesRadialBurst_01_Regular_White_1000x1000",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Ice/IceSpikesRadialBurst_01_Regular_White_1000x1000.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "IceSpikesWallBurst_01_Regular_White_600x1000",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Ice/IceSpikesWallBurst_01_Regular_White_600x1000.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SnowflakeBurst_01_Regular_BlueWhite_Burst_600x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Ice/SnowflakeBurst_01_Regular_BlueWhite_Burst_600x600.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "OutPulse_01_Regular_BlueWhite_Burst_600x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_BlueWhite_Burst_600x600.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "OutPulse_02_Regular_BlueWhite_Burst_600x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_BlueWhite_Burst_600x600.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      }
     ]
   },
   folder6: {
@@ -507,6 +603,22 @@ export const Effects = {
         "speed": 0,
         "preset": false,
         "author": "JB2A"
+      },
+      {
+        "label": "HealingAbility_02_Regular_GreenOrange_Burst_600x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Healing/HealingAbility_02_Regular_GreenOrange_Burst_600x600.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
       }
     ]
   },
@@ -548,7 +660,7 @@ export const Effects = {
     ]
   },
   folder10: {
-    label: "JB2A - Generic - Melee Attacks",
+    label: "JB2A - Generic - Weapon Attacks",
     effects: [
       {
         "label": "Dagger02_01_Regular_White_800x600",
