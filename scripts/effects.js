@@ -4,7 +4,7 @@ export const Effects = {
   //    effects: [      
   //    ]
   //  },
-  folder1: {
+  folder10: {
     label: "JB2A - 1st Level",
     effects: [
       {
@@ -104,9 +104,51 @@ export const Effects = {
       }
     ]
   },
-  folder2: {
+  folder20: {
     label: "JB2A - 2nd Level",
     effects: [
+      {
+        "label": "DivineSmite_01_Regular_BlueYellow_Caster_400x400",
+        "file": "modules/JB2A_DnD5e/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_BlueYellow_Caster_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DivineSmite_01_Regular_BlueYellow_Target_400x400",
+        "file": "modules/JB2A_DnD5e/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_BlueYellow_Target_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
       {
         "label": "Shatter_01_Blue_400x400",
         "file": "modules/JB2A_DnD5e/Library/2nd_Level/Shatter/Shatter_01_Blue_400x400.webm",
@@ -130,7 +172,7 @@ export const Effects = {
       }
     ]
   },
-  folder3: {
+  folder30: {
     label: "JB2A - 5th Level",
     effects: [
       {
@@ -151,7 +193,75 @@ export const Effects = {
       }
     ]
   },
-  folder4: {
+  folder35: {
+    label: "JB2A - Generic - Breath Weapon",
+    effects: [
+      {
+        "label": "BreathWeapon_Acid01_Regular_Green_30ft_Line_Burst_1200x200",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Acid01_Regular_Green_30ft_Line_Burst_1200x200.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "BreathWeapon_Fire01_Regular_Orange_30ft_Line_Burst_1200x200",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Fire01_Regular_Orange_30ft_Line_Burst_1200x200.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "BreathWeapon_Lightning01_Regular_Blue_30ft_Line_Burst_1200x200",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Lightning01_Regular_Blue_30ft_Line_Burst_1200x200.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+    ]
+  },
+  folder40: {
     label: "JB2A - Generic - Creature",
     effects: [
       {
@@ -240,7 +350,7 @@ export const Effects = {
       }
     ]
   },
-  folder5: {
+  folder50: {
     label: "JB2A - Generic - Explosion",
     effects: [
       {
@@ -389,7 +499,7 @@ export const Effects = {
       }
     ]
   },
-  folder6: {
+  folder60: {
     label: "JB2A - Generic - Fire",
     effects: [
       {
@@ -436,7 +546,7 @@ export const Effects = {
       }
     ]
   },
-  folder7: {
+  folder70: {
     label: "JB2A - Generic - Impact",
     effects: [
       {
@@ -473,7 +583,7 @@ export const Effects = {
       },
     ]
   },
-  folder8: {
+  folder80: {
     label: "JB2A - Generic - Healing",
     effects: [
       {
@@ -622,7 +732,7 @@ export const Effects = {
       }
     ]
   },
-  folder9: {
+  folder90: {
     label: "JB2A - Generic - Lightning",
     effects: [
       {
@@ -659,7 +769,7 @@ export const Effects = {
       }
     ]
   },
-  folder10: {
+  folder100: {
     label: "JB2A - Generic - Weapon Attacks",
     effects: [
       {
