@@ -15,7 +15,7 @@ Otigon is one of our brillant patron developping this module as a hobby. Impress
 
 # Table of content
 
-All links below will redirect you to our website. We decided to gather all information related to our content in one place to make it easier to maintain up to date.
+All links below will redirect you to our website. We decided to gather all information related to our content in one place to make it easier to maintain and keep them up to date.
 
  - [Our Content](https://jb2a.com/#Content)
    - [Asset Viewer](https://jb2a.com/#AssetViewer)
@@ -34,7 +34,7 @@ All links below will redirect you to our website. We decided to gather all infor
    - [Canceling](https://jb2a.com/#PatreonCanceling)
  - [FoundryVTT](https://jb2a.com/#FoundryVTT)
    - [Core](https://jb2a.com/#Core)
-   - [Recommended Modules](https://jb2a.com/#)
+   - [Recommended Modules for our content](https://jb2a.com/#RecommendedModules)
    - [Forge](https://jb2a.com/#Forge)
  - [Other VTTs](https://jb2a.com/#OtherVTTs)
    - [Astral Tabletop](https://jb2a.com/#Astral)
