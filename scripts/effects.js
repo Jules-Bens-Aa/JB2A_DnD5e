@@ -302,7 +302,7 @@ export const Effects = {
         "author": "JB2A"
       },
       {
-        "label": "BreathWeapon_Cold01_Regular_Blue_30ft_Cone_Burst_600x600",
+        "label": "BreathWeapon_Cold01_Regular_Blue_15ft_Cone_Burst_600x600",
         "file": "modules/JB2A_DnD5e/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Cold01_Regular_Blue_30ft_Cone_Burst_600x600.webm",
         "scale": {
           "x": 0.5,
@@ -323,7 +323,7 @@ export const Effects = {
         "author": "JB2A"
       },
       {
-        "label": "BreathWeapon_Fire01_Regular_Orange_30ft_Cone_Burst_600x600",
+        "label": "BreathWeapon_Fire01_Regular_Orange_15ft_Cone_Burst_600x600",
         "file": "modules/JB2A_DnD5e/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire01_Regular_Orange_30ft_Cone_Burst_600x600.webm",
         "scale": {
           "x": 0.5,
@@ -344,7 +344,7 @@ export const Effects = {
         "author": "JB2A"
       },
       {
-        "label": "BreathWeapon_Poison01_Regular_Green_30ft_Cone_Burst_600x600",
+        "label": "BreathWeapon_Poison01_Regular_Green_15ft_Cone_Burst_600x600",
         "file": "modules/JB2A_DnD5e/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Regular_Green_30ft_Cone_Burst_600x600.webm",
         "scale": {
           "x": 0.5,
