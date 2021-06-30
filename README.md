@@ -7,11 +7,7 @@
 
 # Announcements Section.
 
-[**June Open Survey**](https://forms.gle/PwFPd8M5CKMXJwrk7) is waiting for you ! You can vote for your favorite spells and write suggestions if something you would like to see is missing. More info are available inside. Happy entries !
-
-If you aren't aware of it, please check out this awesome module : [Otigon's Automated Animations](https://foundryvtt.com/packages/autoanimations).
-Otigon is one of our brillant patron developping this module as a hobby. Impressive Work.
-
+[**June Open Survey**] is extended until the end of July.
 
 # Table of content
 
