@@ -1,5 +1,6 @@
 <img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800">[![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)[![PayPal](https://img.shields.io/badge/Donate-Paypal-ff69b4)](https://paypal.me/DonationJB2A?locale.x=fr_FR)<br>
-
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.2.3/JB2A_DnD5e-0.2.3.zip?color=ffba00&label=Release%200.2.3%20Downloads)
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.2.2/JB2A_DnD5e-0.2.2.zip?color=e3621f&label=Release%200.2.2%20Downloads)<br>
 <p style='text-align: justify;'>
 
 
@@ -7,7 +8,7 @@
 
 # Announcements Section.
 
-[**June Open Survey**] is extended until the end of July.
+[**June Open Survey**](https://forms.gle/PwFPd8M5CKMXJwrk7) is extended until the end of July.
 
 # Table of content
 
