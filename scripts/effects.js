@@ -8,6 +8,111 @@ export const Effects = {
     label: "JB2A - 1st Level",
     effects: [
       {
+        "label": "BardicInspiration_01_Regular_GreenOrange_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_GreenOrange_400x400.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Bless_01_Regular_Yellow_Intro_200x200",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Bless/Bless_01_Regular_Yellow_Intro_200x200.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Bless_01_Regular_Yellow_Intro_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Bless/Bless_01_Regular_Yellow_Intro_400x400.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Bless_01_Regular_Yellow_Loop_200x200",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Bless/Bless_01_Regular_Yellow_Loop_200x200.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Bless_01_Regular_Yellow_Loop_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Bless/Bless_01_Regular_Yellow_Loop_400x400.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
         "label": "BurningHands_01_Regular_Orange_600x600",
         "file": "modules/JB2A_DnD5e/Library/1st_Level/Burning_Hands/BurningHands_01_Regular_Orange_600x600.webm",
         "scale": {
@@ -57,6 +162,216 @@ export const Effects = {
           "y": 0.5
         },
         "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Entangle_01_Brown_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Entangle/Entangle_01_Brown_400x400.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Entangle_01_Green_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Entangle/Entangle_01_Green_400x400.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Entangle_01_Yellow_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Entangle/Entangle_01_Yellow_400x400.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "FogCloud_01_White_800x800",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Fog_Cloud/FogCloud_01_White_800x800.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "HuntersMark_01_Regular_Green_Loop_200x200",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Hunters_Mark/HuntersMark_01_Regular_Green_Loop_200x200.webm",
+        "scale": {
+          "x": 0.65,
+          "y": 0.65
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "HuntersMark_01_Regular_Green_Pulse_200x200",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Hunters_Mark/HuntersMark_01_Regular_Green_Pulse_200x200.webm",
+        "scale": {
+          "x": 0.65,
+          "y": 0.65
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Shield_01_Regular_Blue_Intro_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Shield/Shield_01_Regular_Blue_Intro_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Shield_01_Regular_Blue_Loop_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Shield/Shield_01_Regular_Blue_Loop_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Shield_01_Regular_Blue_OutroExplode_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Shield/Shield_01_Regular_Blue_OutroExplode_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Shield_01_Regular_Blue_OutroFade_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Shield/Shield_01_Regular_Blue_OutroFade_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
         "preset": false,
         "author": "JB2A"
       },
@@ -129,6 +444,132 @@ export const Effects = {
     label: "JB2A - 2nd Level",
     effects: [
       {
+        "label": "CloudOfDaggers_01_Light_Blue_400x400",
+        "file": "modules/JB2A_DnD5e/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Blue_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CloudOfDaggers_01_Light_Green_400x400",
+        "file": "modules/JB2A_DnD5e/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Green_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CloudOfDaggers_01_Light_Orange_400x400",
+        "file": "modules/JB2A_DnD5e/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Orange_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CloudOfDaggers_01_Light_Purple_400x400",
+        "file": "modules/JB2A_DnD5e/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Purple_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CloudOfDaggers_01_Light_Red_400x400",
+        "file": "modules/JB2A_DnD5e/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Red_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CloudOfDaggers_01_Light_Yellow_400x400",
+        "file": "modules/JB2A_DnD5e/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Yellow_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
         "label": "DivineSmite_01_Regular_BlueYellow_Caster_400x400",
         "file": "modules/JB2A_DnD5e/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_BlueYellow_Caster_400x400.webm",
         "scale": {
@@ -191,6 +632,43 @@ export const Effects = {
         "preset": false,
         "author": "JB2A"
       }
+    ]
+  },
+  folder25: {
+    label: "JB2A - 3rd Level",
+    effects: [
+      {
+        "label": "LightningBolt_01_Regular_Blue_4000x200",
+        "file": "modules/JB2A_DnD5e/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Blue_4000x200.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "LightningBolt_01_Regular_Blue_4000x400",
+        "file": "modules/JB2A_DnD5e/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Blue_4000x400.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
     ]
   },
   folder30: {
