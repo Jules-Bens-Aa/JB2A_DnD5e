@@ -9,7 +9,7 @@
 
 # Announcements Section.
 
-The [August Open Survey](https://forms.gle/PwFPd8M5CKMXJwrk7) will start soon !
+The [August Open Survey](https://forms.gle/B7fUSnBeL3Jgm5R59) is open ! Vote for FXs you would like to see animated.
 
 # Table of content
 
