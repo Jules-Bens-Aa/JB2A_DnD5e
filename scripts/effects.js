@@ -612,8 +612,92 @@ export const Effects = {
         "author": "JB2A"
       },
       {
+        "label": "MistyStep_01_Regular_Blue_400x400",
+        "file": "modules/JB2A_DnD5e/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "MistyStep_02_Regular_Blue_400x400",
+        "file": "modules/JB2A_DnD5e/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
         "label": "Shatter_01_Blue_400x400",
         "file": "modules/JB2A_DnD5e/Library/2nd_Level/Shatter/Shatter_01_Blue_400x400.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Web_01_White_01_400x400",
+        "file": "modules/JB2A_DnD5e/Library/2nd_Level/Web/Web_01_White_01_400x400.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Web_01_White_02_400x400",
+        "file": "modules/JB2A_DnD5e/Library/2nd_Level/Web/Web_01_White_02_400x400.webm",
         "scale": {
           "x": 1,
           "y": 1
@@ -637,6 +721,118 @@ export const Effects = {
   folder25: {
     label: "JB2A - 3rd Level",
     effects: [
+      {
+        "label": "CallLightning_01_Blue_1000x1000",
+        "file": "modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Blue_1000x1000.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CallLightning_01_BlueOrange_1000x1000",
+        "file": "modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_BlueOrange_1000x1000.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CallLightning_01_Green_1000x1000",
+        "file": "modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Green_1000x1000.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CallLightning_01_PinkYellow_1000x1000",
+        "file": "modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_PinkYellow_1000x1000.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CallLightning_01_Purple_1000x1000",
+        "file": "modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Purple_1000x1000.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CallLightning_01_Red_1000x1000",
+        "file": "modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Red_1000x1000.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CallLightning_01_Yellow_1000x1000",
+        "file": "modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Yellow_1000x1000.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
       {
         "label": "LightningBolt_01_Regular_Blue_4000x200",
         "file": "modules/JB2A_DnD5e/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Blue_4000x200.webm",
@@ -663,6 +859,22 @@ export const Effects = {
         "angle": 0,
         "anchor": {
           "x": 0,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleetStorm_01_Blue_800x800",
+        "file": "modules/JB2A_DnD5e/Library/3rd_Level/Sleet_Storm/SleetStorm_01_Blue_800x800.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
           "y": 0.5
         },
         "speed": 0,
@@ -1164,6 +1376,182 @@ export const Effects = {
         "preset": false,
         "author": "JB2A"
       },
+      {
+        "label": "Impact_03_Regular_Blue_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_03_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Impact_04_Regular_Blue_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_04_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Impact_05_Regular_Orange_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_05_Regular_Orange_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Impact_06_Regular_Yellow_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_06_Regular_Yellow_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Impact_07_Regular_Orange_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_07_Regular_Yellow_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Impact_07_Regular_Yellow_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_07_Regular_Yellow_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Impact_08_Regular_Orange_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_08_Regular_Orange_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Impact_09_Regular_Orange_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_09_Regular_Orange_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Impact_10_Regular_Orange_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_10_Regular_Orange_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Impact_11_Regular_Blue_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_11_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Impact_12_Regular_Blue_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_12_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
     ]
   },
   folder80: {
@@ -1342,6 +1730,54 @@ export const Effects = {
           "y": 1
         },
         "angle": 45,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "LightningBall_01_Regular_Blue_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Lightning/LightningBall_01_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "StaticElectricity_01_Regular_Blue_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Lightning/StaticElectricity_01_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "StaticElectricity_02_Regular_Blue_400x400",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Lightning/StaticElectricity_02_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
         "anchor": {
           "x": 0.5,
           "y": 0.5
