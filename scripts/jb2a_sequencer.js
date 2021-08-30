@@ -212,21 +212,21 @@ let data = {
         }
     },
     call_lightning: {
-        blue: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Blue_1000x1000.webm',
-        blueorange: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_BlueOrange_1000x1000.webm',
-        green: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Green_1000x1000.webm',
-        pinkyellow: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_PinkYellow_1000x1000.webm',
-        purple: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Purple_1000x1000.webm',
-        red: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Red_1000x1000.webm',
-        yellow: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Yellow_1000x1000.webm',
-        'High_Res': {
-            blue: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Blue_2400x2400.webm',
-            blueorange: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_BlueOrange_2400x2400.webm',
-            green: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Green_2400x2400.webm',
-            pinkyellow: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_PinkYellow_2400x2400.webm',
-            purple: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Purple_2400x2400.webm',
-            red: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Red_2400x2400.webm',
-            yellow: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Yellow_2400x2400.webm',
+        low_res: {
+            blue: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Blue_1000x1000.webm',
+            blueorange: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_BlueOrange_1000x1000.webm',
+            green: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Green_1000x1000.webm',
+            pinkyellow: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_PinkYellow_1000x1000.webm',
+            purple: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Purple_1000x1000.webm',
+            red: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Red_1000x1000.webm',
+            yellow: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/CallLightning_01_Yellow_1000x1000.webm',
+        },
+        high_res: {
+            blue: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Blue_2400x2400.webm',
+            blueorange: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_BlueOrange_2400x2400.webm',
+            purple: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Purple_2400x2400.webm',
+            red: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Red_2400x2400.webm',
+            yellow: 'modules/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Yellow_2400x2400.webm',
         }
     },
     campfire: {
@@ -332,7 +332,7 @@ let data = {
         circle: {
             blue: 'modules/JB2A_DnD5e/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Blue_1200x1200.webm',
         },
-        _template : 'cone100',
+        _template: 'cone100',
         blue: {
             '05ft': 'modules/JB2A_DnD5e/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_05ft_300x300.webm',
             '15ft': 'modules/JB2A_DnD5e/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_15ft_500x500.webm',
@@ -399,7 +399,10 @@ let data = {
         '04': {
             blue: 'modules/JB2A_DnD5e/Library/Generic/Explosion/Explosion_04_Regular_Blue_400x400.webm'
         },
-        blue: ['modules/JB2A_DnD5e/Library/Generic/Explosion/Explosion_02_Blue_400x400.webm', 'modules/JB2A_DnD5e/Library/Generic/Explosion/Explosion_04_Regular_Blue_400x400.webm']
+        blue: [
+            'modules/JB2A_DnD5e/Library/Generic/Explosion/Explosion_02_Blue_400x400.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Explosion/Explosion_04_Regular_Blue_400x400.webm'
+        ]
     },
     extras: {
         tmfx: {
@@ -544,13 +547,13 @@ let data = {
         side: {
             '05x05ft': {
                 grey: [
-                    'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_05x05ft_600x600.webm', 
+                    'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_05x05ft_600x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_05x05ft_600x600.webm'
                 ],
             },
             '10x05ft': {
                 grey: [
-                    'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_10x05ft_800x600.webm', 
+                    'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_10x05ft_800x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_10x05ft_800x600.webm'
                 ],
             }
@@ -558,13 +561,13 @@ let data = {
         top: {
             '05x05ft': {
                 grey: [
-                    'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_05x05ft_600x600.webm', 
+                    'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_05x05ft_600x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_05x05ft_600x600.webm'
                 ],
             },
             '10x05ft': {
                 grey: [
-                    'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_10x05ft_800x600.webm', 
+                    'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_10x05ft_800x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_10x05ft_800x600.webm'
                 ],
             }
@@ -784,9 +787,25 @@ let data = {
         '012': {
             blue: 'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_12_Regular_Blue_400x400.webm'
         },
-        blue: ['modules/JB2A_DnD5e/Library/Generic/Impact/Impact_01_Regular_Blue_400x400.webm', 'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_02_Regular_Blue_400x400.webm', 'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_03_Regular_Blue_400x400.webm', 'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_04_Regular_Blue_400x400.webm', 'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_11_Regular_Blue_400x400.webm', 'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_12_Regular_Blue_400x400.webm'],
-        orange: ['modules/JB2A_DnD5e/Library/Generic/Impact/Impact_05_Regular_Orange_400x400.webm', 'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_07_Regular_Orange_400x400.webm', 'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_08_Regular_Orange_400x400.webm', 'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_09_Regular_Orange_400x400.webm', 'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_10_Regular_Orange_400x400.webm'],
-        yellow: ['modules/JB2A_DnD5e/Library/Generic/Impact/Impact_06_Regular_Yellow_400x400.webm', 'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_07_Regular_Yellow_400x400.webm']
+        blue: [
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_01_Regular_Blue_400x400.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_02_Regular_Blue_400x400.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_03_Regular_Blue_400x400.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_04_Regular_Blue_400x400.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_11_Regular_Blue_400x400.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_12_Regular_Blue_400x400.webm'
+        ],
+        orange: [
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_05_Regular_Orange_400x400.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_07_Regular_Orange_400x400.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_08_Regular_Orange_400x400.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_09_Regular_Orange_400x400.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_10_Regular_Orange_400x400.webm'
+        ],
+        yellow: [
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_06_Regular_Yellow_400x400.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_07_Regular_Yellow_400x400.webm'
+        ]
     },
     ioun_stones: {
         '01': {
@@ -904,11 +923,36 @@ let data = {
     magic_missile: {
         _template: 'ranged',
         purple: {
-            '05ft': ['modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_05ft_01_600x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_05ft_02_600x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_05ft_03_600x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_05ft_04_600x400.webm'],
-            '15ft': ['modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_15ft_01_1000x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_15ft_02_1000x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_15ft_03_1000x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_15ft_04_1000x400.webm'],
-            '30ft': ['modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_30ft_01_1600x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_30ft_02_1600x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_30ft_03_1600x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_30ft_04_1600x400.webm'],
-            '60ft': ['modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_60ft_01_2800x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_60ft_02_2800x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_60ft_03_2800x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_60ft_04_2800x400.webm'],
-            '90ft': ['modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_90ft_01_4000x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_90ft_02_4000x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_90ft_03_4000x400.webm', 'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_90ft_04_4000x400.webm']
+            '05ft': [
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_05ft_01_600x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_05ft_02_600x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_05ft_03_600x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_05ft_04_600x400.webm'
+            ],
+            '15ft': [
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_15ft_01_1000x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_15ft_02_1000x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_15ft_03_1000x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_15ft_04_1000x400.webm'
+            ],
+            '30ft': [
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_30ft_01_1600x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_30ft_02_1600x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_30ft_03_1600x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_30ft_04_1600x400.webm'
+            ],
+            '60ft': [
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_60ft_01_2800x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_60ft_02_2800x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_60ft_03_2800x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_60ft_04_2800x400.webm'
+            ],
+            '90ft': [
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_90ft_01_4000x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_90ft_02_4000x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_90ft_03_4000x400.webm', 
+                'modules/JB2A_DnD5e/Library/1st_Level/Magic_Missile/MagicMissile_01_Regular_Purple_90ft_04_4000x400.webm'
+            ]
         }
     },
     magic_signs: {
@@ -1012,90 +1056,90 @@ let data = {
         rune: {
             abjuration: {
                 intro: {
-                    blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/AbjurationRuneIntro_02_Regular_Blue_400x400.webm',
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/AbjurationRuneIntro_01_Regular_Blue_400x400.webm',
                 },
                 loop: {
-                    blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/AbjurationRuneLoop_02_Regular_Blue_400x400.webm',
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/AbjurationRuneLoop_01_Regular_Blue_400x400.webm',
                 },
                 outro: {
-                    blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/AbjurationRuneOutro_02_Regular_Blue_400x400.webm'
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/AbjurationRuneOutro_01_Regular_Blue_400x400.webm'
                 }
             },
             conjuration: {
                 intro: {
-                    yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/ConjurationRuneIntro_02_Regular_Yellow_400x400.webm',
+                    yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/ConjurationRuneIntro_01_Regular_Yellow_400x400.webm',
                 },
                 loop: {
-                    yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/ConjurationRuneLoop_02_Regular_Yellow_400x400.webm',
+                    yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/ConjurationRuneLoop_01_Regular_Yellow_400x400.webm',
                 },
                 outro: {
-                    yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/ConjurationRuneOutro_02_Regular_Yellow_400x400.webm'
+                    yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/ConjurationRuneOutro_01_Regular_Yellow_400x400.webm'
                 }
             },
             divination: {
                 intro: {
-                    blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/DivinationRuneIntro_02_Regular_Blue_400x400.webm',
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/DivinationRuneIntro_01_Regular_Blue_400x400.webm',
                 },
                 loop: {
-                    blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/DivinationRuneLoop_02_Regular_Blue_400x400.webm',
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/DivinationRuneLoop_01_Regular_Blue_400x400.webm',
                 },
                 outro: {
-                    blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/DivinationRuneOutro_02_Regular_Blue_400x400.webm'
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/DivinationRuneOutro_01_Regular_Blue_400x400.webm'
                 }
             },
             enchantment: {
                 intro: {
-                    pink: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EnchantmentRuneIntro_02_Regular_Pink_400x400.webm',
+                    pink: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EnchantmentRuneIntro_01_Regular_Pink_400x400.webm',
                 },
                 loop: {
-                    pink: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EnchantmentRuneLoop_02_Regular_Pink_400x400.webm',
+                    pink: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EnchantmentRuneLoop_01_Regular_Pink_400x400.webm',
                 },
                 outro: {
-                    pink: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EnchantmentRuneOutro_02_Regular_Pink_400x400.webm'
+                    pink: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EnchantmentRuneOutro_01_Regular_Pink_400x400.webm'
                 }
             },
             evocation: {
                 intro: {
-                    red: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EvocationRuneIntro_02_Regular_Red_400x400.webm',
+                    red: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EvocationRuneIntro_01_Regular_Red_400x400.webm',
                 },
                 loop: {
-                    red: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EvocationRuneLoop_02_Regular_Red_400x400.webm',
+                    red: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EvocationRuneLoop_01_Regular_Red_400x400.webm',
                 },
                 outro: {
-                    red: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EvocationRuneOutro_02_Regular_Red_400x400.webm'
+                    red: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EvocationRuneOutro_01_Regular_Red_400x400.webm'
                 }
             },
             illusion: {
                 intro: {
-                    purple: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/IllusionRuneIntro_02_Regular_Purple_400x400.webm',
+                    purple: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/IllusionRuneIntro_01_Regular_Purple_400x400.webm',
                 },
                 loop: {
-                    purple: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/IllusionRuneLoop_02_Regular_Purple_400x400.webm',
+                    purple: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/IllusionRuneLoop_01_Regular_Purple_400x400.webm',
                 },
                 outro: {
-                    purple: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/IllusionRuneOutro_02_Regular_Purple_400x400.webm'
+                    purple: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/IllusionRuneOutro_01_Regular_Purple_400x400.webm'
                 }
             },
             necromancy: {
                 intro: {
-                    green: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/NecromancyRuneIntro_02_Regular_Green_400x400.webm',
+                    green: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/NecromancyRuneIntro_01_Regular_Green_400x400.webm',
                 },
                 loop: {
-                    green: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/NecromancyRuneLoop_02_Regular_Green_400x400.webm',
+                    green: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/NecromancyRuneLoop_01_Regular_Green_400x400.webm',
                 },
                 outro: {
-                    green: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/NecromancyRuneOutro_02_Regular_Green_400x400.webm'
+                    green: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/NecromancyRuneOutro_01_Regular_Green_400x400.webm'
                 }
             },
             transmutation: {
                 intro: {
-                    yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/TransmutationRuneIntro_02_Regular_Yellow_400x400.webm',
+                    yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/TransmutationRuneIntro_01_Regular_Yellow_400x400.webm',
                 },
                 loop: {
-                    yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/TransmutationRuneLoop_02_Regular_Yellow_400x400.webm',
+                    yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/TransmutationRuneLoop_01_Regular_Yellow_400x400.webm',
                 },
                 outro: {
-                    yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/TransmutationRuneOutro_02_Regular_Yellow_400x400.webm'
+                    yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/TransmutationRuneOutro_01_Regular_Yellow_400x400.webm'
                 }
             }
 
@@ -1106,7 +1150,7 @@ let data = {
             blueyellow: "modules/JB2A_DnD5e/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm"
         },
         music: {
-            blueyellow: "modules/JB2A_DnD5e/Library/Generic/Marker/MusicMarker_01_Regular_BlueYellow_400x400.webm"
+            blueyellow: "modules/JB2A_DnD5e/Library/Generic/Marker/MusicMarker_01_Regular_GreenOrange_400x400.webm"
         }
     },
     maul: {
@@ -1388,13 +1432,13 @@ let data = {
     },
     wall_of_force: {
         horizontal: {
-            grey: "modules/JB2A_DnD5e/Library/5th_Level/Wall_Of_Force/WallOfForce_01_grey_H_200x200.webm"
+            grey: "modules/JB2A_DnD5e/Library/5th_Level/Wall_Of_Force/WallOfForce_01_Grey_H_200x200.webm"
         },
         sphere: {
-            grey: "modules/JB2A_DnD5e/Library/5th_Level/Wall_Of_Force/WallOfForce_01_Yellow_Sphere_400x400.webm"
+            grey: "modules/JB2A_DnD5e/Library/5th_Level/Wall_Of_Force/WallOfForce_01_Grey_Sphere_400x400.webm"
         },
         vertical: {
-            grey: "modules/JB2A_DnD5e/Library/5th_Level/Wall_Of_Force/WallOfForce_01_grey_V_200x25.webm"
+            grey: "modules/JB2A_DnD5e/Library/5th_Level/Wall_Of_Force/WallOfForce_01_Grey_V_200x25.webm"
         }
     },
     web: {

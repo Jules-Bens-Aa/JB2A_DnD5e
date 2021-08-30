@@ -1035,50 +1035,8 @@ export const Effects = {
         "author": "JB2A"
       },
       {
-        "label": "TollTheDead_01_Regular_Purple_400x400",
-        "file": "modules/JB2A_DnD5e/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Purple_400x400.webm",
-        "scale": {
-          "x": 0.32,
-          "y": 0.32
-        },
-        "angle": 0,
-        "anchor": {
-          "x": 0.5,
-          "y": 0.5
-        },
-        "speed": 0,
-        "animationDelay": {
-          "start": 0,
-          "end": 0
-        },
-        "ease": "Linear",
-        "preset": false,
-        "author": "JB2A"
-      },
-      {
-        "label": "TollTheDead_01_Regular_Red_400x400",
-        "file": "modules/JB2A_DnD5e/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Red_400x400.webm",
-        "scale": {
-          "x": 0.32,
-          "y": 0.32
-        },
-        "angle": 0,
-        "anchor": {
-          "x": 0.5,
-          "y": 0.5
-        },
-        "speed": 0,
-        "animationDelay": {
-          "start": 0,
-          "end": 0
-        },
-        "ease": "Linear",
-        "preset": false,
-        "author": "JB2A"
-      },
-      {
         "label": "TollTheDeadBell_01_Regular_Green_400x400",
-        "file": "modules/JB2A_DnD5e/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Green_400x400.webm",
+        "file": "modules/JB2A_DnD5e/Library/Cantrip/Toll_The_Dead/TollTheDeadBell_01_Regular_Green_400x400.webm",
         "scale": {
           "x": 0.32,
           "y": 0.32
@@ -1099,7 +1057,7 @@ export const Effects = {
       },
       {
         "label": "TollTheDeadShockwave_01_Regular_Green_400x400",
-        "file": "modules/JB2A_DnD5e/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Green_400x400.webm",
+        "file": "modules/JB2A_DnD5e/Library/Cantrip/Toll_The_Dead/TollTheDeadShockwave_01_Regular_Green_400x400.webm",
         "scale": {
           "x": 0.32,
           "y": 0.32
@@ -1120,7 +1078,7 @@ export const Effects = {
       },
       {
         "label": "TollTheDeadSkullSmoke_01_Regular_Green_400x400",
-        "file": "modules/JB2A_DnD5e/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Green_400x400.webm",
+        "file": "modules/JB2A_DnD5e/Library/Cantrip/Toll_The_Dead/TollTheDeadSkullSmoke_01_Regular_Green_400x400.webm",
         "scale": {
           "x": 0.32,
           "y": 0.32
