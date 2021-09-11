@@ -24,7 +24,7 @@ All links below will redirect you to our website. We decided to gather all infor
    - [Music Puzzle](https://jb2a.com/#MusicPuzzle)
    - [Animated Token - Bordel Tool](https://jb2a.com/#AnimatedTokenTool)
    - [Guideline / Technical Information](https://jb2a.com/#Guideline)
-   - [License](https://jb2a.com/#Lisence)
+   - [License](https://jb2a.com/#License)
  - [Patreon](https://jb2a.com/#Patreon)
    - [Per Release](https://jb2a.com/#PerRelease)
    - [Billing](https://jb2a.com/#Billin)
