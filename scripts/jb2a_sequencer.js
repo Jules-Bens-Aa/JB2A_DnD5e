@@ -1258,7 +1258,7 @@ let data = {
             }
         }
     },
-    Quarterstaff: {
+    quarterstaff: {
         melee: {
             _template: 'melee',
             '01': {
