@@ -676,6 +676,17 @@ let data = {
             white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatSword01_01_Regular_White_800x600.webm'
         }
     },
+    ground_cracks: {
+        '01': {
+            orange:'modules/JB2A_DnD5e/Library/Generic/Fire/GroundCrackLoop_01_Regular_Orange_600x600.webm',
+        },
+        '02': {
+            orange:'modules/JB2A_DnD5e/Library/Generic/Fire/GroundCrackLoop_02_Regular_Orange_600x600.webm',
+        },
+        '03': {
+            orange:'modules/JB2A_DnD5e/Library/Generic/Fire/GroundCrackLoop_03_Regular_Orange_600x600.webm',
+        }
+    },
     guiding_bolt: {
         _template: 'ranged',
         '01': {
@@ -692,6 +703,39 @@ let data = {
         _template: 'ray',
         default: 'modules/JB2A_DnD5e/Library/2nd_Level/Gust_Of_Wind/GustOfWind_01_White_1200x200.webm',
         veryfast: 'modules/JB2A_DnD5e/Library/2nd_Level/Gust_Of_Wind/GustOfWind_01_White_VeryFast_1200x200.webm'
+    },
+    halberd: {
+        melee: {
+            _template: 'melee',
+            '01': {
+                '01': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_White_800x600.webm',
+                },
+                '02': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_White_800x600.webm',
+                },
+                '03': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_White_800x600.webm',
+                },
+                '04': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_White_800x600.webm',
+                },
+                '05': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_White_800x600.webm',
+                },
+                '06': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_White_800x600.webm',
+                },
+                random_white: [
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_White_800x600.webm'
+                ]
+            }
+        }
     },
     handaxe: {
         melee: {
@@ -795,12 +839,26 @@ let data = {
             'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_11_Regular_Blue_400x400.webm',
             'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_12_Regular_Blue_400x400.webm'
         ],
+        ground_crack: {
+            '01': {
+                orange: 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_01_Regular_Orange_600x600.webm',
+            },
+            '02': {
+                orange: 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_02_Regular_Orange_600x600.webm',
+            },
+            '03': {
+                orange: 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_03_Regular_Orange_600x600.webm',
+            }
+        },
         orange: [
             'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_05_Regular_Orange_400x400.webm',
             'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_07_Regular_Orange_400x400.webm',
             'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_08_Regular_Orange_400x400.webm',
             'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_09_Regular_Orange_400x400.webm',
-            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_10_Regular_Orange_400x400.webm'
+            'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_10_Regular_Orange_400x400.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_01_Regular_Orange_600x600.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_02_Regular_Orange_600x600.webm',
+            'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_03_Regular_Orange_600x600.webm',
         ],
         yellow: [
             'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_06_Regular_Yellow_400x400.webm',
@@ -1200,6 +1258,39 @@ let data = {
             }
         }
     },
+    Quarterstaff: {
+        melee: {
+            _template: 'melee',
+            '01': {
+                '01': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_01_Regular_White_800x600.webm',
+                },
+                '02': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_02_Regular_White_800x600.webm',
+                },
+                '03': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_03_Regular_White_800x600.webm',
+                },
+                '04': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_04_Regular_White_800x600.webm',
+                },
+                '05': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_05_Regular_White_800x600.webm',
+                },
+                '06': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_06_Regular_White_800x600.webm',
+                },
+                random_white: [
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_01_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_02_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_03_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_04_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_05_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_06_Regular_White_800x600.webm'
+                ]
+            }
+        }
+    },
     rapier: {
         _template: 'melee',
         white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_White_800x600.webm'
@@ -1248,6 +1339,23 @@ let data = {
             }
         }
     },
+    sleep: {
+        target: {
+            pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/SleepMarker01_01_Regular_Pink_400x400.webm'
+        },
+        symbol: {
+            dark_pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/SleepMarker01_01_Dark_Pink_400x400.webm',
+            pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/SleepSymbolr01_01_Regular_Pink_400x400.webm'
+        },
+        cloud: {
+            '01': {
+                pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/Cloud01_01_Regular_Pink_400x400.webm'
+            },
+            '02': {
+                pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/Cloud02_01_Regular_Pink_400x400.webm'
+            }
+        }
+    },
     sleet_storm: {
         blue: 'modules/JB2A_DnD5e/Library/3rd_Level/Sleet_Storm/SleetStorm_01_Blue_800x800.webm'
     },
@@ -1265,7 +1373,34 @@ let data = {
     spear: {
         melee: {
             _template: 'melee',
-            white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_White_800x600.webm'
+            '01': {
+                '01': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_White_800x600.webm',
+                },
+                '02': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Regular_White_800x600.webm',
+                },
+                '03': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Regular_White_800x600.webm',
+                },
+                '04': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_04_Regular_White_800x600.webm',
+                },
+                '05': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Regular_White_800x600.webm',
+                },
+                '06': {
+                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Regular_White_800x600.webm',
+                },
+                random_white: [
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_04_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Regular_White_800x600.webm'
+                ]
+            }
         }
     },
     sphere_of_annihilation: {

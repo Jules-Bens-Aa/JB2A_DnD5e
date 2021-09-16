@@ -375,7 +375,6 @@ export const Effects = {
         "preset": false,
         "author": "JB2A"
       },
-
       {
         "label": "Shield_01_Regular_Blue_Intro_400x400",
         "file": "modules/JB2A_DnD5e/Library/1st_Level/Shield/Shield_01_Regular_Blue_Intro_400x400.webm",
@@ -442,6 +441,111 @@ export const Effects = {
       {
         "label": "Shield_01_Regular_Blue_OutroFade_400x400",
         "file": "modules/JB2A_DnD5e/Library/1st_Level/Shield/Shield_01_Regular_Blue_OutroFade_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Cloud01_01_Regular_Pink_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Sleep/Cloud01_01_Regular_Pink_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Cloud01_02_Regular_Pink_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Sleep/Cloud01_02_Regular_Pink_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepMarker01_01_Regular_Pink_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Sleep/SleepMarker01_01_Regular_Pink_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepSymbol01_01_Dark_Pink_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Sleep/SleepSymbol01_01_Dark_Pink_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepSymbol01_01_Regular_Pink_400x400",
+        "file": "modules/JB2A_DnD5e/Library/1st_Level/Sleep/SleepSymbol01_01_Regular_Pink_400x400.webm",
         "scale": {
           "x": 0.35,
           "y": 0.35
@@ -1512,12 +1616,140 @@ export const Effects = {
         "ease": "Linear",
         "preset": false,
         "author": "JB2A"
-      }
+      },
+      {
+        "label": "FireRing_01_Circle_Red_500",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Fire/FireRing_01_Circle_Red_500.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "FireRing_01_Circle_Red_900",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Fire/FireRing_01_Circle_Red_900.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_01_Regular_Orange_600x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Fire/GroundCrackLoop_01_Regular_Orange_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_02_Regular_Orange_600x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Fire/GroundCrackLoop_02_Regular_Orange_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_03_Regular_Orange_600x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Fire/GroundCrackLoop_03_Regular_Orange_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
     ]
   },
   folder700: {
     label: "JB2A - Generic - Impact",
     effects: [
+      {
+        "label": "GroundCrackImpact_01_Regular_Orange_600x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_01_Regular_Orange_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_02_Regular_Orange_600x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_02_Regular_Orange_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_03_Regular_Orange_600x600",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_03_Regular_Orange_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
       {
         "label": "Impact_01_Regular_Blue_400x400",
         "file": "modules/JB2A_DnD5e/Library/Generic/Impact/Impact_01_Regular_Blue_400x400.webm",
