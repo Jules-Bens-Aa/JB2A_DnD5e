@@ -1,7 +1,12 @@
-<img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800">[![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)[![PayPal](https://img.shields.io/badge/Donate-Paypal-ff69b4)](https://paypal.me/DonationJB2A?locale.x=fr_FR)<br>
-![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.2.6/JB2A_DnD5e-0.2.6.zip?color=ffba00&label=Release%200.2.6%20Downloads)<br>
-![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.2.5/JB2A_DnD5e-0.2.5.zip?color=e3621f&label=Release%200.2.5%20Downloads)<br>
-
+<img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"><br>
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.2.7/JB2A_DnD5e-0.2.7.zip?color=ffba00&label=Release%200.2.7%20Downloads)<br>
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.2.6/JB2A_DnD5e-0.2.6.zip?color=e3621f&label=Release%200.2.6%20Downloads)<br>
+<br>
+[![Free Module Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fjb2a_dnd5e%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/jb2a_dnd5e/) - Free Module<br>
+[![Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fjb2a_patreon%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/jb2a_patreon/) - Patreon Module<br>
+<br>
+[![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)<br>
+[![PayPal](https://img.shields.io/badge/Donate-Paypal-ff69b4)](https://paypal.me/DonationJB2A?locale.x=fr_FR)
 <p style='text-align: justify;'>
 
 
@@ -9,7 +14,7 @@
 
 # Announcements Section.
 
-The [August Open Survey](https://forms.gle/B7fUSnBeL3Jgm5R59) is open ! Vote for FXs you would like to see animated.
+The [August Open Survey](https://forms.gle/JT487sUDJahXfDhMA) is open ! Vote for FXs you would like to see animated.
 
 # Table of content
 
