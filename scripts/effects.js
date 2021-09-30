@@ -2279,7 +2279,7 @@ export const Effects = {
       },
       {
         "label": "Whirl_01_Regular_Blue_600x600",
-        "file": "modules/JB2A_DnD5e/Library/Generic/Template/Circle/Vortex_01_Regular_Blue_600x600.webm",
+        "file": "modules/JB2A_DnD5e/Library/Generic/Template/Circle/Whirl_01_Regular_Blue_600x600.webm",
         "scale": {
           "x": 1,
           "y": 1
