@@ -273,6 +273,21 @@ let data = {
             yellow: 'modules/JB2A_DnD5e/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Yellow_400x400.webm'
         },
     },
+    club: {
+        melee: {
+            _template: 'melee',
+            '01': {
+                    white: [
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Club01_01_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Club01_02_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Club01_03_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Club01_04_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Club01_05_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Club01_06_Regular_White_800x600.webm'
+                ]
+            }
+        }
+    },
     cone_of_cold: {
         _template: "cone",
         blue: 'modules/JB2A_DnD5e/Library/5th_Level/Cone_Of_Cold/ConeOfCold_01_Regular_Blue_600x600.webm',
@@ -381,6 +396,15 @@ let data = {
         '03': 'modules/JB2A_DnD5e/Library/Generic/Lightning/ElectricArc03_01_Regular_Blue_1600x500.webm',
         '04': 'modules/JB2A_DnD5e/Library/Generic/Lightning/ElectricArc04_01_Regular_Blue_1600x500.webm'
     },
+    energy_beam: {
+        _template: 'ranged',
+        blue: {
+            '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_15ft_1000x400.webm',
+            '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_30ft_1600x400.webm',
+            '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_60ft_2800x400.webm',
+            '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_90ft_4000x400.webm'
+        }
+    },
     energy_strands: {
         complete:{
             blue: {
@@ -391,7 +415,21 @@ let data = {
             blue: {
                 '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_Blue_600x600.webm'
             },
-        },        
+        },
+        range:{
+            _template: 'ranged',
+            standard: {
+                purple: {
+                    '01': {
+                        '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_05ft_600x400.webm',
+                        '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_15ft_1000x400.webm',
+                        '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_30ft_1600x400.webm',
+                        '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_60ft_2800x400.webm',
+                        '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_90ft_4000x400.webm',
+                    }
+                }
+            }
+        }        
     },
     entangle: {
         brown: 'modules/JB2A_DnD5e/Library/1st_Level/Entangle/Entangle_01_Brown_400x400.webm',
@@ -766,6 +804,21 @@ let data = {
             }
         }
     },
+    hammer: {
+        melee: {
+            _template: 'melee',
+            '01': {
+                    white: [
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Hammer01_01_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Hammer01_02_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Hammer01_03_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Hammer01_04_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Hammer01_05_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Hammer01_06_Regular_White_800x600.webm'
+                ]
+            }
+        }
+    },
     handaxe: {
         melee: {
             _template: 'melee',
@@ -988,7 +1041,7 @@ let data = {
         green: 'modules/JB2A_DnD5e/Library/Generic/Lightning/LightningBall_01_Regular_Green_400x400.webm',
         purple: 'modules/JB2A_DnD5e/Library/Generic/Lightning/LightningBall_01_Regular_Purple_400x400.webm'
     },
-    lighting_bolt: {
+    lightning_bolt: {
         _template: 'ray',
         narrow: {
             blue: 'modules/JB2A_DnD5e/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Blue_4000x200.webm'
@@ -1004,7 +1057,16 @@ let data = {
     mace: {
         melee: {
             _template: 'melee',
-            white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Mace01_01_Regular_White_800x600.webm'
+            '01': {
+                    white: [
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Mace01_01_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Mace01_02_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Mace01_03_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Mace01_04_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Mace01_05_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Mace01_06_Regular_White_800x600.webm'
+                ]
+            }
         }
     },
     magic_missile: {
@@ -1236,8 +1298,33 @@ let data = {
         '01': {
             blueyellow: "modules/JB2A_DnD5e/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm"
         },
+        light: {
+            intro: {
+                blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerLightIntro_01_Regular_Blue_400x400.webm'
+            },
+            loop: {
+                blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerLight_01_Regular_Blue_400x400.webm'
+            },
+            no_pulse: {
+                blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerLightNoPulse_01_Regular_Blue_400x400.webm'
+            },
+            outro: {
+                blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerLightOutro_01_Regular_Blue_400x400.webm'
+            }
+        },
         music: {
             blueyellow: "modules/JB2A_DnD5e/Library/Generic/Marker/MusicMarker_01_Regular_GreenOrange_400x400.webm"
+        },
+        bubble: {
+            intro: {
+                blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleIntro_01_Regular_Blue_400x400.webm'
+            },
+            loop: {
+                blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerBubble_01_Regular_Blue_400x400.webm'
+            },
+            outro: {
+                blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleOutro_01_Regular_Blue_400x400.webm'
+            }
         }
     },
     maul: {
@@ -1252,6 +1339,22 @@ let data = {
         },
         '02': {
             blue: 'modules/JB2A_DnD5e/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Blue_400x400.webm'
+        }
+    },
+    moonbeam: {
+        '01': {
+            intro: {
+                blue: 'modules/JB2A_DnD5e/Library/2nd_Level/Moonbeam/MoonbeamIntro_01_Regular_Blue_400x400.webm'
+            },
+            loop: {
+                blue: 'modules/JB2A_DnD5e/Library/2nd_Level/Moonbeam/Moonbeam_01_Regular_Blue_400x400.webm'
+            },
+            no_pulse: {
+                blue: 'modules/JB2A_DnD5e/Library/2nd_Level/Moonbeam/MoonbeamNoPulse_01_Regular_Blue_400x400.webm'
+            },
+            outro: {
+                blue: 'modules/JB2A_DnD5e/Library/2nd_Level/Moonbeam/MoonbeamOutro_01_Regular_Blue_400x400.webm'
+            }
         }
     },
     music_notations: {
@@ -1305,16 +1408,18 @@ let data = {
         }
     },
     rapier: {
-        _template: 'melee',
-        '01': {
-            white: [
-                'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_White_800x600.webm',
-                'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_White_800x600.webm',
-                'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_White_800x600.webm',
-                'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_White_800x600.webm',
-                'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_White_800x600.webm',
-                'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_White_800x600.webm'
-            ]
+        melee: {
+            _template: 'melee',
+            '01': {
+                white: [
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_White_800x600.webm'
+                ]
+            }
         }
     },
     ray_of_frost: {
@@ -1641,6 +1746,21 @@ let data = {
             grey: "modules/JB2A_DnD5e/Library/5th_Level/Wall_Of_Force/WallOfForce_01_Grey_V_200x25.webm"
         }
     },
+    warhammer: {
+        melee: {
+            _template: 'melee',
+            '01': {
+                    white: [
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Warhammer01_01_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Warhammer01_02_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Warhammer01_03_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Warhammer01_04_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Warhammer01_05_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Warhammer01_06_Regular_White_800x600.webm'
+                ]
+            }
+        }
+    },
     web: {
         '01': 'modules/JB2A_DnD5e/Library/2nd_Level/Web/Web_01_White_01_400x400.webm',
         '02': 'modules/JB2A_DnD5e/Library/2nd_Level/Web/Web_01_White_02_400x400.webm'
@@ -1666,7 +1786,22 @@ let data = {
             '60ft': 'modules/JB2A_DnD5e/Library/1st_Level/Witch_Bolt/WitchBolt_01_Regular_Blue_60ft_2800x400.webm',
             '90ft': 'modules/JB2A_DnD5e/Library/1st_Level/Witch_Bolt/WitchBolt_01_Regular_Blue_90ft_4000x400.webm'
         }
-    }
+    },
+    wrench: {
+        melee: {
+            _template: 'melee',
+            '01': {
+                    white: [
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Wrench01_01_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Wrench01_02_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Wrench01_03_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Wrench01_04_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Wrench01_05_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Wrench01_06_Regular_White_800x600.webm'
+                ]
+            }
+        }
+    },
 }
 Hooks.on("sequencer.ready", () => {
     SequencerDatabase.registerEntries("jb2a", data);
