@@ -14,7 +14,7 @@
 
 # Announcements Section.
 
-The [August Open Survey](https://forms.gle/JT487sUDJahXfDhMA) is open ! Vote for FXs you would like to see animated.
+The [October Open Survey](https://forms.gle/JT487sUDJahXfDhMA) is open ! Vote for FXs you would like to see animated.
 
 # Table of content
 
