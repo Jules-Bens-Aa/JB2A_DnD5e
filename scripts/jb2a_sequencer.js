@@ -1,4 +1,4 @@
-let data = {
+let freeDatabase = {
     __template: [100, 200, 200],
     _templates: {
         cone: [100, 0, 0],
@@ -379,7 +379,7 @@ let data = {
         '400px': {
             blueorange: 'modules/JB2A_DnD5e/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_BlueOrange_400x400.webm'
         }
-    },
+    },   
     eldritch_blast: {
         _template: 'ranged',
         purple: {
@@ -426,6 +426,27 @@ let data = {
                         '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_30ft_1600x400.webm',
                         '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_60ft_2800x400.webm',
                         '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_90ft_4000x400.webm',
+                    },
+                    '02': {
+                        '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_05ft_600x400.webm',
+                        '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_15ft_1000x400.webm',
+                        '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_30ft_1600x400.webm',
+                        '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_60ft_2800x400.webm',
+                        '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_90ft_4000x400.webm'
+                    },
+                    '03': {
+                        '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_05ft_600x400.webm',
+                        '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_15ft_1000x400.webm',
+                        '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_30ft_1600x400.webm',
+                        '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_60ft_2800x400.webm',
+                        '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_90ft_4000x400.webm'
+                    },
+                    '04': {
+                        '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_05ft_600x400.webm',
+                        '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_15ft_1000x400.webm',
+                        '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_30ft_1600x400.webm',
+                        '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_60ft_2800x400.webm',
+                        '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_90ft_4000x400.webm'
                     }
                 }
             }
@@ -507,9 +528,6 @@ let data = {
                 circle: {
                     '01': "modules/JB2A_DnD5e/Library/TMFX/OutFlow/Circle/OutFlow_01_Circle_500x500.webm",
                 },
-                cone: {
-                    '01': "modules/JB2A_DnD5e/Library/TMFX/OutFlow/Cone/OutFlow_01_Cone_500x500.webm",
-                }
             },
             outpulse: {
                 circle: {
@@ -875,6 +893,31 @@ let data = {
             }
         }
     },
+    icosahedron: {
+        simple: {
+            blue: 'modules/JB2A_DnD5e/Library/Generic/Energy/Icosahedron_01_Regular_Blue_600x600.webm'
+        },
+        roll: {
+            blue: 'modules/JB2A_DnD5e/Library/Generic/Energy/IcosahedronRoll_01_Regular_Blue_600x600.webm'
+        },
+        rune: {
+            above: {
+                blueyellow: 'modules/JB2A_DnD5e/Library/Generic/Energy/IcosahedronRuneAbove_01_Regular_BlueYellow_600x600.webm'
+            },
+            below: {
+
+                blueyellow: 'modules/JB2A_DnD5e/Library/Generic/Energy/IcosahedronRuneBelow_01_Regular_BlueYellow_600x600.webm'
+            }
+        },
+        star: {
+            above: {
+                blueyellow: 'modules/JB2A_DnD5e/Library/Generic/Energy/IcosahedronStarAbove_01_Regular_BlueYellow_600x600.webm'
+            },
+            below: {
+                blueyellow: 'modules/JB2A_DnD5e/Library/Generic/Energy/IcosahedronStarBelow_01_Regular_BlueYellow_600x600.webm'
+            }
+        }
+    },
     impact: {
         '001': {
             blue: 'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_01_Regular_Blue_400x400.webm'
@@ -1037,9 +1080,6 @@ let data = {
     },
     lightning_ball: {
         blue: 'modules/JB2A_DnD5e/Library/Generic/Lightning/LightningBall_01_Regular_Blue_400x400.webm',
-        dark_purple: 'modules/JB2A_DnD5e/Library/Generic/Lightning/LightningBall_01_Dark_Purple_400x400.webm',
-        green: 'modules/JB2A_DnD5e/Library/Generic/Lightning/LightningBall_01_Regular_Green_400x400.webm',
-        purple: 'modules/JB2A_DnD5e/Library/Generic/Lightning/LightningBall_01_Regular_Purple_400x400.webm'
     },
     lightning_bolt: {
         _template: 'ray',
@@ -1325,7 +1365,13 @@ let data = {
             outro: {
                 blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleOutro_01_Regular_Blue_400x400.webm'
             }
-        }
+        },
+        heart: {
+            pink: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerHeart_01_Regular_Pink_400x400.webm',
+        },
+        skull: {
+            dark_orange: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerSkull_01_Dark_Orange_400x400.webm'
+        },
     },
     maul: {
         _template: 'melee',
@@ -1397,12 +1443,12 @@ let data = {
             _template: 'melee',
             '01': {
                     white: [
-                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_01_Regular_White_800x600.webm',
-                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_02_Regular_White_800x600.webm',
-                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_03_Regular_White_800x600.webm',
-                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_04_Regular_White_800x600.webm',
-                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_05_Regular_White_800x600.webm',
-                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_06_Regular_White_800x600.webm'
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_01_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_02_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_03_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_04_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_05_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_06_Regular_White_800x600.webm'
                 ]
             }
         }
@@ -1501,15 +1547,15 @@ let data = {
             pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/SleepMarker01_01_Regular_Pink_400x400.webm'
         },
         symbol: {
-            dark_pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/SleepMarker01_01_Dark_Pink_400x400.webm',
-            pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/SleepSymbolr01_01_Regular_Pink_400x400.webm'
+            dark_pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/SleepSymbol01_01_Dark_Pink_400x400.webm',
+            pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/SleepSymbol01_01_Regular_Pink_400x400.webm'
         },
         cloud: {
             '01': {
                 pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/Cloud01_01_Regular_Pink_400x400.webm'
             },
             '02': {
-                pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/Cloud02_01_Regular_Pink_400x400.webm'
+                pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/Cloud01_02_Regular_Pink_400x400.webm'
             }
         }
     },
@@ -1577,6 +1623,11 @@ let data = {
         },
         '02': {
             blue: 'modules/JB2A_DnD5e/Library/Generic/Lightning/StaticElectricity_02_Regular_Blue_400x400.webm'
+        }
+    },
+    swirling_sparkles: {
+        '01': {
+            blue: 'modules/JB2A_DnD5e/Library/Generic/Energy/SwirlingSparkles_01_Regular_Blue_400x400.webm'
         }
     },
     sword: {
@@ -1652,7 +1703,7 @@ let data = {
             blue: 'modules/JB2A_DnD5e/Library/1st_Level/Thunderwave/Thunderwave_01_Bright_Blue_BMid_600x600.webm'
         },
         center: {
-            blue: 'modules/JB2A_DnD5e/Library/1st_Level/Thunderwave/Thunderwave_01_Bright_Blue_center_600x600.webm'
+            blue: 'modules/JB2A_DnD5e/Library/1st_Level/Thunderwave/Thunderwave_01_Bright_Blue_Center_600x600.webm'
         }
     },
     twinkling_stars: {
@@ -1746,6 +1797,18 @@ let data = {
             grey: "modules/JB2A_DnD5e/Library/5th_Level/Wall_Of_Force/WallOfForce_01_Grey_V_200x25.webm"
         }
     },
+    ward: {
+        rune: {
+            yellow: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/WardRune_01_Regular_Yellow_600x600.webm'
+            }
+        },
+        star: {
+            yellow: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/WardStar_01_Regular_Yellow_600x600.webm'
+            }
+        }
+    },
     warhammer: {
         melee: {
             _template: 'melee',
@@ -1804,5 +1867,5 @@ let data = {
     },
 }
 Hooks.on("sequencer.ready", () => {
-    SequencerDatabase.registerEntries("jb2a", data);
+    SequencerDatabase.registerEntries("jb2a", freeDatabase);
 });
