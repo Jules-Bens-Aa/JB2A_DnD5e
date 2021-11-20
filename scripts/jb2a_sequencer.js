@@ -597,7 +597,7 @@ let freeDatabase = {
                         evocation: "modules/JB2A_DnD5e/Library/TMFX/Runes/Circle/EvocationSimple_01_Circle_Normal_500.webm",
                         illusion: "modules/JB2A_DnD5e/Library/TMFX/Runes/Circle/IllusionSimple_01_Circle_Normal_500.webm",
                         necromancy: "modules/JB2A_DnD5e/Library/TMFX/Runes/Circle/NecromancySimple_01_Circle_Normal_500.webm",
-                        tramnsmutation: "modules/JB2A_DnD5e/Library/TMFX/Runes/Circle/TransmutationSimple_01_Circle_Normal_500.webm"
+                        transmutation: "modules/JB2A_DnD5e/Library/TMFX/Runes/Circle/TransmutationSimple_01_Circle_Normal_500.webm"
                     }
                 }
             }
@@ -656,6 +656,28 @@ let freeDatabase = {
             }
         }
     },
+    fireball: {
+        loop_debris: {
+            orange: 'modules/JB2A_DnD5e/Library/3rd_Level/Fireball/FireballLoop_01_Orange_800x800.webm',
+        },
+        loop_no_debris: {
+            orange: 'modules/JB2A_DnD5e/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Orange_800x800.webm',
+        },
+        explosion: {
+            orange: 'modules/JB2A_DnD5e/Library/3rd_Level/Fireball/FireballExplosion_01_Orange_800x800.webm',
+        },
+        beam: {
+            _template: 'ranged',
+            orange: {
+                '05ft': 'modules/JB2A_DnD5e/Library/3rd_Level/Fireball/FireballBeam_01_Orange_05ft_600x400.webm',
+                '15ft': 'modules/JB2A_DnD5e/Library/3rd_Level/Fireball/FireballBeam_01_Orange_15ft_1000x400.webm',
+                '30ft': 'modules/JB2A_DnD5e/Library/3rd_Level/Fireball/FireballBeam_01_Orange_30ft_1600x400.webm',
+                '60ft': 'modules/JB2A_DnD5e/Library/3rd_Level/Fireball/FireballBeam_01_Orange_60ft_2800x400.webm',
+                '90ft': 'modules/JB2A_DnD5e/Library/3rd_Level/Fireball/FireballBeam_01_Orange_90ft_4000x400.webm'
+            },
+        }
+        
+    },
     fire_bolt: {
         _template: 'ranged',
         orange: {
@@ -710,11 +732,14 @@ let freeDatabase = {
         blue: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Blue_200x200.webm',
         green: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Green_200x200.webm',
         greenblue: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/Multicoloured/FlamingSphere_01_GreenToBlue_200x200.webm',
-        orange: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Orange_200x200.webm',
+        orange:{
+            '01': 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Orange_200x200.webm',
+            '02': 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Orange_200x200.webm'
+        },
         pink: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Pink_200x200.webm',
-        purple: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Purple_200x200.webm',
+        purple:'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Purple_200x200.webm',
         rainbow: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/Multicoloured/FlamingSphere_01_Rainbow_200x200.webm',
-        red: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Red_200x200.webm'
+        red: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Red_200x200.webm',
     },
     flurry_of_blows: {
         magical: {
@@ -893,6 +918,52 @@ let freeDatabase = {
             }
         }
     },
+    icon: {
+        drop:{
+                red: 'modules/JB2A_DnD5e/Library/Generic/UI/IconDrop_01_Regular_Red_200x200.webm'
+            
+        },
+        fear:{
+                dark_purple: 'modules/JB2A_DnD5e/Library/Generic/UI/IconFear_01_Dark_Purple_200x200.webm'
+            
+        },
+        heart:{
+                pink: 'modules/JB2A_DnD5e/Library/Generic/UI/IconHeart_01_Regular_Pink_200x200.webm'
+            
+        },
+        horror:{
+                purple: 'modules/JB2A_DnD5e/Library/Generic/UI/IconHorror_01_Regular_Purple_200x200.webm'
+            
+        },
+        poison:{
+                dark_green: 'modules/JB2A_DnD5e/Library/Generic/UI/IconPoison_01_Dark_Green_200x200.webm'
+            
+        },
+        runes:{
+                orange: 'modules/JB2A_DnD5e/Library/Generic/UI/IconRunes_01_Regular_Orange_200x200.webm'
+            
+        },
+        shield:{
+                green: 'modules/JB2A_DnD5e/Library/Generic/UI/IconShield_01_Regular_Green_200x200.webm'
+            
+        },
+        shield_cracked:{
+                purple: 'modules/JB2A_DnD5e/Library/Generic/UI/IconShieldCracked_01_Regular_Purple_200x200.webm'
+            
+        },
+        skull:{
+                purple: 'modules/JB2A_DnD5e/Library/Generic/UI/IconSkull_01_Regular_Purple_200x200.webm'
+            
+        },
+        snowflake:{
+                blue: 'modules/JB2A_DnD5e/Library/Generic/UI/IconSnowflake_01_Regular_Blue_200x200.webm'
+            
+        },
+        stun:{
+                purple: 'modules/JB2A_DnD5e/Library/Generic/UI/IconStun_01_Regular_Purple_200x200.webm'
+            
+        }
+    },
     icosahedron: {
         simple: {
             blue: 'modules/JB2A_DnD5e/Library/Generic/Energy/Icosahedron_01_Regular_Blue_600x600.webm'
@@ -973,6 +1044,11 @@ let freeDatabase = {
             },
             '03': {
                 orange: 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_03_Regular_Orange_600x600.webm',
+            },
+            still_frame: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_01_StillFrame.webp',
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_02_StillFrame.webp',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_03_StillFrame.webp'
             }
         },
         orange: [
@@ -1338,6 +1414,44 @@ let freeDatabase = {
         '01': {
             blueyellow: "modules/JB2A_DnD5e/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm"
         },
+        bubble: {
+            intro: {
+                blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleIntro_01_Regular_Blue_400x400.webm'
+            },
+            loop: {
+                blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerBubble_01_Regular_Blue_400x400.webm'
+            },
+            outro: {
+                blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleOutro_01_Regular_Blue_400x400.webm'
+            }
+        },
+        drop: {
+            red: {
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerDrop_02_Regular_Red_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerDrop_03_Regular_Red_400x400.webm'
+            },
+        },
+        fear: {
+            dark_purple: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerFear_01_Dark_Purple_400x400.webm',
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerFear_02_Dark_Purple_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerFear_03_Dark_Purple_400x400.webm'
+            },
+        },
+        heart: {
+            pink: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerHeart_01_Regular_Pink_400x400.webm',
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerHeart_02_Regular_Pink_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerHeart_03_Regular_Pink_400x400.webm'
+            },
+        },
+        horror: {
+            purple: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerHorror_01_Regular_Purple_400x400.webm',
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerHorror_02_Regular_Purple_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerHorror_03_Regular_Purple_400x400.webm'
+            },
+        },
         light: {
             intro: {
                 blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerLightIntro_01_Regular_Blue_400x400.webm'
@@ -1355,23 +1469,51 @@ let freeDatabase = {
         music: {
             blueyellow: "modules/JB2A_DnD5e/Library/Generic/Marker/MusicMarker_01_Regular_GreenOrange_400x400.webm"
         },
-        bubble: {
-            intro: {
-                blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleIntro_01_Regular_Blue_400x400.webm'
+        poison: {
+            dark_green: {
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerPoison_02_Dark_Green_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerPoison_03_Dark_Green_400x400.webm'
+            }
             },
-            loop: {
-                blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerBubble_01_Regular_Blue_400x400.webm'
-            },
-            outro: {
-                blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleOutro_01_Regular_Blue_400x400.webm'
+        runes: {
+            orange: {
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes_02_Regular_Orange_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes_03_Regular_Orange_400x400.webm'
             }
         },
-        heart: {
-            pink: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerHeart_01_Regular_Pink_400x400.webm',
+        shield: {
+            green: {
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerShield_02_Regular_Green_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerShield_03_Regular_Green_400x400.webm'
+            }
+        },
+        shield_cracked: {
+            purple: {
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerShieldCracked_02_Regular_Purple_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerShieldCracked_03_Regular_Purple_400x400.webm'
+            }
         },
         skull: {
-            dark_orange: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerSkull_01_Dark_Orange_400x400.webm'
+            dark_orange: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerSkull_01_Dark_Orange_400x400.webm',
+            purple: {
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerSkull_02_Regular_Purple_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerSkull_03_Regular_Purple_400x400.webm'
+            }
         },
+        snowflake: {
+            blue: {
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerSnowflake_02_Regular_Blue_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerSnowflake_03_Regular_Blue_400x400.webm'
+            }
+        },
+        stun: {
+            '02': {
+                purple: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerStun_02_Regular_Purple_400x400.webm'
+            },
+            '03': {
+                purple: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerStun_03_Regular_Purple_400x400.webm'
+            }
+        }
     },
     maul: {
         _template: 'melee',
@@ -1867,5 +2009,5 @@ let freeDatabase = {
     },
 }
 Hooks.on("sequencer.ready", () => {
-    SequencerDatabase.registerEntries("jb2a", freeDatabase);
+    Sequencer.Database.registerEntries("jb2a", freeDatabase);
 });
