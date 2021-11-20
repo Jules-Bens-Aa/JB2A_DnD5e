@@ -13,48 +13,49 @@
 
 # Announcements Section.
 
+Happy anniversary to us ! A lot happened in one year ! Modules like Automated Animations, Sequencer and now Advanced Spell effects have taken the community by storm !
+We're so grateful for these developers that have made using our assets so much easier to use and we are so grateful for you, our patrons, that made all of this a possibility !
+
 The Open Survey is closed and will received a rework.
 
 # Table of content
 
 All links below will redirect you to our website. We decided to gather all information related to our content in one place to make it easier to maintain and keep them up to date.
 
- - [Our Content](https://jb2a.com/#Content)
+ - [Our Content](https://jb2a.com/home/content-information/)
    - [Asset Viewer](https://jb2a.com/#AssetViewer)
-   - [Free Content](https://jb2a.com/#Free)
-   - [Patreon Content](https://jb2a.com/#PatreonContent)
-   - [Map Animator](https://jb2a.com/#MapAnimator)
-   - [Open Survey / Patreon Poll](https://jb2a.com/#OpenSurveyPoll)
-   - [Music Puzzle](https://jb2a.com/#MusicPuzzle)
-   - [Animated Token - Bordel Tool](https://jb2a.com/#AnimatedTokenTool)
-   - [Guideline / Technical Information](https://jb2a.com/#Guideline)
-   - [License](https://jb2a.com/#License)
- - [Patreon](https://jb2a.com/#Patreon)
-   - [Per Release](https://jb2a.com/#PerRelease)
-   - [Billing](https://jb2a.com/#Billin)
-   - [Release Frequency](https://jb2a.com/#ReleaseFrequency)
-   - [Canceling](https://jb2a.com/#PatreonCanceling)
- - [FoundryVTT](https://jb2a.com/#FoundryVTT)
-   - [Core](https://jb2a.com/#Core)
-   - [Recommended Modules for our content](https://jb2a.com/#RecommendedModules)
-   - [Forge](https://jb2a.com/#Forge)
- - [Other VTTs](https://jb2a.com/#OtherVTTs)
-   - [Astral Tabletop](https://jb2a.com/#Astral)
-   - [Roll 20](https://jb2a.com/#Roll20)
-   - [Fantasy Grounds](https://jb2a.com/#FantasyGrounds)
- - [Troubleshooting](https://jb2a.com/#Troubleshooting)
-   - [Common Issues](https://jb2a.com/#CommonIssues)
-   - [Best Practices](https://jb2a.com/#BestPractices)
- - [Social Network](https://jb2a.com/#SocialNetwork)
-   - [Discord](https://jb2a.com/#Discord)
-   - [Youtube](https://jb2a.com/#Youtube)
-   - [Foundry Hub](https://jb2a.com/#FoundryHub)
- - [Credits and Resources](https://jb2a.com/#Credits)
-   - [Our Patrons](https://jb2a.com/#OurPatrons)
-   - [Maps / Tokens Creators](https://jb2a.com/#ContentCreators)
-   - [Community](https://jb2a.com/#Community)
- - [About Us](https://jb2a.com/#AboutUs)
- - [Useful Links](https://jb2a.com/#UselinkLinks)
+   - [Free Content](https://jb2a.com/home/content-information/#free_library)
+   - [Patreon Content](https://jb2a.com/home/content-information/#patreon_library)
+   - [Map Animator](https://jb2a.com/home/content-information/#map_animator)
+   - [Open Survey / Patreon Poll](https://jb2a.com/home/patreon-discord/#patreon_polls_surveys)
+   - [Music Puzzle](https://jb2a.com/home/content-information/#music_puzzle)
+   - [Animated Token - Bordel Tool](https://jb2a.com/home/content-information/#token_border_animator)
+   - [Guideline / Technical Information](https://jb2a.com/home/patreon-discord/#guidelines)
+   - [License](https://jb2a.com/home/patreon-discord/#licensing)
+ - [Patreon](https://jb2a.com/home/patreon-discord/#patreon)
+   - [Per Release](https://jb2a.com/home/patreon-discord/#patreon_per_release)
+   - [Billing](https://jb2a.com/home/patreon-discord/#patreon_billing)
+   - [Release Frequency](https://jb2a.com/home/patreon-discord/#patreon_release_frequency)
+   - [Canceling](https://jb2a.com/home/patreon-discord/#patreon_cancelling_pledge)
+ - [For FoundryVTT](https://jb2a.com/home/install-instructions/#foundryvtt_app)
+   - [Forge](https://jb2a.com/home/install-instructions/#foundryvtt_hosting_services)
+   - [Recommended Modules for our content](https://jb2a.com/home/how-to-foundryvtt/#modules_foundryvtt)
+ - [Other VTTs](https://jb2a.com/home/install-instructions/)
+   - [Astral Tabletop](https://jb2a.com/home/install-instructions/#astral_tabletop)
+   - [Roll 20](https://jb2a.com/home/install-instructions/#roll20)
+   - [Fantasy Grounds](https://jb2a.com/home/install-instructions/#fantasy_grounds)
+   - [Arkenforge](https://jb2a.com/home/install-instructions/#arkenforge)
+ - [Troubleshooting](https://jb2a.com/home/troubleshooting/)
+   - [FoundryVTT](https://jb2a.com/home/troubleshooting/#issues_foundryvtt)
+   - [Modules](https://jb2a.com/home/troubleshooting/#issues_modules_foundryvtt)
+   - [The Forge](https://jb2a.com/home/troubleshooting/#issues_forge)
+ - Social Network
+   - [Discord](https://jb2a.com/home/patreon-discord/#discord)
+   - [Youtube](https://www.youtube.com/channel/UCqLusRtLV7GXJo_xNNM3dOw)
+   - [Foundry Hub](https://www.foundryvtt-hub.com/creator/jb2a-julesbens-animated-assets/)
+ - [Credits and Resources](https://jb2a.com/home/credits-2/)
+   - [Our Patrons](https://jb2a.com/home/hall-of-fame/)
+   - [Maps / Tokens Creators](#map_creators)
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
