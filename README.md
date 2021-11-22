@@ -23,15 +23,15 @@ The Open Survey is closed and will received a rework.
 All links below will redirect you to our website. We decided to gather all information related to our content in one place to make it easier to maintain and keep them up to date.
 
  - [Our Content](https://jb2a.com/home/content-information/)
-   - [Asset Viewer](https://jb2a.com/#AssetViewer)
+   - [Asset Viewer](https://www.jb2a.com/Library_Preview/)
    - [Free Content](https://jb2a.com/home/content-information/#free_library)
    - [Patreon Content](https://jb2a.com/home/content-information/#patreon_library)
    - [Map Animator](https://jb2a.com/home/content-information/#map_animator)
    - [Open Survey / Patreon Poll](https://jb2a.com/home/patreon-discord/#patreon_polls_surveys)
    - [Music Puzzle](https://jb2a.com/home/content-information/#music_puzzle)
    - [Animated Token - Bordel Tool](https://jb2a.com/home/content-information/#token_border_animator)
-   - [Guideline / Technical Information](https://jb2a.com/home/patreon-discord/#guidelines)
-   - [License](https://jb2a.com/home/patreon-discord/#licensing)
+   - [Guideline / Technical Information](https://jb2a.com/home/content-information/#guidelines)
+   - [License](https://jb2a.com/home/content-information/#licensing)
  - [Patreon](https://jb2a.com/home/patreon-discord/#patreon)
    - [Per Release](https://jb2a.com/home/patreon-discord/#patreon_per_release)
    - [Billing](https://jb2a.com/home/patreon-discord/#patreon_billing)
@@ -40,7 +40,7 @@ All links below will redirect you to our website. We decided to gather all infor
  - [For FoundryVTT](https://jb2a.com/home/install-instructions/#foundryvtt_app)
    - [Forge](https://jb2a.com/home/install-instructions/#foundryvtt_hosting_services)
    - [Recommended Modules for our content](https://jb2a.com/home/how-to-foundryvtt/#modules_foundryvtt)
- - [Other VTTs](https://jb2a.com/home/install-instructions/)
+ - [Other VTTs](https://jb2a.com/home/install-instructions/#other_vtts)
    - [Astral Tabletop](https://jb2a.com/home/install-instructions/#astral_tabletop)
    - [Roll 20](https://jb2a.com/home/install-instructions/#roll20)
    - [Fantasy Grounds](https://jb2a.com/home/install-instructions/#fantasy_grounds)
@@ -55,7 +55,7 @@ All links below will redirect you to our website. We decided to gather all infor
    - [Foundry Hub](https://www.foundryvtt-hub.com/creator/jb2a-julesbens-animated-assets/)
  - [Credits and Resources](https://jb2a.com/home/credits-2/)
    - [Our Patrons](https://jb2a.com/home/hall-of-fame/)
-   - [Maps / Tokens Creators](#map_creators)
+   - [Maps / Tokens Creators](https://jb2a.com/home/community-links/#map_creators)
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
