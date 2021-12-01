@@ -1,9 +1,10 @@
 let freeDatabase = {
-    __template: [100, 200, 200],
     _templates: {
+        default: [100, 0, 0],
         cone: [100, 0, 0],
         cone100: [100, 100, 100],
         cone200: [200, 100, 100],
+        large: [200, 0, 0],
         melee: [200, 300, 300],
         ranged: [200, 200, 200],
         ray: [100, 0, 0]
@@ -405,6 +406,19 @@ let freeDatabase = {
             '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_90ft_4000x400.webm'
         }
     },
+    energy_field: {
+        '01': {
+            blue: 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyField_01_Regular_Blue_600x600.webm'
+        },
+        '02': {
+            bot: {
+                blue: 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyFieldBot_02_Regular_Blue_400x400.webm'
+            },
+            top: {
+                blue: 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyFieldTop_02_Regular_Blue_400x400.webm'
+            }
+        }
+    },
     energy_strands: {
         complete:{
             blue: {
@@ -620,39 +634,61 @@ let freeDatabase = {
     },  
     falling_rocks: {
         endframe: {
-            '05x05ft': {
-                grey: 'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_05x05ft_Endframe.webp'
+            side: {
+            '1x1': {
+                grey: [
+                    'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_05x05ft_Endframe.webp',
+                    'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_05x05ft_Endframe.webp'                                    
+                ]
             },
-            '10x05ft': {
-                grey: 'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_10x05ft_Endframe.webp'
+            '2x1': {
+                grey: [
+                    'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_10x05ft_Endframe.webp',
+                    'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_10x05ft_Endframe.webp'                    
+                ]
+            }
+        },
+            top: {
+                '1x1': {
+                    grey: [
+                        'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_05x05ft_Endframe.webp',
+                        'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_05x05ft_Endframe.webp'                                    
+                    ]
+                },
+                '2x1': {
+                    grey: [
+                        'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_10x05ft_Endframe.webp',
+                        'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_10x05ft_Endframe.webp'                    
+                    ]
+                }
             }
         },
         side: {
-            '05x05ft': {
+            '1x1': {
                 grey: [
                     'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_05x05ft_600x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_05x05ft_600x600.webm'
-                ],
+                ]
             },
-            '10x05ft': {
+            '2x1': {
                 grey: [
                     'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_10x05ft_800x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_10x05ft_800x600.webm'
-                ],
+                ]
             }
         },
         top: {
-            '05x05ft': {
+            '1x1': {
                 grey: [
                     'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_05x05ft_600x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_05x05ft_600x600.webm'
-                ],
+                ]
             },
-            '10x05ft': {
+            '2x1': {
                 grey: [
                     'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_10x05ft_800x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_10x05ft_800x600.webm'
-                ],
+                ]
             }
         }
     },
@@ -782,6 +818,13 @@ let freeDatabase = {
                 ]
             }
         }
+    },
+    grease:{
+        _template: 'large',
+        dark_brown: {
+            loop: 'modules/JB2A_DnD5e/Library/1st_Level/Grease/Grease_Dark_Brown_600x600.webm'
+        }
+
     },
     greataxe: {
         melee: {
@@ -1427,6 +1470,7 @@ let freeDatabase = {
         },
         drop: {
             red: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerDrop_01_Regular_Red_400x400.webm',
                 '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerDrop_02_Regular_Red_400x400.webm',
                 '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerDrop_03_Regular_Red_400x400.webm'
             },
@@ -1471,24 +1515,28 @@ let freeDatabase = {
         },
         poison: {
             dark_green: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerPoison_01_Dark_Green_400x400.webm',
                 '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerPoison_02_Dark_Green_400x400.webm',
                 '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerPoison_03_Dark_Green_400x400.webm'
             }
             },
         runes: {
             orange: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes_01_Regular_Orange_400x400.webm',
                 '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes_02_Regular_Orange_400x400.webm',
                 '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes_03_Regular_Orange_400x400.webm'
             }
         },
         shield: {
             green: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerShield_01_Regular_Green_400x400.webm',
                 '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerShield_02_Regular_Green_400x400.webm',
                 '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerShield_03_Regular_Green_400x400.webm'
             }
         },
         shield_cracked: {
             purple: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerShieldCracked_01_Regular_Purple_400x400.webm',
                 '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerShieldCracked_02_Regular_Purple_400x400.webm',
                 '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerShieldCracked_03_Regular_Purple_400x400.webm'
             }
@@ -1502,16 +1550,16 @@ let freeDatabase = {
         },
         snowflake: {
             blue: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerSnowflake_01_Regular_Blue_400x400.webm',
                 '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerSnowflake_02_Regular_Blue_400x400.webm',
                 '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerSnowflake_03_Regular_Blue_400x400.webm'
             }
         },
         stun: {
-            '02': {
-                purple: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerStun_02_Regular_Purple_400x400.webm'
-            },
-            '03': {
-                purple: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerStun_03_Regular_Purple_400x400.webm'
+            purple: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerStun_01_Regular_Purple_400x400.webm',
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerStun_02_Regular_Purple_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerStun_03_Regular_Purple_400x400.webm'
             }
         }
     },
@@ -1788,6 +1836,45 @@ let freeDatabase = {
         }
     },
     template_circle: {
+        symbol: {
+            normal: {
+                drop: {
+                    red: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplateDropCircle_01_Regular_Red_800x800.webm'
+                },
+                fear: {
+                    dark_purple: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplateFearCircle_01_Dark_Purple_800x800.webm'
+                },
+                heart: {
+                    pink: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplateHeartCircle_01_Regular_Pink_800x800.webm'
+                },
+                horror: {
+                    purple: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplateHorrorCircle_01_Regular_Purple_800x800.webm'
+
+                },
+                poison: {
+                    dark_green: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplatePoisonCircle_01_Dark_Green_800x800.webm'
+                },
+                runes: {
+                    orange: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplateRunesCircle_01_Regular_Orange_800x800.webm'
+                },
+                shield: {
+                    green: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplateShieldCircle_01_Regular_Green_800x800.webm'
+                },
+                shield_cracked: {
+                    purple: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplateShieldCrackedCircle_01_Regular_Purple_800x800.webm'
+                },
+                skull: {
+                    purple: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplateSkullCircle_01_Regular_Purple_800x800.webm'
+                },
+                snowflake: {
+
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplateSnowflakeCircle_01_Regular_Blue_800x800.webm'
+                },
+                stun: {
+                    purple: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplateStunCircle_01_Regular_Purple_800x800.webm'
+                }
+            }
+        },
         out_pulse: {
             '01': {
                 burst: {
@@ -1827,6 +1914,45 @@ let freeDatabase = {
             outro: {
                 blue: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/WhirlOutro_01_Regular_Blue_600x600.webm'
             }
+        }
+    },
+    template_square: {
+        symbol: {
+            normal: {
+                drop: {
+                    red: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplateDropSquare_01_Regular_Red_600x600.webm'
+                },
+                fear: {
+                    dark_purple: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplateFearSquare_01_Dark_Purple_600x600.webm'
+                },
+                heart: {
+                    pink: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplateHeartSquare_01_Regular_Pink_600x600.webm'
+                },
+                horror: {
+                    purple: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplateHorrorSquare_01_Regular_Purple_600x600.webm'
+                },
+                poison: {
+                    dark_green: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplatePoisonSquare_01_Dark_Green_600x600.webm'
+                },
+                runes: {
+                    orange: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplateRunesSquare_01_Regular_Orange_600x600.webm'
+                },
+                shield: {
+                    green: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplateShieldSquare_01_Regular_Green_600x600.webm',
+                },
+                shield_cracked: {
+                    purple: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplateShieldCrackedSquare_01_Regular_Purple_600x600.webm',
+                },
+                skull: {
+                    purple: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplateSkullSquare_01_Regular_Purple_600x600.webm',
+                },
+                snowflake: {
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplateSnowflakeSquare_01_Regular_Blue_600x600.webm'
+                },
+                stun: {
+                    purple: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplateStunSquare_01_Regular_Purple_600x600.webm'
+                }
+            },
         }
     },
     toll_the_dead: {
