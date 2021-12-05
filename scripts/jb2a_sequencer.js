@@ -1543,7 +1543,9 @@ let freeDatabase = {
         },
         runes: {
             dark_orange: {
-                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes_01_Dark_Orange_400x400.webm'
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes_01_Dark_Orange_400x400.webm',
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes_02_Dark_Orange_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes_03_Dark_Orange_400x400.webm'
             },
             orange: {
                 '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes_01_Regular_Orange_400x400.webm',
