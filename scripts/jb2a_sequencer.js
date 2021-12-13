@@ -19,6 +19,9 @@ let freeDatabase = {
         purple: 'modules/JB2A_DnD5e/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Purple_400x400.webm',
         red: 'modules/JB2A_DnD5e/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Red_400x400.webm',
     },
+    arms_of_hadar: {
+        dark_purple: 'modules/JB2A_DnD5e/Library/1st_Level/Arms_Of_Hadar/ArmsOfHadar_01_Dark_Purple_500x500.webm'
+    },
     arrow: {
         _template: 'ranged',
         physical: {
@@ -62,6 +65,9 @@ let freeDatabase = {
         '400px': {
             red: 'modules/JB2A_DnD5e/Library/Generic/Creature/Bite_01_Regular_Red_400x400.webm',
         }
+    },
+    black_tentacles: {
+        dark_purple: 'modules/JB2A_DnD5e/Library/4th_Level/Black_Tentacles/BlackTentacles_01_Dark_Purple_600x600.webm'
     },
     bless: {
         '200px': {
@@ -756,6 +762,26 @@ let freeDatabase = {
             red: 'modules/JB2A_DnD5e/Library/Generic/Fire/FireRing_01_Circle_Red_900.webm'
         }
     },
+    firework: {
+        '01': {
+            orangeyellow: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Fireworks/Firework01_01_Regular_OrangeYellow_600x600.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Fireworks/Firework03_01_Regular_OrangeYellow_600x600.webm'
+            },
+            yellow: {
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Fireworks/Firework02_01_Regular_Yellow_600x600.webm'
+            }
+        },
+        '02': {
+            orangeyellow: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Fireworks/Firework01_02_Regular_OrangeYellow_600x600.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Fireworks/Firework03_02_Regular_OrangeYellow_600x600.webm'
+            },
+            yellow: {
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Fireworks/Firework02_02_Regular_Yellow_600x600.webm'
+            }
+        }
+    },
     flames: {
         '01': {
             orange: 'modules/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames_01_Regular_Orange_200x200.webm'
@@ -765,7 +791,7 @@ let freeDatabase = {
         }
     },
     flaming_sphere: {
-//TO BE REMOVED [-->
+        //TO BE REMOVED [-->
         blue: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Blue_200x200.webm',
         green: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Green_200x200.webm',
         greenblue: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/Multicoloured/FlamingSphere_01_GreenToBlue_200x200.webm',
@@ -777,7 +803,7 @@ let freeDatabase = {
         purple: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Purple_200x200.webm',
         rainbow: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/Multicoloured/FlamingSphere_01_Rainbow_200x200.webm',
         red: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Red_200x200.webm',
-//TO BE REMOVED <--]
+        //TO BE REMOVED <--]
         '200px': {
             blue: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Blue_200x200.webm',
             green: 'modules/JB2A_DnD5e/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Green_200x200.webm',
@@ -1729,6 +1755,11 @@ let freeDatabase = {
             }
         }
     },
+    screen_overlay: {
+        '01': {
+            bad_omen: 'modules/JB2A_DnD5e/Library/Generic/Screen_Overlay/BadOmen01_01_Dark_Black_1920x1080.webm'
+        }
+    },
     shatter: {
         blue: 'modules/JB2A_DnD5e/Library/2nd_Level/Shatter/Shatter_01_Blue_400x400.webm'
     },
@@ -1745,6 +1776,52 @@ let freeDatabase = {
             },
             outro_fade: {
                 blue: 'modules/JB2A_DnD5e/Library/1st_Level/Shield/Shield_01_Regular_Blue_OutroFade_400x400.webm'
+            }
+        }
+    },
+    shield_themed: {
+        above: {
+            eldritch_web: {
+                '01': {
+                    dark_purple: 'modules/JB2A_DnD5e/Library/Generic/Energy/ShieldEldritchWebAbove01_01_Dark_Purple_400x400.webm'
+                }
+            },
+            fire: {
+                '01': {
+                    orange: 'modules/JB2A_DnD5e/Library/Generic/Fire/ShieldFireAbove01_01_Regular_Orange_400x400.webm'
+                }
+            },
+            ice: {
+                '01': {
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Ice/ShieldIceAbove01_01_Regular_Blue_400x400.webm'
+                }
+            },
+            molten_earth: {
+                '01': {
+                    orange: 'modules/JB2A_DnD5e/Library/Generic/Fire/ShieldMoltenEarthAbove01_01_Regular_Orange_400x400.webm'
+                }
+            }
+        },
+        below: {
+            eldritch_web: {
+                '01': {
+                    dark_purple: 'modules/JB2A_DnD5e/Library/Generic/Energy/ShieldEldritchWebBelow01_01_Dark_Purple_400x400.webm'
+                }
+            },
+            fire: {
+                '01': {
+                    orange: 'modules/JB2A_DnD5e/Library/Generic/Fire/ShieldFireBelow01_01_Regular_Orange_400x400.webm'
+                }
+            },
+            ice: {
+                '01': {
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Ice/ShieldIceBelow01_01_Regular_Blue_400x400.webm'
+                }
+            },
+            molten_earth: {
+                '01': {
+                    orange: 'modules/JB2A_DnD5e/Library/Generic/Fire/ShieldMoltenEarthBelow01_01_Regular_Orange_400x400.webm'
+                }
             }
         }
     },
@@ -1792,6 +1869,18 @@ let freeDatabase = {
         },
         '02': {
             dark_red: 'modules/JB2A_DnD5e/Library/Generic/UI/SneakAttackText_02_Dark_Red_400x400.webm'
+        }
+    },
+    snowball_toss: {
+        _template: 'ranged',
+        white: {
+            '01': {
+                '05ft': 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/SnowballToss_01_Regular_White_05ft_600x500.webm',
+                '15ft': 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/SnowballToss_01_Regular_White_15ft_1000x500.webm',
+                '30ft': 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/SnowballToss_01_Regular_White_30ft_1600x500.webm',
+                '60ft': 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/SnowballToss_01_Regular_White_60ft_2800x500.webm',
+                '90ft': 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/SnowballToss_01_Regular_White_90ft_4000x500.webm',
+            }
         }
     },
     spear: {
@@ -1984,6 +2073,32 @@ let freeDatabase = {
                     purple: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplateStunSquare_01_Regular_Purple_600x600.webm'
                 }
             },
+        }
+    },
+    token_border: {
+        circle: {
+            static: {
+                blue: {
+                    '001': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircle_01_Regular_Blue_400x400.webm',
+                    '002': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircle_02_Regular_Blue_400x400.webm',
+                    '003': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircle_03_Regular_Blue_400x400.webm',
+                    '004': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircle_04_Regular_Blue_400x400.webm',
+                    '005': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircle_05_Regular_Blue_400x400.webm',
+                    '006': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircle_06_Regular_Blue_400x400.webm',
+                    '007': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircle_07_Regular_Blue_400x400.webm'
+                }
+            },
+            spinning: {
+                blue: {
+                    '001': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircleSpin_01_Regular_Blue_400x400.webm',
+                    '002': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircleSpin_02_Regular_Blue_400x400.webm',
+                    '003': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircleSpin_03_Regular_Blue_400x400.webm',
+                    '004': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircleSpin_04_Regular_Blue_400x400.webm',
+                    '005': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircleSpin_05_Regular_Blue_400x400.webm',
+                    '006': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircleSpin_06_Regular_Blue_400x400.webm',
+                    '007': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircleSpin_07_Regular_Blue_400x400.webm'
+                }
+            }
         }
     },
     toll_the_dead: {

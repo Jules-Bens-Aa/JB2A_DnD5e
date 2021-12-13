@@ -27,7 +27,6 @@ Hooks.once('ready', async function () {
                 <p> <a href="https://www.patreon.com/JB2A">Our Patreon</a></p>
                 <p> <a href="https://discord.gg/gmd8MAPX4m">Our Discord</a></p><p><a href="https://www.foundryvtt-hub.com/creator/jb2a-julesbens-animated-assets/">Our creator's page on Foundry Hub</a></p>
                 <p><a href="https://www.youtube.com/channel/UCqLusRtLV7GXJo_xNNM3dOw">Our Youtube Channel</a></p>
-                <p><a href="https://jb2a.com/home/patreon-discord/#patreon_polls_surveys">The Survey</a> is closed for the moment, but it'll be back soon</p>
                 <p><a href="https://jb2a.com/home/hall-of-fame/">Hall of Fame !</a><hr><div style="font-style:italic;">This pop-up can always be reactivated in the settings of our menu if you disable it !</div></p>
                 </div>
                 `,
