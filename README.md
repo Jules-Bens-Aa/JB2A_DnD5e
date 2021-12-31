@@ -1,6 +1,6 @@
 <img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"><br>
-![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.3.3/JB2A_DnD5e-0.3.3.zip?color=ffba00&label=Release%200.3.3%20Downloads)<br>
-![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.3.2a/JB2A_DnD5e-0.3.2a.zip?color=e3621f&label=Release%200.3.2a%20Downloads)<br>
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.3.4/JB2A_DnD5e-0.3.4.zip?color=ffba00&label=Release%200.3.4%20Downloads)<br>
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.3.3/JB2A_DnD5e-0.3.3.zip?color=e3621f&label=Release%200.3.3%20Downloads)<br>
 <br>
 [![Free Module Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fjb2a_dnd5e%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/jb2a_dnd5e/) - Free Module<br>
 [![Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fjb2a_patreon%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/jb2a_patreon/) - Patreon Module<br>
@@ -13,8 +13,7 @@
 
 # Announcements Section.
 
-Happy anniversary to us ! A lot happened in one year ! Modules like Automated Animations, Sequencer and now Advanced Spell effects have taken the community by storm !
-We're so grateful for these developers that have made using our assets so much easier to use and we are so grateful for you, our patrons, that made all of this a possibility !
+**Happy New Year to everyone, live long and prosper ! Enjoy the festivities with your close friends and loved ones :)**
 
 The Open Survey is closed and will received a rework.
 
