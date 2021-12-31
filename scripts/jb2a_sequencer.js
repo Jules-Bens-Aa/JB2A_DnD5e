@@ -469,6 +469,15 @@ let freeDatabase = {
                         '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_90ft_4000x400.webm'
                     }
                 }
+            },
+            multiple: {
+                dark_purple: {
+                    '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_05ft_600x400.webm',
+                    '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_15ft_1000x400.webm',
+                    '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_30ft_1600x400.webm',
+                    '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_60ft_2800x400.webm',
+                    '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_90ft_4000x400.webm'
+                },
             }
         }
     },
@@ -1025,6 +1034,9 @@ let freeDatabase = {
             purple: 'modules/JB2A_DnD5e/Library/Generic/UI/IconHorror_01_Regular_Purple_200x200.webm'
 
         },
+        music_note: {
+            blue: 'modules/JB2A_DnD5e/Library/Generic/UI/IconMusicNote_01_Regular_Blue_200x200.webm'
+        },
         poison: {
             dark_green: 'modules/JB2A_DnD5e/Library/Generic/UI/IconPoison_01_Dark_Green_200x200.webm'
 
@@ -1155,6 +1167,11 @@ let freeDatabase = {
             'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_06_Regular_Yellow_400x400.webm',
             'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_07_Regular_Yellow_400x400.webm'
         ]
+    },
+    impact_themed:{
+        ice_shard: {
+            blue: 'modules/JB2A_DnD5e/Library/Generic/Impact/ImpactIceShard01_01_Regular_Blue_400x400.webm'
+        }
     },
     ioun_stones: {
         '01': {
@@ -1515,6 +1532,9 @@ let freeDatabase = {
                 blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleOutro_01_Regular_Blue_400x400.webm'
             }
         },
+        circle_of_stars:{
+            blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerCircleOfStars_Regular_Blue_400x400.webm'
+        },
         drop: {
             red: {
                 '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerDrop_01_Regular_Red_400x400.webm',
@@ -1559,6 +1579,13 @@ let freeDatabase = {
         },
         music: {
             greenorange: "modules/JB2A_DnD5e/Library/Generic/Marker/MusicMarker_01_Regular_GreenOrange_400x400.webm"
+        },
+        music_note: {
+            blue: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerMusicNote_01_Regular_Blue_400x400.webm',
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerMusicNote_02_Regular_Blue_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerMusicNote_03_Regular_Blue_400x400.webm'
+            }
         },
         poison: {
             dark_green: {
@@ -1840,6 +1867,33 @@ let freeDatabase = {
             }
         }
     },
+    side_impact: {
+        ice_shard: {
+            blue: 'modules/JB2A_DnD5e/Library/Generic/Impact/SideImpactIceShard01_01_Regular_Blue_600x600.webm'
+        },
+        part: {
+            fast: {
+                ice_shard: {
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Impact/PartSideImpactFastIceShard01_01_Regular_Blue_600x600.webm',
+                }
+            },
+            slow: {
+                snowflake: {
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Impact/PartSideImpactSlowSnowflake01_01_Regular_Blue_600x600.webm',
+                }
+            },
+            smoke: {
+                blue: {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/Impact/PartSideImpactSmoke01_01_Regular_Blue_600x600.webm',
+                    '02': 'modules/JB2A_DnD5e/Library/Generic/Impact/PartSideImpactSmoke02_01_Regular_Blue_600x600.webm',
+                    '03': 'modules/JB2A_DnD5e/Library/Generic/Impact/PartSideImpactSmoke03_01_Regular_Blue_600x600.webm'
+                }
+            },
+            shockwave: {
+                blue: 'modules/JB2A_DnD5e/Library/Generic/Impact/PartSideImpactShockwave01_01_Regular_Blue_600x600.webm',
+            }
+        }
+    },
     sleep: {
         target: {
             pink: 'modules/JB2A_DnD5e/Library/1st_Level/Sleep/SleepMarker01_01_Regular_Pink_400x400.webm'
@@ -1895,6 +1949,17 @@ let freeDatabase = {
                     'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Regular_White_800x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Regular_White_800x600.webm'
                 ]
+            }
+        }
+    },
+    spell_projectile: {
+        ice_shard: {
+            blue: {
+                '05ft': 'modules/JB2A_DnD5e/Library/Generic/RangedSpell/ProjectileIceShard01_01_Regular_Blue_05ft_600x400.webm',
+                '15ft': 'modules/JB2A_DnD5e/Library/Generic/RangedSpell/ProjectileIceShard01_01_Regular_Blue_15ft_1000x400.webm',
+                '30ft': 'modules/JB2A_DnD5e/Library/Generic/RangedSpell/ProjectileIceShard01_01_Regular_Blue_30ft_1600x400.webm',
+                '60ft': 'modules/JB2A_DnD5e/Library/Generic/RangedSpell/ProjectileIceShard01_01_Regular_Blue_60ft_2800x400.webm',
+                '90ft': 'modules/JB2A_DnD5e/Library/Generic/RangedSpell/ProjectileIceShard01_01_Regular_Blue_90ft_4000x400.webm'
             }
         }
     },
@@ -1970,6 +2035,9 @@ let freeDatabase = {
                 horror: {
                     purple: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplateHorrorCircle_01_Regular_Purple_800x800.webm'
 
+                },
+                music_note: {
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplateMusicNoteCircle_01_Regular_Blue_800x800.webm'
                 },
                 poison: {
                     dark_green: 'modules/JB2A_DnD5e/Library/Generic/Template/Circle/TemplatePoisonCircle_01_Dark_Green_800x800.webm'
@@ -2050,6 +2118,9 @@ let freeDatabase = {
                 },
                 horror: {
                     purple: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplateHorrorSquare_01_Regular_Purple_600x600.webm'
+                },
+                music_note: {
+                    blue: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplateMusicNoteSquare_01_Regular_Blue_600x600.webm'
                 },
                 poison: {
                     dark_green: 'modules/JB2A_DnD5e/Library/Generic/Template/Square/TemplatePoisonSquare_01_Dark_Green_600x600.webm'
