@@ -1,6 +1,6 @@
 <img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"><br>
-![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.3.6/JB2A_DnD5e-0.3.6.zip?color=ffba00&label=Release%200.3.6%20Downloads)<br>
-![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.3.5/JB2A_DnD5e-0.3.5.zip?color=e3621f&label=Release%200.3.5%20Downloads)<br>
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.3.7/JB2A_DnD5e-0.3.7.zip?color=ffba00&label=Release%200.3.7%20Downloads)<br>
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.3.6/JB2A_DnD5e-0.3.6.zip?color=e3621f&label=Release%200.3.6%20Downloads)<br>
 <br>
 [![Free Module Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fjb2a_dnd5e%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/jb2a_dnd5e/) - Free Module<br>
 [![Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fjb2a_patreon%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/jb2a_patreon/) - Patreon Module<br>
@@ -13,9 +13,7 @@
 
 # Announcements Section.
 
-**Happy New Year to everyone, live long and prosper !**
-
-The Open Survey is closed and will received a rework.
+Check out our next project ! [**Token Animator Teaser Video**](https://youtu.be/WLX6-PwU1Hk)
 
 # Table of content
 
@@ -28,7 +26,7 @@ All links below will redirect you to our website. We decided to gather all infor
    - [Map Animator](https://jb2a.com/home/content-information/#map_animator)
    - [Open Survey / Patreon Poll](https://jb2a.com/home/patreon-discord/#patreon_polls_surveys)
    - [Music Puzzle](https://jb2a.com/home/content-information/#music_puzzle)
-   - [Animated Token - Bordel Tool](https://jb2a.com/home/content-information/#token_border_animator)
+   - [Token Animator](https://jb2a.com/home/content-information/#token_animator)
    - [Guideline / Technical Information](https://jb2a.com/home/content-information/#guidelines)
    - [License](https://jb2a.com/home/content-information/#licensing)
  - [Patreon](https://jb2a.com/home/patreon-discord/#patreon)
