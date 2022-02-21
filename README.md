@@ -5,7 +5,7 @@
 [![Free Module Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fjb2a_dnd5e%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/jb2a_dnd5e/) - Free Module<br>
 [![Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fjb2a_patreon%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/jb2a_patreon/) - Patreon Module<br>
 <br>
-[![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)<br>
+[![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)
 [![PayPal](https://img.shields.io/badge/Donate-Paypal-ff69b4)](https://paypal.me/DonationJB2A?locale.x=fr_FR)
 <p style='text-align: justify;'>
 
@@ -13,7 +13,12 @@
 
 # Announcements Section.
 
-Check out our next project ! [**Token Animator Teaser Video**](https://youtu.be/WLX6-PwU1Hk)
+Check out our next project ! [**Token Animator Teaser Video**](https://youtu.be/WLX6-PwU1Hk)<br>
+### Other Free Assets.
+- These assets aren't part of our free pack or patreon pack. But they are available for free for everyone. They are under the [Fan-Content License of Forgotten Adventures](https://www.forgotten-adventures.net/info/#copyright). 
+  - [Modified Blast Tile from Forgotten Adventures - Glowing Blast](https://www.dropbox.com/s/7z72w0cjznx6yeo/Modified_Blast_Tile_From_ForgottenAdventures.zip?dl=1)
+    - Intended for a sequence with Fireball's assets (see our macro in our compendium) 
+  - [Modified Chest Tile from Forgotten Adventures - Glints and shimmers](https://www.dropbox.com/s/8udmpsim7hjehnq/Modified_Treasure_Chests_ForgottenAdventures.zip?dl=1)
 
 # Table of content
 
