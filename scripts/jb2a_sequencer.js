@@ -851,11 +851,22 @@ let freeDatabase = {
         }
     },
     flames: {
+        //TO BE REMOVED [-->
         '01': {
             orange: 'modules/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames_01_Regular_Orange_200x200.webm'
         },
         '02': {
             orange: 'modules/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames_02_Regular_Orange_400x400.webm'
+        },
+        //TO BE REMOVED <--]
+        orange:{
+            '01': 'modules/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames_01_Regular_Orange_200x200.webm',
+            '02': 'modules/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames_02_Regular_Orange_400x400.webm',
+            '03': {
+                '1x1': 'modules/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames03_01_Regular_Orange_05x05ft_300x300.webm',
+                '2x1': 'modules/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames03_01_Regular_Orange_10x05ft_400x300.webm',
+                '2x2': 'modules/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames03_01_Regular_Orange_10x10ft_400x400.webm'
+            }
         }
     },
     flaming_sphere: {
@@ -1434,89 +1445,113 @@ let freeDatabase = {
             '02': {
                 abjuration: {
                     intro: {
+                        dark_blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Dark_Blue_800x800.webm',
                         blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Regular_Blue_800x800.webm',
                     },
                     loop: {
+                        dark_blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/AbjurationCircleLoop_02_Dark_Blue_800x800.webm',
                         blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/AbjurationCircleLoop_02_Regular_Blue_800x800.webm',
                     },
                     outro: {
+                        dark_blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Dark_Blue_800x800.webm',
                         blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Regular_Blue_800x800.webm'
                     }
                 },
                 conjuration: {
                     intro: {
+                        dark_yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Dark_Yellow_800x800.webm',
                         yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Regular_Yellow_800x800.webm',
                     },
                     loop: {
+                        dark_yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/ConjurationCircleLoop_02_Dark_Yellow_800x800.webm',
                         yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/ConjurationCircleLoop_02_Regular_Yellow_800x800.webm',
                     },
                     outro: {
+                        dark_yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/ConjurationCircleOutro_02_Dark_Yellow_800x800.webm',
                         yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/ConjurationCircleOutro_02_Regular_Yellow_800x800.webm'
                     }
                 },
                 divination: {
                     intro: {
+                        dark_blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Dark_Blue_800x800.webm',
                         blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Regular_Blue_800x800.webm',
                     },
                     loop: {
+                        dark_blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/DivinationCircleLoop_02_Dark_Blue_800x800.webm',
                         blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/DivinationCircleLoop_02_Regular_Blue_800x800.webm',
                     },
                     outro: {
+                        dark_blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Dark_Blue_800x800.webm',
                         blue: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Regular_Blue_800x800.webm'
                     }
                 },
                 enchantment: {
                     intro: {
+                        dark_pink: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Dark_Pink_800x800.webm',
                         pink: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Regular_Pink_800x800.webm',
                     },
                     loop: {
+                        dark_pink: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/EnchantmentCircleLoop_02_Dark_Pink_800x800.webm',
                         pink: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/EnchantmentCircleLoop_02_Regular_Pink_800x800.webm',
                     },
                     outro: {
+                        dark_pink: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Dark_Pink_800x800.webm',
                         pink: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Regular_Pink_800x800.webm'
                     }
                 },
                 evocation: {
                     intro: {
+                        dark_red: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Dark_Red_800x800.webm',
                         red: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Regular_Red_800x800.webm',
                     },
                     loop: {
+                        dark_red: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/EvocationCircleLoop_02_Dark_Red_800x800.webm',
                         red: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/EvocationCircleLoop_02_Regular_Red_800x800.webm',
                     },
                     outro: {
+                        dark_red: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Dark_Red_800x800.webm',
                         red: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Regular_Red_800x800.webm'
                     }
                 },
                 illusion: {
                     intro: {
+                        dark_purple: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Dark_Purple_800x800.webm',
                         purple: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Regular_Purple_800x800.webm',
                     },
                     loop: {
+                        dark_purple: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/IllusionCircleLoop_02_Dark_Purple_800x800.webm',
                         purple: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/IllusionCircleLoop_02_Regular_Purple_800x800.webm',
                     },
                     outro: {
+                        dark_purple: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Dark_Purple_800x800.webm',
                         purple: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Regular_Purple_800x800.webm'
                     }
                 },
                 necromancy: {
                     intro: {
+                        dark_green: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Dark_Green_800x800.webm',
                         green: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Regular_Green_800x800.webm',
                     },
                     loop: {
+                        dark_green: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/NecromancyCircleLoop_02_Dark_Green_800x800.webm',
                         green: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/NecromancyCircleLoop_02_Regular_Green_800x800.webm',
                     },
                     outro: {
+                        dark_green: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Dark_Green_800x800.webm',
                         green: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Regular_Green_800x800.webm'
                     }
                 },
                 transmutation: {
                     intro: {
+                        dark_yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Dark_Yellow_800x800.webm',
                         yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Regular_Yellow_800x800.webm',
                     },
                     loop: {
+                        dark_yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/TransmutationCircleLoop_02_Dark_Yellow_800x800.webm',
                         yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/TransmutationCircleLoop_02_Regular_Yellow_800x800.webm',
                     },
                     outro: {
+                        dark_yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Dark_Yellow_800x800.webm',
                         yellow: 'modules/JB2A_DnD5e/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Regular_Yellow_800x800.webm'
                     }
                 }
