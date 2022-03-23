@@ -1139,6 +1139,14 @@ let freeDatabase = {
             orange: 'modules/JB2A_DnD5e/Library/Generic/UI/IconRunes_01_Regular_Orange_200x200.webm'
 
         },
+        runes02: {
+            orange: 'modules/JB2A_DnD5e/Library/Generic/UI/IconRunes02_01_Regular_Orange_200x200.webm'
+
+        },
+        runes03: {
+            orange: 'modules/JB2A_DnD5e/Library/Generic/UI/IconRunes03_01_Regular_Orange_200x200.webm'
+
+        },
         shield: {
             green: 'modules/JB2A_DnD5e/Library/Generic/UI/IconShield_01_Regular_Green_200x200.webm'
 
@@ -1738,6 +1746,30 @@ let freeDatabase = {
                 '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes_03_Regular_Orange_400x400.webm'
             }
         },
+        runes02: {
+            dark_orange: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes02_01_Dark_Orange_400x400.webm',
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes02_02_Dark_Orange_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes02_03_Dark_Orange_400x400.webm'
+            },
+            orange: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes02_01_Regular_Orange_400x400.webm',
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes02_02_Regular_Orange_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes02_03_Regular_Orange_400x400.webm'
+            }
+        },
+        runes03: {
+            dark_orange: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes03_01_Dark_Orange_400x400.webm',
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes03_02_Dark_Orange_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes03_03_Dark_Orange_400x400.webm'
+            },
+            orange: {
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes03_01_Regular_Orange_400x400.webm',
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes03_02_Regular_Orange_400x400.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerRunes03_03_Regular_Orange_400x400.webm'
+            }
+        },
         shield: {
             green: {
                 '01': 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerShield_01_Regular_Green_400x400.webm',
@@ -1852,8 +1884,19 @@ let freeDatabase = {
                     '05': 'modules/JB2A_DnD5e/Library/Generic/Particles/ParticlesOutward02_05_Regular_GreenYellow_400x400.webm'
                 }
             }
+        },
+        swirl: {
+            greenyellow: {
+                '01': {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/Particles/ParticlesSwirl01_01_Regular_GreenYellow_400x400.webm',
+                },
+                '02': {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/Particles/ParticlesSwirl02_01_Regular_GreenYellow_400x400.webm',
+                }
+            }
         }
     },
+    
     portals: {
         horizontal: {
             ring: {
@@ -2179,6 +2222,9 @@ let freeDatabase = {
         },
         '02': {
             blue: 'modules/JB2A_DnD5e/Library/Generic/Lightning/StaticElectricity_02_Regular_Blue_400x400.webm'
+        },
+        '03': {
+            blue: 'modules/JB2A_DnD5e/Library/Generic/Lightning/StaticElectricity_03_Regular_Blue_400x400.webm'
         }
     },
     swirling_sparkles: {
@@ -2775,6 +2821,16 @@ let freeDatabase = {
         }
     }
 }
+let warning = false;
 Hooks.on("sequencer.ready", () => {
-    Sequencer.Database.registerEntries("jb2a", freeDatabase);
+    if (game.modules.get('jb2a_patreon')?.active) {
+        warning = "JB2A Warning : You have both the free and the Patreon modules activated at the same time !";
+    }
+    else{
+        Sequencer.Database.registerEntries("jb2a", freeDatabase);
+    }
+    if(warning){
+        ui.notifications.warn(warning);
+        return;
+    }
 });

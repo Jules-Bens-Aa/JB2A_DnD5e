@@ -1,6 +1,6 @@
 <img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"><br>
-![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.3.8/JB2A_DnD5e-0.3.8.zip?color=ffba00&label=Release%200.3.8%20Downloads)<br>
-![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.3.7/JB2A_DnD5e-0.3.7.zip?color=e3621f&label=Release%200.3.7%20Downloads)<br>
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.3.9/JB2A_DnD5e-0.3.9.zip?color=ffba00&label=Release%200.3.9%20Downloads)<br>
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.3.8/JB2A_DnD5e-0.3.8.zip?color=e3621f&label=Release%200.3.8%20Downloads)<br>
 <br>
 [![Free Module Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fjb2a_dnd5e%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/jb2a_dnd5e/) - Free Module<br>
 [![Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fjb2a_patreon%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/jb2a_patreon/) - Patreon Module<br>
@@ -14,6 +14,8 @@
 # Announcements Section.
 
 Check out our next project ! [**Token Animator Teaser Video**](https://youtu.be/WLX6-PwU1Hk)<br>
+Complete Guide is accessible [here](https://jb2a.com/2022/03/23/token-animator-beta-release-v0_5)
+
 ### Other Free Assets.
 - These assets aren't part of our free pack or patreon pack. But they are available for free for everyone. They are under the [Fan-Content License of Forgotten Adventures](https://www.forgotten-adventures.net/info/#copyright). 
   - [Modified Blast Tile from Forgotten Adventures - Glowing Blast](https://www.dropbox.com/s/7z72w0cjznx6yeo/Modified_Blast_Tile_From_ForgottenAdventures.zip?dl=1)

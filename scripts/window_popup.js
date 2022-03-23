@@ -1,52 +1,100 @@
 Hooks.once('ready', async function () {
 
-    if (game.user.isGM) {
-        if (game.settings.get("JB2A_DnD5e", "runonlyonce") == false) {
-            let d = new Dialog({
-                title: "Module Activated !",
-                content: `
-                <div style="text-align: justify;">
-                <h2>Welcome to JB2A's Free Module</h2>
-                <p>
-                You can preview most of our assets and copy the paths from our <a href="https://www.jb2a.com/Library_Preview">Asset Library Preview ! </a>
-                </p>
-                <p>
-                Our <a href="https://jb2a.com/">Website</a> contains a Frequently Asked Questions and Troubleshooting section.
-                <br> 
-                Please read it if you have an issue or want to know more about how to use our assets.
-                </p>
-                <p>
-                <h3><a href="https://jb2a.com/home/how-to-foundryvtt/#modules_foundryvtt">Useful modules for animated assets</a></h3>
-                <ul>
-                <li>Depending on your system, Automated Animations is a good starting point as it provides a "plug&play style" experience. Be aware you'll still need to invest time to tweak things to your linking.</li>
-                <li>Sequencer is system agnostic although it requires more know-how.</li>
-                </p>
-                <p>Jules&Ben &#x1F596;</p>
-                <hr> 
-                <p> <a href="https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases">Patch Notes</a></p> 
-                <p> <a href="https://www.patreon.com/JB2A">Our Patreon</a></p>
-                <p> <a href="https://discord.gg/gmd8MAPX4m">Our Discord</a></p><p><a href="https://www.foundryvtt-hub.com/creator/jb2a-julesbens-animated-assets/">Our creator's page on Foundry Hub</a></p>
-                <p><a href="https://www.youtube.com/channel/UCqLusRtLV7GXJo_xNNM3dOw">Our Youtube Channel</a></p>
-                <p><a href="https://jb2a.com/home/hall-of-fame/">Hall of Fame !</a><hr><div style="font-style:italic;">This pop-up can always be reactivated in the settings of our menu if you disable it !</div></p>
-                </div>
-                `,
-                buttons: {
-                    one: {
-                        icon: '<i class="fas fa-clipboard-list"></i>',
-                        label: "OK",
-                    },
-                    two: {
-                        icon: '<i class="fas fa-clipboard-check"></i>',
-                        label: "Don't show again",
-                        callback: () => game.settings.set("JB2A_DnD5e", "runonlyonce", true)
-                    },
-                },
 
-            },{ width: 550});
-            d.render(true);
+if (game.user.isGM) {
+    if (game.settings.get("JB2A_DnD5e", "runonlyonce") == false) {
+        let contentCard = `
+            <div class="div-styled" style= "padding: 5px;">
+                <div style="text-align: justify; color: #E7E7E7; padding: 10px; background-color: #212121; border: 3px solid #FFBA00; border-radius: 10px;">
+                    <p style="text-align: center;">
+                        <a href="https:\\jb2a.com">
+                            <video oncontextmenu="return false";  autoplay="true" muted="true" loop style="max-width: 150px;">
+                                <source src="modules/JB2A_DnD5e/artwork/Circle_Icon_4sec_400x400.webm" type="video/webm"></source>
+                            </video>
+                        </a>
+                    </p>
+                    <hr>
+                    <div>
+                        <p style="text-align: justify;">All you need to know should be on our website. Feel free to join our Discord for more help ! </p>
+                        <p style="text-align: center;"> <a href="https://jb2a.com">Website</a></p>
+                        <p style="text-align: center; line-height: 150%"> <a href="https://www.patreon.com/JB2A">Patreon</a></p>
+                        <p style="text-align: center; line-height: 150%"> <a href="https://discord.gg/gmd8MAPX4m">Discord</a></p><p> 
+
+
+
+                    </div>
+                    <hr>
+                    <div class="div-styled" style="font-style:italic;">
+                        <p style="text-align: justify;">
+                        This chat card will only be shown once. Activate once more in the settings if needed.
+                        </p>
+                    </div>
+        
+                </div>
+            </div>
+        `;
+        
+
+
+        if(game.messages){
+            const messages = Array.from(game.messages);
+            const welcomeChats = messages.filter(function(m) {
+                return m.data.flags["jb2a"] == true;
+            });
+            const welcomeChat = welcomeChats[0];
+            if(!welcomeChat){
+
+                // Create Chat Message clickable button.
+                let messageJules = await ChatMessage.create({
+                    user: game.user._id,
+                    speaker: ChatMessage.getSpeaker(),
+                    content: contentCard,
+                    flags: {
+                        "jb2a": true
+                    }
+                }, {})
+
+                await game.settings.set("JB2A_DnD5e", "runonlyonce", true);
+                
+            }
+            else{
+                //delete chat card
+                await welcomeChat.delete();
+                await game.settings.set("JB2A_DnD5e", "runonlyonce", true);
+            }
+
+        }
+        
+    }
+    else{
+        const messages = Array.from(game.messages);
+        const welcomeChats = messages.filter(function(m) {
+            return m.data.flags["jb2a"] == true;
+        });
+        const welcomeChat = welcomeChats[0];
+        if(welcomeChat){
+        await welcomeChat.delete();
         }
     }
+}
 })
 
+/* Button backup HTML to add and javascript listener
+    <div style= "text-align: center; background-color: #212121; border: 7px solid FFBA00;  width: 100%;  height: 70px;  padding-top: 10px;">
+        
+        <button id= "closeBtn"  class="fa fa-check-square" style= "text-align:center; font-size: 12px; padding:7px; max-width: 60%; background-color: #FFAB00;"> UNDERSTOOD</button>
+        
+    </div>
 
 
+//Add listener
+    Hooks.once('renderChatMessage', (chatItem, html) => {
+        html.find("#closeBtn").click(async () => {
+            await game.settings.set("JB2A_DnD5e", "runonlyonce", true);
+            await chatItem.delete();
+          })
+        html.find("#laterBtn").click(async () => {
+        await chatItem.delete();
+        })
+    })
+*/
