@@ -14,7 +14,7 @@
 # Announcements Section.
 
 Check out our next project ! [**Token Animator Teaser Video**](https://youtu.be/WLX6-PwU1Hk)<br>
-Complete Guide is accessible [here](https://jb2a.com/2022/03/23/token-animator-beta-release-v0_5)
+Complete Guide is accessible [here](https://jb2a.com/2022/03/20/token-animator-beta-release-v0_5/)
 
 ### Other Free Assets.
 - These assets aren't part of our free pack or patreon pack. But they are available for free for everyone. They are under the [Fan-Content License of Forgotten Adventures](https://www.forgotten-adventures.net/info/#copyright). 
