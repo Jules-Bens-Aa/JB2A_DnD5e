@@ -167,7 +167,7 @@ export async function jb2aFreeDatabase(prefix) {
                 }
             }
         }
-        patreonDatabase.breath_weapons02 = {
+        freeDatabase.breath_weapons02 = {
             burst: {
                 cone: {
                     _template: "cone100_02",
@@ -872,13 +872,13 @@ export async function jb2aFreeDatabase(prefix) {
                 red: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/FireRing_01_Circle_Red_900.webm`
             }
         }
-        patreonDatabase.fire_trap = {
+        freeDatabase.fire_trap = {
             '01':{
                 orange: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/FireTrap01_01_Regular_Orange_1000x1000.webm`
             },
             '02':{
                 single:{
-                    orange: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/FireTrap02_01_Regular_Green_1400x1400.webm`
+                    orange: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/FireTrap02_01_Regular_Orange_1400x1400.webm`
                 }
             }
         },
