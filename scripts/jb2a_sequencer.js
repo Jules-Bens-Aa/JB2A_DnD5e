@@ -394,15 +394,18 @@ export async function jb2aFreeDatabase(prefix) {
             green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Darkness/Darkness_01_Green_600x600.webm`,
         }
         freeDatabase.detect_magic = {
+            _template: 'cone100',
             circle: {
                 blue: `${prefix}/JB2A_DnD5e/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Blue_1200x1200.webm`,
             },
-            _template: 'cone100',
-            blue: {
-                '05ft': `${prefix}/JB2A_DnD5e/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_05ft_300x300.webm`,
-                '15ft': `${prefix}/JB2A_DnD5e/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_15ft_500x500.webm`,
-                '30ft': `${prefix}/JB2A_DnD5e/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_30ft_800x800.webm`
+            cone: {
+                blue: {
+                    '05ft': `${prefix}/JB2A_DnD5e/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_05ft_300x300.webm`,
+                    '15ft': `${prefix}/JB2A_DnD5e/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_15ft_500x500.webm`,
+                    '30ft': `${prefix}/JB2A_DnD5e/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_30ft_800x800.webm`
+                }
             }
+
         }
         freeDatabase.disintegrate = {
             _template: 'ranged',
@@ -430,6 +433,9 @@ export async function jb2aFreeDatabase(prefix) {
                 blueorange: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_BlueOrange_400x400.webm`
             }
         }
+        freeDatabase.drop_shadow = {
+            dark_black: `${prefix}/JB2A_DnD5e/Library/Generic/Impact/DropShadow_01_Dark_Black_400x400.webm`
+        }
         freeDatabase.eldritch_blast = {
             _template: 'ranged',
             purple: {
@@ -456,10 +462,7 @@ export async function jb2aFreeDatabase(prefix) {
                         '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_60ft_2800x400.webm`,
                         '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_90ft_4000x400.webm`
                     }
-
-                }
-            },
-            '02': {
+                },
                 bluepink: {
                     '02': {
                         '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_05ft_600x400.webm`,
@@ -467,12 +470,7 @@ export async function jb2aFreeDatabase(prefix) {
                         '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_30ft_1600x400.webm`,
                         '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_60ft_2800x400.webm`,
                         '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_90ft_4000x400.webm`
-                    }
-
-                }
-            },
-            '03': {
-                bluepink: {
+                    },
                     '03': {
                         '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_05ft_600x400.webm`,
                         '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_15ft_1000x400.webm`,
@@ -480,10 +478,9 @@ export async function jb2aFreeDatabase(prefix) {
                         '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_60ft_2800x400.webm`,
                         '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_90ft_4000x400.webm`
                     }
-
-                }
+                },
             }
-        }
+        },
         freeDatabase.energy_conduit = {
             _template: 'ranged',
             bluepurple: {
@@ -558,14 +555,16 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 multiple: {
                     purple: {
-                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_05ft_600x400.webm`,
-                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_90ft_4000x400.webm`
+                        '01': {
+                            '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_05ft_600x400.webm`,
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_90ft_4000x400.webm`
+                        }
                     },
-                    '02': {
-                        bluepink: {
+                    bluepink: {
+                        '02': {
                             '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_05ft_600x400.webm`,
                             '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_15ft_1000x400.webm`,
                             '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_30ft_1600x400.webm`,
@@ -2003,6 +2002,15 @@ export async function jb2aFreeDatabase(prefix) {
                 '90ft': `${prefix}/JB2A_DnD5e/Library/Cantrip/Ray_Of_Frost/RayOfFrost_01_Regular_Blue_90ft_4000x400.webm`
             }
         }
+        freeDatabase.sacred_flame = {
+            _template: '',
+            source: {
+                yellow: `${prefix}/JB2A_DnD5e/Library/Cantrip/Sacred_Flame/SacredFlameSource_01_Regular_Yellow_400x400.webm`
+            },
+            target: {
+                yellow: `${prefix}/JB2A_DnD5e/Library/Cantrip/Sacred_Flame/SacredFlameTarget_01_Regular_Yellow_400x400.webm`
+            }
+        }
         freeDatabase.scimitar = {
             melee: {
                 _template: 'melee',
@@ -2191,6 +2199,20 @@ export async function jb2aFreeDatabase(prefix) {
                 }
             },
         }
+        freeDatabase.smoke_line = {
+            '05x05ft': {
+                lightblue: `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokeLine_01_Regular_LightBlue_05x05ft_400x400.webm`
+            },
+            '10x05ft': {
+                lightblue: `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokeLine_01_Regular_LightBlue_10x05ft_800x400.webm`
+            },
+            '15x05ft': {
+                lightblue: `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokeLine_01_Regular_LightBlue_15x05ft_1000x400.webm`
+            },
+            '25x05ft': {
+                lightblue: `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokeLine_01_Regular_LightBlue_25x05ft_1400x400.webm`
+            },
+        },
         freeDatabase.sneak_attack = {
             dark_green: `${prefix}/JB2A_DnD5e/Library/1st_Level/Sneak_Attack/Sneak_Attack_Dark_Green_300x300.webm`
         }
@@ -2672,6 +2694,13 @@ export async function jb2aFreeDatabase(prefix) {
                         '01': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle01_01_600x600.webp`
                     }
                 },
+                cone: {
+                    '01': {
+                        '01': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone01_01_600x600.webp`,
+                        '04': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone04_01_600x600.webp`,
+                        '05': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone05_01_600x600.webp`,
+                    }
+                },
                 square: {
                     '01': {
                         '01': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningSquare01_01_600x600.webp`,
@@ -2730,6 +2759,28 @@ export async function jb2aFreeDatabase(prefix) {
                             '01': {
                                 '01': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle01In_01_Regular_BlueGreen_Loop_600x600.webm`,
                                 '02': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle02In_01_Regular_BlueGreen_Loop_600x600.webm`
+                            }
+                        }
+                    }
+                },
+                cone: {
+                    once: {
+                        bluegreen: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone01In_01_Regular_BlueGreen_600x600.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone02In_01_Regular_BlueGreen_600x600.webm`,
+                                '04': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone04In_01_Regular_BlueGreen_600x600.webm`,
+                                '05': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone05In_01_Regular_BlueGreen_600x600.webm`,
+                            }
+                        }
+                    },
+                    loop: {
+                        bluegreen: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone01In_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone02In_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '04': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone04In_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '05': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone05In_01_Regular_BlueGreen_Loop_600x600.webm`,
                             }
                         }
                     }
@@ -2794,6 +2845,28 @@ export async function jb2aFreeDatabase(prefix) {
                             '01': {
                                 '01': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle01Out_01_Regular_BlueGreen_Loop_600x600.webm`,
                                 '02': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle02Out_01_Regular_BlueGreen_Loop_600x600.webm`
+                            }
+                        }
+                    }
+                },
+                cone: {
+                    once: {
+                        bluegreen: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone01Out_01_Regular_BlueGreen_600x600.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone02Out_01_Regular_BlueGreen_600x600.webm`,
+                                '04': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone04Out_01_Regular_BlueGreen_600x600.webm`,
+                                '05': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone05Out_01_Regular_BlueGreen_600x600.webm`,
+                            }
+                        }
+                    },
+                    loop: {
+                        bluegreen: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone01Out_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone02Out_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '04': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone04Out_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '05': `${prefix}/JB2A_DnD5e/Library/Generic/Zoning/ZoningCone05Out_01_Regular_BlueGreen_Loop_600x600.webm`,
                             }
                         }
                     }
