@@ -509,6 +509,15 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
         freeDatabase.energy_strands = {
+            in: {
+                green: {
+                    '01': [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrandIN01_01_Regular_Green_600x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrandIN01_02_Regular_Green_600x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrandIN01_03_Regular_Green_600x600.webm`
+                    ]
+                }
+            },
             complete: {
                 blue: {
                     '01': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/EnergyStrands_01_Regular_Blue_600x600.webm`
@@ -2544,7 +2553,18 @@ export async function jb2aFreeDatabase(prefix) {
                 yellow: `${prefix}/JB2A_DnD5e/Library/Generic/UI/3Chevrons_01_Regular_Yellow_200x200.webm`
             },
             critical: {
-                red: `${prefix}/JB2A_DnD5e/Library/Generic/UI/Critical_02_Red_200x200.webm`
+                red: [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/UI/Critical_02_Red_200x200.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/UI/Critical_03_Red_200x200.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/UI/Critical_04_Red_200x200.webm`,
+                ],
+            },
+            critical_miss: {
+                red : [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/UI/CriticalMiss_02_Red_200x200.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/UI/CriticalMiss_03_Red_200x200.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/UI/CriticalMiss_04_Red_200x200.webm`,
+                ]
             },
             indicator: {
                 yellow: {
