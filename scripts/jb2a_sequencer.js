@@ -284,6 +284,20 @@ export async function jb2aFreeDatabase(prefix) {
                 orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Campfire_01_Regular_Orange_200x200.webm`,
             },
         }
+        patreonDatabase.celestial_bodies = {
+            planet: {
+                atmo: {
+                    '01': {
+                        blueorange: `${prefix}/JB2A_DnD5e/Library/Generic/Celetial_Bodies/PlanetAtmo_01_Regular_BlueOrange_800x800.webm`
+                    },
+                },
+                no_atmo: {
+                    '03': {
+                        grey: `${prefix}/JB2A_DnD5e/Library/Generic/Celetial_Bodies/PlanetAtmo_02_Regular_Grey_800x800.webm`
+                    }
+                }
+            }
+        },
         freeDatabase.chain_lightning = {
             _template: 'ranged',
             primary: {
@@ -2278,6 +2292,134 @@ export async function jb2aFreeDatabase(prefix) {
             },
             '600px': {
                 purple: `${prefix}/JB2A_DnD5e/Library/Generic/Item/SphereOfAnnihilation_01_Regular_Purple_600x600.webm`
+            }
+        }
+        patreonDatabase.spike_trap = {
+            '05x05ft': {
+                top: {
+                    holes: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_01_Regular_Grey_05x05ft_400x400.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_02_Regular_Grey_05x05ft_400x400.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm01_01_Regular_Grey_05x05ft_400x400.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm01_02_Regular_Grey_05x05ft_400x400.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopHolesDeployed01_Regular_Grey_05x05ft_400x400_StillFrame.webp`,
+                            hidden: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopHolesHidden01_Regular_Grey_05x05ft_400x400_StillFrame.webp`
+                        }
+                    }
+                },
+                side: {
+                    holes: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_01_Regular_Grey_05x05ft_400x400.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_02_Regular_Grey_05x05ft_400x400.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHolesRearm01_01_Regular_Grey_05x05ft_400x400.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHolesRearm01_02_Regular_Grey_05x05ft_400x400.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideHolesDeployed01_Regular_Grey_05x05ft_400x400_StillFrame.webp`,
+                            hidden: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideHolesHidden01_Regular_Grey_05x05ft_400x400_StillFrame.webp`
+                        }
+                    }
+                }
+            },
+            '10x05ft': {
+                top: {
+                    holes: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_01_Regular_Grey_10x05ft_600x400.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_02_Regular_Grey_10x05ft_600x400.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm01_01_Regular_Grey_10x05ft_600x400.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm01_02_Regular_Grey_10x05ft_600x400.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopHolesDeployed01_Regular_Grey_10x05ft_600x400_StillFrame.webp`,
+                            hidden: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopHolesHidden01_Regular_Grey_10x05ft_600x400_StillFrame.webp`
+                        }
+                    }
+                },
+                side: {
+                    holes: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_01_Regular_Grey_10x05ft_600x400.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_02_Regular_Grey_10x05ft_600x400.webm`
+                            },
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHolesRearm01_01_Regular_Grey_10x05ft_600x400.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHolesRearm01_02_Regular_Grey_10x05ft_600x400.webm`
+                            },
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideHolesDeployed01_Regular_Grey_10x05ft_600x400_StillFrame.webp`,
+                            hidden: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideHolesHidden01_Regular_Grey_10x05ft_600x400_StillFrame.webp`
+                        }
+                    }
+                }
+            },
+            '10x10ft': {
+                top: {
+                    holes: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_01_Regular_Grey_10x10ft_600x600.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_02_Regular_Grey_10x10ft_600x600.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm01_01_Regular_Grey_10x10ft_600x600.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm01_02_Regular_Grey_10x10ft_600x600.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopHolesDeployed01_Regular_Grey_10x10ft_600x600_StillFrame.webp`,
+                            hidden: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopHolesHidden01_Regular_Grey_10x10ft_600x600_StillFrame.webp`
+                        }
+                    }
+                },
+                side: {
+                    holes: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_01_Regular_Grey_10x10ft_600x400.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_02_Regular_Grey_10x10ft_600x400.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHolesRearm01_01_Regular_Grey_10x10ft_600x400.webm`,
+                                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHolesRearm01_02_Regular_Grey_10x10ft_600x400.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideHolesDeployed01_Regular_Grey_10x10ft_600x400_StillFrame.webp`,
+                            hidden: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideHolesHidden01_Regular_Grey_10x10ft_600x400_StillFrame.webp`
+                        }
+                    }
+                }
             }
         }
         freeDatabase.spirit_guardians = {
