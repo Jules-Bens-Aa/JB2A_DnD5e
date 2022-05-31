@@ -1961,6 +1961,24 @@ export async function jb2aFreeDatabase(prefix) {
                     }
                 }
             },
+            inward: {
+                greenyellow: {
+                    '01': {
+                        '01': `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticlesInward01_01_Regular_GreenYellow_400x400.webm`,
+                        '02': `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticlesInward01_02_Regular_GreenYellow_400x400.webm`,
+                        '03': `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticlesInward01_03_Regular_GreenYellow_400x400.webm`,
+                        '04': `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticlesInward01_04_Regular_GreenYellow_400x400.webm`,
+                        '05': `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticlesInward01_05_Regular_GreenYellow_400x400.webm`
+                    },
+                    '02': {
+                        '01': `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticlesInward02_01_Regular_GreenYellow_400x400.webm`,
+                        '02': `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticlesInward02_02_Regular_GreenYellow_400x400.webm`,
+                        '03': `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticlesInward02_03_Regular_GreenYellow_400x400.webm`,
+                        '04': `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticlesInward02_04_Regular_GreenYellow_400x400.webm`,
+                        '05': `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticlesInward02_05_Regular_GreenYellow_400x400.webm`
+                    }
+                }
+            },
             swirl: {
                 greenyellow: {
                     '01': {
@@ -2454,6 +2472,33 @@ export async function jb2aFreeDatabase(prefix) {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Lightning/StaticElectricity_03_Regular_Blue_400x400.webm`
             }
         }
+        freeDatabase.swirling_leaves = {
+            _metadata: {
+                name: "Swirling Leaves",
+            },
+            complete: {
+                '01': {
+                    green: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeavesComplete01_01_Regular_Green_400x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeavesComplete01_02_Regular_Green_400x400.webm`
+                    ],
+                },
+                '02' : {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeavesComplete02_01_Regular_Green_400x400.webm`,
+                }
+            },
+            loop: {
+                '01': {
+                    green: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeavesLoop01_01_Regular_Green_400x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeavesLoop01_02_Regular_Green_400x400.webm`
+                    ],
+                },
+                '02' : {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeavesLoop02_01_Regular_Green_400x400.webm`,                 
+                }
+            }
+        },
         freeDatabase.swirling_sparkles = {
             '01': {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/SwirlingSparkles_01_Regular_Blue_400x400.webm`
