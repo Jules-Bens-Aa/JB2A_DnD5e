@@ -577,6 +577,7 @@ export async function jb2aFreeDatabase(prefix) {
                     }
                 },
                 multiple: {
+                    _template: 'ranged',
                     purple: {
                         '01': {
                             '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_05ft_600x400.webm`,
@@ -1461,6 +1462,9 @@ export async function jb2aFreeDatabase(prefix) {
             ]
         }
         freeDatabase.liquid = {
+            blob: {
+                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/LiquidBlob01_01_Regular_Blue_400x400.webm`
+            },
             splash: {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/LiquidSplash01_Regular_Blue_400x400.webm`
             },
@@ -1747,6 +1751,28 @@ export async function jb2aFreeDatabase(prefix) {
                 outro: {
                     blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleOutro_01_Regular_Blue_400x400.webm`
                 }
+            },
+            chain: {
+                standard: {
+                    complete: {
+                        _markers: {
+                            loop: { start: 2033, end: 7000 },
+                            forcedEnd: 7933
+                        },
+                        '02': {
+                            red: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerChainStandard01_02_Regular_Red_Complete_400x400.webm`
+                        }
+                    },
+                    loop: {
+                        '01': {
+                            red: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerChainStandard01_01_Regular_Red_Loop_400x400.webm`
+                        },
+                        '02': {
+                            red: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerChainStandard01_02_Regular_Red_Loop_400x400.webm`
+                        }
+                    }
+
+                },
             },
             circle_of_stars: {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerCircleOfStars_Regular_Blue_400x400.webm`
@@ -2496,6 +2522,16 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 '02' : {
                     green: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeavesLoop02_01_Regular_Green_400x400.webm`,                 
+                }
+            },
+            ranged: {
+                _template: 'ranged',
+                greenorange: {
+                    '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeaves01_01_Regular_GreenOrange_05ft_600x400.webm`,
+                    '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeaves01_01_Regular_GreenOrange_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeaves01_01_Regular_GreenOrange_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeaves01_01_Regular_GreenOrange_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeaves01_01_Regular_GreenOrange_90ft_4000x400.webm`
                 }
             }
         },

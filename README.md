@@ -1,18 +1,23 @@
-<img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"><br>
-![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.4.4/JB2A_DnD5e-0.4.4.zip?color=ffba00&label=Release%200.4.4%20Downloads)<br>
+<img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"> ![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.4.5/JB2A_DnD5e-0.4.5.zip?color=ffba00&label=Release%200.4.5%20Downloads)<br>
 
-[![Free Module Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fjb2a_dnd5e%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/jb2a_dnd5e/) - Free Module<br>
-[![Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Fjb2a_patreon%2Fshield%2Fendorsements)](https://www.foundryvtt-hub.com/package/jb2a_patreon/) - Patreon Module<br>
-<br>
 [![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)
 [![PayPal](https://img.shields.io/badge/Donate-Paypal-ff69b4)](https://paypal.me/DonationJB2A?locale.x=fr_FR)
 <p style='text-align: justify;'>
 
-#### JB2A, short for : Jules&Ben's Animated Assets !
+#### JB2A, short for : [Jules&Ben's Animated Assets](https://www.patreon.com/JB2A) !
+We create ... animated assets ! *no scripts, only assets*
 
 # Announcements Section.
 
-Check out our next project ! [**Token Animator Teaser Video**](https://youtu.be/WLX6-PwU1Hk)<br>
+### Very useful FoundryVTT Modules for animated assets :
+[**Sequencer**](https://github.com/fantasycalendar/FoundryVTT-Sequencer/wiki) by Wasp from [Fantasy Computerworks](http://fantasycomputer.works/) - [Ko-fi](https://ko-fi.com/fantasycomputerworks) <br>
+[**Automated Animations**](https://github.com/otigon/automated-jb2a-animations/wiki) by Otigon - [Patreon](https://www.patreon.com/otigon)<br>
+[**Advanced Spell Effects**](https://github.com/Vauryx/advancedspelleffects/wiki) by Vauryx (DnD5e only and requires our Patreon pack)<br>
+[**WarpGate**](https://github.com/trioderegion/warpgate) by Honeybadger - [Ko-fi](https://ko-fi.com/trioderegion)<br>
+
+> These Modules Makers are not affiliated with JB2A. Their modules are free and they develop and help the community on their own free time. Please consider supporting their work.
+
+### Check out our next project ! [**Token Animator Teaser Video**](https://youtu.be/WLX6-PwU1Hk)<br>
 Complete Guide is accessible [here](https://jb2a.com/home/content-information/#token_animator)
 
 ### Other Free Assets.
