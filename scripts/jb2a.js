@@ -58,7 +58,7 @@ Hooks.once('ready', async function () {
         else{
             Sequencer.Database.registerEntries("jb2a", freeDatabase);
         }
-        if(!warning){
+        if(warning){
             ui.notifications.warn(warning);
             return;
         }
