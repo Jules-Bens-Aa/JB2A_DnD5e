@@ -11,7 +11,7 @@ game.settings.register(MODULE_NAME, "runonlyonce", {  // game.setting.register("
   config: true,                                       // This specifies that the setting appears in the configuration view
   type: Boolean,
   default: false,                                     // The default value for the setting
-  onChange: value => !value ? debounceReload() : null
+  //onChange: value => !value ? debounceReload() : null
 });
                                    
 
