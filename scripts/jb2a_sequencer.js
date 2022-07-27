@@ -622,10 +622,21 @@ export async function jb2aFreeDatabase(prefix) {
             '04': {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/Explosion_04_Regular_Blue_400x400.webm`
             },
-            blue: [
-                `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/Explosion_02_Blue_400x400.webm`,
-                `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/Explosion_04_Regular_Blue_400x400.webm`
-            ]
+            '08': {
+                orange: `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/Explosion_05_Regular_Orange_400x400.webm`
+            },
+            side_fracture: {
+                flask: {
+                    '01': `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/SideFractureFlask01_01_800x400.webm`
+                }
+            },
+            shrapnel: {
+                bomb: {
+                    '01': {
+                        black: `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/ShrapnelBomb01_01_Regular_Black_800x800.webm`
+                    }
+                }
+            },
         }
         freeDatabase.extras = {
             tmfx: {
@@ -2255,7 +2266,14 @@ export async function jb2aFreeDatabase(prefix) {
                         `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffSide01_03_Regular_Grey_400x400.webm`,
                         `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffSide01_04_Regular_Grey_400x400.webm`,
                         `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffSide01_05_Regular_Grey_400x400.webm`,
-                    ]
+                    ],
+                    '02': {
+                        white: [
+                            `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffSide02_01_Regular_White_400x400.webm`,
+                            `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffSide02_02_Regular_White_400x400.webm`,
+                            `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffSide02_03_Regular_White_400x400.webm`
+                        ]
+                    }
                 },
                 centered: {
                     grey: [
@@ -2263,6 +2281,21 @@ export async function jb2aFreeDatabase(prefix) {
                         `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuff01_02_Regular_Grey_400x400.webm`,
                         `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuff01_03_Regular_Grey_400x400.webm`,
                     ]
+                },
+                ring: {
+                    '01': {
+                        white: [
+                            `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffRing01_01_Regular_White_400x400.webm`,
+                            `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffRing01_02_Regular_White_400x400.webm`,
+                            `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffRing01_03_Regular_White_400x400.webm`,
+                        ]
+                    },
+                    '02': {
+                        white: [
+                            `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffRing02_01_Regular_White_400x400.webm`,
+                        ]
+                    }
+
                 }
             },
         }
@@ -2732,6 +2765,50 @@ export async function jb2aFreeDatabase(prefix) {
                 complete: `${prefix}/JB2A_DnD5e/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Green_400x400.webm`,
                 shockwave: `${prefix}/JB2A_DnD5e/Library/Cantrip/Toll_The_Dead/TollTheDeadShockwave_01_Regular_Green_400x400.webm`,
                 skull_smoke: `${prefix}/JB2A_DnD5e/Library/Cantrip/Toll_The_Dead/TollTheDeadSkullSmoke_01_Regular_Green_400x400.webm`
+            }
+        }
+        freeDatabase.throwable = {
+            _metadata: {
+                name: "Throwable",
+                new: true
+            },
+            _template: 'ranged',
+            launch: {
+                cannonball: {
+                    '01': {
+                        black: {
+                            '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_05ft_600x400.webm`,
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_90ft_4000x400.webm`
+                        }
+                    }
+                }
+            },
+            throw: {
+                bomb: {
+                    '01': {
+                        black: {
+                            '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Black_05ft_600x400.webm`,
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Black_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Black_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Black_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Black_90ft_4000x400.webm`
+                        }
+                    }
+                },
+                flask: {
+                    '01':{
+                        orange: {
+                            '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask01_01_Regular_Orange_05ft_600x400.webm`,
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask01_01_Regular_Orange_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask01_01_Regular_Orange_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask01_01_Regular_Orange_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask01_01_Regular_Orange_90ft_4000x400.webm`
+                        }
+                    }
+                }
             }
         }
         freeDatabase.thunderwave = {

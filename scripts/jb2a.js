@@ -21,6 +21,10 @@ Hooks.once('init', async function () {
 
     await jb2aFreeDatabase(prefix);
 
+    game.modules.get("JB2A_DnD5e").api = {
+        freeDatabase
+    }
+
 })
 
 Hooks.once('ready', async function () {
@@ -41,11 +45,30 @@ Hooks.once('ready', async function () {
     }
     })
 
-Hooks.on("sequencer.ready", () => {
-    if (game.modules.get('jb2a_patreon')?.active) {
-        return ui.notifications.warn("JB2A Warning : You have both the free and the Patreon modules activated at the same time !");
-    }
-    else {
-        Sequencer.Database.registerEntries("jb2a", freeDatabase);
-    }
-});
+    Hooks.on("sequencer.ready", () => {
+        if (!game.modules.get('jb2a_patreon')?.active) {
+            Sequencer.Database.registerEntries("jb2a", freeDatabase);
+        }
+        else{
+            const freeVersion = game.modules?.get("JB2A_DnD5e").data?.version;
+            const patreonVersion = game.modules?.get("jb2a_patreon").data?.version;
+            const freeDatabase = game.modules?.get("JB2A_DnD5e").api?.freeDatabase;
+            const patreonDatabase = game.modules?.get("jb2a_patreon").api?.patreonDatabase;
+    
+            if (foundry.utils.isNewerVersion(patreonVersion, '0.4.5')) {
+                const database = foundry.utils.isNewerVersion(freeVersion, patreonVersion)
+                ? foundry.utils.mergeObject(patreonDatabase, freeDatabase)
+                : foundry.utils.mergeObject(freeDatabase, patreonDatabase);
+    
+                Sequencer.Database.registerEntries("jb2a", database);
+                console.log("%c The Sequencer database is now a merge of both the Patreon and the Free modules ! ", "color: #FFBA00");
+            }
+            else{
+                let message = "JB2A | Both Patreon and free modules are active. The merge of the two Sequencer databases is only possible for the Patreon version 0.4.5 and higher and recommended only if you discontinue your Patreon support !";
+                console.log(`%c ${message}`, `color: #FFBA00`);
+                
+                ui.notifications.warn(message);
+            }
+        }    
+    });
+
