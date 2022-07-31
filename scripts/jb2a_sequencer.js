@@ -627,7 +627,10 @@ export async function jb2aFreeDatabase(prefix) {
             },
             side_fracture: {
                 flask: {
-                    '01': `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/SideFractureFlask01_01_800x400.webm`
+                    '01': [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/SideFractureFlask01_01_800x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/SideFractureFlask01_02_800x400.webm`
+                ]
                 }
             },
             shrapnel: {
@@ -637,6 +640,11 @@ export async function jb2aFreeDatabase(prefix) {
                     }
                 }
             },
+            top_fracture: {
+                flask: {
+                    '01': `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/TopFractureFlask01_01_800x400.webm`,
+                }
+            }
         }
         freeDatabase.extras = {
             tmfx: {
@@ -763,6 +771,27 @@ export async function jb2aFreeDatabase(prefix) {
                             transmutation: `${prefix}/JB2A_DnD5e/Library/TMFX/Runes/Circle/TransmutationSimple_01_Circle_Normal_500.webm`
                         }
                     }
+                }
+            }
+        }
+        freeDatabase.eyes = {
+            '01': {
+                dark_green: {
+                    single: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Single01_01_Dark_Green_300x300.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Single01_02_Dark_Green_300x300.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Single01_03_Dark_Green_300x300.webm`
+                    ],
+                    few: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Few01_01_Dark_Green_300x300.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Few01_02_Dark_Green_300x300.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Few01_03_Dark_Green_300x300.webm`
+                    ],
+                    many: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Many01_01_Dark_Green_300x300.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Many01_02_Dark_Green_300x300.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Many01_03_Dark_Green_300x300.webm`
+                    ]
                 }
             }
         }
@@ -2289,13 +2318,7 @@ export async function jb2aFreeDatabase(prefix) {
                             `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffRing01_02_Regular_White_400x400.webm`,
                             `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffRing01_03_Regular_White_400x400.webm`,
                         ]
-                    },
-                    '02': {
-                        white: [
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffRing02_01_Regular_White_400x400.webm`,
-                        ]
                     }
-
                 }
             },
         }
@@ -2532,9 +2555,6 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
         freeDatabase.swirling_leaves = {
-            _metadata: {
-                name: "Swirling Leaves",
-            },
             complete: {
                 '01': {
                     green: [
@@ -2768,13 +2788,9 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
         freeDatabase.throwable = {
-            _metadata: {
-                name: "Throwable",
-                new: true
-            },
             _template: 'ranged',
             launch: {
-                cannonball: {
+                cannon_ball: {
                     '01': {
                         black: {
                             '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_05ft_600x400.webm`,
@@ -2782,6 +2798,16 @@ export async function jb2aFreeDatabase(prefix) {
                             '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_30ft_1600x400.webm`,
                             '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_60ft_2800x400.webm`,
                             '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_90ft_4000x400.webm`
+                        }
+                    }
+                },
+                missile: {
+                    '01': {
+                        blue: {
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Missile01_01_Regular_Blue_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Missile01_01_Regular_Blue_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Missile01_01_Regular_Blue_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Missile01_01_Regular_Blue_90ft_4000x400.webm`
                         }
                     }
                 }
