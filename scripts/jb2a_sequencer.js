@@ -629,8 +629,8 @@ export async function jb2aFreeDatabase(prefix) {
                 flask: {
                     '01': [
                         `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/SideFractureFlask01_01_800x400.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/SideFractureFlask01_02_800x400.webm`
-                ]
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/SideFractureFlask01_02_400x400.webm`
+                    ]
                 }
             },
             shrapnel: {
@@ -642,7 +642,7 @@ export async function jb2aFreeDatabase(prefix) {
             },
             top_fracture: {
                 flask: {
-                    '01': `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/TopFractureFlask01_01_800x400.webm`,
+                    '01': `${prefix}/JB2A_DnD5e/Library/Generic/Explosion/TopFractureFlask01_01_400x400.webm`,
                 }
             }
         }
@@ -783,14 +783,14 @@ export async function jb2aFreeDatabase(prefix) {
                         `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Single01_03_Dark_Green_300x300.webm`
                     ],
                     few: [
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Few01_01_Dark_Green_300x300.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Few01_02_Dark_Green_300x300.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Few01_03_Dark_Green_300x300.webm`
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Few01_01_Dark_Green_600x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Few01_02_Dark_Green_600x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Few01_03_Dark_Green_600x600.webm`
                     ],
                     many: [
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Many01_01_Dark_Green_300x300.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Many01_02_Dark_Green_300x300.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Many01_03_Dark_Green_300x300.webm`
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Many01_01_Dark_Green_600x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Many01_02_Dark_Green_600x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Many01_03_Dark_Green_600x600.webm`
                     ]
                 }
             }
