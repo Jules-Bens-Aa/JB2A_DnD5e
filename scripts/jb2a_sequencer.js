@@ -2932,6 +2932,90 @@ export async function jb2aFreeDatabase(prefix) {
                 }
             }
         }
+        freeDatabase.vine = {
+            _metadata: {
+                name: "Vine"
+            },
+            complete: {
+                _markers: {
+                    loop: { start: 2125, end: 6250 }
+                    },
+                nature:{
+                    group:{ 
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/GroupVineNature01_01_Regular_Green_300x300.webm`
+                        },
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/GroupVineNature02_01_Regular_Green_300x300.webm`
+                        },
+                        '03': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/GroupVineNature03_01_Regular_Green_300x300.webm`
+                        }
+                    },
+                    single:{
+                        '01': {
+                            green: [
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNature01_01_Regular_Green_300x300.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNature01_02_Regular_Green_300x300.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNature01_03_Regular_Green_300x300.webm`
+                            ]
+                        },
+                        '02': {
+                            green: [
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNature02_01_Regular_Green_300x300.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNature02_02_Regular_Green_300x300.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNature02_03_Regular_Green_300x300.webm`
+                            ]
+                        },
+                        '03': {
+                            green: [
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNature03_01_Regular_Green_300x300.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNature03_02_Regular_Green_300x300.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNature03_03_Regular_Green_300x300.webm`
+                            ]
+                        }
+                    }
+                }
+            },
+            loop: {
+                nature:{
+                    group:{ 
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/GroupVineNatureLoop01_01_Regular_Green_300x300.webm`
+                        },
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/GroupVineNatureLoop02_01_Regular_Green_300x300.webm`
+                        },
+                        '03': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/GroupVineNatureLoop03_01_Regular_Green_300x300.webm`
+                        }
+                    },
+                    single:{
+                        '01': {
+                            green: [
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNatureLoop01_01_Regular_Green_300x300.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNatureLoop01_02_Regular_Green_300x300.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNatureLoop01_03_Regular_Green_300x300.webm`
+                            ]
+                        },
+                        '02': {
+                            green: [
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNatureLoop02_01_Regular_Green_300x300.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNatureLoop02_02_Regular_Green_300x300.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNatureLoop02_03_Regular_Green_300x300.webm`
+                            ]
+                        },
+                        '03': {
+                            green: [
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNatureLoop03_01_Regular_Green_300x300.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNatureLoop03_02_Regular_Green_300x300.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Nature/VineNatureLoop03_03_Regular_Green_300x300.webm`
+                            ]
+                        }
+                    }
+                }
+            }
+        }
         freeDatabase.wall_of_fire = {
             '100x100': {
                 blue: `${prefix}/JB2A_DnD5e/Library/4th_Level/Wall_Of_Fire/WallOfFire_01_Blue_100x100.webm`,
@@ -2989,6 +3073,22 @@ export async function jb2aFreeDatabase(prefix) {
                         `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Warhammer01_05_Regular_White_800x600.webm`,
                         `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Warhammer01_06_Regular_White_800x600.webm`
                     ]
+                }
+            }
+        }
+        freeDatabase.water_splash = {
+            _metadata: {
+                name: "Water Splash"
+            },
+            circle : {
+                '01': {
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/WaterSplashLoop_01_01_Regular_Blue_600x600.webm`
+                }
+            },
+            cone : {
+                _template: 'cone',
+                '01': {
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/WaterSplashConeLoop_01_01_Regular_Blue_600x600.webm`
                 }
             }
         }
