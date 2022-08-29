@@ -607,7 +607,22 @@ export async function jb2aFreeDatabase(prefix) {
         freeDatabase.entangle = {
             brown: `${prefix}/JB2A_DnD5e/Library/1st_Level/Entangle/Entangle_01_Brown_400x400.webm`,
             green: `${prefix}/JB2A_DnD5e/Library/1st_Level/Entangle/Entangle_01_Green_400x400.webm`,
-            yellow: `${prefix}/JB2A_DnD5e/Library/1st_Level/Entangle/Entangle_01_Yellow_400x400.webm`
+            yellow: `${prefix}/JB2A_DnD5e/Library/1st_Level/Entangle/Entangle_01_Yellow_400x400.webm`,
+            '02': {
+                complete: {
+                    _markers: {
+                        loop: { start: 2125, end: 6250 }
+                    },
+                    '02': {
+                        green: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/Entangle02_02_Regular_Green_500x500.webm`
+                    }
+                },
+                loop: {
+                    '02': {
+                        green: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/EntangleLoop02_02_Regular_Green_500x500.webm`
+                    }
+                }
+            }
         }
         freeDatabase.explosion = {
             '01': {
