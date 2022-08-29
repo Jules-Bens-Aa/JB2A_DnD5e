@@ -614,12 +614,12 @@ export async function jb2aFreeDatabase(prefix) {
                         loop: { start: 2125, end: 6250 }
                     },
                     '02': {
-                        green: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/Entangle02_02_Regular_Green_500x500.webm`
+                        green: `${prefix}/JB2A_DnD5e/Library/1st_Level/Entangle/Entangle02_02_Regular_Green_500x500.webm`
                     }
                 },
                 loop: {
                     '02': {
-                        green: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/EntangleLoop02_02_Regular_Green_500x500.webm`
+                        green: `${prefix}/JB2A_DnD5e/Library/1st_Level/Entangle/EntangleLoop02_02_Regular_Green_500x500.webm`
                     }
                 }
             }
