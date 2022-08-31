@@ -291,6 +291,11 @@ export async function jb2aFreeDatabase(prefix) {
                         blueorange: `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/PlanetAtmo_01_Regular_BlueOrange_800x800.webm`
                     },
                 },
+                gas_giant:{
+                    '01': {
+                        blue: `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/PlanetGasGiant_01_Regular_Blue_800x800.webm`
+                    }
+                },
                 no_atmo: {
                     '03': {
                         grey: `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/PlanetNoAtmo_03_Regular_Grey_800x800.webm`
@@ -433,6 +438,9 @@ export async function jb2aFreeDatabase(prefix) {
         }
         freeDatabase.divine_smite = {
             caster: {
+                reversed: {
+                    blueyellow: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Divine_Smite/DivineSmiteReversed_01_Regular_BlueYellow_Caster_400x400.webm`
+                },
                 blueyellow: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_BlueYellow_Caster_400x400.webm`
             },
             target: {
@@ -2173,6 +2181,15 @@ export async function jb2aFreeDatabase(prefix) {
         }
         freeDatabase.shield = {
             '01': {
+                complete: {
+                    _markers: {
+                        loop: { start: 1533, end: 5533 },
+                        forcedEnd: 5533
+                    },
+                    '01':{
+                        blue: `${prefix}/JB2A_DnD5e/Library/1st_Level/Shield/Shield_01_Regular_Blue_Complete_400x400.webm`
+                    }
+                },
                 intro: {
                     blue: `${prefix}/JB2A_DnD5e/Library/1st_Level/Shield/Shield_01_Regular_Blue_Intro_400x400.webm`
                 },
