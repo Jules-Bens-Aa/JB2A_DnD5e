@@ -290,6 +290,9 @@ export async function jb2aFreeDatabase(prefix) {
                     '01': {
                         blueorange: `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/PlanetAtmo_01_Regular_BlueOrange_800x800.webm`
                     },
+                    '05': {
+                        red: `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/PlanetAtmo_05_Regular_Red_800x800.webm`
+                    }
                 },
                 gas_giant:{
                     '01': {
@@ -2079,7 +2082,81 @@ export async function jb2aFreeDatabase(prefix) {
                 }
             }
         }
-
+        freeDatabase.plant_growth = {
+            '03': {
+                square: {
+                    "2x2": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 2000, end: 6000 }
+                            },
+                            greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/PlantGrowthSquare03_01_Regular_GreenYellow_300x300.webm`
+                        },
+                        
+                        loop: {
+                            greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/PlantGrowthSquareLoop03_01_Regular_GreenYellow_300x300.webm`
+                        }
+                    },
+                    "4x4": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 2000, end: 6000 }
+                            },
+                            greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/PlantGrowthSquare03_01_Regular_GreenYellow_500x500.webm`
+                        },
+                        
+                        loop: {
+                            greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/PlantGrowthSquareLoop03_01_Regular_GreenYellow_500x500.webm`
+                        }
+                    }
+    
+                },
+                round: {
+                    "2x2": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 2000, end: 6000 }
+                            },
+                            greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/PlantGrowthRound03_01_Regular_GreenYellow_300x300.webm`
+                        },
+                        
+                        loop: {
+                            greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/PlantGrowthRoundLoop03_01_Regular_GreenYellow_300x300.webm`
+                        }
+                    },
+                    "4x4": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 2000, end: 6000 }
+                            },
+                            greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/PlantGrowthRound03_01_Regular_GreenYellow_500x500.webm`
+                        },
+                        
+                        loop: {
+                            greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/PlantGrowthRoundLoop03_01_Regular_GreenYellow_500x500.webm`
+                        }
+                    }
+                },
+                ring: {
+                    "4x4": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 2000, end: 6000 }
+                            },
+                            greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/PlantGrowthRing03_01_Regular_GreenYellow_500x500.webm`
+                        },
+                        loop: {
+                            greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/PlantGrowthRingLoop03_01_Regular_GreenYellow_500x500.webm`
+                        },
+                        pulse: {
+                            greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/PlantGrowthRingPulse03_01_Regular_GreenYellow_500x500.webm`
+                        }
+                    }
+                }
+            }
+    
+    
+    }
         freeDatabase.portals = {
             horizontal: {
                 ring: {

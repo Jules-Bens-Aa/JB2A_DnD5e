@@ -1,22 +1,39 @@
 {
   "name": "JB2A_DnD5e",
+  "id": "JB2A_DnD5e",  
   "title": "JB2A - Jules and Ben's Animated Assets - Free Content",
   "description": "<p>Animated Assets for spells, tiles, tokens, melee and ranged attacks</p><p>Troubleshooting and FAQ section on our <a href='https://jb2a.com'>website</a> </p><p>Join our <a href='https://discord.gg/gmd8MAPX4m'>Discord server</a> for any further questions</p><p> <a href='https://www.jb2a.com/Library_Preview/'>Preview</a> our assets<br><p>Consider supporting us on <a href='https://www.patreon.com/JB2A'>Patreon</a> for more ! </p>",
-  "author": "Gazkhan#8192 and Wassily#8035",
+  "author": "Gazkhan#8192 and Wassily#8035", 
+  "authors": [
+    {
+      "name": "Jules",
+      "url": "https://www.patreon.com/JB2A",
+      "discord": "Gazkhan#8192"
+    },
+    {
+      "name": "Ben",
+      "url": "https://www.patreon.com/JB2A",
+      "discord": "Wassily#8035"
+    }
+  ],
   "url": "https://www.patreon.com/JB2A",
-  "version": "0.4.9",
+  "version": "0.5.0",
   "minimumCoreVersion": "0.8.0",
   "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": 8,
+    "verified": 10.286
+  },
   "packs": [
     {
-      "entity": "Macro",
+      "type": "Macro",
       "label": "JB2A Sequencer Macros",
       "name": "jb2a-sequencer",
       "path": "./packs/jb2a-sequencer.db",
       "module": "JB2A_DnD5e"
     },
     {
-      "entity": "Actor",
+      "type": "Actor",
       "label": "JB2A DnD5e Actors",
       "name": "jb2a-actors",
       "system": "dnd5e",
@@ -36,5 +53,5 @@
   ],
   "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "manifest": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/latest/download/module.json",
-  "download": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/download/0.4.9/JB2A_DnD5e-0.4.9.zip"
+  "download": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/download/0.5.0/JB2A_DnD5e-0.5.0.zip"
 }
