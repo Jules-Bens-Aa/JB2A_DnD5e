@@ -285,6 +285,59 @@ export async function jb2aFreeDatabase(prefix) {
             },
         }
         freeDatabase.celestial_bodies = {
+            asteroid: {
+                disk: {
+                    iron: {
+                        red: {
+                            '01': `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/AsteroidDiskIron01_01_Regular_Red_600x600.webm`,
+                            '02': `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/AsteroidDiskIron02_01_Regular_Red_600x600.webm`,
+                            '03': `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/AsteroidDiskIron03_01_Regular_Red_600x600.webm`,
+                            '04': `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/AsteroidDiskIron04_01_Regular_Red_600x600.webm`
+                        }
+                    }
+    
+                },
+                large_disk: {
+                    iron: {
+                        red: {
+                            '01': `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/AsteroidLargeDiskIron01_01_Regular_Red_800x800.webm`
+                        }
+                    }
+                },
+                line: {
+                    '05x15': {
+                        iron: {
+                            red: {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/AsteroidLineIron01_01_Regular_Red_05x15_600x200.webm`
+                            }
+                        }
+                    },
+                    '05x25': {
+                        iron: {
+                            red: {
+                                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/AsteroidLineIron01_01_Regular_Red_05x25_1000x200.webm`
+                            }
+                        }
+                    }
+                },
+                ring: {
+                    iron: {
+                        red: {
+                            '01': `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/AsteroidRingIron01_01_Regular_Red_800x800.webm`
+                        }
+                    }
+                },
+                single: {
+                    iron: {
+                        red: {
+                            '01': `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/AsteroidSingleIron01_01_Regular_Red_400x400.webm`,
+                            '02': `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/AsteroidSingleIron02_01_Regular_Red_400x400.webm`,
+                            '03': `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/AsteroidSingleIron03_01_Regular_Red_400x400.webm`,
+                            '04': `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/AsteroidSingleIron04_01_Regular_Red_400x400.webm`
+                        }
+                    }                
+                }
+            },
             planet: {
                 atmo: {
                     '01': {
@@ -607,6 +660,11 @@ export async function jb2aFreeDatabase(prefix) {
                             '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_90ft_4000x400.webm`
                         }
                     }
+                }
+            },
+            '02': {
+                marker: {
+                    bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/EnergyStrands02_01_Regular_BluePurple_400x400.webm`
                 }
             }
         }
@@ -1598,6 +1656,13 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 '02': {
                     abjuration: {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 8000 },
+                                forcedEnd: 8000
+                            },
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/AbjurationCircleComplete_02_Regular_Blue_800x800.webm`
+                        },
                         intro: {
                             dark_blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Dark_Blue_800x800.webm`,
                             blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Regular_Blue_800x800.webm`,
@@ -1612,6 +1677,13 @@ export async function jb2aFreeDatabase(prefix) {
                         }
                     },
                     conjuration: {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 8000 },
+                                forcedEnd: 8000
+                            },
+                            yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/ConjurationCircleComplete_02_Regular_Yellow_800x800.webm`
+                        },
                         intro: {
                             dark_yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Dark_Yellow_800x800.webm`,
                             yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Regular_Yellow_800x800.webm`,
@@ -1626,6 +1698,13 @@ export async function jb2aFreeDatabase(prefix) {
                         }
                     },
                     divination: {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 8000 },
+                                forcedEnd: 8000
+                            },
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/DivinationCircleComplete_02_Regular_Blue_800x800.webm`
+                        },
                         intro: {
                             dark_blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Dark_Blue_800x800.webm`,
                             blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Regular_Blue_800x800.webm`,
@@ -1640,6 +1719,13 @@ export async function jb2aFreeDatabase(prefix) {
                         }
                     },
                     enchantment: {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 8000 },
+                                forcedEnd: 8000
+                            },
+                            pink: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EnchantmentCircleComplete_02_Regular_Pink_800x800.webm`
+                        },
                         intro: {
                             dark_pink: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Dark_Pink_800x800.webm`,
                             pink: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Regular_Pink_800x800.webm`,
@@ -1654,6 +1740,13 @@ export async function jb2aFreeDatabase(prefix) {
                         }
                     },
                     evocation: {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 8000 },
+                                forcedEnd: 8000
+                            },
+                            red: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EvocationCircleComplete_02_Regular_Red_800x800.webm`
+                        },
                         intro: {
                             dark_red: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Dark_Red_800x800.webm`,
                             red: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Regular_Red_800x800.webm`,
@@ -1668,6 +1761,13 @@ export async function jb2aFreeDatabase(prefix) {
                         }
                     },
                     illusion: {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 8000 },
+                                forcedEnd: 8000
+                            },
+                            purple: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/IllusionCircleComplete_02_Regular_Purple_800x800.webm`
+                        },
                         intro: {
                             dark_purple: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Dark_Purple_800x800.webm`,
                             purple: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Regular_Purple_800x800.webm`,
@@ -1682,6 +1782,13 @@ export async function jb2aFreeDatabase(prefix) {
                         }
                     },
                     necromancy: {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 8000 },
+                                forcedEnd: 8000
+                            },
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/NecromancyCircleComplete_02_Regular_Green_800x800.webm`
+                        },
                         intro: {
                             dark_green: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Dark_Green_800x800.webm`,
                             green: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Regular_Green_800x800.webm`,
@@ -1696,6 +1803,13 @@ export async function jb2aFreeDatabase(prefix) {
                         }
                     },
                     transmutation: {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 8000 },
+                                forcedEnd: 8000
+                            },
+                            yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/TransmutationCircleComplete_02_Regular_Yellow_800x800.webm`
+                        },
                         intro: {
                             dark_yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Dark_Yellow_800x800.webm`,
                             yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Regular_Yellow_800x800.webm`,
@@ -2695,7 +2809,12 @@ export async function jb2aFreeDatabase(prefix) {
                     '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeaves01_01_Regular_GreenOrange_60ft_2800x400.webm`,
                     '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeaves01_01_Regular_GreenOrange_90ft_4000x400.webm`
                 }
-            }
+            },
+            outburst: {
+                '01': {
+                    pink: `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingLeavesOutburst_01_01_Regular_Pink_400x400.webm`
+                }
+            },
         },
         freeDatabase.swirling_sparkles = {
             '01': {
