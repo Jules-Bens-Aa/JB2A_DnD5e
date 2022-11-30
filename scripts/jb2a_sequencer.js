@@ -2872,7 +2872,7 @@ export async function jb2aFreeDatabase(prefix) {
                 '01': {
                     spectral: {                   
                         '02': {
-                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Hammmer01_02_Spectral_Green_400x400.webm`
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Hammer01_02_Spectral_Green_400x400.webm`
                         }
                     }
                 }
@@ -2897,60 +2897,48 @@ export async function jb2aFreeDatabase(prefix) {
             },
             longsword: {
                 '01': {
-                    spectral: {
-                        '01': {
-                            blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Sword01_01_Spectral_Blue_200x200.webm`,
-                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Sword01_01_Spectral_Green_200x200.webm`,
-                            orange: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Sword01_01_Spectral_Orange_200x200.webm`,
-                            purple: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Sword01_01_Spectral_Purple_200x200.webm`,
-                            red: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Sword01_01_Spectral_Red_200x200.webm`
-                        },
-                    },
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_LongSword01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
 
                 }
             },
             mace: {
-                '01': {
-                    spectral: {
-                        '01': {
-                            blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Spectral_Blue_200x200.webm`,
-                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Spectral_Green_200x200.webm`,
-                            orange: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Spectral_Orange_200x200.webm`,
-                            purple: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Spectral_Purple_200x200.webm`,
-                            red: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Spectral_Red_200x200.webm`
-                        }
-                    }
-                },
                 //TO BE REMOVED [-->
                 flaming: {
                     yellow: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Flaming_Yellow_200x200.webm`
                 },
                 spectral: {
                     blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Spectral_Blue_200x200.webm`
-                }
+                },
                 //TO BE REMOVED <--]
-
-            },
-            maul: {
                 '01': {
                     spectral: {
-                        '01': {
-                            blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Spectral_Blue_200x200.webm`,
-                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Spectral_Green_200x200.webm`,
-                            orange: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Spectral_Orange_200x200.webm`,
-                            purple: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Spectral_Purple_200x200.webm`,
-                            red: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Spectral_Red_200x200.webm`
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_02_Spectral_Green_400x400.webm`
                         }
                     }
-                },
+                }
+            },
+            maul: {
                 //TO BE REMOVED [-->
                 flaming: {
                     yellow: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Flaming_Yellow_200x200.webm`
                 },
                 spectral: {
                     blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Spectral_Blue_200x200.webm`
-                }
+                },
                 //TO BE REMOVED <--]
+                '01': {
+                    spectral: {
+                        '02': {
+
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                },
             },
             quarterstaff: {
                 '01': {
@@ -2982,13 +2970,8 @@ export async function jb2aFreeDatabase(prefix) {
             scythe: {
                 '01': {
                     spectral: {
-                        '01': {
-                            blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scythe01_02_Spectral_Blue_300x300.webm`,
-                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scythe01_02_Spectral_Green_300x300.webm`,
-                            orange: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scythe01_02_Spectral_Orange_300x300.webm`,
-                            purple: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scythe01_02_Spectral_Purple_300x300.webm`,
-                            red: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scythe01_02_Spectral_Red_300x300.webm`,
-                            white: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scythe01_02_Spectral_White_300x300.webm`
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scythe01_02_Spectral_Green_400x400.webm`
                         }
                     }
                 },
