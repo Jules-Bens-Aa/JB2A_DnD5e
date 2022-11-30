@@ -1457,7 +1457,17 @@ export async function jb2aFreeDatabase(prefix) {
                     '01': `${prefix}/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_01_StillFrame.webp`,
                     '02': `${prefix}/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_02_StillFrame.webp`,
                     '03': `${prefix}/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_03_StillFrame.webp`
+                },
+                frost: {
+                    '01': {
+                        white: `${prefix}/JB2A_DnD5e/Library/Generic/Impact/GroundCrackFrostImpact_01_Regular_White_600x600.webm`,
+                    }
                 }
+            },
+            frost: {
+                white: {
+                    '01': `${prefix}/JB2A_DND5e/Library/Generic/Impact/FrostImpact_01_Regular_White_600x600.webm`,
+                },
             },
             orange: [
                 `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact_05_Regular_Orange_400x400.webm`,
@@ -1544,7 +1554,10 @@ export async function jb2aFreeDatabase(prefix) {
         freeDatabase.lasersword = {
             melee: {
                 _template: 'melee',
-                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/LaserSword01_01_Regular_Blue_800x600.webm`
+                blue: {
+                    '01': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/LaserSword01_01_Regular_Blue_800x600.webm`,
+                    '02': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/LaserSword01_02_Regular_Blue_800x600.webm`,
+                }
             },
             throw: {
                 _template: 'ranged',
@@ -1661,7 +1674,8 @@ export async function jb2aFreeDatabase(prefix) {
                                 loop: { start: 3000, end: 8000 },
                                 forcedEnd: 8000
                             },
-                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/AbjurationCircleComplete_02_Regular_Blue_800x800.webm`
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/AbjurationCircleComplete_02_Regular_Blue_800x800.webm`,
+                            dark_blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/AbjurationCircleComplete_02_Dark_Blue_800x800.webm`
                         },
                         intro: {
                             dark_blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Dark_Blue_800x800.webm`,
@@ -1682,7 +1696,8 @@ export async function jb2aFreeDatabase(prefix) {
                                 loop: { start: 3000, end: 8000 },
                                 forcedEnd: 8000
                             },
-                            yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/ConjurationCircleComplete_02_Regular_Yellow_800x800.webm`
+                            yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/ConjurationCircleComplete_02_Regular_Yellow_800x800.webm`,
+                            dark_yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/ConjurationCircleComplete_02_Dark_Yellow_800x800.webm`,
                         },
                         intro: {
                             dark_yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Dark_Yellow_800x800.webm`,
@@ -1703,7 +1718,8 @@ export async function jb2aFreeDatabase(prefix) {
                                 loop: { start: 3000, end: 8000 },
                                 forcedEnd: 8000
                             },
-                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/DivinationCircleComplete_02_Regular_Blue_800x800.webm`
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/DivinationCircleComplete_02_Regular_Blue_800x800.webm`,
+                            dark_blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/DivinationCircleComplete_02_Dark_Blue_800x800.webm`,
                         },
                         intro: {
                             dark_blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Dark_Blue_800x800.webm`,
@@ -1724,7 +1740,8 @@ export async function jb2aFreeDatabase(prefix) {
                                 loop: { start: 3000, end: 8000 },
                                 forcedEnd: 8000
                             },
-                            pink: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EnchantmentCircleComplete_02_Regular_Pink_800x800.webm`
+                            pink: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EnchantmentCircleComplete_02_Regular_Pink_800x800.webm`,
+                            dark_pink: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EnchantmentCircleComplete_02_Dark_Pink_800x800.webm`,
                         },
                         intro: {
                             dark_pink: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Dark_Pink_800x800.webm`,
@@ -1745,7 +1762,8 @@ export async function jb2aFreeDatabase(prefix) {
                                 loop: { start: 3000, end: 8000 },
                                 forcedEnd: 8000
                             },
-                            red: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EvocationCircleComplete_02_Regular_Red_800x800.webm`
+                            red: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EvocationCircleComplete_02_Regular_Red_800x800.webm`,
+                            dark_red: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EvocationCircleComplete_02_Dark_Red_800x800.webm`,
                         },
                         intro: {
                             dark_red: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Dark_Red_800x800.webm`,
@@ -1766,7 +1784,8 @@ export async function jb2aFreeDatabase(prefix) {
                                 loop: { start: 3000, end: 8000 },
                                 forcedEnd: 8000
                             },
-                            purple: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/IllusionCircleComplete_02_Regular_Purple_800x800.webm`
+                            purple: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/IllusionCircleComplete_02_Regular_Purple_800x800.webm`,
+                            dark_purple: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/IllusionCircleComplete_02_Dark_Purple_800x800.webm`,
                         },
                         intro: {
                             dark_purple: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Dark_Purple_800x800.webm`,
@@ -1787,7 +1806,8 @@ export async function jb2aFreeDatabase(prefix) {
                                 loop: { start: 3000, end: 8000 },
                                 forcedEnd: 8000
                             },
-                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/NecromancyCircleComplete_02_Regular_Green_800x800.webm`
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/NecromancyCircleComplete_02_Regular_Green_800x800.webm`,
+                            dark_green: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/NecromancyCircleComplete_02_Dark_Green_800x800.webm`,
                         },
                         intro: {
                             dark_green: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Dark_Green_800x800.webm`,
@@ -1808,7 +1828,8 @@ export async function jb2aFreeDatabase(prefix) {
                                 loop: { start: 3000, end: 8000 },
                                 forcedEnd: 8000
                             },
-                            yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/TransmutationCircleComplete_02_Regular_Yellow_800x800.webm`
+                            yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/TransmutationCircleComplete_02_Regular_Yellow_800x800.webm`,
+                            dark_yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/TransmutationCircleComplete_02_Dark_Yellow_800x800.webm`,
                         },
                         intro: {
                             dark_yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Dark_Yellow_800x800.webm`,
@@ -2109,6 +2130,32 @@ export async function jb2aFreeDatabase(prefix) {
                 blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Blue_400x400.webm`
             }
         }
+        freeDatabase.melee_generic = {
+            _template: "melee",
+            slash: {
+                "01": {
+                    "01": {
+                        orange: `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GenericSlash01_01_Regular_Orange_800x600.webm`,
+                    },
+                    "02": {
+                        orange: `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GenericSlash01_02_Regular_Orange_800x600.webm`,
+                    },
+                    "03": {
+                        orange: `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GenericSlash01_03_Regular_Orange_800x600.webm`,
+                    }
+                },
+            },
+            whirlwind: {
+                "01": {
+                    "01": {
+                        orange: `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GenericWhirlwind01_01_Regular_Orange_800x600.webm`,
+                    },
+                    "02": {
+                        orange: `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GenericWhirlwind01_02_Regular_Orange_800x600.webm`,
+                    }
+                },
+            }
+    }
         freeDatabase.moonbeam = {
             '01': {
                 intro: {
@@ -2749,23 +2796,240 @@ export async function jb2aFreeDatabase(prefix) {
             blueyellow: `${prefix}/JB2A_DnD5e/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_BlueYellow_600x600.webm`
         }
         freeDatabase.spiritual_weapon = {
+            club: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Club01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            dagger: {
+                '02': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Dagger02_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            falchion: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Falchion01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            glaive: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Glaive01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            greataxe: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_GreatAxe01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            greatclub: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_GreatClub01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            greatsword: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_GreatSword01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            halberd: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Halberd01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            hammer: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Hammmer01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            handaxe: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_HandAxe01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            javelin: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Javelin01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            longsword: {
+                '01': {
+                    spectral: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Sword01_01_Spectral_Blue_200x200.webm`,
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Sword01_01_Spectral_Green_200x200.webm`,
+                            orange: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Sword01_01_Spectral_Orange_200x200.webm`,
+                            purple: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Sword01_01_Spectral_Purple_200x200.webm`,
+                            red: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Sword01_01_Spectral_Red_200x200.webm`
+                        },
+                    },
+
+                }
+            },
             mace: {
+                '01': {
+                    spectral: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Spectral_Blue_200x200.webm`,
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Spectral_Green_200x200.webm`,
+                            orange: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Spectral_Orange_200x200.webm`,
+                            purple: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Spectral_Purple_200x200.webm`,
+                            red: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Spectral_Red_200x200.webm`
+                        }
+                    }
+                },
+                //TO BE REMOVED [-->
                 flaming: {
                     yellow: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Flaming_Yellow_200x200.webm`
                 },
                 spectral: {
                     blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Spectral_Blue_200x200.webm`
                 }
+                //TO BE REMOVED <--]
+
             },
             maul: {
+                '01': {
+                    spectral: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Spectral_Blue_200x200.webm`,
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Spectral_Green_200x200.webm`,
+                            orange: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Spectral_Orange_200x200.webm`,
+                            purple: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Spectral_Purple_200x200.webm`,
+                            red: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Spectral_Red_200x200.webm`
+                        }
+                    }
+                },
+                //TO BE REMOVED [-->
                 flaming: {
                     yellow: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Flaming_Yellow_200x200.webm`
                 },
                 spectral: {
                     blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Maul01_01_Spectral_Blue_200x200.webm`
                 }
-            }
-        }
+                //TO BE REMOVED <--]
+            },
+            quarterstaff: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Quarterstaff01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            rapier: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Rapier01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            scimitar: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scimitar01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            scythe: {
+                '01': {
+                    spectral: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scythe01_02_Spectral_Blue_300x300.webm`,
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scythe01_02_Spectral_Green_300x300.webm`,
+                            orange: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scythe01_02_Spectral_Orange_300x300.webm`,
+                            purple: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scythe01_02_Spectral_Purple_300x300.webm`,
+                            red: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scythe01_02_Spectral_Red_300x300.webm`,
+                            white: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Scythe01_02_Spectral_White_300x300.webm`
+                        }
+                    }
+                },
+            },
+            shortsword: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Shortsword01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            spear: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Spear01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            warhammer: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Warhammer01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+            wrench: {
+                '01': {
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Wrench01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
+    }
         freeDatabase.static_electricity = {
             '01': {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Lightning/StaticElectricity_01_Regular_Blue_400x400.webm`
