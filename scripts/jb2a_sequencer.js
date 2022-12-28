@@ -2635,9 +2635,9 @@ export async function jb2aFreeDatabase(prefix) {
                 },
             "01": {
                 grey: [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/SmokePlumes01_01_Regular_Grey_400x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/SmokePlumes01_02_Regular_Grey_400x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/SmokePlumes01_03_Regular_Grey_400x400.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePlumes01_01_Regular_Grey_400x400.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePlumes01_02_Regular_Grey_400x400.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePlumes01_03_Regular_Grey_400x400.webm`,
                 ]
             }
         }
