@@ -1943,6 +1943,12 @@ export async function jb2aFreeDatabase(prefix) {
             blueyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm`
         },
         bubble: {
+            complete: {
+                _markers: {
+                    loop: { start: 2625, end: 7625 }
+                },
+                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleComplete_01_Regular_Blue_400x400.webm`
+            },
             intro: {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleIntro_01_Regular_Blue_400x400.webm`
             },
@@ -2007,13 +2013,19 @@ export async function jb2aFreeDatabase(prefix) {
             },
         },
         light: {
+            complete: {
+                _markers: {
+                    loop: { start: 3750, end: 8750 }
+                },
+                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerLightComplete_01_Regular_Blue_400x400.webm`
+            },
             intro: {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerLightIntro_01_Regular_Blue_400x400.webm`
             },
             loop: {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerLight_01_Regular_Blue_400x400.webm`
             },
-            no_pulse: {
+            nopulse: {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerLightNoPulse_01_Regular_Blue_400x400.webm`
             },
             outro: {
@@ -2087,6 +2099,22 @@ export async function jb2aFreeDatabase(prefix) {
                 '03': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerShieldCracked_03_Regular_Purple_400x400.webm`
             }
         },
+        shield_rampart: {
+            complete: {
+                _markers: {
+                    loop: { start: 1916, end: 6208 }
+                },
+                '01': {
+                    orange: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerShieldRampart01_01_Regular_Orange_400x400.webm`,
+                }
+
+            },
+            loop: {
+                '01': {
+                    orange: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerShieldRampartLoop01_01_Regular_Orange_400x400.webm`,
+                }
+            }
+        },
         skull: {
             dark_orange: {
                 '01': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerSkull_01_Dark_Orange_400x400.webm`,
@@ -2097,6 +2125,13 @@ export async function jb2aFreeDatabase(prefix) {
                 '01': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerSkull_01_Regular_Purple_400x400.webm`,
                 '02': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerSkull_02_Regular_Purple_400x400.webm`,
                 '03': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerSkull_03_Regular_Purple_400x400.webm`
+            }
+        },
+        smoke: {
+            ring: {
+                loop: {
+                    bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerSmokeRingLoop01_Regular_BluePurple_400x400.webm`
+                }
             }
         },
         snowflake: {
@@ -2151,9 +2186,15 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.moonbeam = {
+        _metadata: {
+            name: "Moonbeam"
+        },
         '01': {
-            intro: {
-                blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Moonbeam/MoonbeamIntro_01_Regular_Blue_400x400.webm`
+            complete: {
+                _markers: {
+                    loop: { start: 3708, end: 8708 }
+                },
+                blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Moonbeam/MoonbeamComplete_01_Regular_Blue_400x400.webm`
             },
             loop: {
                 blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Moonbeam/Moonbeam_01_Regular_Blue_400x400.webm`
@@ -2161,11 +2202,14 @@ export async function jb2aFreeDatabase(prefix) {
             no_pulse: {
                 blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Moonbeam/MoonbeamNoPulse_01_Regular_Blue_400x400.webm`
             },
+            intro: {
+                blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Moonbeam/MoonbeamIntro_01_Regular_Blue_400x400.webm`
+            },
             outro: {
                 blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Moonbeam/MoonbeamOutro_01_Regular_Blue_400x400.webm`
             }
         }
-    }
+}
     freeDatabase.music_notations = {
         bass_clef: {
             blue: `${prefix}/JB2A_DnD5e/Library/Generic/Music_Notation/BassClef_01_Regular_Blue_200x200.webm`
@@ -2585,6 +2629,18 @@ export async function jb2aFreeDatabase(prefix) {
                 }
             }
         },
+        plumes: {
+            _markers: {
+                loop: { start: 2000, end: 4000 }
+                },
+            "01": {
+                grey: [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/SmokePlumes01_01_Regular_Grey_400x400.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/SmokePlumes01_02_Regular_Grey_400x400.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/SmokePlumes01_03_Regular_Grey_400x400.webm`,
+                ]
+            }
+        }
     }
     freeDatabase.smoke_line = {
         '05x05ft': {
@@ -3018,6 +3074,20 @@ export async function jb2aFreeDatabase(prefix) {
             blue: `${prefix}/JB2A_DnD5e/Library/Generic/Lightning/StaticElectricity_03_Regular_Blue_400x400.webm`
         }
     }
+    freeDatabase.swirling_feathers = {
+        _metadata: {
+            name: "Swirling Feathers"
+        },
+        outburst: {
+            '01': {
+                textured: [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingFeathersOutburst01_01_Regular_Textured_400x400.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingFeathersOutburst02_01_Regular_Textured_400x400.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Nature/SwirlingFeathersOutburst03_01_Regular_Textured_400x400.webm`
+                ]
+            }
+        }
+}
     freeDatabase.swirling_leaves = {
         complete: {
             '01': {
