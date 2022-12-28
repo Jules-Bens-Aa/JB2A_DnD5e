@@ -1,4 +1,4 @@
-<img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"> ![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.5.2/JB2A_DnD5e-0.5.2.zip?color=ffba00&label=Release%200.5.2%20Downloads)<br>
+<img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"> ![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.5.3/JB2A_DnD5e-0.5.3.zip?color=ffba00&label=Release%200.5.3%20Downloads)<br>
 
 [![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)
 [![PayPal](https://img.shields.io/badge/Donate-Paypal-ff69b4)](https://paypal.me/DonationJB2A?locale.x=fr_FR)
@@ -8,6 +8,8 @@
 We create ... animated assets ! *no scripts, only assets*
 
 # Announcements Section.
+
+## Have fun this holiday season and be well. We hope you enjoy our assets :) See you next year!
 
 ### Very useful FoundryVTT Modules for animated assets :
 [**Sequencer**](https://github.com/fantasycalendar/FoundryVTT-Sequencer/wiki) by Wasp from [Fantasy Computerworks](http://fantasycomputer.works/) - [Ko-fi](https://ko-fi.com/fantasycomputerworks) <br>
