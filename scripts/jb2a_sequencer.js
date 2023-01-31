@@ -668,6 +668,74 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
     }
+    freeDatabase.energy_wall = {
+        '01': {
+            '05x05ft': {
+                '01': {
+                    complete: {
+                        orange: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_05x05ft_Complete_400x400.webm`
+                    },
+                    loop: {
+                        orange: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_05x05ft_Loop_400x400.webm`
+                    }
+                }
+            },
+            '10x05ft': {
+                '01': {
+                    complete: {
+                        orange: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_10x05ft_Complete_800x400.webm`
+                    },
+                    loop: {
+                        orange: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_10x05ft_Loop_800x400.webm`
+                    }
+                }
+            },
+            '15x05ft': {
+                '01': {
+                    complete: {
+                        orange: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_15x05ft_Complete_1000x400.webm`
+                    },
+                    loop: {
+                        orange: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_15x05ft_Loop_1000x400.webm`
+                    }
+                }
+            },
+            '25x05ft': {
+                '01': {
+                    complete: {
+                        orange: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_25x05ft_Complete_1400x400.webm`
+                    },
+                    loop: {
+                        orange: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_25x05ft_Loop_1400x400.webm`
+                    }
+                }
+            },
+            'circle': {
+                '500x500': {
+                    '01': {
+                        complete: {
+                            orange: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_Circle_Complete_500x500.webm`
+                        },
+                        loop: {
+                            orange: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_Circle_Loop_500x500.webm`
+                        }
+                    }
+                },
+                '900x900': {
+                    '01': {
+                        complete: {
+                            orange: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_Circle_Complete_900x900.webm`
+                        },
+                        loop: {
+                            orange: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_Circle_Loop_900x900.webm`
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
     freeDatabase.eruption = {
         orange: {
             '01': `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Eruption_01_Regular_Orange_600x600.webm`
@@ -1280,6 +1348,29 @@ export async function jb2aFreeDatabase(prefix) {
             greenorange: `${prefix}/JB2A_DnD5e/Library/Generic/Healing/HealingAbility_02_Regular_GreenOrange_Loop_600x600.webm`
         }
     }
+    freeDatabase.hovering_laserweapon = {
+        one_handed:{
+            '01':{
+                blue:{
+                    '01': `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Regular_Blue_400x400.webm`,
+                }
+            }
+        },
+        double_bladed:{
+            '01':{
+                blue:{
+                    '01': `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Regular_Blue_600x600.webm`,
+                }
+            }
+        },
+        spear:{
+            '01':{
+                blue:{
+                    '01': `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Regular_Blue_600x600.webm`
+                }
+            }
+        }
+    }
     freeDatabase.hunters_mark = {
         loop: {
             '01': {
@@ -1848,88 +1939,136 @@ export async function jb2aFreeDatabase(prefix) {
         },
         rune: {
             abjuration: {
+                complete: {
+                    _markers: {
+                        loop: { start: 1500, end: 6500 }
+                    },
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/AbjurationRuneComplete_01_Regular_Blue_400x400.webm`
+                },
                 intro: {
-                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/AbjurationRuneIntro_01_Regular_Blue_400x400.webm`,
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/AbjurationRuneIntro_01_Regular_Blue_400x400.webm`
                 },
                 loop: {
-                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/AbjurationRuneLoop_01_Regular_Blue_400x400.webm`,
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/AbjurationRuneLoop_01_Regular_Blue_400x400.webm`
                 },
                 outro: {
                     blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/AbjurationRuneOutro_01_Regular_Blue_400x400.webm`
                 }
             },
             conjuration: {
+                complete: {
+                    _markers: {
+                        loop: { start: 1500, end: 6500 }
+                    },
+                    yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/ConjurationRuneComplete_01_Regular_Yellow_400x400.webm`
+                },
                 intro: {
-                    yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/ConjurationRuneIntro_01_Regular_Yellow_400x400.webm`,
+                    yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/ConjurationRuneIntro_01_Regular_Yellow_400x400.webm`
                 },
                 loop: {
-                    yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/ConjurationRuneLoop_01_Regular_Yellow_400x400.webm`,
+                    yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/ConjurationRuneLoop_01_Regular_Yellow_400x400.webm`
                 },
                 outro: {
                     yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/ConjurationRuneOutro_01_Regular_Yellow_400x400.webm`
                 }
             },
             divination: {
+                complete: {
+                    _markers: {
+                        loop: { start: 1500, end: 6500 }
+                    },
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/DivinationRuneComplete_01_Regular_Blue_400x400.webm`
+                },
                 intro: {
-                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/DivinationRuneIntro_01_Regular_Blue_400x400.webm`,
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/DivinationRuneIntro_01_Regular_Blue_400x400.webm`
                 },
                 loop: {
-                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/DivinationRuneLoop_01_Regular_Blue_400x400.webm`,
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/DivinationRuneLoop_01_Regular_Blue_400x400.webm`
                 },
                 outro: {
                     blue: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/DivinationRuneOutro_01_Regular_Blue_400x400.webm`
                 }
             },
             enchantment: {
+                complete: {
+                    _markers: {
+                        loop: { start: 1500, end: 6500 }
+                    },
+                    pink: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EnchantmentRuneComplete_01_Regular_Pink_400x400.webm`
+                },
                 intro: {
-                    pink: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EnchantmentRuneIntro_01_Regular_Pink_400x400.webm`,
+                    pink: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EnchantmentRuneIntro_01_Regular_Pink_400x400.webm`
                 },
                 loop: {
-                    pink: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EnchantmentRuneLoop_01_Regular_Pink_400x400.webm`,
+                    pink: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EnchantmentRuneLoop_01_Regular_Pink_400x400.webm`
                 },
                 outro: {
                     pink: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EnchantmentRuneOutro_01_Regular_Pink_400x400.webm`
                 }
             },
             evocation: {
+                complete: {
+                    _markers: {
+                        loop: { start: 1500, end: 6500 }
+                    },
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EvocationRuneComplete_01_Regular_Red_400x400.webm`
+                },
                 intro: {
-                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EvocationRuneIntro_01_Regular_Red_400x400.webm`,
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EvocationRuneIntro_01_Regular_Red_400x400.webm`
                 },
                 loop: {
-                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EvocationRuneLoop_01_Regular_Red_400x400.webm`,
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EvocationRuneLoop_01_Regular_Red_400x400.webm`
                 },
                 outro: {
                     red: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/EvocationRuneOutro_01_Regular_Red_400x400.webm`
                 }
             },
             illusion: {
+                complete: {
+                    _markers: {
+                        loop: { start: 1500, end: 6500 }
+                    },
+                    purple: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/IllusionRuneComplete_01_Regular_Purple_400x400.webm`
+                },
                 intro: {
-                    purple: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/IllusionRuneIntro_01_Regular_Purple_400x400.webm`,
+                    purple: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/IllusionRuneIntro_01_Regular_Purple_400x400.webm`
                 },
                 loop: {
-                    purple: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/IllusionRuneLoop_01_Regular_Purple_400x400.webm`,
+                    purple: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/IllusionRuneLoop_01_Regular_Purple_400x400.webm`
                 },
                 outro: {
                     purple: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/IllusionRuneOutro_01_Regular_Purple_400x400.webm`
                 }
             },
             necromancy: {
+                complete: {
+                    _markers: {
+                        loop: { start: 1500, end: 6500 }
+                    },
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/NecromancyRuneComplete_01_Regular_Green_400x400.webm`
+                },
                 intro: {
-                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/NecromancyRuneIntro_01_Regular_Green_400x400.webm`,
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/NecromancyRuneIntro_01_Regular_Green_400x400.webm`
                 },
                 loop: {
-                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/NecromancyRuneLoop_01_Regular_Green_400x400.webm`,
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/NecromancyRuneLoop_01_Regular_Green_400x400.webm`
                 },
                 outro: {
                     green: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/NecromancyRuneOutro_01_Regular_Green_400x400.webm`
                 }
             },
             transmutation: {
+                complete: {
+                    _markers: {
+                        loop: { start: 1500, end: 6500 }
+                    },
+                    yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/TransmutationRuneComplete_01_Regular_Yellow_400x400.webm`
+                },
                 intro: {
-                    yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/TransmutationRuneIntro_01_Regular_Yellow_400x400.webm`,
+                    yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/TransmutationRuneIntro_01_Regular_Yellow_400x400.webm`
                 },
                 loop: {
-                    yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/TransmutationRuneLoop_01_Regular_Yellow_400x400.webm`,
+                    yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/TransmutationRuneLoop_01_Regular_Yellow_400x400.webm`
                 },
                 outro: {
                     yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Magic_Signs/Runes/TransmutationRuneOutro_01_Regular_Yellow_400x400.webm`
@@ -3040,6 +3179,15 @@ export async function jb2aFreeDatabase(prefix) {
                 spectral: {
                     '02': {
                         green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Spear01_02_Spectral_Green_400x400.webm`
+                    }
+                }
+            }
+        },
+        trident: {
+            '01': {
+                spectral: {
+                    '02': {
+                        green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Trident01_02_Spectral_Green_400x400.webm`
                     }
                 }
             }
