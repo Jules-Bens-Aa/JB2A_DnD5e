@@ -3,7 +3,7 @@ let contentCard = `
     <div class="div-styled" style= "padding: 5px;">
         <div style="text-align: justify; color: #E7E7E7; padding: 10px; background-color: #212121; border: 3px solid #FFBA00; border-radius: 10px;">
             <p style="text-align: center;">
-                <a href="https:\\jb2a.com">
+                <a href="https://jb2a.com">
                     <video oncontextmenu="return false";  autoplay="true" muted="true" loop style="max-width: 150px;">
                         <source src="modules/JB2A_DnD5e/artwork/Circle_Icon_4sec_400x400.webm" type="video/webm"></source>
                     </video>
