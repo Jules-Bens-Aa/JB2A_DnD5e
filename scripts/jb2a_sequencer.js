@@ -2307,10 +2307,6 @@ export async function jb2aFreeDatabase(prefix) {
     freeDatabase.melee_attack = {
         _template: "melee",
         '01': {
-            _metadata: {
-                name: "Melee Attacks - Group 01",
-                new: true
-            },
             butterflysword: {
                 '01': [
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_ButterflySword01_01_800x600.webm`,
@@ -2359,10 +2355,6 @@ export async function jb2aFreeDatabase(prefix) {
             }
         },
         '02': {
-            _metadata: {
-                name: "Melee Attacks - Group 02",
-                new: true
-            },
             hammer: {
                 '01': [
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer01_01_800x600.webm`,
@@ -2425,10 +2417,6 @@ export async function jb2aFreeDatabase(prefix) {
             }
         },
         '03': {
-            _metadata: {
-                name: "Melee Attacks - Group 03",
-                new: true
-            },
             trail: {
                 '01': {
                     '01': {
@@ -2462,9 +2450,10 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 'greataxe': {
                     '01': [
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/GreatAxe01_01_800x600.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/GreatAxe01_02_800x600.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/GreatAxe01_03_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_01_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_02_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_03_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_04_800x600.webm`,
                     ]
                 },
                 'greatsword': {
@@ -2486,10 +2475,6 @@ export async function jb2aFreeDatabase(prefix) {
             }
         },
         '04': {
-            _metadata: {
-                name: "Melee Attacks - Group 04",
-                new: true
-            },
             trail: {
                 '01': {
                     blueyellow: [
@@ -2544,9 +2529,6 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.moonbeam = {
-        _metadata: {
-            name: "Moonbeam"
-        },
         '01': {
             complete: {
                 _markers: {
@@ -3442,9 +3424,6 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.swirling_feathers = {
-        _metadata: {
-            name: "Swirling Feathers"
-        },
         outburst: {
             '01': {
                 textured: [
@@ -3839,9 +3818,6 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.vine = {
-        _metadata: {
-            name: "Vine"
-        },
         complete: {
             _markers: {
                 loop: { start: 2125, end: 6250 }
@@ -3983,9 +3959,6 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.water_splash = {
-        _metadata: {
-            name: "Water Splash"
-        },
         circle: {
             '01': {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/WaterSplashLoop_01_01_Regular_Blue_600x600.webm`
