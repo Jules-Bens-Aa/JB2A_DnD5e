@@ -9,7 +9,6 @@ We create ... animated assets ! *no scripts, only assets*
 
 # Announcements Section.
 
-## Have fun this holiday season and be well. We hope you enjoy our assets :) See you next year!
 
 ### Very useful FoundryVTT Modules for animated assets :
 [**Sequencer**](https://github.com/fantasycalendar/FoundryVTT-Sequencer/wiki) by Wasp from [Fantasy Computerworks](http://fantasycomputer.works/) - [Ko-fi](https://ko-fi.com/fantasycomputerworks) <br>
