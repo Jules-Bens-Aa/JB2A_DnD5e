@@ -1430,6 +1430,9 @@ export async function jb2aFreeDatabase(prefix) {
         music_note: {
             blue: `${prefix}/JB2A_DnD5e/Library/Generic/UI/IconMusicNote_01_Regular_Blue_200x200.webm`
         },
+        mute: {
+            dark_red: `${prefix}/JB2A_DnD5e/Library/Generic/UI/IconMute_01_Dark_Red_200x200.webm`
+        },
         poison: {
             dark_green: `${prefix}/JB2A_DnD5e/Library/Generic/UI/IconPoison_01_Dark_Green_200x200.webm`
 
@@ -2091,6 +2094,25 @@ export async function jb2aFreeDatabase(prefix) {
             blueyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm`
         },
         bubble: {
+            '02': {
+                complete: {
+                    _markers: {
+                        loop: { start: 1708, end: 3375 }
+                    },
+                    blue: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleComplete_02_01_Regular_Blue_400x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleComplete_02_02_Regular_Blue_400x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleComplete_02_03_Regular_Blue_400x400.webm`,
+                    ],
+                },
+                loop: {
+                    blue: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleLoop_02_01_Regular_Blue_400x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleLoop_02_02_Regular_Blue_400x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleLoop_02_03_Regular_Blue_400x400.webm`,
+                    ],
+                }
+            },
             complete: {
                 _markers: {
                     loop: { start: 2625, end: 7625 }
@@ -2188,6 +2210,13 @@ export async function jb2aFreeDatabase(prefix) {
                 '01': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerMusicNote_01_Regular_Blue_400x400.webm`,
                 '02': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerMusicNote_02_Regular_Blue_400x400.webm`,
                 '03': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerMusicNote_03_Regular_Blue_400x400.webm`
+            }
+        },
+        mute: {
+            dark_red: {
+                '01': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerMute_01_Dark_Red_400x400.webm`,
+                '02': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerMute_02_Dark_Red_400x400.webm`,
+                '03': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerMute_03_Dark_Red_400x400.webm`
             }
         },
         poison: {
@@ -2374,28 +2403,6 @@ export async function jb2aFreeDatabase(prefix) {
             }
         },
         '02': {
-            hammer: {
-                '01': [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer01_01_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer01_02_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer01_03_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer01_04_800x600.webm`,
-                ],
-                '02': [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer02_01_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer02_02_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer02_03_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer02_04_800x600.webm`,
-                ]
-            },
-            handaxe: {
-                '01': [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_HandAxe01_01_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_HandAxe01_02_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_HandAxe01_03_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_HandAxe01_04_800x600.webm`,
-                ]
-            },
             trail: {
                 '01': {
                     blueyellow: [
@@ -2418,7 +2425,61 @@ export async function jb2aFreeDatabase(prefix) {
                     ]
                 },
             },
-            'wrench': {
+            bone: {
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Bone01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Bone01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Bone01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Bone01_04_800x600.webm`,
+                ]
+            },
+            club: {
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Club01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Club01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Club01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Club01_04_800x600.webm`,
+                ]
+            },
+            hammer: {
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer01_04_800x600.webm`,
+                ],
+                '02': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer02_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer02_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer02_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer02_04_800x600.webm`,
+                ]
+            },
+            handaxe: {
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_HandAxe01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_HandAxe01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_HandAxe01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_HandAxe01_04_800x600.webm`,
+                ]
+            },
+            mace: {
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Mace01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Mace01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Mace01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Mace01_04_800x600.webm`,
+                ]
+            },
+            warhammer: {
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Warhammer01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Warhammer01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Warhammer01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Warhammer01_04_800x600.webm`,
+                ]
+            },
+            wrench: {
                 '01': [
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Wrench01_01_800x600.webm`,
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Wrench01_02_800x600.webm`,
@@ -2426,14 +2487,6 @@ export async function jb2aFreeDatabase(prefix) {
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Wrench01_04_800x600.webm`,
                 ]
             },
-            'bone': {
-                '01': [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Bone01_01_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Bone01_02_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Bone01_03_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Bone01_04_800x600.webm`,
-                ]
-            }
         },
         '03': {
             trail: {
@@ -2516,12 +2569,28 @@ export async function jb2aFreeDatabase(prefix) {
                     ]
                 },
             },
+            falchion: {
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Falchion01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Falchion01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Falchion01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Falchion01_04_800x600.webm`,
+                ]
+            },
             katana: {
                 '01': [
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Katana01_01_800x600.webm`,
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Katana01_02_800x600.webm`,
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Katana01_03_800x600.webm`,
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Katana01_04_800x600.webm`,
+                ]
+            },
+            scimitar: {
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Scimitar01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Scimitar01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Scimitar01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Scimitar01_04_800x600.webm`,
                 ]
             }
         },
@@ -3353,6 +3422,13 @@ export async function jb2aFreeDatabase(prefix) {
                         green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Hammer01_02_Spectral_Green_400x400.webm`
                     }
                 }
+            },
+            '02': {
+                spectral: {
+                    '02': {
+                        green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Hammer02_02_Spectral_Green_400x400.webm`
+                    }
+                }
             }
         },
         handaxe: {
@@ -3369,6 +3445,15 @@ export async function jb2aFreeDatabase(prefix) {
                 spectral: {
                     '02': {
                         green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Javelin01_02_Spectral_Green_400x400.webm`
+                    }
+                }
+            }
+        },
+        katana: {
+            '01': {
+                spectral: {
+                    '02': {
+                        green: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Katana01_02_Spectral_Green_400x400.webm`
                     }
                 }
             }
