@@ -284,6 +284,19 @@ export async function jb2aFreeDatabase(prefix) {
             orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Campfire_01_Regular_Orange_200x200.webm`,
         },
     }
+    freeDatabase.cast_shape = {
+        circle: {
+            '01': {
+                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastShapeCircle01_01_Regular_Blue_600x600.webm`
+            }
+        },
+        square: {
+            '01': {
+                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastShapeSquare01_01_Regular_Blue_600x600.webm`
+            }
+        },
+
+    }
     freeDatabase.celestial_bodies = {
         asteroid: {
             disk: {
@@ -2379,6 +2392,14 @@ export async function jb2aFreeDatabase(prefix) {
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_ShortSword01_04_800x600.webm`,
                 ]
             },
+            sickle:{
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_04_800x600.webm`,
+                ]
+            },
             trail: {
                 '01': {
                     blueyellow: [
@@ -2424,6 +2445,14 @@ export async function jb2aFreeDatabase(prefix) {
                         `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/TrailAttack02_01_04_Regular_PinkPurple_800x600.webm`,
                     ]
                 },
+            },
+            battleaxe: {
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_BattleAxe01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_BattleAxe01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_BattleAxe01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_BattleAxe01_04_800x600.webm`,
+                ]
             },
             bone: {
                 '01': [
@@ -2536,6 +2565,16 @@ export async function jb2aFreeDatabase(prefix) {
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_04_800x600.webm`,
                     ]
                 },
+                magical_greatsword: {
+                    '01': {
+                        'orange': [
+                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_01_Regular_Orange_800x600.webm`,
+                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_02_Regular_Orange_800x600.webm`,
+                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_03_Regular_Orange_800x600.webm`,
+                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_04_Regular_Orange_800x600.webm`
+                        ],
+                    }
+                },
                 'maul': {
                     '01': [
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_01_800x600.webm`,
@@ -2624,6 +2663,14 @@ export async function jb2aFreeDatabase(prefix) {
                         `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group05/TrailAttack05_01_04_Regular_PinkPurple_800x600.webm`,
                     ]
                 }
+            }
+        },
+        '06': {
+            shield: {
+                '01': [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield01_01_Regular_White_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield01_02_Regular_White_800x600.webm`
+                    ]
             }
         }
 
@@ -2778,6 +2825,19 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
     }
+    freeDatabase.particle_burst = {
+        '01': {
+            circle: {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticleBurstCircle01_01_Regular_BluePurple_600x600.webm`
+            },
+            rune: {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticleBurstRune01_01_Regular_BluePurple_600x600.webm`
+            },
+            star: {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticleBurstStar01_01_Regular_BluePurple_600x600.webm`
+            }
+        },
+}
     freeDatabase.plant_growth = {
         '03': {
             square: {
@@ -3021,6 +3081,43 @@ export async function jb2aFreeDatabase(prefix) {
                     orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/ShieldMoltenEarthBelow01_01_Regular_Orange_400x400.webm`
                 }
             }
+        }
+    }
+    freeDatabase.shield_attack = {
+        ranged: {
+            _template: 'ranged',
+            throw: {
+                '01': {
+                    white: {
+                        '01': {
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_90ft_4000x400.webm`
+                        },
+                        '02': {
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Shield01_02_Regular_White_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Shield01_02_Regular_White_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Shield01_02_Regular_White_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Shield01_02_Regular_White_90ft_4000x400.webm`
+                        }
+                    }
+                }
+            },
+            return: {
+                '01': {
+                    white: {
+                        '01': {
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_Return_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_Return_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_Return_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_Return_90ft_4000x400.webm`
+                        }
+                    }
+                }
+            }
+            
+
         }
     }
     freeDatabase.shimmer = {
