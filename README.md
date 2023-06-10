@@ -22,10 +22,6 @@ DEVELOPMENT DISCONTINUED [**Advanced Spell Effects**](https://github.com/Vauryx/
 Complete Guide is accessible [here](https://jb2a.com/home/content-information/#token_animator)
 
 ### Other Free Assets available on our other module [JB2A-extras](https://github.com/Jules-Bens-Aa/jb2a-extras/releases/latest/download/module.json).
-- These assets aren't part of our free pack or patreon pack. But they are available for free for everyone. They are under the [Fan-Content License of Forgotten Adventures](https://www.forgotten-adventures.net/info/#copyright). 
-  - [Modified Blast Tile from Forgotten Adventures - Glowing Blast](https://www.dropbox.com/s/7z72w0cjznx6yeo/Modified_Blast_Tile_From_ForgottenAdventures.zip?dl=1)
-    - Intended for a sequence with Fireball's assets (see our macro in our compendium) 
-  - [Modified Chest Tile from Forgotten Adventures - Glints and shimmers](https://www.dropbox.com/s/8udmpsim7hjehnq/Modified_Treasure_Chests_ForgottenAdventures.zip?dl=1)
 
 # Table of content
 
