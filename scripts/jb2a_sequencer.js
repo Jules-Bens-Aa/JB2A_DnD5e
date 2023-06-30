@@ -279,10 +279,36 @@ export async function jb2aFreeDatabase(prefix) {
             yellow: `${prefix}/JB2A_DnD5e/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Yellow_2400x2400.webm`,
         }
     }
+    freeDatabase.caltrops = {
+        endframe: {
+            '01': {
+                grey: [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Caltrops01_01_Regular_Grey_Endframe.webp`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Caltrops01_02_Regular_Grey_Endframe.webp`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Caltrops01_03_Regular_Grey_Endframe.webp`,
+                ]
+            }
+        },
+        '01': {
+            grey: [
+                `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Caltrops01_01_Regular_Grey_400x400.webm`,
+                `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Caltrops01_02_Regular_Grey_400x400.webm`,
+                `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Caltrops01_03_Regular_Grey_400x400.webm`,
+            ]
+        }
+    }
     freeDatabase.campfire = {
         '01': {
             orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Campfire_01_Regular_Orange_200x200.webm`,
         },
+    }
+    freeDatabase.cast_generic = {
+        '01': {
+            yellow: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/GenericCast01_01_Regular_Yellow_400x400.webm`],
+        },
+        '02': {
+            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/GenericCast02_01_Regular_Blue_400x400.webm`],
+        }
     }
     freeDatabase.cast_shape = {
         circle: {
@@ -2163,6 +2189,22 @@ export async function jb2aFreeDatabase(prefix) {
                 }
 
             },
+            spectral_standard: {
+                complete: {
+                    _markers: {
+                        loop: { start: 2033, end: 7000 },
+                        //forcedEnd: 7933
+                    },
+                    '02': {
+                        blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerChainSpectralStandard01_02_Regular_Blue_Complete_400x400.webm`
+                    }
+                },
+                loop: {
+                    '02': {
+                        blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerChainSpectralStandard01_02_Regular_Blue_Loop_400x400.webm`
+                    }
+                }
+            },
         },
         circle_of_stars: {
             blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerCircleOfStars_Regular_Blue_400x400.webm`
@@ -2213,6 +2255,20 @@ export async function jb2aFreeDatabase(prefix) {
             },
             outro: {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerLightOutro_01_Regular_Blue_400x400.webm`
+            }
+        },
+        light_orb: {
+            complete: {
+                _markers: {
+                    loop: { start: 3750, end: 8750 }
+                },
+                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerLightOrbComplete_01_Regular_Blue_400x400.webm`
+            },
+            loop: {
+                _markers: {
+                    loop: { start: 3750, end: 8750 }
+                },
+                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerLightOrbLoop_01_Regular_Blue_400x400.webm`
             }
         },
         music: {
@@ -2563,6 +2619,14 @@ export async function jb2aFreeDatabase(prefix) {
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_02_800x600.webm`,
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_03_800x600.webm`,
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_04_800x600.webm`,
+                    ]
+                },
+                khybersword: {
+                    '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_04_800x600.webm`,
                     ]
                 },
                 magical_greatsword: {
@@ -2963,6 +3027,15 @@ export async function jb2aFreeDatabase(prefix) {
             '30ft': `${prefix}/JB2A_DnD5e/Library/Cantrip/Ray_Of_Frost/RayOfFrost_01_Regular_Blue_30ft_1600x400.webm`,
             '60ft': `${prefix}/JB2A_DnD5e/Library/Cantrip/Ray_Of_Frost/RayOfFrost_01_Regular_Blue_60ft_2800x400.webm`,
             '90ft': `${prefix}/JB2A_DnD5e/Library/Cantrip/Ray_Of_Frost/RayOfFrost_01_Regular_Blue_90ft_4000x400.webm`
+        }
+    }
+    freeDatabase.rolling_boulder = {
+        loop: {
+            '01': {
+                rock: {
+                    brown: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/RollingBoulderRockLoop01_01_Regular_Brown_600x600.webm`
+                }
+            }
         }
     }
     freeDatabase.sacred_flame = {

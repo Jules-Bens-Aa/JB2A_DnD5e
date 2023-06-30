@@ -17,12 +17,12 @@
     }
   ],
   "url": "https://www.patreon.com/JB2A",
-  "version": "0.5.8",
-  "minimumCoreVersion": "0.8.0",
-  "compatibleCoreVersion": "10",
+  "version": "0.5.9",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "11",
   "compatibility": {
-    "minimum": 8,
-    "verified": 10.291
+    "minimum": 9,
+    "verified": 11
   },
   "packs": [
     {
@@ -43,8 +43,9 @@
   ],
   "media": [
     {
-      "type": "cover",
-      "url": "./artwork/jb2acover02.png"
+    "type": "setup",
+    "url": "https://www.jb2a.com/artwork/Gifs/animated-banner.gif",
+    "thumbnail": ""
     }
   ],
   "type": "module",
@@ -53,5 +54,5 @@
   ],
   "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "manifest": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/latest/download/module.json",
-  "download": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/download/0.5.8/JB2A_DnD5e-0.5.8.zip"
+  "download": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/download/0.5.9/JB2A_DnD5e-0.5.9.zip"
 }
