@@ -27,6 +27,33 @@ Hooks.once('init', async function () {
 
 })
 
+// Change the images for compendia when the library has been moved to a new location.
+Hooks.once('ready', async ()=>{
+    // comment out this next line if you need to input "modules" in location in order to reset to default
+    if(game.settings.get(MODULE_NAME, "jb2aLocation") === 'modules' || game.settings.get(MODULE_NAME, "jb2aLocation") === '') return 
+    const key01 = "JB2A_DnD5e.jb2a-actors";
+    const key02 = "JB2A_DnD5e.jb2a-sequencer";
+    const pack01 = game.packs.get(key01);
+    const pack02 = game.packs.get(key02);
+    await pack01.configure({locked: false})
+    await pack02.configure({locked: false})
+    const idx01 = await pack01.getIndex({fields: ["img"]});
+    const idx02 = await pack02.getIndex({fields: ["img"]});
+    let prefix = game.settings.get(MODULE_NAME, "jb2aLocation");
+    const regexPattern= /.+?(?=\/JB2A)/; // everything before "/JB2A"
+    const updates01 = idx01.map(i => ({_id: i._id,
+        "img": regexPattern.test(i.img) ? i.img.replace(regexPattern, prefix) : prefix + i.img
+      }));
+      const updates02 = idx02.map(i => ({_id: i._id,
+        "img": regexPattern.test(i.img) ? i.img.replace(regexPattern, prefix) : prefix + i.img
+      }));
+    await Actor.updateDocuments(updates01, {pack: key01});
+    await Macro.updateDocuments(updates02, {pack: key02});
+    await pack01.configure({locked: true})
+    await pack02.configure({locked: true})
+    }
+)
+
 Hooks.once('ready', async function () {
 
 

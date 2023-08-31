@@ -63,6 +63,37 @@ export async function jb2aFreeDatabase(prefix) {
     freeDatabase.bardic_inspiration = {
         greenorange: `${prefix}/JB2A_DnD5e/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_GreenOrange_400x400.webm`,
     }
+    freeDatabase.barrel = {
+        _template: 'ranged',
+        toss: {
+            metal: {
+                '01': {
+                    '01': {
+                        red: {
+                            '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Red_05ft_600x400.webm`,
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Red_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Red_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Red_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Red_90ft_4000x400.webm`
+                        }
+                    }
+                }
+            },
+            wooden: {
+                '01': {
+                    '01': {
+                        brown: {
+                            '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Brown_05ft_600x400.webm`,
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Brown_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Brown_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Brown_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Brown_90ft_4000x400.webm`
+                        }
+                    }
+                }
+            },
+        }
+    }
     freeDatabase.bite = {
         '200px': {
             red: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Bite_01_Regular_Red_200x200.webm`,
@@ -108,6 +139,24 @@ export async function jb2aFreeDatabase(prefix) {
         '01': {
             orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Bonfire_01_Regular_Orange_400x400.webm`,
         },
+    }
+    freeDatabase.boulder = {
+        _template: 'ranged',
+        toss: {
+            '02': {
+                '01': {
+                    stone: {
+                        brown: {
+                            '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/BoulderToss02_01_Regular_Brown_05ft_600x400.webm`,
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/BoulderToss02_01_Regular_Brown_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/BoulderToss02_01_Regular_Brown_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/BoulderToss02_01_Regular_Brown_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/BoulderToss02_01_Regular_Brown_90ft_4000x400.webm`
+                        }
+                    }
+                }
+            }
+        }
     }
     freeDatabase.braziers = {
         orange: {
@@ -2804,6 +2853,20 @@ export async function jb2aFreeDatabase(prefix) {
             blue: `${prefix}/JB2A_DnD5e/Library/Generic/Music_Notation/TrebleClef_01_Regular_Blue_200x200.webm`
         }
     }
+    freeDatabase.overcharged_sphere = {
+        _template: 'ranged',
+        '01': {
+            '01': {
+                dark_purple: {
+                    '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/OverchargedSphere01_01_Dark_Purple_05ft_600x400.webm`,
+                    '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/OverchargedSphere01_01_Dark_Purple_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/OverchargedSphere01_01_Dark_Purple_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/OverchargedSphere01_01_Dark_Purple_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/OverchargedSphere01_01_Dark_Purple_90ft_4000x400.webm`
+                }
+            }
+        }
+    }
     freeDatabase.pack_hound_missile = {
         _template: 'ranged',
         blue: {
@@ -3345,6 +3408,14 @@ export async function jb2aFreeDatabase(prefix) {
                 '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/SnowballToss_01_Regular_White_90ft_4000x500.webm`,
             }
         }
+    }
+    freeDatabase.soundwave = {
+        '01': {
+            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/Soundwave01_01_Regular_Blue_600x600.webm`
+        },
+        '02': {
+            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/Soundwave01_02_Regular_Blue_600x600.webm`
+        },
     }
     freeDatabase.spear = {
         melee: {
@@ -4119,6 +4190,14 @@ export async function jb2aFreeDatabase(prefix) {
                 `${prefix}/JB2A_DnD5e/Library/Generic/UI/CriticalMiss_03_Red_200x200.webm`,
                 `${prefix}/JB2A_DnD5e/Library/Generic/UI/CriticalMiss_04_Red_200x200.webm`,
             ]
+        },
+        heartbeat: {
+            '01': {
+                green: `${prefix}/JB2A_DnD5e/Library/Generic/Heartbeat/HeartbeatECG01_01_Regular_Green_400x400.webm`
+            },
+            '02': {
+                green: `${prefix}/JB2A_DnD5e/Library/Generic/Heartbeat/HeartbeatECG01_02_Regular_Green_400x400.webm`
+            },
         },
         indicator: {
             yellow: {
