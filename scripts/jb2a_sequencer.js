@@ -9,6 +9,8 @@ export async function jb2aFreeDatabase(prefix) {
         cone200: [200, 100, 100],
         large: [200, 0, 0],
         line100: [100, 50, 150],
+        line200: [200, 200, 200],
+        line200B: [200, 0, 300],
         melee: [200, 300, 300],
         ranged: [200, 200, 200],
         ray: [100, 0, 0],
@@ -357,17 +359,31 @@ export async function jb2aFreeDatabase(prefix) {
         },
         '02': {
             blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/GenericCast02_01_Regular_Blue_400x400.webm`],
+        },
+        fire: {
+            "01": {
+                orange:[`${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastFire01_01_Regular_Orange_600x600.webm`]
+            },
+            "side01": {
+                orange: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastSideFire01_01_Regular_Orange_800x600.webm`]
+            }
         }
     }
     freeDatabase.cast_shape = {
         circle: {
             '01': {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastShapeCircle01_01_Regular_Blue_600x600.webm`
+            },
+            'single01': {
+                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastShapeCircleSingle01_01_Regular_Blue_600x600.webm`
             }
         },
         square: {
             '01': {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastShapeSquare01_01_Regular_Blue_600x600.webm`
+            },
+            'single01': {
+                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastShapeSquareSingle01_01_Regular_Blue_600x600.webm`
             }
         },
 
@@ -1281,7 +1297,9 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.fog_cloud = {
-        white: `${prefix}/JB2A_DnD5e/Library/1st_Level/Fog_Cloud/FogCloud_01_White_800x800.webm`,
+        '01': {
+            white: `${prefix}/JB2A_DnD5e/Library/1st_Level/Fog_Cloud/FogCloud_01_White_800x800.webm`,
+        }
     }
     freeDatabase.footprints = {
         shoe: {
@@ -1653,6 +1671,11 @@ export async function jb2aFreeDatabase(prefix) {
                 '01': {
                     white: `${prefix}/JB2A_DnD5e/Library/Generic/Impact/GroundCrackFrostImpact_01_Regular_White_600x600.webm`,
                 }
+            }
+        },
+        fire: {
+            '01': {
+                orange: [`${prefix}/JB2A_DnD5e/Library/Generic/Impact/ImpactFire01_01_Regular_Orange_600x600.webm`]
             }
         },
         frost: {
@@ -2853,6 +2876,16 @@ export async function jb2aFreeDatabase(prefix) {
             blue: `${prefix}/JB2A_DnD5e/Library/Generic/Music_Notation/TrebleClef_01_Regular_Blue_200x200.webm`
         }
     }
+    freeDatabase.muzzle_flash = {
+        single: {
+            "01": {
+                yellow: [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Muzzle_Flash/MuzzleFlashSingle01_01_Regular_Yellow_600x300.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Muzzle_Flash/MuzzleFlashSingle01_02_Regular_Yellow_600x300.webm`
+                ]
+            }
+        }
+}
     freeDatabase.overcharged_sphere = {
         _template: 'ranged',
         '01': {
@@ -3991,6 +4024,28 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
     }
+    freeDatabase.template_line = {
+        _template: "line200",
+        ice: {
+            '01': {
+                blue: {
+                    '15ft':`${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Ice/TemplateLineIce01_01_Regular_Blue_15ft_1000x400.webm`,
+                    '30ft':`${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Ice/TemplateLineIce01_01_Regular_Blue_30ft_1600x400.webm`,
+                    '60ft':`${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Ice/TemplateLineIce01_01_Regular_Blue_60ft_2800x400.webm`
+                }
+            }
+        }
+}
+freeDatabase.template_line_piercing = {
+    _template: "line200B",
+    generic: {
+        '01': {
+            orange: {
+                '15ft':`${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Generic/Piercing_Generic01_01_Regular_Orange_1000x400.webm`,
+            }
+        }
+    }
+}
     freeDatabase.template_square = {
         symbol: {
             normal: {
@@ -4193,10 +4248,10 @@ export async function jb2aFreeDatabase(prefix) {
         },
         heartbeat: {
             '01': {
-                green: `${prefix}/JB2A_DnD5e/Library/Generic/Heartbeat/HeartbeatECG01_01_Regular_Green_400x400.webm`
+                green: `${prefix}/JB2A_DnD5e/Library/Generic/UI/HeartbeatECG01_01_Regular_Green_400x400.webm`
             },
             '02': {
-                green: `${prefix}/JB2A_DnD5e/Library/Generic/Heartbeat/HeartbeatECG01_02_Regular_Green_400x400.webm`
+                green: `${prefix}/JB2A_DnD5e/Library/Generic/UI/HeartbeatECG01_02_Regular_Green_400x400.webm`
             },
         },
         indicator: {
