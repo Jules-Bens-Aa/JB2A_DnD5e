@@ -360,12 +360,27 @@ export async function jb2aFreeDatabase(prefix) {
         '02': {
             blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/GenericCast02_01_Regular_Blue_400x400.webm`],
         },
+        earth: {
+            '01': {
+                browngreen: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastEarth01_01_Regular_BrownGreen_600x600.webm`]
+            }
+        },
         fire: {
             "01": {
                 orange:[`${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastFire01_01_Regular_Orange_600x600.webm`]
             },
             "side01": {
                 orange: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastSideFire01_01_Regular_Orange_800x600.webm`]
+            }
+        },
+        sound: {
+            '01': {
+                pinkteal: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastSound01_01_Regular_PinkTeal_600x600.webm`]
+            }
+        },
+        water: {
+            "02": {
+                blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastWater02_01_Regular_Blue_400x400.webm`]
             }
         }
     }
@@ -1693,6 +1708,11 @@ export async function jb2aFreeDatabase(prefix) {
             `${prefix}/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_02_Regular_Orange_600x600.webm`,
             `${prefix}/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_03_Regular_Orange_600x600.webm`,
         ],
+        water: {
+            "02": {
+                blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Impact/ImpactWater02_01_Regular_Blue_600x600.webm`]
+            }
+        },
         yellow: [
             `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact_06_Regular_Yellow_400x400.webm`,
             `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact_07_Regular_Yellow_400x400.webm`
@@ -2685,6 +2705,14 @@ export async function jb2aFreeDatabase(prefix) {
                         `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_04_800x600.webm`,
                     ]
                 },
+                'greatclub': {
+                    '01': [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_01_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_02_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_03_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_04_800x600.webm`,
+                    ]
+                },
                 'greatsword': {
                     '01': [
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_01_800x600.webm`,
@@ -3614,7 +3642,9 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.spirit_guardians = {
-        blueyellow: `${prefix}/JB2A_DnD5e/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_BlueYellow_600x600.webm`
+        blueyellow: {
+            ring: `${prefix}/JB2A_DnD5e/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_BlueYellow_600x600.webm`
+        }
     }
     freeDatabase.spiritual_weapon = {
         club: {
