@@ -1826,6 +1826,15 @@ export async function jb2aFreeDatabase(prefix) {
             blue: `${prefix}/JB2A_DnD5e/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Blue_4000x400.webm`
         }
     }
+    freeDatabase.lightning_orb = {
+        "01": {
+            loop: {
+                bluepurple: [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Lightning/LightningOrb01_01_BluePurple_Loop_600x600.webm`,
+                ]
+            }
+        }
+    }
     freeDatabase.lightning_strike = {
         blue: [
             `${prefix}/JB2A_DnD5e/Library/Generic/Lightning/LightningStrike01_01_Regular_Blue_800x800.webm`,
@@ -3431,6 +3440,15 @@ export async function jb2aFreeDatabase(prefix) {
                     `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePlumes01_03_Regular_Grey_400x400.webm`,
                 ]
             }
+        },
+        plumes_loop: {
+            "01": {
+                grey: [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePlumesLoop01_01_Regular_Grey_400x400.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePlumesLoop01_02_Regular_Grey_400x400.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePlumesLoop01_03_Regular_Grey_400x400.webm`,
+                ]
+            }
         }
     }
     freeDatabase.smoke_line = {
@@ -3971,6 +3989,13 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.template_circle = {
+        lightning: {
+            "01": {
+                loop: {
+                    bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Lightning/TemplateCircleLightning01_01_Regular_BluePurple_Loop_700x700.webm`,
+                }
+            }
+        },
         symbol: {
             normal: {
                 drop: {
@@ -4051,6 +4076,32 @@ export async function jb2aFreeDatabase(prefix) {
             },
             outro: {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/WhirlOutro_01_Regular_Blue_600x600.webm`
+            }
+        }
+    }
+    freeDatabase.template_cone_5e = {
+        _template: "cone100",
+
+        lightning: {
+            "01": {
+                loop: {
+                    bluepurple: {
+                        "30ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Lightning/TemplateCone5eLightning01_01_Regular_BluePurple_30ft_Loop_800x800.webm`,
+                    }
+                }
+            }
+        }
+    }
+    freeDatabase.template_cone_PF2e = {
+        _template: "cone100",
+
+        lightning: {
+            "01": {
+                loop: {
+                    bluepurple: {
+                        "30ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Lightning/TemplateConePF2eLightning01_01_Regular_BluePurple_30ft_Loop_800x1000.webm`,
+                    }
+                }
             }
         }
     }
