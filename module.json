@@ -17,7 +17,7 @@
     }
   ],
   "url": "https://www.patreon.com/JB2A",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "11",
   "compatibility": {
@@ -54,5 +54,5 @@
   ],
   "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "manifest": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/latest/download/module.json",
-  "download": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/download/0.6.3/JB2A_DnD5e-0.6.3.zip"
+  "download": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/download/0.6.4/JB2A_DnD5e-0.6.4.zip"
 }

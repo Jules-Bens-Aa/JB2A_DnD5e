@@ -141,6 +141,17 @@ export async function jb2aFreeDatabase(prefix) {
         '01': {
             orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Bonfire_01_Regular_Orange_400x400.webm`,
         },
+        '03': {
+            complete: {
+                _markers: {
+                    loop: { start: 3200, end: 8167 }
+                },
+                orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Campfire03_01_Orange_400x1000_Complete.webm`
+            },
+            loop: {
+                orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Campfire03_01_Orange_400x1000_Loop.webm`
+            }
+        }
     }
     freeDatabase.boulder = {
         _template: 'ranged',
@@ -1246,14 +1257,23 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
     freeDatabase.flames = {
-        //TO BE REMOVED [-->
         '01': {
             orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames_01_Regular_Orange_200x200.webm`
         },
         '02': {
             orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames_02_Regular_Orange_400x400.webm`
         },
-        //TO BE REMOVED <--]
+        '04': {
+            complete: {
+                _markers: {
+                    loop: { start: 3000, end: 7967 }
+                },
+                orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames04_01_Regular_Orange_Complete_400x600.webm`
+            },
+            loop: {
+                orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames04_01_Regular_Orange_Loop_400x600.webm`
+            },
+        },
         orange: {
             '01': `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames_01_Regular_Orange_200x200.webm`,
             '02': `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Flame/Flames_02_Regular_Orange_400x400.webm`,
@@ -1325,6 +1345,23 @@ export async function jb2aFreeDatabase(prefix) {
     freeDatabase.fumes = {
         steam: {
             white: `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/Fumes_02_Steam_White_400x400.webm`
+        },
+        '04': {
+            complete: {
+                _markers: {
+                    loop: { start: 3000, end: 7967 }
+                },
+                grey: [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/Fumes04_01_Grey_Complete_400x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/Fumes04_02_Grey_Complete_400x600.webm`
+                ]
+            },
+            loop: {
+                grey: [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/Fumes04_01_Grey_Loop_400x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/Fumes04_02_Grey_Loop_400x600.webm`
+                ]
+            }
         }
     }
     freeDatabase.glaive = {
@@ -2389,6 +2426,21 @@ export async function jb2aFreeDatabase(prefix) {
                 '03': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerMute_03_Dark_Red_400x400.webm`
             }
         },
+        on_token_mask: {
+            complete: {
+                _markers: {
+                    loop: { start: 2000, end: 6967 }
+                },
+                '01': {
+                    orange: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/OnTokenMask01_01_Regular_Orange_Complete_300x300.webm`
+                }
+            },
+            loop: {
+                '01': {
+                    orange: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/OnTokenMask01_01_Regular_Orange_Loop_300x300.webm`
+                }
+            }
+        },
         poison: {
             dark_green: {
                 '01': `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerPoison_01_Dark_Green_400x400.webm`,
@@ -3392,6 +3444,12 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.sleet_storm = {
+        '01': {
+            blue: `${prefix}/JB2A_DnD5e/Library/3rd_Level/Sleet_Storm/SleetStorm_01_Blue_800x800.webm`
+        },
+        '02': {
+            blue: `${prefix}/JB2A_DnD5e/Library/3rd_Level/Sleet_Storm/SleetStorm_02_Blue_800x800.webm`
+        },
         blue: `${prefix}/JB2A_DnD5e/Library/3rd_Level/Sleet_Storm/SleetStorm_01_Blue_800x800.webm`
     }
     freeDatabase.smoke = {
@@ -3988,7 +4046,35 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
     }
+    freeDatabase.teleport = {
+        "01": {
+            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/Teleport/Teleport01_01_Regular_Blue_500x300.webm`
+        }
+    }
     freeDatabase.template_circle = {
+        aura: {
+            "01": {
+                complete: {
+                    _markers: {
+                        loop: { start: 2033, end: 5667 }
+                    },
+                    small: {
+                        bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraComplete01_01_Regular_BluePurple_500x500.webm`
+                    },
+                    large: {
+                        bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraComplete01_01_Regular_BluePurple_900x900.webm`
+                    }
+                },
+                loop: {
+                    small: {
+                        bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraLoop01_01_Regular_BluePurple_500x500.webm`
+                    },
+                    large: {
+                        bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraLoop01_01_Regular_BluePurple_900x900.webm`
+                    }
+                }
+            }
+        },
         lightning: {
             "01": {
                 loop: {
