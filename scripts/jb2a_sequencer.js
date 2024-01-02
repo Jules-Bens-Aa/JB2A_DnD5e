@@ -141,17 +141,6 @@ export async function jb2aFreeDatabase(prefix) {
         '01': {
             orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Bonfire_01_Regular_Orange_400x400.webm`,
         },
-        '03': {
-            complete: {
-                _markers: {
-                    loop: { start: 3200, end: 8167 }
-                },
-                orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Campfire03_01_Orange_400x1000_Complete.webm`
-            },
-            loop: {
-                orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Campfire03_01_Orange_400x1000_Loop.webm`
-            }
-        }
     }
     freeDatabase.boulder = {
         _template: 'ranged',
@@ -363,6 +352,30 @@ export async function jb2aFreeDatabase(prefix) {
         '01': {
             orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Campfire_01_Regular_Orange_200x200.webm`,
         },
+        '03': {
+            '01': {
+                complete: {
+                    _markers: {
+                        loop: { start: 3200, end: 8167 }
+                    },
+                    orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Campfire03_01_Orange_Complete_400x1000.webm`
+                },
+                loop: {
+                    orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Campfire03_01_Orange_Loop_400x1000.webm`
+                }
+            },
+            '02': {
+                complete: {
+                    _markers: {
+                        loop: { start: 3200, end: 8167 }
+                    },
+                    orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Campfire03_02_Orange_Complete_400x600.webm`
+                },
+                loop: {
+                    orange: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/Campfire/Campfire03_02_Orange_Loop_400x600.webm`
+                }
+            }
+        }
     }
     freeDatabase.cast_generic = {
         '01': {
