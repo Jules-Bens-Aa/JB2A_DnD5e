@@ -326,12 +326,12 @@ export async function jb2aFreeDatabase(prefix) {
                 loop: { start: 3033, end: 6000 }
             },
             '01': {
-                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/FairiesComplete01_01_Regular_BluePurple_600x600.webm`
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Butterflies/ButterfliesComplete01_01_Regular_BluePurple_600x600.webm`
             }
         },
         loop: {
             '01': {
-                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/FairiesLoop01_01_Regular_BluePurple_600x600.webm`
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Butterflies/ButterfliesLoop01_01_Regular_BluePurple_600x600.webm`
             }
         },
         inward: {
@@ -1172,22 +1172,22 @@ export async function jb2aFreeDatabase(prefix) {
         },
         inward: {
             '01': {
-                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Fairies/FairiesInward01_01_Regular_BluePurple_600x600.webm`
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/FairiesInward01_01_Regular_BluePurple_600x600.webm`
             }
         },
         inward_burst: {
             '01': {
-                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Fairies/FairiesInwardBurst01_01_Regular_BluePurple_600x600.webm`
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/FairiesInwardBurst01_01_Regular_BluePurple_600x600.webm`
             }
         },
         outward: {
             '01': {
-                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Fairies/FairiesOutward01_01_Regular_BluePurple_600x600.webm`
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/FairiesOutward01_01_Regular_BluePurple_600x600.webm`
             }
         },
         outward_burst: {
             '01': {
-                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Fairies/FairiesOutwardBurst01_01_Regular_BluePurple_400x400.webm`
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/FairiesOutwardBurst01_01_Regular_BluePurple_400x400.webm`
             }
         }
     }
