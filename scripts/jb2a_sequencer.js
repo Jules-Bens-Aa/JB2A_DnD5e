@@ -96,6 +96,25 @@ export async function jb2aFreeDatabase(prefix) {
             },
         }
     }
+    freeDatabase.bats = {
+        _metadata: {
+            name: "Bats",
+            new: true
+        },
+        complete: {
+            _markers: {
+                loop: { start: 3033, end: 6000 }
+            },
+            '01': {
+                red: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/BatsComplete01_01_Regular_Red_600x600.webm`,
+            }
+        },
+        loop: {
+            '01': {
+                red: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/BatsLoop01_01_Regular_Red_600x600.webm`,
+            }
+        }
+    }
     freeDatabase.bite = {
         '200px': {
             red: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Bite_01_Regular_Red_200x200.webm`,
@@ -302,6 +321,39 @@ export async function jb2aFreeDatabase(prefix) {
         },
     }
     freeDatabase.butterflies = {
+        complete: {
+            _markers: {
+                loop: { start: 3033, end: 6000 }
+            },
+            '01': {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/FairiesComplete01_01_Regular_BluePurple_600x600.webm`
+            }
+        },
+        loop: {
+            '01': {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/FairiesLoop01_01_Regular_BluePurple_600x600.webm`
+            }
+        },
+        inward: {
+            '01': {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Butterflies/ButterfliesInward01_01_Regular_BluePurple_600x600.webm`
+            }
+        },
+        inward_burst: {
+            '01': {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Butterflies/ButterfliesInwardBurst01_01_Regular_BluePurple_600x600.webm`
+            }
+        },
+        outward: {
+            '01': {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Butterflies/ButterfliesOutward01_01_Regular_BluePurple_600x600.webm`
+            }
+        },
+        outward_burst: {
+            '01': {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Butterflies/ButterfliesOutwardBurst01_01_Regular_BluePurple_400x400.webm`
+            }
+        },
         few: {
             orange: `${prefix}/JB2A_DnD5e/Library/Generic/Butterflies/Butterflies_01_Regular_Orange_Few_400x400.webm`
         },
@@ -672,6 +724,11 @@ export async function jb2aFreeDatabase(prefix) {
         '02': `${prefix}/JB2A_DnD5e/Library/Generic/Lightning/ElectricArc02_01_Regular_Blue_1600x500.webm`,
         '03': `${prefix}/JB2A_DnD5e/Library/Generic/Lightning/ElectricArc03_01_Regular_Blue_1600x500.webm`,
         '04': `${prefix}/JB2A_DnD5e/Library/Generic/Lightning/ElectricArc04_01_Regular_Blue_1600x500.webm`
+    }
+    freeDatabase.energy_attack = {
+        '01': {
+            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyAttack_01_01_Regular_Blue_1000x1000.webm`
+        }
     }
     freeDatabase.energy_beam = {
         _template: 'ranged',
@@ -1096,6 +1153,41 @@ export async function jb2aFreeDatabase(prefix) {
                     `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Many01_02_Dark_Green_600x600.webm`,
                     `${prefix}/JB2A_DnD5e/Library/Generic/Eyes/Eyes_Many01_03_Dark_Green_600x600.webm`
                 ]
+            }
+        }
+    }
+    freeDatabase.fairies = {
+        complete: {
+            _markers: {
+                loop: { start: 3033, end: 6000 }
+            },
+            '01': {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/FairiesComplete01_01_Regular_BluePurple_600x600.webm`
+            }
+        },
+        loop: {
+            '01': {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Creature/FairiesLoop01_01_Regular_BluePurple_600x600.webm`
+            }
+        },
+        inward: {
+            '01': {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Fairies/FairiesInward01_01_Regular_BluePurple_600x600.webm`
+            }
+        },
+        inward_burst: {
+            '01': {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Fairies/FairiesInwardBurst01_01_Regular_BluePurple_600x600.webm`
+            }
+        },
+        outward: {
+            '01': {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Fairies/FairiesOutward01_01_Regular_BluePurple_600x600.webm`
+            }
+        },
+        outward_burst: {
+            '01': {
+                bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Fairies/FairiesOutwardBurst01_01_Regular_BluePurple_400x400.webm`
             }
         }
     }
