@@ -540,6 +540,9 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 '05': {
                     red: `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/PlanetAtmo_05_Regular_Red_800x800.webm`
+                },
+                '06': {
+                    yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/PlanetAtmo_06_Regular_Yellow_800x800.webm`
                 }
             },
             gas_giant: {
@@ -3294,6 +3297,81 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
     }
+    freeDatabase.ranged = {
+        _template: 'ranged',
+        '01': {
+            projectile: {
+                '01': {
+                    dark_orange: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/01/RangedInstant01_01_Dark_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/01/RangedProjectile01_01_Dark_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/01/RangedProjectile01_01_Dark_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/01/RangedProjectile01_01_Dark_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/01/RangedProjectile01_01_Dark_Orange_90ft_4000x400.webm`
+                    }
+                }
+            },
+            instant: {
+                '01': {
+                    dark_orange: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/01/RangedInstant01_01_Dark_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/01/RangedInstant01_01_Dark_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/01/RangedInstant01_01_Dark_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/01/RangedInstant01_01_Dark_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/01/RangedInstant01_01_Dark_Orange_90ft_4000x400.webm`
+                    }
+                }
+            }
+        },
+        '02': {
+            projectile: {
+                '01': {
+                    yellow: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/02/RangedInstant02_01_Regular_Yellow_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/02/RangedProjectile02_01_Regular_Yellow_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/02/RangedProjectile02_01_Regular_Yellow_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/02/RangedProjectile02_01_Regular_Yellow_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/02/RangedProjectile02_01_Regular_Yellow_90ft_4000x400.webm`
+                    }
+                }
+            },
+            instant: {
+                '01': {
+                    yellow: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/02/RangedInstant02_01_Regular_Yellow_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/02/RangedInstant02_01_Regular_Yellow_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/02/RangedInstant02_01_Regular_Yellow_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/02/RangedInstant02_01_Regular_Yellow_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/02/RangedInstant02_01_Regular_Yellow_90ft_4000x400.webm`
+                    }
+                }
+            }
+        },
+        '03': {
+            projectile: {
+                '01': {
+                    bluegreen: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/03/RangedInstant03_01_Regular_BlueGreen_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/03/RangedProjectile03_01_Regular_BlueGreen_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/03/RangedProjectile03_01_Regular_BlueGreen_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/03/RangedProjectile03_01_Regular_BlueGreen_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/03/RangedProjectile03_01_Regular_BlueGreen_90ft_4000x400.webm`
+                    }
+                }
+            },
+            instant: {
+                '01': {
+                    bluegreen: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/03/RangedInstant03_01_Regular_BlueGreen_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/03/RangedInstant03_01_Regular_BlueGreen_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/03/RangedInstant03_01_Regular_BlueGreen_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/03/RangedInstant03_01_Regular_BlueGreen_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/03/RangedInstant03_01_Regular_BlueGreen_90ft_4000x400.webm`
+                    }
+                }
+            }
+        }
+}
     freeDatabase.rapier = {
         melee: {
             _template: 'melee',
