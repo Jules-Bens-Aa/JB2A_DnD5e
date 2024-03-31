@@ -3370,6 +3370,44 @@ export async function jb2aFreeDatabase(prefix) {
                     }
                 }
             }
+        },
+        '04': {
+            projectile: {
+                '01': {
+                    green: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/04/RangedInstant04_01_Regular_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/04/RangedProjectile04_01_Regular_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/04/RangedProjectile04_01_Regular_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/04/RangedProjectile04_01_Regular_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/04/RangedProjectile04_01_Regular_Green_90ft_4000x400.webm`
+                    }
+                }
+            },
+            instant: {
+                '01': {
+                    green: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/04/RangedInstant04_01_Regular_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/04/RangedInstant04_01_Regular_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/04/RangedInstant04_01_Regular_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/04/RangedInstant04_01_Regular_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/04/RangedInstant04_01_Regular_Green_90ft_4000x400.webm`
+                    }
+                }
+            }
+        },
+        'card': {
+            '01': {
+                projectile: {
+                    '01': {
+                        blue: {
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Card/ProjectileCard01_01_Regular_Blue_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Card/ProjectileCard01_01_Regular_Blue_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Card/ProjectileCard01_01_Regular_Blue_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Card/ProjectileCard01_01_Regular_Blue_90ft_4000x400.webm`
+                        }
+                    }
+                },
+            }
         }
 }
     freeDatabase.rapier = {
@@ -4802,6 +4840,24 @@ freeDatabase.template_line_piercing = {
         '01': `${prefix}/JB2A_DnD5e/Library/2nd_Level/Web/Web_01_White_01_400x400.webm`,
         '02': `${prefix}/JB2A_DnD5e/Library/2nd_Level/Web/Web_01_White_02_400x400.webm`
     }
+    freeDatabase.wind_lines = {
+        '01': {
+            '01': {
+                white: `${prefix}/JB2A_DnD5e/Library/Generic/Wind/WindLines01_01_Regular_White_500x500.webm`
+            },
+            '02': {
+                white: `${prefix}/JB2A_DnD5e/Library/Generic/Wind/WindLines01_02_Regular_White_500x500.webm`
+            },
+            'leaves': {
+                '01': {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Wind/WindLinesLeaves01_01_Regular_Green_500x500.webm`
+                },
+                '02': {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Wind/WindLinesLeaves01_02_Regular_Green_500x500.webm`
+                }
+            }
+        }
+}
     freeDatabase.whirlwind = {
         bluegrey: `${prefix}/JB2A_DnD5e/Library/7th_Level/Whirlwind/Whirlwind_01_BlueGrey_01_400x400.webm`
     }
