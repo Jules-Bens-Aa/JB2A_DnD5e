@@ -62,6 +62,159 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
     }
+    freeDatabase.aura_themed = {
+        '01': {
+            inward: {
+                complete: {
+                    _markers: {
+                        loop: { start: 2833, end: 6800 }
+                    },
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteCold01_01_Regular_Blue_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            grey: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteMetal01_01_Regular_Grey_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteNature01_01_Regular_Green_700x700.webm`,
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteWood01_01_Regular_Green_700x700.webm`,
+                        }
+                    }
+                },
+                loop: {
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopCold01_01_Regular_Blue_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            grey: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopMetal01_01_Regular_Grey_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopNature01_01_Regular_Green_700x700.webm`
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopWood01_01_Regular_Green_700x700.webm`
+                        }
+                    }
+                }
+            },
+            outward: {
+                complete: {
+                    _markers: {
+                        loop: { start: 2833, end: 6800 }
+                    },
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteCold01_01_Regular_Blue_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            grey: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteMetal01_01_Regular_Grey_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteNature01_01_Regular_Green_700x700.webm`
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteWood01_01_Regular_Green_700x700.webm`
+                        }
+                    }
+                },
+                loop: {
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopCold01_01_Regular_Blue_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            grey: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopMetal01_01_Regular_Grey_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopNature01_01_Regular_Green_700x700.webm`
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopWood01_01_Regular_Green_700x700.webm`
+                        }
+                    }
+                }
+    
+            },
+            orbit: {
+                complete: {
+                    _markers: {
+                        loop: { start: 2833, end: 6800 }
+                    },
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteCold01_01_Regular_Blue_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            grey: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteMetal01_01_Regular_Grey_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteNature01_01_Regular_Green_700x700.webm`
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteWood01_01_Regular_Green_700x700.webm`
+                        }
+                    }
+                },
+                loop: {
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopCold01_01_Regular_Blue_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            grey: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopMetal01_01_Regular_Grey_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopNature01_01_Regular_Green_700x700.webm`
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopWood01_01_Regular_Green_700x700.webm`
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
     freeDatabase.bardic_inspiration = {
         greenorange: `${prefix}/JB2A_DnD5e/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_GreenOrange_400x400.webm`,
     }
@@ -97,10 +250,6 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.bats = {
-        _metadata: {
-            name: "Bats",
-            new: true
-        },
         complete: {
             _markers: {
                 loop: { start: 3033, end: 6000 }
@@ -1621,6 +1770,11 @@ export async function jb2aFreeDatabase(prefix) {
         },
         loop: {
             greenorange: `${prefix}/JB2A_DnD5e/Library/Generic/Healing/HealingAbility_02_Regular_GreenOrange_Loop_600x600.webm`
+        },
+        '03': {
+            burst: {
+                bluegreen: `${prefix}/JB2A_DnD5e/Library/Generic/Healing/HealingAbility_03_Regular_BlueGreen_600x600.webm`
+            }
         }
     }
     freeDatabase.hovering_laserweapon = {
