@@ -161,7 +161,7 @@ export async function jb2aFreeDatabase(prefix) {
                         }
                     }
                 }
-    
+
             },
             orbit: {
                 complete: {
@@ -211,7 +211,7 @@ export async function jb2aFreeDatabase(prefix) {
                         }
                     }
                 }
-    
+
             }
         }
     }
@@ -592,7 +592,7 @@ export async function jb2aFreeDatabase(prefix) {
         },
         fire: {
             "01": {
-                orange:[`${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastFire01_01_Regular_Orange_600x600.webm`]
+                orange: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastFire01_01_Regular_Orange_600x600.webm`]
             },
             "side01": {
                 orange: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastSideFire01_01_Regular_Orange_800x600.webm`]
@@ -1778,23 +1778,23 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.hovering_laserweapon = {
-        one_handed:{
-            '01':{
-                blue:{
+        one_handed: {
+            '01': {
+                blue: {
                     '01': `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Regular_Blue_400x400.webm`,
                 }
             }
         },
-        double_bladed:{
-            '01':{
-                blue:{
+        double_bladed: {
+            '01': {
+                blue: {
                     '01': `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Regular_Blue_600x600.webm`,
                 }
             }
         },
-        spear:{
-            '01':{
-                blue:{
+        spear: {
+            '01': {
+                blue: {
                     '01': `${prefix}/JB2A_DnD5e/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Regular_Blue_600x600.webm`
                 }
             }
@@ -2855,7 +2855,7 @@ export async function jb2aFreeDatabase(prefix) {
                     ]
                 }
             },
-            shortsword:{
+            shortsword: {
                 '01': [
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_ShortSword01_01_800x600.webm`,
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_ShortSword01_02_800x600.webm`,
@@ -2863,7 +2863,7 @@ export async function jb2aFreeDatabase(prefix) {
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_ShortSword01_04_800x600.webm`,
                 ]
             },
-            sickle:{
+            sickle: {
                 '01': [
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_01_800x600.webm`,
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_02_800x600.webm`,
@@ -3038,18 +3038,18 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 'greatsword': {
                     '01': [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_01_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_02_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_03_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_04_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_01_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_02_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_03_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_04_800x600.webm`,
                     ]
                 },
                 khybersword: {
                     '01': [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_01_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_02_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_03_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_04_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_01_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_02_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_03_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_04_800x600.webm`,
                     ]
                 },
                 magical_greatsword: {
@@ -3064,10 +3064,10 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 'maul': {
                     '01': [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_01_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_02_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_03_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_04_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_01_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_02_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_03_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_04_800x600.webm`,
                     ]
                 }
             }
@@ -3155,9 +3155,9 @@ export async function jb2aFreeDatabase(prefix) {
         '06': {
             shield: {
                 '01': [
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield01_01_Regular_White_800x600.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield01_02_Regular_White_800x600.webm`
-                    ]
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield01_01_Regular_White_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield01_02_Regular_White_800x600.webm`
+                ]
             }
         }
 
@@ -3203,7 +3203,7 @@ export async function jb2aFreeDatabase(prefix) {
                 blue: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Moonbeam/MoonbeamOutro_01_Regular_Blue_400x400.webm`
             }
         }
-}
+    }
     freeDatabase.music_notations = {
         bass_clef: {
             blue: `${prefix}/JB2A_DnD5e/Library/Generic/Music_Notation/BassClef_01_Regular_Blue_200x200.webm`
@@ -3236,7 +3236,7 @@ export async function jb2aFreeDatabase(prefix) {
                 ]
             }
         }
-}
+    }
     freeDatabase.overcharged_sphere = {
         _template: 'ranged',
         '01': {
@@ -3256,34 +3256,34 @@ export async function jb2aFreeDatabase(prefix) {
         blue: {
             '01': {
                 '15ft':
-                [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_01_Regular_Blue_15ft_1000x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_02_Regular_Blue_15ft_1000x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_03_Regular_Blue_15ft_1000x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_04_Regular_Blue_15ft_1000x400.webm`
-                ],
+                    [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_01_Regular_Blue_15ft_1000x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_02_Regular_Blue_15ft_1000x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_03_Regular_Blue_15ft_1000x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_04_Regular_Blue_15ft_1000x400.webm`
+                    ],
                 '30ft':
-                [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_01_Regular_Blue_30ft_1600x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_02_Regular_Blue_30ft_1600x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_03_Regular_Blue_30ft_1600x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_04_Regular_Blue_30ft_1600x400.webm`
-                ],
+                    [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_01_Regular_Blue_30ft_1600x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_02_Regular_Blue_30ft_1600x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_03_Regular_Blue_30ft_1600x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_04_Regular_Blue_30ft_1600x400.webm`
+                    ],
                 '60ft':
-                [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_01_Regular_Blue_60ft_2800x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_02_Regular_Blue_60ft_2800x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_03_Regular_Blue_60ft_2800x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_04_Regular_Blue_60ft_2800x400.webm`
-                ],
+                    [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_01_Regular_Blue_60ft_2800x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_02_Regular_Blue_60ft_2800x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_03_Regular_Blue_60ft_2800x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_04_Regular_Blue_60ft_2800x400.webm`
+                    ],
                 '90ft':
-                [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_01_Regular_Blue_90ft_4000x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_02_Regular_Blue_90ft_4000x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_03_Regular_Blue_90ft_4000x400.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_04_Regular_Blue_90ft_4000x400.webm`
-                ]
-            } 
+                    [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_01_Regular_Blue_90ft_4000x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_02_Regular_Blue_90ft_4000x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_03_Regular_Blue_90ft_4000x400.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/PackhoundMissile01_04_Regular_Blue_90ft_4000x400.webm`
+                    ]
+            }
         },
 
 
@@ -3348,7 +3348,7 @@ export async function jb2aFreeDatabase(prefix) {
                 bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Particles/ParticleBurstStar01_01_Regular_BluePurple_600x600.webm`
             }
         },
-}
+    }
     freeDatabase.plant_growth = {
         '03': {
             square: {
@@ -3563,7 +3563,7 @@ export async function jb2aFreeDatabase(prefix) {
                 },
             }
         }
-}
+    }
     freeDatabase.rapier = {
         melee: {
             _template: 'melee',
@@ -3749,7 +3749,7 @@ export async function jb2aFreeDatabase(prefix) {
                     }
                 }
             }
-            
+
 
         }
     }
@@ -3865,7 +3865,7 @@ export async function jb2aFreeDatabase(prefix) {
         plumes: {
             _markers: {
                 loop: { start: 2000, end: 4000 }
-                },
+            },
             "01": {
                 grey: [
                     `${prefix}/JB2A_DnD5e/Library/Generic/Smoke/SmokePlumes01_01_Regular_Grey_400x400.webm`,
@@ -4361,7 +4361,7 @@ export async function jb2aFreeDatabase(prefix) {
                 ]
             }
         }
-}
+    }
     freeDatabase.swirling_leaves = {
         complete: {
             '01': {
@@ -4571,23 +4571,23 @@ export async function jb2aFreeDatabase(prefix) {
         ice: {
             '01': {
                 blue: {
-                    '15ft':`${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Ice/TemplateLineIce01_01_Regular_Blue_15ft_1000x400.webm`,
-                    '30ft':`${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Ice/TemplateLineIce01_01_Regular_Blue_30ft_1600x400.webm`,
-                    '60ft':`${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Ice/TemplateLineIce01_01_Regular_Blue_60ft_2800x400.webm`
+                    '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Ice/TemplateLineIce01_01_Regular_Blue_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Ice/TemplateLineIce01_01_Regular_Blue_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Ice/TemplateLineIce01_01_Regular_Blue_60ft_2800x400.webm`
                 }
             }
         }
-}
-freeDatabase.template_line_piercing = {
-    _template: "line200B",
-    generic: {
-        '01': {
-            orange: {
-                '15ft':`${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Generic/Piercing_Generic01_01_Regular_Orange_1000x400.webm`,
+    }
+    freeDatabase.template_line_piercing = {
+        _template: "line200B",
+        generic: {
+            '01': {
+                orange: {
+                    '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Generic/Piercing_Generic01_01_Regular_Orange_1000x400.webm`,
+                }
             }
         }
     }
-}
     freeDatabase.template_square = {
         symbol: {
             normal: {
@@ -5011,7 +5011,7 @@ freeDatabase.template_line_piercing = {
                 }
             }
         }
-}
+    }
     freeDatabase.whirlwind = {
         bluegrey: `${prefix}/JB2A_DnD5e/Library/7th_Level/Whirlwind/Whirlwind_01_BlueGrey_01_400x400.webm`
     }
@@ -5310,6 +5310,7 @@ freeDatabase.template_line_piercing = {
         }
     }
 
+    return freeDatabase
 }
 
 export { freeDatabase }
