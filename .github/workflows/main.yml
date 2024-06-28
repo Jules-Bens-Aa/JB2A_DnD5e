@@ -1,0 +1,66 @@
+name: Release Creation
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+
+      # get part of the tag after the `v`
+      - name: Extract tag version number
+        id: get-version
+        run: echo "version-without-v=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+
+      # Substitute the Manifest and Download URLs in the `module.json`.
+      - name: Substitute Manifest and Download Links For Versioned Ones
+        id: sub_manifest_link_version
+        uses: devops-actions/variable-substitution@v1.2
+        with:
+          files: module.json
+        env:
+          version: ${{steps.get-version.outputs.version-without-v}}
+          manifest: https://raw.githubusercontent.com/${{github.repository}}/latest/download/module.json
+          download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.zip
+
+      # Create a folder containing all the module stuff and zip it for the release
+      - name: Create Zip
+        run: zip -r9 ./module.zip module.json artwork/ dev/ Library/ packs/ scripts/ License.txt README.md
+
+      - name: Update Release with Files
+        id: create_version_release
+        uses: ncipollo/release-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          allowUpdates: true
+          omitBodyDuringUpdate: true
+          omitNameDuringUpdate: true
+          omitDraftDuringUpdate: true
+          omitPrereleaseDuringUpdate: true
+          artifacts: './module.json, ./module.zip'
+
+      # https://stackoverflow.com/questions/61919141/read-json-file-in-github-actions
+      - id: set_var
+        run: |
+          echo "PACKAGE_JSON=$(jq -c . < module.json)" >> $GITHUB_OUTPUT
+
+      - name: Get Module ID
+        id: module_id
+        run: echo "module_id=${{fromJson(steps.set_var.outputs.PACKAGE_JSON).id}}" >> "$GITHUB_OUTPUT"
+
+      # Publish to FoundryVTT
+      - name: Publish FoundryVTT Package
+        if: ${{!github.event.release.prerelease && env.PACKAGE_TOKEN}}
+        uses: cs96and/FoundryVTT-release-package@v1.0.2
+        env:
+          PACKAGE_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
+        with:
+          package-token: ${{ env.PACKAGE_TOKEN }}
+          manifest-url: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.json

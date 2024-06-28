@@ -1,0 +1,6 @@
+{
+    "type": "module",
+    "scripts": {
+        "build:dev": "node ./dev/generateJSONs.js"
+    }
+}

@@ -1,19 +1,18 @@
 {
   "name": "JB2A_DnD5e",
-  "id": "JB2A_DnD5e",  
+  "id": "JB2A_DnD5e",
   "title": "JB2A - Jules and Ben's Animated Assets - Free Content",
   "description": "<p>Animated Assets for spells, tiles, tokens, melee and ranged attacks</p><p>Troubleshooting and FAQ section on our <a href='https://jb2a.com'>website</a> </p><p>Join our <a href='https://discord.gg/gmd8MAPX4m'>Discord server</a> for any further questions</p><p> <a href='https://www.jb2a.com/Library_Preview/'>Preview</a> our assets<br><p>Consider supporting us on <a href='https://www.patreon.com/JB2A'>Patreon</a> for more ! </p>",
-  "author": "Gazkhan#8192 and Wassily#8035", 
   "authors": [
     {
       "name": "Jules",
       "url": "https://www.patreon.com/JB2A",
-      "discord": "Gazkhan#8192"
+      "discord": "gazkhan"
     },
     {
       "name": "Ben",
       "url": "https://www.patreon.com/JB2A",
-      "discord": "Wassily#8035"
+      "discord": "wassily"
     }
   ],
   "url": "https://www.patreon.com/JB2A",
@@ -43,12 +42,11 @@
   ],
   "media": [
     {
-    "type": "setup",
-    "url": "https://www.jb2a.com/artwork/Gifs/animated-banner.gif",
-    "thumbnail": ""
+      "type": "setup",
+      "url": "https://www.jb2a.com/artwork/Gifs/animated-banner.gif",
+      "thumbnail": ""
     }
   ],
-  "type": "module",
   "esmodules": [
     "./scripts/jb2a.js"
   ],
