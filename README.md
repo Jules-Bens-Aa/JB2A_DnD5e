@@ -12,14 +12,21 @@ We create ... animated assets ! *no scripts, only assets*
 ### Very useful FoundryVTT Modules for animated assets :
 - [**Sequencer**](https://github.com/fantasycalendar/FoundryVTT-Sequencer/wiki) by Wasp from [Fantasy Computerworks](http://fantasycomputer.works/).
   - 4th most downloaded module on FoundryVTT !
-  - [Ko-fi](https://ko-fi.com/fantasycomputerworks) <br>
+  - [Wasp Ko-fi](https://ko-fi.com/fantasycomputerworks) <br>
 - [**Automated Animations**](https://github.com/otigon/automated-jb2a-animations/wiki) (Maintenance mode) by Otigon.<br>
-- DEVELOPMENT DISCONTINUED [**Advanced Spell Effects**](https://github.com/Vauryx/advancedspelleffects/wiki) by Vauryx.
-  - Only for FoundryVTT v11 !!
-  - DnD5e only and requires our Patreon pack<br>
+- [**PF2e Animations**](https://github.com/MrVauxs/pf2e-jb2a-macros) by MrVauxs.
+  - A fully automated preset of animations for the Pathfinder 2e system in FoundryVTT.
+  - [MrVauxs Ko-fi](https://ko-fi.com/mrvauxs)
+  - [MrVauxs Patreon](https://www.patreon.com/mrvauxs)
+- [**5e Animations**](https://github.com/MrVauxs/dnd5e-animations) by MrVauxs and Sismshow.
+  - A fully automated preset of animations for the 5e system in FoundryVTT.
+  - [MrVauxs Ko-fi](https://ko-fi.com/mrvauxs)
+  - [MrVauxs Patreon](https://www.patreon.com/mrvauxs)
+  - [Sisimshow Ko-fi](https://ko-fi.com/sisimshow)
+  - [MorePurpleMoreBetter's website](https://www.flapkan.com/)
 - DEVELOPMENT DISCONTINUED [**WarpGate**](https://discord.com/channels/170995199584108546/513918036919713802/1255239377982853175) by Honeybadger.
   - Only for FoundryVTT v11 !!
-  - [Ko-fi](https://ko-fi.com/trioderegion)<br>
+  - [Honeybadger Ko-fi](https://ko-fi.com/trioderegion)<br>
 
 > These Modules Makers are not affiliated with JB2A. Their modules are free and they develop and help the community on their own free time. Please consider supporting their work.
 
