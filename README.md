@@ -16,12 +16,10 @@ We create ... animated assets ! *no scripts, only assets*
 - [**Automated Animations**](https://github.com/otigon/automated-jb2a-animations/wiki) (Maintenance mode) by Otigon.<br>
 - [**PF2e Animations**](https://github.com/MrVauxs/pf2e-jb2a-macros) by MrVauxs.
   - A fully automated preset of animations for the Pathfinder 2e system in FoundryVTT.
-  - [MrVauxs Ko-fi](https://ko-fi.com/mrvauxs)
-  - [MrVauxs Patreon](https://www.patreon.com/mrvauxs)
+  - MrVauxs [Ko-fi](https://ko-fi.com/mrvauxs) and [Patreon](https://www.patreon.com/mrvauxs)
 - [**5e Animations**](https://github.com/MrVauxs/dnd5e-animations) by MrVauxs and Sismshow.
   - A fully automated preset of animations for the 5e system in FoundryVTT.
-  - [MrVauxs Ko-fi](https://ko-fi.com/mrvauxs)
-  - [MrVauxs Patreon](https://www.patreon.com/mrvauxs)
+  - MrVauxs [Ko-fi](https://ko-fi.com/mrvauxs) and [Patreon](https://www.patreon.com/mrvauxs)
   - [Sisimshow Ko-fi](https://ko-fi.com/sisimshow)
   - [MorePurpleMoreBetter's website](https://www.flapkan.com/)
 - DEVELOPMENT DISCONTINUED [**WarpGate**](https://discord.com/channels/170995199584108546/513918036919713802/1255239377982853175) by Honeybadger.
