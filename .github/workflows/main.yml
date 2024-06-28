@@ -57,8 +57,10 @@ jobs:
 
       # Publish to FoundryVTT
       - name: Publish FoundryVTT Package
-        if: '!github.event.release.prerelease && env.package-token'
+        if: ${{!github.event.release.prerelease && env.PACKAGE_TOKEN}}
         uses: cs96and/FoundryVTT-release-package@v1.0.2
+        env:
+          PACKAGE_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
         with:
-          package-token: ${{ secrets.PACKAGE_TOKEN }}
+          package-token: ${{ env.PACKAGE_TOKEN }}
           manifest-url: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.json
