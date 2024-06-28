@@ -13,10 +13,10 @@ We create ... animated assets ! *no scripts, only assets*
 - [**Sequencer**](https://github.com/fantasycalendar/FoundryVTT-Sequencer/wiki) by Wasp from [Fantasy Computerworks](http://fantasycomputer.works/).
   - 4th most downloaded module on FoundryVTT !
   - [Ko-fi](https://ko-fi.com/fantasycomputerworks) <br>
-- [**Automated Animations (Maintenance mode)**](https://github.com/otigon/automated-jb2a-animations/wiki) by Otigon.<br>
+- [**Automated Animations**](https://github.com/otigon/automated-jb2a-animations/wiki) (Maintenance mode) by Otigon.<br>
 - DEVELOPMENT DISCONTINUED [**Advanced Spell Effects**](https://github.com/Vauryx/advancedspelleffects/wiki) by Vauryx.
   - Only for FoundryVTT v11 !!
-  - (DnD5e only and requires our Patreon pack)<br>
+  - DnD5e only and requires our Patreon pack<br>
 - DEVELOPMENT DISCONTINUED [**WarpGate**](https://discord.com/channels/170995199584108546/513918036919713802/1255239377982853175) by Honeybadger.
   - Only for FoundryVTT v11 !!
   - [Ko-fi](https://ko-fi.com/trioderegion)<br>
