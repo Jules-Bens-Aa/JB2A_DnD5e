@@ -27,12 +27,12 @@ jobs:
           files: module.json
         env:
           version: ${{steps.get-version.outputs.version-without-v}}
-          manifest: https://raw.githubusercontent.com/${{github.repository}}/latest/download/module.json
-          download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.zip
+          manifest: https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/latest/download/module.json
+          download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/${{github.repository}}-${{github.event.release.tag_name}}.zip
 
       # Create a folder containing all the module stuff and zip it for the release
       - name: Create Zip
-        run: zip -r9 ./module.zip module.json artwork/ dev/ Library/ packs/ scripts/ License.txt README.md
+        run: zip -r9 ./${{github.repository}}-${{github.event.release.tag_name}}.zip module.json artwork/ dev/ Library/ packs/ scripts/ License.txt README.md
 
       - name: Update Release with Files
         id: create_version_release
@@ -44,7 +44,7 @@ jobs:
           omitNameDuringUpdate: true
           omitDraftDuringUpdate: true
           omitPrereleaseDuringUpdate: true
-          artifacts: './module.json, ./module.zip'
+          artifacts: './module.json, ./${{github.repository}}-${{github.event.release.tag_name}}.zip'
 
       # https://stackoverflow.com/questions/61919141/read-json-file-in-github-actions
       - id: set_var
