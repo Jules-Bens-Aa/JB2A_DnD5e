@@ -38,7 +38,7 @@ Complete Guide is accessible [here](https://jb2a.com/home/content-information/#t
 All links below will redirect you to our website. We decided to gather all information related to our content in one place to make it easier to maintain and keep them up to date.
 
  - [Our Content](https://jb2a.com/home/content-information/)
-   - [Asset Viewer](https://www.jb2a.com/Library_Preview/)
+   - [Asset Viewer](https://library.jb2a.com/)
    - [Free Content](https://jb2a.com/home/content-information/#free_library)
    - [Patreon Content](https://jb2a.com/home/content-information/#patreon_library)
    - [Map Animator](https://jb2a.com/home/content-information/#map_animator)
