@@ -777,6 +777,21 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 "005": {
                     green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_005_Green_600x600.webm`
+                },
+                "006": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_006_Green_600x600.webm`
+                },
+                "007": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_007_Green_600x600.webm`
+                },
+                "008": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_008_Green_600x600.webm`
+                },
+                "009": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_009_Green_600x600.webm`
+                },
+                "010": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_010_Green_600x600.webm`
                 }
 
             }
@@ -797,8 +812,22 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 "005": {
                     red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_005_Red_600x600.webm`,
+                },
+                "006": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_006_Red_600x600.webm`,
+                },
+                "007": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_007_Red_600x600.webm`,
+                },
+                "008": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_008_Red_600x600.webm`,
+                },
+                "009": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_009_Red_600x600.webm`,
+                },
+                "010": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_010_Red_600x600.webm`,
                 }
-
             }
         }
     }
@@ -3601,6 +3630,19 @@ export async function jb2aFreeDatabase(prefix) {
                         }
                     }
                 },
+            }
+        },
+        'beam': {
+            '001': {
+                '01': {
+                    orange: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_90ft_4000x400.webm`
+                    }
+                }
             }
         }
 }
