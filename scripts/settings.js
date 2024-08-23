@@ -1,7 +1,5 @@
 export const MODULE_NAME = "JB2A_DnD5e";
 export default async function jb2aSettings() {
-
-const debounceReload = debounce(() => window.location.reload(), 100)
   
 // Register a world setting
 game.settings.register(MODULE_NAME, "runonlyonce", {  // game.setting.register("NameOfTheModule", "VariableName",
@@ -11,7 +9,7 @@ game.settings.register(MODULE_NAME, "runonlyonce", {  // game.setting.register("
   config: true,                                       // This specifies that the setting appears in the configuration view
   type: Boolean,
   default: false,                                     // The default value for the setting
-  //onChange: value => !value ? debounceReload() : null
+  //requiresReload: true
 });
                                    
 
@@ -22,7 +20,7 @@ game.settings.register(MODULE_NAME, "fxmasterdb", {
   config: true,                                    
   type: Boolean,
   default: true,
-  onChange: debounceReload
+  requiresReload: true
 
 });
 game.settings.register(MODULE_NAME, "jb2aLocation", {
@@ -32,7 +30,7 @@ game.settings.register(MODULE_NAME, "jb2aLocation", {
   config: true,
   type: String,
   default: "modules",
-  onChange: debounceReload
+  requiresReload: true
 });
 };
 
