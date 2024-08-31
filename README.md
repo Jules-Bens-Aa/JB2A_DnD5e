@@ -6,9 +6,6 @@
 #### JB2A, short for : [Jules&Ben's Animated Assets](https://www.patreon.com/JB2A) !
 We create ... animated assets ! *no scripts, only assets*
 
-# Announcements Section.
-
-
 ### Very useful FoundryVTT Modules for animated assets :
 - [**Sequencer**](https://github.com/fantasycalendar/FoundryVTT-Sequencer/wiki) by Wasp from [Fantasy Computerworks](http://fantasycomputer.works/).
   - 4th most downloaded module on FoundryVTT !
