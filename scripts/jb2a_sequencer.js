@@ -792,6 +792,21 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 "010": {
                     green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_010_Green_600x600.webm`
+                },
+                "011": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_011_Green_600x600.webm`
+                },
+                "012": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_012_Green_600x600.webm`
+                },
+                "013": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_013_Green_600x600.webm`
+                },
+                "014": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_014_Green_600x600.webm`
+                },
+                "015": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_015_Green_600x600.webm`
                 }
 
             }
@@ -827,7 +842,22 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 "010": {
                     red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_010_Red_600x600.webm`,
-                }
+                },
+                "011": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_011_Red_600x600.webm`,
+                },
+                "012": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_012_Red_600x600.webm`,
+                },
+                "013": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_013_Red_600x600.webm`,
+                },
+                "014": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_014_Red_600x600.webm`,
+                },
+                "015": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_015_Red_600x600.webm`,
+                },
             }
         }
     }
@@ -950,7 +980,10 @@ export async function jb2aFreeDatabase(prefix) {
     }
     freeDatabase.energy_attack = {
         '01': {
-            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyAttack_01_01_Regular_Blue_1000x1000.webm`
+            blue: [
+                `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyAttack_01_01_Regular_Blue_1000x1000.webm`,
+                `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyAttack_01_02_Regular_Blue_1000x1000.webm`
+            ]
         }
     }
     freeDatabase.energy_beam = {
@@ -3642,6 +3675,53 @@ export async function jb2aFreeDatabase(prefix) {
                         '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_60ft_2800x400.webm`,
                         '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_90ft_4000x400.webm`
                     }
+                },
+                '02': {
+                    orange: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Orange_90ft_4000x400.webm`
+                    }
+                },
+                '03': {
+                    orange: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Orange_90ft_4000x400.webm`
+                    }
+                }
+            },
+            '002': {
+                '01': {
+                    orange: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Orange_90ft_4000x400.webm`
+                    }
+                },
+                '02': {
+                    orange: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Orange_90ft_4000x400.webm`
+                    }
+                },
+                '03': {
+                    orange: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Orange_90ft_4000x400.webm`
+                    }
                 }
             }
         }
@@ -3705,7 +3785,10 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.scorched_earth = {
-        black: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/ScorchedEarth_01_Black_800x800.webm`
+        black: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/ScorchedEarth_01_Black_800x800.webm`,
+        "02": {
+            black: `${prefix}/JB2A_DnD5e/Library/Generic/Fire/ScorchedEarth_02_Black_800x800.webm`
+        }
     }
     freeDatabase.scorching_ray = {
         _template: 'ranged',

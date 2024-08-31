@@ -14,6 +14,9 @@ We create ... animated assets ! *no scripts, only assets*
   - 4th most downloaded module on FoundryVTT !
   - [Wasp Ko-fi](https://ko-fi.com/fantasycomputerworks) <br>
 - [**Automated Animations**](https://github.com/otigon/automated-jb2a-animations/wiki) (Maintenance mode) by Otigon.<br>
+- [**PF2e Graphics**](https://github.com/MrVauxs/pf2e-graphics) by MrVauxs.
+  - An Automated Animations + PF2e Animation Macros alternative that aims to leverage the power of the pf2e system with its rule elements, roll option predicates, and data structure to make the most configurable animations all round.
+  - MrVauxs [Ko-fi](https://ko-fi.com/mrvauxs) and [Patreon](https://www.patreon.com/mrvauxs)
 - [**PF2e Animations**](https://github.com/MrVauxs/pf2e-jb2a-macros) by MrVauxs.
   - A fully automated preset of animations for the Pathfinder 2e system in FoundryVTT.
   - MrVauxs [Ko-fi](https://ko-fi.com/mrvauxs) and [Patreon](https://www.patreon.com/mrvauxs)
