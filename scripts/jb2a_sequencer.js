@@ -423,46 +423,72 @@ export async function jb2aFreeDatabase(prefix) {
                 }
             }
         }
-    },
-        freeDatabase.bullet = {
-            _template: 'ranged',
-            '01': {
-                orange: {
-                    '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_05ft_600x400.webm`,
-                    '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_90ft_4000x400.webm`
+    }
+    freeDatabase.bubble = {
+        "001": {
+            "001": {
+                complete: {
+                    _markers: {
+                        loop: { start: 2000, end: 3967 }
+                    },
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/Bubble/BubbleComplete001_001_Blue_2x2_400x400.webm`
+                },
+                loop: {
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/Bubble/BubbleLoop001_001_Blue_2x2_400x400.webm`
                 }
             },
-            '02': {
-                orange: {
-                    '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_05ft_600x400.webm`,
-                    '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_90ft_4000x400.webm`
+            "002": {
+                complete: {
+                    _markers: {
+                        loop: { start: 2000, end: 3967 }
+                    },
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/Bubble/BubbleComplete001_002_Blue_3x3_600x600.webm`
                 },
-            },
-            '03': {
-                blue: {
-                    '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_05ft_600x400.webm`,
-                    '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_90ft_4000x400.webm`
-                },
-            },
-            Snipe: {
-                blue: {
-                    '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_05ft_600x400.webm`,
-                    '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_90ft_4000x400.webm`
-                },
+                loop: {
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/Bubble/BubbleLoop001_002_Blue_3x3_600x600.webm`
+                }
             }
         }
+    }
+    freeDatabase.bullet = {
+        _template: 'ranged',
+        '01': {
+            orange: {
+                '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_05ft_600x400.webm`,
+                '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_15ft_1000x400.webm`,
+                '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_30ft_1600x400.webm`,
+                '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_60ft_2800x400.webm`,
+                '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_90ft_4000x400.webm`
+            }
+        },
+        '02': {
+            orange: {
+                '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_05ft_600x400.webm`,
+                '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_15ft_1000x400.webm`,
+                '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_30ft_1600x400.webm`,
+                '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_60ft_2800x400.webm`,
+                '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_90ft_4000x400.webm`
+            },
+        },
+        '03': {
+            blue: {
+                '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_05ft_600x400.webm`,
+                '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_15ft_1000x400.webm`,
+                '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_30ft_1600x400.webm`,
+                '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_60ft_2800x400.webm`,
+                '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_90ft_4000x400.webm`
+            },
+        },
+        Snipe: {
+            blue: {
+                '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_05ft_600x400.webm`,
+                '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_15ft_1000x400.webm`,
+                '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_30ft_1600x400.webm`,
+                '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_60ft_2800x400.webm`,
+                '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_90ft_4000x400.webm`
+            },
+        }
+    }
     freeDatabase.burning_hands = {
         _template: 'cone',
         '01': {
@@ -807,6 +833,12 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 "015": {
                     green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_015_Green_600x600.webm`
+                },
+                "016": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_016_Green_600x600.webm`
+                },
+                "017": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_017_Green_600x600.webm`
                 }
 
             }
@@ -858,6 +890,12 @@ export async function jb2aFreeDatabase(prefix) {
                 "015": {
                     red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_015_Red_600x600.webm`,
                 },
+                "016": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_016_Red_600x600.webm`,
+                },
+                "017": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_017_Red_600x600.webm`,
+                }
             }
         }
     }
@@ -2251,9 +2289,16 @@ export async function jb2aFreeDatabase(prefix) {
         splash: {
             blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/LiquidSplash01_Regular_Blue_400x400.webm`
         },
+        splash02: {
+            red: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/LiquidSplash02_01_Regular_Red_500x500.webm`
+        },
         splash_side: {
             _template: 'side_impact',
             blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/LiquidSplashSide01_Regular_Blue_600x600.webm`
+        },
+        splash_side02: {
+            _template: 'side_impact',
+            red: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/LiquidSplashSide02_01_Regular_Red_600x600.webm`
         }
     }
     freeDatabase.mace = {
@@ -2877,6 +2922,33 @@ export async function jb2aFreeDatabase(prefix) {
             loop: {
                 '01': {
                     orange: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/MarkerShieldRampartLoop01_01_Regular_Orange_400x400.webm`,
+                }
+            }
+        },
+        simple: {
+            "001": {
+                complete: {
+                    _markers: {
+                        loop: { start: 1500, end: 3467 }
+                    },
+                    '001': {
+                        blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Blue_600x600.webm`,
+                        green: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Green_600x600.webm`,
+                        purple: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Purple_600x600.webm`,
+                        red: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Red_600x600.webm`,
+                        yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Yellow_600x600.webm`
+                    }
+
+                },
+                loop: {
+                    '001': {
+                        blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Blue_600x600.webm`,
+                        green: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Green_600x600.webm`,
+                        purple: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Purple_600x600.webm`,
+                        red: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Red_600x600.webm`,
+                        yellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Yellow_600x600.webm`
+                    }
+
                 }
             }
         },
