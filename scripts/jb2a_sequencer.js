@@ -983,6 +983,9 @@ export async function jb2aFreeDatabase(prefix) {
             reversed: {
                 blueyellow: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Divine_Smite/DivineSmiteReversed_01_Regular_BlueYellow_Caster_400x400.webm`
             },
+            standard: {
+                blueyellow: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_BlueYellow_Caster_400x400.webm`
+            },
             blueyellow: `${prefix}/JB2A_DnD5e/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_BlueYellow_Caster_400x400.webm`
         },
         target: {
@@ -3338,6 +3341,64 @@ export async function jb2aFreeDatabase(prefix) {
     }
     freeDatabase.melee_generic = {
         _template: "melee",
+        creature_attack: {
+            claw: {
+                "001": {
+                    red: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Claw/CreatureAttackClaw_001_001_Red_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Claw/CreatureAttackClaw_001_002_Red_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Claw/CreatureAttackClaw_001_003_Red_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Claw/CreatureAttackClaw_001_004_Red_800x600.webm`
+                    ]
+                },
+                "002": {
+                    red: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Claw/CreatureAttackClaw_002_001_Red_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Claw/CreatureAttackClaw_002_002_Red_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Claw/CreatureAttackClaw_002_003_Red_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Claw/CreatureAttackClaw_002_004_Red_800x600.webm`
+                    ]
+                },
+            },
+            fist: {
+                "001": {
+                    red: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Fist/CreatureAttackFist_001_001_Red_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Fist/CreatureAttackFist_001_002_Red_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Fist/CreatureAttackFist_001_003_Red_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Fist/CreatureAttackFist_001_004_Red_800x600.webm`
+                    ]
+
+                },
+                "002": {
+                    blue: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Fist/CreatureAttackFist_002_001_Blue_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Fist/CreatureAttackFist_002_002_Blue_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Fist/CreatureAttackFist_002_003_Blue_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Fist/CreatureAttackFist_002_004_Blue_800x600.webm`
+                    ]
+                },
+            },
+            pincer: {
+                "001": {
+                    red: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Pincer/CreatureAttackPincer_001_001_Red_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Pincer/CreatureAttackPincer_001_002_Red_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Pincer/CreatureAttackPincer_001_003_Red_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Pincer/CreatureAttackPincer_001_004_Red_800x600.webm`
+                    ]
+
+                },
+                "002": {
+                    blue: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Pincer/CreatureAttackPincer_002_001_Blue_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Pincer/CreatureAttackPincer_002_002_Blue_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Pincer/CreatureAttackPincer_002_003_Blue_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Creature/Pincer/CreatureAttackPincer_002_004_Blue_800x600.webm`
+                    ]
+                },
+            }
+        },
         slash: {
             "01": {
                 orange: [
@@ -3346,6 +3407,24 @@ export async function jb2aFreeDatabase(prefix) {
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GenericSlash01_03_Regular_Orange_800x600.webm`
                 ]
             },
+            "02": {
+                "001": {
+                    blue: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Slash02/GenericSlash02_001_001_Blue_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Slash02/GenericSlash02_001_002_Blue_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Slash02/GenericSlash02_001_003_Blue_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Slash02/GenericSlash02_001_004_Blue_800x600.webm`
+                    ]
+                },
+                "002": {
+                    blue: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Slash02/GenericSlash02_002_001_Blue_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Slash02/GenericSlash02_002_002_Blue_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Slash02/GenericSlash02_002_003_Blue_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Slash02/GenericSlash02_002_004_Blue_800x600.webm`
+                    ]
+                }
+            }
         },
         whirlwind: {
             "01": {
