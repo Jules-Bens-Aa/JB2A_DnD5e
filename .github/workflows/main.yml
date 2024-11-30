@@ -31,11 +31,11 @@ jobs:
         env:
           version: ${{steps.get-version.outputs.version-without-v}}
           manifest: https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/latest/download/module.json
-          download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/${{github.repository}}-${{github.event.release.tag_name}}.zip
+          download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module-${{github.event.release.tag_name}}.zip
 
       # Create a folder containing all the module stuff and zip it for the release
       - name: Create Zip
-        run: zip -r9 ./${{github.repository}}-${{github.event.release.tag_name}}.zip module.json artwork/ dev/ Library/ packs/ scripts/ License.txt README.md
+        run: zip -r9 ./module-${{github.event.release.tag_name}}.zip module.json artwork/ dev/ Library/ packs/ scripts/ License.txt README.md
 
       - name: Update Release with Files
         id: create_version_release
