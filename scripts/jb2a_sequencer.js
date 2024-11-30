@@ -839,6 +839,15 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 "017": {
                     green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_017_Green_600x600.webm`
+                },
+                "018": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_018_Green_600x600.webm`
+                },
+                "019": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_019_Green_600x600.webm`
+                },
+                "020": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_020_Green_600x600.webm`
                 }
 
             }
@@ -895,6 +904,15 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 "017": {
                     red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_017_Red_600x600.webm`,
+                },
+                "018": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_018_Red_600x600.webm`,
+                },
+                "019": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_019_Red_600x600.webm`,
+                },
+                "020": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_020_Red_600x600.webm`,
                 }
             }
         }
