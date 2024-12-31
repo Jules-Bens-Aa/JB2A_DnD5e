@@ -46,6 +46,8 @@ All links below will redirect you to our website. We decided to gather all infor
    - [Token Animator](https://jb2a.com/home/content-information/#token_animator)
  - [Patreon](https://jules-bens-aa.github.io/jb2a-wiki/getting-started/our-patreon/)
    - [Per Release](https://jules-bens-aa.github.io/jb2a-wiki/getting-started/our-patreon/#per-creation)
+   - [Billing](https://jules-bens-aa.github.io/jb2a-wiki/getting-started/our-patreon/#billing)
+   - [Cancelling](https://jules-bens-aa.github.io/jb2a-wiki/getting-started/our-patreon/#cancelling)
  - [For FoundryVTT](https://jules-bens-aa.github.io/jb2a-wiki/getting-started/guides/#how-to-install)
    - [Forge](https://jules-bens-aa.github.io/jb2a-wiki/getting-started/guides/#how-to-install)
    - [Recommended Modules for our content](https://jules-bens-aa.github.io/jb2a-wiki/external-resources/community-links/)
