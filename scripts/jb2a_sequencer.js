@@ -3507,7 +3507,21 @@ export async function jb2aFreeDatabase(prefix) {
                 ]
             }
         }
-}
+    }
+    freeDatabase.on_token_buff = {
+            '001': {
+                '001': {
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_Blue_400x400.webm`,
+                    bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_BluePurple_400x400.webm`,
+                    blueteal: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_BlueTeal_400x400.webm`,
+                    greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_GreenPurple_400x400.webm`,
+                    greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_GreenYellow_400x400.webm`,
+                    orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_OrangeYellow_400x400.webm`,
+                    pinkyellow: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_PinkYellow_400x400.webm`,
+                    purplered: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_PurpleRed_400x400.webm`
+                }
+            }            
+    }
     freeDatabase.overcharged_sphere = {
         _template: 'ranged',
         '01': {
