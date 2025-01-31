@@ -1,4 +1,4 @@
-<img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"> ![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.7.5/module-0.7.5.zip?color=ffba00&label=Release%200.7.5%20Downloads)<br>
+<img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"> ![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.7.6/module-0.7.6.zip?color=ffba00&label=Release%200.7.6%20Downloads)<br>
 
 [![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)
 <p style='text-align: justify;'>
@@ -10,7 +10,7 @@ We create ... animated assets ! *no scripts, only assets*
 - [**Sequencer**](https://github.com/fantasycalendar/FoundryVTT-Sequencer/wiki) by Wasp from [Fantasy Computerworks](http://fantasycomputer.works/).
   - 4th most downloaded module on FoundryVTT !
   - [Wasp Ko-fi](https://ko-fi.com/fantasycomputerworks) <br>
-- [**Automated Animations**](https://github.com/otigon/automated-jb2a-animations/wiki) (Maintenance mode) by Otigon.<br>
+- [**Automated Animations**](https://wiki.theripper93.com/free/autoanimations) by Otigon, **taken over by theripper93**.<br>
 - [**PF2e Graphics**](https://github.com/MrVauxs/pf2e-graphics) by MrVauxs.
   - An Automated Animations + PF2e Animation Macros alternative that aims to leverage the power of the pf2e system with its rule elements, roll option predicates, and data structure to make the most configurable animations all round.
   - MrVauxs [Ko-fi](https://ko-fi.com/mrvauxs) and [Patreon](https://www.patreon.com/mrvauxs)
