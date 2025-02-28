@@ -448,6 +448,30 @@ export async function jb2aFreeDatabase(prefix) {
                     blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/Bubble/BubbleLoop001_002_Blue_3x3_600x600.webm`
                 }
             }
+        },
+        "002": {
+            "001": {
+                complete: {
+                    _markers: {
+                        loop: { start: 4000, end: 7967 }
+                    },
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/Bubble/BubbleComplete002_001_Blue_3x3_600x600.webm`
+                },
+                loop: {
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/Bubble/BubbleLoop002_001_Blue_3x3_600x600.webm`
+                }
+            },
+            "002": {
+                complete: {
+                    _markers: {
+                        loop: { start: 4000, end: 7967 }
+                    },
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/Bubble/BubbleComplete002_002_Blue_3x3_600x600.webm`
+                },
+                loop: {
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Liquid/Bubble/BubbleLoop002_002_Blue_3x3_600x600.webm`
+                }
+            }
         }
     }
     freeDatabase.bullet = {
@@ -4896,7 +4920,14 @@ export async function jb2aFreeDatabase(prefix) {
                             `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_GreenPurple_15ft_800x800.webm`,
                             `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_GreenPurple_15ft_800x800.webm`,
                         ]
-                    }
+                    },
+                    '1400px': {
+                            greenpurple: [
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_GreenPurple_30ft_1400x1400.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_GreenPurple_30ft_1400x1400.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_GreenPurple_30ft_1400x1400.webm`,
+                            ]
+                        }
                 },
                 '002': {
                     '800px': {
@@ -4905,7 +4936,14 @@ export async function jb2aFreeDatabase(prefix) {
                             `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_GreenPurple_15ft_800x800.webm`,
                             `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_GreenPurple_15ft_800x800.webm`,
                         ]
-                    }
+                    },
+                    '1400px': {
+                            greenpurple: [
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_GreenPurple_30ft_1400x1400.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_GreenPurple_30ft_1400x1400.webm`,
+                                `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_GreenPurple_30ft_1400x1400.webm`,
+                            ]
+                        }
                 },
                 '800px': {
                     '001': {
@@ -4931,6 +4969,30 @@ export async function jb2aFreeDatabase(prefix) {
                         },
                     }
                 },
+                '1400px': {
+                        '001': {
+                            bg: {
+                                greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_GreenPurple_30ft_1400x1400.webm`
+                            },
+                            pulse: {
+                                greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_GreenPurple_30ft_1400x1400.webm`
+                            },
+                            stillframe: {
+                                greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_GreenPurple_30ft_1400x1400.webp`
+                            },
+                            sweep: {
+                                greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_GreenPurple_30ft_1400x1400.webm`
+                            }
+                        },
+                        '002': {
+                            pulse: {
+                                greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_GreenPurple_30ft_1400x1400.webm`
+                            },
+                            stillframe: {
+                                greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_GreenPurple_30ft_1400x1400.webp`
+                            },
+                        }
+                    },
                 ping: {
                     '001': {
                         '300px': {
