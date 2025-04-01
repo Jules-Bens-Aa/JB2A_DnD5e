@@ -3599,6 +3599,21 @@ export async function jb2aFreeDatabase(prefix) {
 
     }
     freeDatabase.particles = {
+        "002": {
+            "001": {
+                complete: {
+                    _markers: {
+                        loop: { start: 2000, end: 3967 }
+                    },
+                    few: {
+                        blue: `${prefix}/JB2A_DnD5e/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Few_Blue_600x600.webm`
+                    },
+                    many: {
+                        blue: `${prefix}/JB2A_DnD5e/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Many_Blue_600x600.webm`
+                    }
+                }
+            }
+        },
         outward: {
             greenyellow: {
                 '01': {
@@ -4840,6 +4855,145 @@ export async function jb2aFreeDatabase(prefix) {
                     },
                     large: {
                         bluepink: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_BluePink_900x900.webm`
+                    }
+                }
+            },
+            "03": {
+                outward: {
+                    "001": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 5967 }
+                            },
+                            combined: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_001_Blue_1400x1400.webm`
+                            },
+                            part01: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_001_Blue_1400x1400.webm`
+                            },
+                            part02: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_001_Blue_1000x1000.webm`
+                            }
+                        },
+                        loop: {
+                            combined: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_001_Blue_1400x1400.webm`
+                            },
+                            part01: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_001_Blue_1400x1400.webm`
+                            },
+                            part02: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_001_Blue_1000x1000.webm`
+                            }
+                        }
+                    },
+                    "002": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 5967 }
+                            },
+                            combined: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_002_Blue_1400x1400.webm`
+                            },
+                            part01: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_002_Blue_1400x1400.webm`
+                            },
+                            part02: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_002_Blue_1000x1000.webm`
+                            }
+                        },
+                        loop: {
+                            combined: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_002_Blue_1400x1400.webm`
+                            },
+                            part01: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_002_Blue_1400x1400.webm`
+                            },
+                            part02: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_002_Blue_1000x1000.webm`
+                            }
+                        }
+                    },
+                    "003": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 5967 }
+                            },
+                            combined: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_003_Blue_1400x1400.webm`
+                            },
+                            part01: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_003_Blue_1400x1400.webm`
+                            },
+                            part02: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_003_Blue_1000x1000.webm`
+                            }
+                        },
+                        loop: {
+                            combined: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_003_Blue_1400x1400.webm`
+                            },
+                            part01: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_003_Blue_1400x1400.webm`
+                            },
+                            part02: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_003_Blue_1000x1000.webm`
+                            }
+                        }                            
+                    },
+                    "004": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 5967 }
+                            },
+                            combined: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_004_Blue_1400x1400.webm`
+                            },
+                            part01: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_004_Blue_1400x1400.webm`
+                            },
+                            part02: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_004_Blue_1000x1000.webm`
+                            }
+                        },
+                        loop: {
+                            combined: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_004_Blue_1400x1400.webm`
+                            },
+                            part01: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_004_Blue_1400x1400.webm`
+                            },
+                            part02: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_004_Blue_1000x1000.webm`
+                            }
+                        }
+                    },
+                    "005": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 5967 }
+                            },
+                            combined: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_005_Blue_1400x1400.webm`
+                            },
+                            part01: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_005_Blue_1400x1400.webm`
+                            },
+                            part02: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_005_Blue_1000x1000.webm`
+                            }
+                        },
+                        loop: {
+                            combined: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_005_Blue_1400x1400.webm`
+                            },
+                            part01: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_005_Blue_1400x1400.webm`
+                            },
+                            part02: {
+                                blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_005_Blue_1000x1000.webm`
+                            }
+                        }
                     }
                 }
             }
