@@ -3,7 +3,7 @@ let contentCard = `
     <div class="div-styled" style= "padding: 5px;">
         <div style="text-align: justify; color: #E7E7E7; padding: 10px; background-color: #212121; border: 3px solid #FFBA00; border-radius: 10px;">
             <p style="text-align: center;">
-                <a href="https://jb2a.com">
+                <a href="https://jules-bens-aa.github.io/jb2a-wiki">
                     <video oncontextmenu="return false";  autoplay="true" muted="true" loop style="max-width: 150px;">
                         <source src="modules/JB2A_DnD5e/artwork/Circle_Icon_4sec_400x400.webm" type="video/webm"></source>
                     </video>
@@ -12,7 +12,7 @@ let contentCard = `
             <hr>
             <div>
                 <p style="text-align: justify;">All you need to know should be on our website. Feel free to join our Discord for more help ! </p>
-                <p style="text-align: center;"> <a href="https://jb2a.com">Website</a></p>
+                <p style="text-align: center;"> <a href="https://jules-bens-aa.github.io/jb2a-wiki">Wiki</a></p>
                 <p style="text-align: center; line-height: 150%"> <a href="https://www.patreon.com/JB2A">Patreon</a></p>
                 <p style="text-align: center; line-height: 150%"> <a href="https://discord.gg/gmd8MAPX4m">Discord</a></p><p> 
 
