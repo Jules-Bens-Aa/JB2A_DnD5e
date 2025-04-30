@@ -34,9 +34,9 @@ All links below will redirect you to our website. We decided to gather all infor
    - [Asset Viewer](https://library.jb2a.com/)
    - [Free Content](https://jules-bens-aa.github.io/jb2a-wiki/getting-started/guides/#free-module)
    - [Patreon Content](https://jules-bens-aa.github.io/jb2a-wiki/getting-started/guides/#patreon-module)
-   - [Map Animator](https://jb2a.com/home/content-information/#map_animator)
-   - [Music Puzzle](https://jb2a.com/home/content-information/#music_puzzle)
-   - [Token Animator](https://jb2a.com/home/content-information/#token_animator)
+   - [Map Animator](https://jules-bens-aa.github.io/jb2a-wiki/other-projects/other-projects-overview/#map-animator)
+   - [Music Puzzle](https://jules-bens-aa.github.io/jb2a-wiki/other-projects/music-puzzle/)
+   - [Token Animator](https://jules-bens-aa.github.io/jb2a-wiki/other-projects/token-animator-guide/)
  - [Patreon](https://jules-bens-aa.github.io/jb2a-wiki/getting-started/our-patreon/)
    - [Per Release](https://jules-bens-aa.github.io/jb2a-wiki/getting-started/our-patreon/#per-creation)
    - [Billing](https://jules-bens-aa.github.io/jb2a-wiki/getting-started/our-patreon/#billing)
@@ -55,12 +55,14 @@ All links below will redirect you to our website. We decided to gather all infor
    - [Youtube](https://www.youtube.com/channel/UCqLusRtLV7GXJo_xNNM3dOw)
    - [Foundry Hub](https://www.foundryvtt-hub.com/creator/jb2a-julesbens-animated-assets/)
  - Credits and Resources
-   - [Our Patrons](https://jb2a.com/home/hall-of-fame/)
    - [Maps / Tokens Creators](https://jules-bens-aa.github.io/jb2a-wiki/external-resources/community-links/#content-creators)
 
 ## Check out [**Token Animator Teaser Video**](https://youtu.be/WLX6-PwU1Hk)<br>
-- Complete Guide is accessible [here](https://jb2a.com/home/content-information/#token_animator)
+- Complete Guide is accessible [here](https://jules-bens-aa.github.io/jb2a-wiki/other-projects/token-animator-guide/)
 ## Other Free Assets available on our other module 
-- [JB2A-extras](https://github.com/Jules-Bens-Aa/jb2a-extras/releases/latest/download/module.json).
+- [JB2A-extras](https://github.com/Jules-Bens-Aa/jb2a-extras/releases).
+```
+https://github.com/Jules-Bens-Aa/jb2a-extras/releases/latest/download/module.json
+```
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
