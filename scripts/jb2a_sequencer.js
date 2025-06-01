@@ -635,6 +635,9 @@ export async function jb2aFreeDatabase(prefix) {
         '02': {
             blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/GenericCast02_01_Regular_Blue_400x400.webm`],
         },
+        '03': {
+            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/GenericCast03_01_Blue_600x600.webm`]
+        },
         earth: {
             '01': {
                 browngreen: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastEarth01_01_Regular_BrownGreen_600x600.webm`]
@@ -3949,6 +3952,45 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
     }
+    freeDatabase.ranged_helix = {
+            _metadata: {
+                name: "Ranged Helix",
+                new: true
+            },
+    
+            '001': {
+                _template: 'ranged',
+                blue: {
+                    '05ft': [`${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Helix/001/RangedHelix001_01_Blue_05ft_600x400.webm`],
+                    '15ft': [`${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Helix/001/RangedHelix001_01_Blue_15ft_1000x400.webm`],
+                    '30ft': [`${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Helix/001/RangedHelix001_01_Blue_30ft_1600x400.webm`],
+                    '60ft': [`${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Helix/001/RangedHelix001_01_Blue_60ft_2800x400.webm`],
+                    '90ft': [`${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Helix/001/RangedHelix001_01_Blue_90ft_4000x400.webm`],
+                }
+            },
+            'Helix_only': {
+                _template: 'ranged',
+                '001': {
+                    blue: {
+                        '05ft': [`${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Helix/001/HelixOnly/RangedHelixOnly001_01_Blue_05ft_600x400.webm`],
+                        '15ft': [`${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Helix/001/HelixOnly/RangedHelixOnly001_01_Blue_15ft_1000x400.webm`],
+                        '30ft': [`${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Helix/001/HelixOnly/RangedHelixOnly001_01_Blue_30ft_1600x400.webm`],
+                        '60ft': [`${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Helix/001/HelixOnly/RangedHelixOnly001_01_Blue_60ft_2800x400.webm`],
+                        '90ft': [`${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Helix/001/HelixOnly/RangedHelixOnly001_01_Blue_90ft_4000x400.webm`],
+                    }
+                }
+            },
+            'cast': {
+                '001': {
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Helix/001/Cast/RangedHelixCast001_01_Blue_600x600.webm`
+                }
+            },
+            'hit': {
+                '001': {
+                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Helix/001/Hit/RangedHelixHit001_01_Blue_600x600.webm`
+                }
+            }
+    }
     freeDatabase.ranged_missile = {
 
         '001': {
@@ -4945,6 +4987,143 @@ export async function jb2aFreeDatabase(prefix) {
                 }
             },
             "03": {
+                inward: {
+                        "001": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Inward_Complete_001_Blue_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Inward_Complete_001_Blue_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Inward_Complete_001_Blue_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Inward_Loop_001_Blue_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Inward_Loop_001_Blue_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Inward_Loop_001_Blue_1000x1000.webm`
+                                }
+                            }
+                        },
+                        "002": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Inward_Complete_002_Blue_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Inward_Complete_002_Blue_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Inward_Complete_002_Blue_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Inward_Loop_002_Blue_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Inward_Loop_002_Blue_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Inward_Loop_002_Blue_1000x1000.webm`
+                                }
+                            }
+                        },
+                        "003": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Inward_Complete_003_Blue_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Inward_Complete_003_Blue_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Inward_Complete_003_Blue_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Inward_Loop_003_Blue_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Inward_Loop_003_Blue_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Inward_Loop_003_Blue_1000x1000.webm`
+                                }
+                            }                            
+                        },
+                        "004": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Inward_Complete_004_Blue_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Inward_Complete_004_Blue_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Inward_Complete_004_Blue_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Inward_Loop_004_Blue_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Inward_Loop_004_Blue_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Inward_Loop_004_Blue_1000x1000.webm`
+                                }
+                            }
+                        },
+                        "005": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Inward_Complete_005_Blue_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Inward_Complete_005_Blue_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Inward_Complete_005_Blue_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Inward_Loop_005_Blue_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Inward_Loop_005_Blue_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Inward_Loop_005_Blue_1000x1000.webm`
+                                }
+                            }
+                        }
+                },
                 outward: {
                     "001": {
                         complete: {

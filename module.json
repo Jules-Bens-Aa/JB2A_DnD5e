@@ -1,5 +1,4 @@
 {
-  "name": "JB2A_DnD5e",
   "id": "JB2A_DnD5e",
   "title": "JB2A - Jules and Ben's Animated Assets - Free Content",
   "description": "<p>Animated Assets for spells, tiles, tokens, melee and ranged attacks</p><p>Troubleshooting and FAQ section on our <a href='https://jb2a.com'>website</a> </p><p>Join our <a href='https://discord.gg/gmd8MAPX4m'>Discord server</a> for any further questions</p><p> <a href='https://www.jb2a.com/Library_Preview/'>Preview</a> our assets<br><p>Consider supporting us on <a href='https://www.patreon.com/JB2A'>Patreon</a> for more ! </p>",
@@ -17,11 +16,9 @@
   ],
   "url": "https://www.patreon.com/JB2A",
   "version": "0.7.9",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "12",
   "compatibility": {
     "minimum": 10,
-    "verified": 12
+    "verified": 13
   },
   "packs": [
     {
