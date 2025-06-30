@@ -877,6 +877,23 @@ export async function jb2aFreeDatabase(prefix) {
                     green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_020_Green_600x600.webm`
                 }
 
+            },
+            "02": {
+                "001": {
+                    refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon02/ConditionBoon02_001_Refraction_600x600.webm`                   
+                },
+                "002": {
+                    refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon02/ConditionBoon02_002_Refraction_600x600.webm`                
+                },
+                "003": {
+                    refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon02/ConditionBoon02_003_Refraction_600x600.webm`                  
+                },
+                "004": {
+                    refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon02/ConditionBoon02_004_Refraction_600x600.webm`                  
+                },
+                "005": {
+                    refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon02/ConditionBoon02_005_Refraction_600x600.webm`                  
+                }
             }
         },
         curse: {
@@ -5261,7 +5278,67 @@ export async function jb2aFreeDatabase(prefix) {
                         }
                     }
                 }
-            }
+            },
+            "04": {
+                inward: {
+                    "001": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 5967 }
+                            },
+                            combined: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Inward_Complete_001_Refraction_1400x1400.webm`
+                            },
+                            part01: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Inward_Complete_001_Refraction_1400x1400.webm`
+                            },
+                            part02: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Inward_Complete_001_Refraction_1000x1000.webm`
+                            }
+                        },
+                        loop: {
+                            combined: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Inward_Loop_001_Refraction_1400x1400.webm`
+                            },
+                            part01: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Inward_Loop_001_Refraction_1400x1400.webm`
+                            },
+                            part02: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Inward_Loop_001_Refraction_1000x1000.webm`
+                            }
+                        }
+                    }
+                },
+                outward: {
+                    "001": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 5967 }
+                            },
+                            combined: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Outward_Complete_001_Refraction_1400x1400.webm`
+                            },
+                            part01: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Outward_Complete_001_Refraction_1400x1400.webm`
+                            },
+                            part02: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Outward_Complete_001_Refraction_1000x1000.webm`
+                            }
+                        },
+                        loop: {
+                            combined: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Outward_Loop_001_Refraction_1400x1400.webm`
+                            },
+                            part01: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Outward_Loop_001_Refraction_1400x1400.webm`
+                            },
+                            part02: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Outward_Loop_001_Refraction_1000x1000.webm`
+                            }
+                        }
+                    }
+                },
+                }
         },
         lightning: {
             "01": {
