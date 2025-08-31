@@ -5917,6 +5917,73 @@ freeDatabase.template_line_piercing = {
             }
         }
     }
+
+    freeDatabase.volley_of_projectiles_Circle = {
+            "arrow": {
+                "001": {
+                    "001": {
+                        orangeyellow: {
+                            "10ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_OrangeYellow_10ft_500x500.webm`,
+                            "15ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_OrangeYellow_15ft_700x700.webm`,
+                            "20ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_OrangeYellow_20ft_900x900.webm`
+                        },                        
+                    }
+                }
+            }
+    }
+    freeDatabase.volley_of_projectiles_Cone5e = {
+            _template: "cone100",
+    
+            "arrow": {
+                "001": {
+                    "001": {
+                        orangeyellow: {
+                            "15ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_OrangeYellow_15ft_500x500.webm`,
+                            "30ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_OrangeYellow_30ft_800x800.webm`,
+                            "60ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_OrangeYellow_60ft_1400x1400.webm`
+                        }                        
+                    }
+                }
+            }
+    }
+    freeDatabase.volley_of_projectiles_ConePF2e = {
+            _template: "cone100",
+            "arrow": {
+                "001": {
+                    "001": {
+                        orangeyellow: {
+                            "15ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_OrangeYellow_15ft_500x600.webm`,
+                            "30ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_OrangeYellow_30ft_800x1000.webm`,
+                            "60ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_OrangeYellow_60ft_1400x1800.webm`
+                        }
+                    }
+                }
+            }
+    }
+    freeDatabase.volley_of_projectiles_Line = {
+            _template: 'ranged',
+    
+            "bullet": {
+                "001": {
+                    "001": {
+                        orangeyellow: {
+                            "15ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_OrangeYellow_15ft_1000x400.webm`,
+                            "30ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_OrangeYellow_30ft_1600x400.webm`,
+                            "60ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_OrangeYellow_60ft_2800x400.webm`,
+                            "90ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_OrangeYellow_90ft_4000x400.webm`
+                        }
+                    },
+                    "002": {
+                        orangeyellow: {
+                            "15ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_OrangeYellow_15ft_1000x400.webm`,
+                            "30ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_OrangeYellow_30ft_1600x400.webm`,
+                            "60ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_OrangeYellow_60ft_2800x400.webm`,
+                            "90ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_OrangeYellow_90ft_4000x400.webm`
+                        }
+                    }
+                }
+            }
+    }
     freeDatabase.wall_of_fire = {
         '100x100': {
             blue: `${prefix}/JB2A_DnD5e/Library/4th_Level/Wall_Of_Fire/WallOfFire_01_Blue_100x100.webm`,
