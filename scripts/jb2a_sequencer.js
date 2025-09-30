@@ -16,6 +16,29 @@ export async function jb2aFreeDatabase(prefix) {
         ray: [100, 0, 0],
         side_impact: [200, 100, 0]
     }
+    freeDatabase.ambient_fog = {            
+            "001": {
+                complete: {
+                    _markers: {
+                        loop: { start: 3000, end: 5958 }
+                    },
+                    small: {
+                        white: `${prefix}/JB2A_DnD5e/Library/Generic/Fog/AmbientFog001_001_Complete_White_500x500.webm`
+                    },
+                    large: {
+                        white: `${prefix}/JB2A_DnD5e/Library/Generic/Fog/AmbientFog001_001_Complete_White_1200x1200.webm`
+                    }
+                },
+                loop: {
+                    small: {
+                        white: `${prefix}/JB2A_DnD5e/Library/Generic/Fog/AmbientFog001_001_Loop_White_500x500.webm`
+                    },
+                    large: {
+                        white: `${prefix}/JB2A_DnD5e/Library/Generic/Fog/AmbientFog001_001_Loop_White_1200x1200.webm`
+                    }
+                }
+            }
+    }
     freeDatabase.antilife_shell = {
         blue_no_circle: `${prefix}/JB2A_DnD5e/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_NoCircle_400x400.webm`,
         blue_with_circle: `${prefix}/JB2A_DnD5e/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_Circle_400x400.webm`
@@ -875,6 +898,18 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 "020": {
                     green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_020_Green_600x600.webm`
+                },
+                "021": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_021_Green_600x600.webm`
+                },
+                "022": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_022_Green_600x600.webm`
+                },
+                "023": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_023_Green_600x600.webm`
+                },
+                "024": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_024_Green_600x600.webm`
                 }
 
             },
@@ -957,6 +992,18 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 "020": {
                     red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_020_Red_600x600.webm`,
+                },
+                "021": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_021_Red_600x600.webm`,
+                },
+                "022": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_022_Red_600x600.webm`,
+                },
+                "023": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_023_Red_600x600.webm`,
+                },
+                "024": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_024_Red_600x600.webm`,
                 }
             }
         }
@@ -3555,15 +3602,15 @@ export async function jb2aFreeDatabase(prefix) {
     freeDatabase.on_token_buff = {
             '001': {
                 '001': {
-                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_Blue_400x400.webm`,
-                    bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_BluePurple_400x400.webm`,
-                    blueteal: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_BlueTeal_400x400.webm`,
-                    greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_GreenPurple_400x400.webm`,
-                    greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_GreenYellow_400x400.webm`,
-                    orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_OrangeYellow_400x400.webm`,
-                    pinkyellow: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_PinkYellow_400x400.webm`,
-                    purplered: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_PurpleRed_400x400.webm`,
-                    white: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_White_400x400.webm`
+                    blue:           `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_Blue_400x400.webm`,
+                    bluepurple:     `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_BluePurple_400x400.webm`,
+                    blueteal:       `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_BlueTeal_400x400.webm`,
+                    greenpurple:    `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_GreenPurple_400x400.webm`,
+                    greenyellow:    `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_GreenYellow_400x400.webm`,
+                    orangeyellow:   `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_OrangeYellow_400x400.webm`,
+                    pinkyellow:     `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_PinkYellow_400x400.webm`,
+                    purplered:      `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_PurpleRed_400x400.webm`,
+                    white:          `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_White_400x400.webm`
                 }
             }            
     }
