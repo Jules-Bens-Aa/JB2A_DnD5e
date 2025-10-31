@@ -3098,6 +3098,72 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
     }
+    freeDatabase.markers_scifi = {
+            "001": {
+                complete: {
+                    _markers: {
+                        loop: { start: 1200, end: 4200 }
+                    },
+                    "001": {
+                        blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_Blue_600x600.webm`,
+                        bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_BluePurple_600x600.webm`,
+                        blueteal: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_BlueTeal_600x600.webm`,
+                        greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_GreenPurple_600x600.webm`,
+                        greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_Greenyellow_600x600.webm`,
+                        orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_OrangeYellow_600x600.webm`,
+                        pinkyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_PinkYellow_600x600.webm`,
+                        purplered: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_PurpleRed_600x600.webm`,
+                        white: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_White_600x600.webm`
+                    }
+
+                },
+                loop: {
+                    "001": {
+                        blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_Blue_600x600.webm`,
+                        bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_BluePurple_600x600.webm`,
+                        blueteal: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_BlueTeal_600x600.webm`,
+                        greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_GreenPurple_600x600.webm`,
+                        greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_Greenyellow_600x600.webm`,
+                        orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_OrangeYellow_600x600.webm`,
+                        pinkyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_PinkYellow_600x600.webm`,
+                        purplered: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_PurpleRed_600x600.webm`,
+                        white: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_White_600x600.webm`
+                    }
+                }
+            },
+            "002": {
+                complete: {
+                    _markers: {
+                        loop: { start: 1200, end: 4200 }
+                    },
+                    "001": {
+                        blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_Blue_600x600.webm`,
+                        bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_BluePurple_600x600.webm`,
+                        blueteal: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_BlueTeal_600x600.webm`,
+                        greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_GreenPurple_600x600.webm`,
+                        greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_Greenyellow_600x600.webm`,
+                        orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_OrangeYellow_600x600.webm`,
+                        pinkyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_PinkYellow_600x600.webm`,
+                        purplered: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_PurpleRed_600x600.webm`,
+                        white: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_White_600x600.webm`
+                    }
+                },
+                loop: {
+                    "001": {
+                        blue: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_Blue_600x600.webm`,
+                        bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_BluePurple_600x600.webm`,
+                        blueteal: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_BlueTeal_600x600.webm`,
+                        greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_GreenPurple_600x600.webm`,
+                        greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_Greenyellow_600x600.webm`,
+                        orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_OrangeYellow_600x600.webm`,
+                        pinkyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_PinkYellow_600x600.webm`,
+                        purplered: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_PurpleRed_600x600.webm`,
+                        white: `${prefix}/JB2A_DnD5e/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_White_600x600.webm`
+                    }
+                }
+            }
+
+    }
     freeDatabase.maul = {
         _template: 'melee',
         melee: {
@@ -3613,6 +3679,13 @@ export async function jb2aFreeDatabase(prefix) {
                     white:          `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_White_400x400.webm`
                 }
             }            
+    }
+    freeDatabase.on_token_target = {
+        '001': {
+            '001': {
+                blueteal: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Target/Ontoken_Target001_001_BlueTeal_500x500.webm`
+            }
+        }
     }
     freeDatabase.overcharged_sphere = {
         _template: 'ranged',
