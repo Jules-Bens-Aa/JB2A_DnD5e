@@ -5637,6 +5637,37 @@ export async function jb2aFreeDatabase(prefix) {
                 }
             }
         },
+        smoke: {
+            "001": {
+                complete: {
+                    _markers: {
+                            loop: { start: 3000, end: 5967 }
+                    },
+                    "400px":{
+                            "001": {
+                                greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Smoke/Smoke001/001/SmokeCircleComplete001_001_GreenPurple_05ft_400x400.webm`
+                            }
+                    },
+                    "800px":{
+                            "001": {
+                                greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Smoke/Smoke001/001/SmokeCircleComplete001_001_GreenPurple_15ft_800x800.webm`
+                            }
+                    }
+                },
+                loop: {
+                    "400px":{
+                            "001": {
+                                greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Smoke/Smoke001/001/SmokeCircleLoop001_001_GreenPurple_05ft_400x400.webm`
+                            }
+                    },
+                    "800px":{
+                            "001": {
+                                greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Smoke/Smoke001/001/SmokeCircleLoop001_001_GreenPurple_15ft_800x800.webm`
+                            }
+                    }
+                },
+            }
+        },
         vortex: {
             loop: {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Vortex_01_Regular_Blue_600x600.webm`
