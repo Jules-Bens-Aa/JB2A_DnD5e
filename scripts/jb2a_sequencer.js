@@ -5693,7 +5693,13 @@ export async function jb2aFreeDatabase(prefix) {
     }
     freeDatabase.template_cone_5e = {
         _template: "cone100",
-
+        "001": {
+            "001": {
+                    purplered: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_001_PurpleRed_30ft_800x800.webm`
+                    }
+            }
+        },
         lightning: {
             "01": {
                 loop: {
@@ -5706,7 +5712,13 @@ export async function jb2aFreeDatabase(prefix) {
     }
     freeDatabase.template_cone_PF2e = {
         _template: "cone100",
-
+        "001": {
+            "001": {
+                    purplered: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_001_PurpleRed_30ft_800x1000.webm`
+                    }
+            }
+        },
         lightning: {
             "01": {
                 loop: {
