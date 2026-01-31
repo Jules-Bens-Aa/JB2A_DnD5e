@@ -2374,10 +2374,10 @@ export async function jb2aFreeDatabase(prefix) {
                 _markers: {
                     loop: { start: 1500, end: 4500 }
                 },
-                    orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Lava/001/LavaSpoutComplete001_001_OrangeYellow_600x600.webm`
+                    orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Lava/Spout001/LavaSpoutComplete001_001_OrangeYellow_600x600.webm`
                 },
                 loop: {
-                    orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Lava/001/LavaSpoutLoop001_001_OrangeYellow_600x600.webm`
+                    orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Lava/Spout001/LavaSpoutLoop001_001_OrangeYellow_600x600.webm`
                 }
 
             }
@@ -5764,16 +5764,16 @@ export async function jb2aFreeDatabase(prefix) {
                         loop: { start: 1500, end: 4500 }
                     },
                         orangeyellow: {
-                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Lava/001/TemplateLineLavaSpoutComplete001_001_OrangeYellow_15ft_1000x600.webm`,
-                            '20ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Lava/001/TemplateLineLavaSpoutComplete001_001_OrangeYellow_20ft_1200x600.webm`,
-                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Lava/001/TemplateLineLavaSpoutComplete001_001_OrangeYellow_30ft_1600x600.webm`
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_OrangeYellow_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_OrangeYellow_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_OrangeYellow_30ft_1600x600.webm`
                         }
                     },
                     loop: {
                         orangeyellow: {
-                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Lava/001/TemplateLineLavaSpoutLoop001_001_OrangeYellow_15ft_1000x600.webm`,
-                            '20ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Lava/001/TemplateLineLavaSpoutLoop001_001_OrangeYellow_20ft_1200x600.webm`,
-                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Lava/001/TemplateLineLavaSpoutLoop001_001_OrangeYellow_30ft_1600x600.webm`
+                            '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_OrangeYellow_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_OrangeYellow_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_OrangeYellow_30ft_1600x600.webm`
                         }
                     }
                 }
