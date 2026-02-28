@@ -2207,6 +2207,31 @@ export async function jb2aFreeDatabase(prefix) {
         '012': {
             blue: `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact_12_Regular_Blue_400x400.webm`
         },
+        '013': {
+            "001": {
+                orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact013/Impact013_001_OrangeYellow_400x400.webm`
+            },
+            "002": {
+                orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact013/Impact013_002_OrangeYellow_400x400.webm`
+            },
+            "003": {
+                orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact013/Impact013_003_OrangeYellow_400x400.webm`
+            }
+        },
+        '014': {
+            "001": {
+                orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact014/Impact014_001_OrangeYellow_400x400.webm`
+            },
+            "002": {
+                orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact014/Impact014_002_OrangeYellow_400x400.webm`
+            },
+            "003": {
+                orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact014/Impact014_003_OrangeYellow_400x400.webm`
+            },
+            "004": {
+                orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact014/Impact014_004_OrangeYellow_400x400.webm`
+            }
+        },
         blue: [
             `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact_01_Regular_Blue_400x400.webm`,
             `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact_02_Regular_Blue_400x400.webm`,
