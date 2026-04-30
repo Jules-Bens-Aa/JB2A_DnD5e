@@ -5851,7 +5851,7 @@ export async function jb2aFreeDatabase(prefix) {
                             blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP01_001_001_Blue_5x5_500x500.webm`]
                         },
                         part02: {
-                            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP02_001_001_Blue_5x5_500x500.webm`]
+                            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP02_001_001_Blue_3x3_300x300.webm`]
                         }
                     }
                 },
@@ -5864,7 +5864,7 @@ export async function jb2aFreeDatabase(prefix) {
                             blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP01_001_001_Blue_7x7_700x700.webm`]
                         },
                         part02: {
-                            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP02_001_001_Blue_7x7_700x700.webm`]
+                            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP02_001_001_Blue_5x5_500x500.webm`]
                         }
                     }
                 }
