@@ -1,4 +1,3 @@
-import { Effects } from "./effects.js";
 import jb2aSettings, { MODULE_NAME } from "./settings.js";
 import { contentCard } from "./window_popup.js";
 import { freeDatabase } from "./jb2a_sequencer.js";
