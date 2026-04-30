@@ -12,17 +12,6 @@ game.settings.register(MODULE_NAME, "runonlyonce", {  // game.setting.register("
   //requiresReload: true
 });
                                    
-
-game.settings.register(MODULE_NAME, "fxmasterdb", { 
-  name: "JB2A - FXMaster Database Disabled",                
-  hint: "changing this setting and pressing save will refresh this session",               
-  scope: "world",                                  
-  config: true,                                    
-  type: Boolean,
-  default: true,
-  requiresReload: true
-
-});
 game.settings.register(MODULE_NAME, "jb2aLocation", {
   name: "JB2A - location (default : 'modules')",
   hint: "REQUIRES A REFRESH : ONLY change if your JB2A module is hosted externally on an S3 bucket or similar. Otherwise, leave blank. Example: S3BucketLocation (No Slash at end).",

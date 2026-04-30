@@ -9,12 +9,6 @@ let prefix = 'modules';
 Hooks.once('init', async function () {
     await jb2aSettings()
 
-    if (game.settings.get(MODULE_NAME, "fxmasterdb") == false) {
-        // Adding specials
-        if (!CONFIG.fxmaster) CONFIG.fxmaster = {};
-        mergeObject(CONFIG.fxmaster, { specials: Effects });
-        //console.log(`%cFXMaster Database Loaded !`, "color: green");
-    }
     if (game.settings.get(MODULE_NAME, "jb2aLocation") !== 'modules' && game.settings.get(MODULE_NAME, "jb2aLocation") !== '') {
         prefix = game.settings.get(MODULE_NAME, "jb2aLocation");
     }
@@ -93,10 +87,10 @@ Hooks.once('ready', async function () {
             Sequencer.Database.registerEntries("jb2a", freeDatabase);
         }
         else{
-            const freeVersion = game.modules?.get("JB2A_DnD5e").data?.version;
-            const patreonVersion = game.modules?.get("jb2a_patreon").data?.version;
-            const freeDatabase = game.modules?.get("JB2A_DnD5e").api?.freeDatabase;
-            const patreonDatabase = game.modules?.get("jb2a_patreon").api?.patreonDatabase;
+            const freeVersion = game.modules?.get("JB2A_DnD5e")?.version;
+            const patreonVersion = game.modules?.get("jb2a_patreon")?.version;
+            const freeDatabase = game.modules?.get("JB2A_DnD5e")?.api?.freeDatabase;
+            const patreonDatabase = game.modules?.get("jb2a_patreon")?.api?.patreonDatabase;
     
             if (foundry.utils.isNewerVersion(patreonVersion, '0.4.5')) {
                 const database = foundry.utils.isNewerVersion(freeVersion, patreonVersion)

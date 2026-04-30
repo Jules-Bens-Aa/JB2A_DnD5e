@@ -15,10 +15,10 @@
     }
   ],
   "url": "https://www.patreon.com/JB2A",
-  "version": "0.8.8",
+  "version": "0.8.9",
   "compatibility": {
     "minimum": 10,
-    "verified": 13
+    "verified": 14
   },
   "packs": [
     {

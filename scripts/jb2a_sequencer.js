@@ -3721,6 +3721,34 @@ export async function jb2aFreeDatabase(prefix) {
                 }
             }            
     }
+    freeDatabase.on_token_cast = {
+            initiate: {
+                '001': {
+                    instant: {
+                        combined: {
+                            blue: [
+                                `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_Instant_001_001_Blue_3x3_600x600.webm`
+                            ]
+                        },
+                        part01: {
+                            blue: [
+                                `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_InstantP01_001_001_Blue_3x3_600x600.webm`
+                            ]
+                        },
+                        part02: {
+                            blue: [
+                                `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_InstantP02_001_001_Blue_3x3_600x600.webm`
+                            ]
+                        },
+                        still_frame: {
+                            blue: [
+                                `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_Still_001_001_Blue_3x3_600x600.webp`
+                            ]
+                        }
+                    }
+                }
+            }
+        }
     freeDatabase.on_token_target = {
         '001': {
             '001': {
@@ -4131,10 +4159,6 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.ranged_helix = {
-            _metadata: {
-                name: "Ranged Helix",
-                new: true
-            },
     
             '001': {
                 _template: 'ranged',
@@ -5804,18 +5828,48 @@ export async function jb2aFreeDatabase(prefix) {
                 }
             }
         }
-}
-freeDatabase.template_line_piercing = {
-    _template: "line200B",
-    generic: {
-        '01': {
-            orange: {
-                '15ft':`${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Generic/Piercing_Generic01_01_Regular_Orange_1000x400.webm`,
+    }
+    freeDatabase.template_line_piercing = {
+        _template: "line200B",
+        generic: {
+            '01': {
+                orange: {
+                    '15ft':`${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Generic/Piercing_Generic01_01_Regular_Orange_1000x400.webm`,
+                }
             }
         }
     }
-}
     freeDatabase.template_square = {
+        raindrops: {
+            '001': {
+                '5x5': {
+                    instant: {
+                        combined: {
+                            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_Instant_001_001_Blue_5x5_500x500.webm`]
+                        },
+                        part01: {
+                            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP01_001_001_Blue_5x5_500x500.webm`]
+                        },
+                        part02: {
+                            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP02_001_001_Blue_5x5_500x500.webm`]
+                        }
+                    }
+                },
+                '7x7': {
+                    instant: {
+                        combined: {
+                            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_Instant_001_001_Blue_7x7_700x700.webm`]
+                        },
+                        part01: {
+                            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP01_001_001_Blue_7x7_700x700.webm`]
+                        },
+                        part02: {
+                            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP02_001_001_Blue_7x7_700x700.webm`]
+                        }
+                    }
+                }
+            }
+        },
         symbol: {
             normal: {
                 drop: {
