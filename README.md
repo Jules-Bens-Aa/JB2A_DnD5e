@@ -1,6 +1,6 @@
 <img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"> [![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)
 
-![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.8.9/module-0.8.9.zip?color=ffba00&label=Release%200.8.9%20Downloads)
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.9.0/module-0.9.0.zip?color=ffba00&label=Release%200.9.0%20Downloads)
 
 <p style='text-align: justify;'>
 
@@ -8,8 +8,8 @@
 We create ... animated assets ! *no scripts, only assets*
 ## Very useful FoundryVTT Modules for animated assets :
 - [**Sequencer**](https://github.com/fantasycalendar/FoundryVTT-Sequencer/wiki) by Wasp from [Fantasy Computerworks](http://fantasycomputer.works/).
-  - 4th most downloaded module on FoundryVTT !
-  - [Wasp Ko-fi](https://ko-fi.com/fantasycomputerworks)
+  - 3rd most downloaded module on FoundryVTT in 2026!
+  - [Wasp Patreon](https://www.patreon.com/cw/fantasycomputerworks)
 - [**Automated Animations**](https://wiki.theripper93.com/free/autoanimations) by Otigon.
   - **Taken over by theripper93**.
 - [**PF2e Graphics**](https://github.com/MrVauxs/pf2e-graphics) by MrVauxs.
