@@ -758,6 +758,23 @@ export async function jb2aFreeDatabase(prefix) {
                 }
             }
         },
+        black_hole: {
+            '001': {
+                '8x8': {
+                    'outward': {
+                        'complete': {
+                            _markers: {
+                                loop: { start: 1100, end: 4100 }
+                            },
+                            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/Black_Hole/001/Blue/Tile_Disk_BlackHole_OutwardComplete_001_001_Blue_8x8_800x800.webm`]
+                        },
+                        'loop': {
+                            blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Celestial_Bodies/Black_Hole/001/Blue/Tile_Disk_BlackHole_OutwardLoop_001_001_Blue_8x8_800x800.webm`]
+                        }
+                    }
+                }
+            }
+        },
         planet: {
             atmo: {
                 '01': {
@@ -4276,6 +4293,27 @@ export async function jb2aFreeDatabase(prefix) {
         'hit': {
             '001': {
                 blue: `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_Blue_600x600.webm`
+            }
+        }
+    }
+    freeDatabase.ranged_slash = {
+        _template: 'ranged',
+        instant: {
+            '001': {
+                blue: {
+                    '15ft': [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_001_Blue_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_001_Blue_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_001_Blue_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_001_Blue_90ft_4000x400.webm`
+                    ]
+                }
             }
         }
     }
