@@ -1,6 +1,6 @@
 <img alt="Latest Release" src="https://img.shields.io/github/v/release/Jules-Bens-Aa/JB2A_DnD5e?color=7FB800"> [![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://www.patreon.com/JB2A)
 
-![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.9.0/module-0.9.0.zip?color=ffba00&label=Release%200.9.0%20Downloads)
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/Jules-Bens-Aa/JB2A_DnD5e/0.9.1/module-0.9.1.zip?color=ffba00&label=Release%200.9.1%20Downloads)
 
 <p style='text-align: justify;'>
 
