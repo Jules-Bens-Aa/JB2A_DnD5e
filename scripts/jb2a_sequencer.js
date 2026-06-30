@@ -3437,7 +3437,15 @@ export async function jb2aFreeDatabase(prefix) {
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_02_800x600.webm`,
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_03_800x600.webm`,
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_04_800x600.webm`,
-                ]
+                ],
+                '02': {
+                    'blue': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_01_Blue_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_02_Blue_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_03_Blue_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_04_Blue_800x600.webm`,
+                    ]
+                }
             },
             greatclub: {
                 '01': [
