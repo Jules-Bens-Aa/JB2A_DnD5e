@@ -243,10 +243,10 @@ export async function jb2aFreeDatabase(prefix) {
             'top': {
                 '001': {
                     '1x1': {
-                        grey: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Ball_Bearing/Template_Circle_BallBearings_001_001_Grey_1x1_300_Endframe.webp`
+                        grey: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Grey_1x1_300_Endframe.webp`
                     },
                     '2x2': {
-                        grey: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Ball_Bearing/Template_Circle_BallBearings_001_001_Grey_2x2_600_Endframe.webp`
+                        grey: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Grey_2x2_600_Endframe.webp`
                     }
                 },
             }
