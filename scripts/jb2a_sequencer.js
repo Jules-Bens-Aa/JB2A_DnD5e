@@ -238,6 +238,30 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
     }
+    freeDatabase.ball_bearing = {
+        'endframe': {
+            'top': {
+                '001': {
+                    '1x1': {
+                        grey: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Ball_Bearing/Template_Circle_BallBearings_001_001_Grey_1x1_300_Endframe.webp`
+                    },
+                    '2x2': {
+                        grey: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Ball_Bearing/Template_Circle_BallBearings_001_001_Grey_2x2_600_Endframe.webp`
+                    }
+                },
+            }
+        },
+        'top': {
+            '001': {
+                '1x1': {
+                    grey: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Ball_Bearing/Template_Circle_BallBearings_001_001_Grey_1x1_300.webm`
+                },
+                '2x2': {
+                    grey: `${prefix}/JB2A_DnD5e/Library/Generic/Traps/Ball_Bearing/Template_Circle_BallBearings_001_001_Grey_2x2_600.webm`
+                }
+            },
+        }
+    }
     freeDatabase.bardic_inspiration = {
         greenorange: `${prefix}/JB2A_DnD5e/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_GreenOrange_400x400.webm`,
     }
@@ -6395,7 +6419,20 @@ export async function jb2aFreeDatabase(prefix) {
     }
     freeDatabase.web = {
         '01': `${prefix}/JB2A_DnD5e/Library/2nd_Level/Web/Web_01_White_01_400x400.webm`,
-        '02': `${prefix}/JB2A_DnD5e/Library/2nd_Level/Web/Web_01_White_02_400x400.webm`
+        '02': `${prefix}/JB2A_DnD5e/Library/2nd_Level/Web/Web_01_White_02_400x400.webm`,
+        complete: {
+            _markers: {
+                loop: { start: 1000, end: 5000 }
+            },
+            '002': {
+                white: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Web/002/Template_Circle_WebComplete_002_001_White_5x5_1000.webm`  
+            }
+        },
+        loop: {
+            '002': {
+                white: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Web/002/Template_Circle_WebLoop_002_001_White_5x5_1000.webm`  
+            }
+        }
     }
     freeDatabase.wind_lines = {
         '01': {
