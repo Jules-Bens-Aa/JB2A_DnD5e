@@ -3362,6 +3362,15 @@ export async function jb2aFreeDatabase(prefix) {
                     ]
                 },
             },
+            baguette: {
+                _template: "melee",
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Baguette01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Baguette01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Baguette01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Baguette01_04_800x600.webm`,
+                ]
+            },
             battleaxe: {
                 '01': [
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_BattleAxe01_01_800x600.webm`,
@@ -3802,6 +3811,22 @@ export async function jb2aFreeDatabase(prefix) {
                             blue: [
                                 `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_Still_001_001_Blue_3x3_600x600.webp`
                             ]
+                        }
+                    }
+                },
+                '002': {
+                    instant: {
+                        combined: {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Cast/Initiate/002/Blue/OnToken_Cast_Initiate_Instant_002_001_Blue_5x5_1000x1000.webm`
+                        },
+                        part01: {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Cast/Initiate/002/Blue/OnToken_Cast_Initiate_InstantPart01_002_001_Blue_5x5_1000x1000.webm`
+                        },
+                        part02: {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Cast/Initiate/002/Blue/OnToken_Cast_Initiate_InstantPart02_002_001_Blue_5x5_1000x1000.webm`
+                        },
+                        part03: {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Cast/Initiate/002/Blue/OnToken_Cast_Initiate_InstantPart03_002_001_Blue_5x5_1000x1000.webm`
                         }
                     }
                 }
